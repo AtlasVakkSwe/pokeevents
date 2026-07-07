@@ -1,0 +1,85 @@
+{
+  "uppdaterad": "2026-07-07T21:09:13.378Z",
+  "grupper": [
+    {
+      "rubrik": "5 stjärnor",
+      "pokemon": [
+        {
+          "namn": "Kyurem (White)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm646.fWHITE.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Zekrom",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm644.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Necrozma (Dawn Wings)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm800.fDAWN_WINGS.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Shadow Palkia",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm484.icon.png",
+          "shiny": true
+        }
+      ]
+    },
+    {
+      "rubrik": "Mega",
+      "pokemon": [
+        {
+          "namn": "Mega Tyranitar",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm248.fMEGA.icon.png",
+          "shiny": true
+        }
+      ]
+    },
+    {
+      "rubrik": "3 stjärnor",
+      "pokemon": [
+        {
+          "namn": "Shadow Scyther",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm123.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Shadow Hitmonchan",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm107.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Shadow Graveler",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm75.icon.png",
+          "shiny": true
+        }
+      ]
+    },
+    {
+      "rubrik": "1 stjärna",
+      "pokemon": [
+        {
+          "namn": "Shadow Phanpy",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm231.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Shadow Ralts",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm280.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Shadow Darumaka",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm554.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Shadow Mankey",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm56.icon.png",
+          "shiny": true
+        }
+      ]
+    }
+  ]
+}

@@ -38,6 +38,13 @@
     "safari-zone": "Safari Zone",
     "update": "Uppdatering"
   },
+  "raidNivaer": {
+    "5-Star Raids": "5 stjärnor",
+    "Mega Raids": "Mega",
+    "4-Star Raids": "4 stjärnor",
+    "3-Star Raids": "3 stjärnor",
+    "1-Star Raids": "1 stjärna"
+  },
   "bonusar": {
     "2x Catch XP": "Dubbel XP när du fångar",
     "3x Catch XP": "Trippel XP när du fångar",

@@ -146,10 +146,45 @@ function visaUppdaterad(iso) {
   nod.textContent = `Uppdaterad: ${formatDatum(datum, nu)} kl ${formatKlocka(datum)}`;
 }
 
+function raidSektionNod(grupper) {
+  const sektion = el('section', 'sektion sektion-raids');
+  const h2 = el('h2', 'sektion-rubrik');
+  h2.append(el('span', 'sektion-prick'));
+  h2.append(document.createTextNode('Raids just nu'));
+  sektion.append(h2);
+
+  const kort = el('article', 'kort');
+  const kropp = el('div', 'kort-kropp');
+  for (const grupp of grupper) {
+    kropp.append(el('h3', 'raid-niva', grupp.rubrik));
+    kropp.append(pokemonRad(grupp.pokemon));
+  }
+  kort.append(kropp);
+  sektion.append(kort);
+  return sektion;
+}
+
+// Raids är ett komplement — saknas filen visas sidan utan den sektionen.
+async function hamtaRaids() {
+  try {
+    const svar = await fetch('raids-sv.json', { cache: 'no-cache' });
+    if (!svar.ok) {
+      return null;
+    }
+    const data = await svar.json();
+    return Array.isArray(data.grupper) && data.grupper.length > 0 ? data.grupper : null;
+  } catch {
+    return null;
+  }
+}
+
 async function start() {
   const innehall = document.getElementById('innehall');
   try {
-    const svar = await fetch('events-sv.json', { cache: 'no-cache' });
+    const [svar, raidGrupper] = await Promise.all([
+      fetch('events-sv.json', { cache: 'no-cache' }),
+      hamtaRaids(),
+    ]);
     if (!svar.ok) {
       throw new Error(`HTTP ${svar.status}`);
     }
@@ -158,8 +193,11 @@ async function start() {
     const { pagarNu, kommerSnart } = klassificera(data.events, nu);
 
     innehall.textContent = '';
+    innehall.append(sektionNod('pagar', 'Pågår nu', pagarNu, nu, 'Inget event pågår just nu.'));
+    if (raidGrupper) {
+      innehall.append(raidSektionNod(raidGrupper));
+    }
     innehall.append(
-      sektionNod('pagar', 'Pågår nu', pagarNu, nu, 'Inget event pågår just nu.'),
       sektionNod('kommer', 'Kommer snart', kommerSnart, nu, 'Inga fler events är planerade ännu.')
     );
     visaUppdaterad(data.uppdaterad);

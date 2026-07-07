@@ -2,6 +2,23 @@
 
 const OBLIGATORISKA_FALT = ['name', 'eventType', 'start', 'end'];
 
+export function valideraRaids(data) {
+  if (!Array.isArray(data)) {
+    throw new Error('Raid-svaret är inte en JSON-array');
+  }
+  if (data.length === 0) {
+    throw new Error('Raid-svaret är en tom lista');
+  }
+  data.forEach((raid, i) => {
+    for (const falt of ['name', 'tier']) {
+      if (typeof raid?.[falt] !== 'string' || raid[falt] === '') {
+        throw new Error(`Raid ${i} saknar fältet "${falt}"`);
+      }
+    }
+  });
+  return data;
+}
+
 export function valideraEvents(data) {
   if (!Array.isArray(data)) {
     throw new Error('Svaret är inte en JSON-array');

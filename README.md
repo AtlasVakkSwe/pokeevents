@@ -37,6 +37,10 @@ cd docs && python3 -m http.server 8000
 # öppna http://localhost:8000
 ```
 
+Sidan visar också en sektion **"Raids just nu"** från ScrapedDucks `raids.json`
+(aktuella raidbossar per nivå). Den hämtas i samma dygnsbygge; misslyckas den
+behålls förra versionen och eventbygget räknas ändå som lyckat.
+
 ## Underhåll
 
 - **Ny engelsk term dyker upp oöversatt på sidan?** Lägg till den i

@@ -3,12 +3,16 @@
 // så att sidan aldrig blir tom.
 
 import { readFileSync, writeFileSync } from 'node:fs';
-import { valideraEvents } from './lib/validera.js';
+import { valideraEvents, valideraRaids } from './lib/validera.js';
 import { berikaEvents } from './lib/berika.js';
+import { berikaRaids } from './lib/berikaRaids.js';
 
 const EVENTS_URL =
   process.env.EVENTS_URL ||
   'https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data/events.json';
+const RAIDS_URL =
+  process.env.RAIDS_URL ||
+  'https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data/raids.json';
 
 const ROT = new URL('..', import.meta.url);
 
@@ -46,6 +50,24 @@ async function main() {
 
   skrivJson('docs/events-sv.json', { uppdaterad: nu, events });
   console.log(`Klart: docs/events-sv.json med ${events.length} events.`);
+
+  // Raids är ett komplement — misslyckas hämtningen behålls förra versionen
+  // och eventbygget räknas ändå som lyckat.
+  try {
+    const raidSvar = await fetch(RAIDS_URL);
+    if (!raidSvar.ok) {
+      throw new Error(`HTTP ${raidSvar.status}`);
+    }
+    const raids = valideraRaids(await raidSvar.json());
+    const { grupper, okandaTermer: okandaNivaer } = berikaRaids(raids, { ordlista });
+    for (const niva of okandaNivaer) {
+      console.log(`Okänd raidnivå (komplettera raidNivaer i data/ordlista.json): ${niva}`);
+    }
+    skrivJson('docs/raids-sv.json', { uppdaterad: nu, grupper });
+    console.log(`Klart: docs/raids-sv.json med ${raids.length} bossar.`);
+  } catch (fel) {
+    console.error(`VARNING: raids kunde inte uppdateras, förra versionen behålls. ${fel.message}`);
+  }
 }
 
 main().catch((fel) => {
