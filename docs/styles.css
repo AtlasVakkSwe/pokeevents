@@ -1,0 +1,311 @@
+/* Pokémon GO Events på lättläst svenska.
+   Läsbarhet först: stor text, hög kontrast, lugn bakgrund, stora tryckytor. */
+
+:root {
+  --bakgrund: #fbf5ea;
+  --kort: #ffffff;
+  --tackt: #2b2118;
+  --tackt-mjuk: #6b5d4d;
+  --gron: #1e7a34;
+  --gron-ljus: #e2f3e5;
+  --bla: #1a5fb4;
+  --bla-ljus: #e3edfa;
+  --gul-morgon: #7a5b00;
+  --gul-ljus: #fdf0c2;
+  --rod: #e8483f;
+  --linje: #eadfcd;
+  --radie: 22px;
+  --skugga: 0 4px 16px rgba(94, 70, 34, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bakgrund);
+  background-image: radial-gradient(circle at 85% -5%, #f3e3c2 0%, transparent 42%),
+    radial-gradient(circle at -10% 30%, #f0ead9 0%, transparent 36%);
+  background-attachment: fixed;
+  color: var(--tackt);
+  font-family: ui-rounded, "SF Pro Rounded", "Nunito", "Trebuchet MS", system-ui, sans-serif;
+  font-size: 18px;
+  line-height: 1.45;
+}
+
+main {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 0 14px 32px;
+}
+
+/* ---------- Sidhuvud ---------- */
+
+.sidhuvud {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 26px 18px 14px;
+}
+
+.sidhuvud h1 {
+  margin: 0;
+  font-size: 30px;
+  line-height: 1.05;
+  letter-spacing: 0.3px;
+}
+
+.sidhuvud-events {
+  color: var(--rod);
+}
+
+/* Pokéboll i ren CSS */
+.pokeboll {
+  flex: none;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 3px solid var(--tackt);
+  background:
+    radial-gradient(circle at 50% 50%, #fff 0 7px, var(--tackt) 7px 10px, transparent 10px),
+    linear-gradient(to bottom, transparent 0 calc(50% - 3px), var(--tackt) calc(50% - 3px) calc(50% + 3px), transparent calc(50% + 3px)),
+    linear-gradient(to bottom, var(--rod) 0 50%, #fff 50%);
+  animation: studs 0.9s ease-in-out 1;
+}
+
+@keyframes studs {
+  0% { transform: translateY(-14px); }
+  45% { transform: translateY(0); }
+  70% { transform: translateY(-6px); }
+  100% { transform: translateY(0); }
+}
+
+/* ---------- Sektioner ---------- */
+
+.sektion {
+  margin-top: 26px;
+}
+
+.sektion-rubrik {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 14px;
+  font-size: 26px;
+}
+
+.sektion-prick {
+  flex: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+.sektion-pagar .sektion-rubrik { color: var(--gron); }
+.sektion-pagar .sektion-prick { background: var(--gron); box-shadow: 0 0 0 5px var(--gron-ljus); }
+.sektion-kommer .sektion-rubrik { color: var(--bla); }
+.sektion-kommer .sektion-prick { background: var(--bla); box-shadow: 0 0 0 5px var(--bla-ljus); }
+
+.status-meddelande {
+  text-align: center;
+  color: var(--tackt-mjuk);
+  padding: 28px 0;
+}
+
+/* ---------- Eventkort ---------- */
+
+.kort {
+  background: var(--kort);
+  border-radius: var(--radie);
+  box-shadow: var(--skugga);
+  margin-bottom: 18px;
+  overflow: hidden;
+  border-left: 9px solid var(--tackt-mjuk);
+}
+
+.sektion-pagar .kort { border-left-color: var(--gron); }
+.sektion-kommer .kort { border-left-color: var(--bla); }
+
+.kort-galler-inte {
+  opacity: 0.62;
+  filter: saturate(0.4);
+}
+
+.kort-bild {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  object-fit: cover;
+  background: var(--linje);
+}
+
+.kort-kropp {
+  padding: 14px 16px 16px;
+}
+
+.kort-typ {
+  margin: 0 0 2px;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--tackt-mjuk);
+}
+
+.kort-namn {
+  margin: 0 0 10px;
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.kort-tid {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 10px;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.sektion-pagar .kort-tid { color: var(--gron); }
+.sektion-kommer .kort-tid { color: var(--bla); }
+
+/* ---------- Etiketter ---------- */
+
+.etikett {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.etikett-galler { background: var(--gron-ljus); color: var(--gron); }
+.etikett-galler-inte { background: #fbe4e2; color: #a02b24; }
+.etikett-osakert { background: var(--gul-ljus); color: var(--gul-morgon); }
+
+/* ---------- Pokémon-lista ---------- */
+
+.pokemonrad {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pokemon {
+  width: 76px;
+  text-align: center;
+  position: relative;
+}
+
+.pokemon img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  background: var(--bakgrund);
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.pokemon-namn {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.15;
+  overflow-wrap: anywhere;
+}
+
+.pokemon-shiny {
+  position: absolute;
+  top: -4px;
+  right: 6px;
+  font-size: 16px;
+}
+
+/* ---------- Visa mer ---------- */
+
+.visa-mer {
+  display: block;
+  width: 100%;
+  min-height: 48px;
+  margin-top: 14px;
+  border: 2px solid var(--linje);
+  border-radius: 14px;
+  background: var(--bakgrund);
+  color: var(--tackt);
+  font: inherit;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.visa-mer:active {
+  background: var(--linje);
+}
+
+.kort-detaljer {
+  margin-top: 12px;
+}
+
+.kort-detaljer[hidden] {
+  display: none;
+}
+
+.kort-sammanfattning {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.bonuslista {
+  margin: 0 0 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.bonuslista li {
+  padding: 4px 0 4px 28px;
+  position: relative;
+}
+
+.bonuslista li::before {
+  content: "⭐";
+  position: absolute;
+  left: 0;
+}
+
+.kort-lank {
+  display: inline-block;
+  min-height: 44px;
+  padding: 9px 4px;
+  color: var(--bla);
+  font-weight: 700;
+}
+
+/* ---------- Sidfot ---------- */
+
+.sidfot {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 8px 18px 40px;
+  text-align: center;
+  color: var(--tackt-mjuk);
+  font-size: 15px;
+}
+
+.sidfot p {
+  margin: 4px 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pokeboll { animation: none; }
+}

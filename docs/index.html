@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'none'; img-src 'self' https://cdn.leekduck.com; script-src 'self'; style-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'">
+  <meta name="theme-color" content="#fbf5ea">
+  <title>Pokémon GO Events</title>
+  <meta name="description" content="Pokémon GO-events på lättläst svenska">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="ikoner/ikon-192.png">
+  <link rel="apple-touch-icon" href="ikoner/ikon-180.png">
+</head>
+<body>
+  <header class="sidhuvud">
+    <span class="pokeboll" aria-hidden="true"></span>
+    <h1>Pokémon GO<br><span class="sidhuvud-events">Events</span></h1>
+  </header>
+
+  <main id="innehall">
+    <p class="status-meddelande" id="laddar">Laddar events …</p>
+  </main>
+
+  <footer class="sidfot">
+    <p id="uppdaterad"></p>
+    <p class="sidfot-kalla">Data från LeekDuck via ScrapedDuck</p>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
