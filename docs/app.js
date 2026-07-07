@@ -97,6 +97,10 @@ function kortNod(event, nu) {
   if (gomda.length > 0) {
     detaljer.append(pokemonRad(gomda));
   }
+  if (event.raids?.length > 0) {
+    detaljer.append(el('h4', 'pokemon-rubrik', 'Raids under eventet:'));
+    detaljer.append(pokemonRad(event.raids));
+  }
   if (event.link) {
     const lank = el('a', 'kort-lank', 'Mer info (engelska) ↗');
     lank.href = event.link;

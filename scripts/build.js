@@ -6,7 +6,7 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { valideraEvents, valideraRaids } from './lib/validera.js';
 import { berikaEvents } from './lib/berika.js';
 import { berikaRaids } from './lib/berikaRaids.js';
-import { extraheraSpawns } from './lib/spawns.js';
+import { extraheraSpawns, extraheraEventRaids } from './lib/spawns.js';
 
 const EVENTS_URL =
   process.env.EVENTS_URL ||
@@ -63,11 +63,17 @@ async function main() {
       if (!sida.ok) {
         throw new Error(`HTTP ${sida.status}`);
       }
-      const spawns = extraheraSpawns(await sida.text());
+      const sidHtml = await sida.text();
+      const spawns = extraheraSpawns(sidHtml);
       if (spawns.length > 0) {
         event.pokemon = spawns;
         event.pokemonRubrik = 'Finns att fånga:';
         console.log(`Spawns: ${spawns.length} Pokémon för "${raw.name}".`);
+      }
+      const eventRaids = extraheraEventRaids(sidHtml);
+      if (eventRaids.length > 0) {
+        event.raids = eventRaids;
+        console.log(`Raids: ${eventRaids.length} bossar för "${raw.name}".`);
       }
     } catch (fel) {
       console.error(`VARNING: kunde inte hämta spawns för "${raw.name}": ${fel.message}`);

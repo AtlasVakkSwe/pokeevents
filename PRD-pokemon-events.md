@@ -1,8 +1,8 @@
 # PRD: Pokémon GO Events på svenska
 
-**Version:** 1.1
-**Datum:** 2026-07-07
-**Status:** Version 1.1 driftsatt (etapp 1–7 + 9; etapp 8 och 10 återstår)
+**Version:** 1.2
+**Datum:** 2026-07-08
+**Status:** Version 1.2 driftsatt (etapp 1–7 + 9; etapp 8 och 10 återstår)
 **Ägare:** Toni
 
 ---
@@ -349,6 +349,16 @@ se vilka Pokémon som finns att fånga och raida):
 Kvarstående risk för punkt 2: ändrar LeekDuck sin HTML-struktur slutar spawn-listorna
 fyllas i (sidan fungerar ändå). Parserns testfixturer (`test/fixtures/`) visar då vad
 som ändrats.
+
+### Version 1.2 (2026-07-08)
+
+**Raidbossar under events** — samma eventsidor som redan hämtas för spawns (noll
+extra anrop) ger nu även raids-sektionen, t.ex. GO Fests habitat-raider med Mega
+Mewtwo X/Y (94 bossar) och jubileumseventets utklädda Pikachu-bossar. Listan kan
+vara lång och visas därför i sin helhet bakom "Visa mer" under rubriken
+"Raids under eventet:", så att kortens 5-sekundersregel består. Events utan
+spawn-flagga (vars raider redan finns som egna raid-poster i kalendern) hämtas
+inte — sidantalet per dygn är oförändrat.
 
 ## 11. Öppna frågor
 

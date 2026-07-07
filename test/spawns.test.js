@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { extraheraSpawns } from '../scripts/lib/spawns.js';
+import { extraheraSpawns, extraheraEventRaids } from '../scripts/lib/spawns.js';
 
 const gofest = readFileSync(new URL('fixtures/gofest.html', import.meta.url), 'utf8');
 const pikachu = readFileSync(new URL('fixtures/pikachu.html', import.meta.url), 'utf8');
@@ -52,4 +52,33 @@ test('dubbletter av samma Pokémon slås ihop', () => {
 test('trasig eller tom HTML ger tom lista, inget fel', () => {
   assert.deepEqual(extraheraSpawns(''), []);
   assert.deepEqual(extraheraSpawns('<html>trasigt'), []);
+});
+
+test('extraherar raidbossar ur raids-sektionen, höjdpunkter först', () => {
+  const raids = extraheraEventRaids(gofest);
+  assert.equal(raids.length, 94);
+  assert.equal(raids[0].namn, 'Mega Mewtwo X');
+  assert.equal(raids[1].namn, 'Mega Mewtwo Y');
+  for (const p of raids) {
+    assert.ok(p.bild.startsWith('https://cdn.leekduck.com/'));
+    assert.equal(typeof p.shiny, 'boolean');
+  }
+});
+
+test('raids- och spawns-sektionerna blandas inte ihop', () => {
+  const spawns = extraheraSpawns(gofest);
+  assert.ok(!spawns.some((p) => p.namn.includes('Mewtwo')));
+  const raids = extraheraEventRaids(gofest);
+  assert.ok(!raids.some((p) => p.namn === 'Bulbasaur'));
+});
+
+test('pikachu-eventets raids-sektion ger de utklädda bossarna', () => {
+  const raids = extraheraEventRaids(pikachu);
+  assert.equal(raids.length, 9);
+  assert.equal(raids[0].namn, 'Dapper Pikachu with red accents');
+});
+
+test('sida utan raids-sektion ger tom raidlista', () => {
+  assert.deepEqual(extraheraEventRaids(''), []);
+  assert.deepEqual(extraheraEventRaids('<html><h2 class="event-section-header spawns"></h2>'), []);
 });
