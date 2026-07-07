@@ -6,6 +6,7 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { valideraEvents, valideraRaids } from './lib/validera.js';
 import { berikaEvents } from './lib/berika.js';
 import { berikaRaids } from './lib/berikaRaids.js';
+import { extraheraSpawns } from './lib/spawns.js';
 
 const EVENTS_URL =
   process.env.EVENTS_URL ||
@@ -46,6 +47,31 @@ async function main() {
       console.log(`  - ${term}`);
     }
     skrivJson('data/okanda-termer.json', { uppdaterad: nu, termer: okandaTermer });
+  }
+
+  // Spawn-listor (PRD version 1.1): för events som har vilda spawns men saknar
+  // strukturerad Pokémon-data hämtas eventsidans spawns-sektion från LeekDuck.
+  // Fel på en enskild sida är inte fatalt — kortet visas då utan lista.
+  for (let i = 0; i < rawEvents.length; i++) {
+    const raw = rawEvents[i];
+    const event = events[i];
+    if (event.pokemon.length > 0 || !raw.extraData?.generic?.hasSpawns || !raw.link) {
+      continue;
+    }
+    try {
+      const sida = await fetch(raw.link);
+      if (!sida.ok) {
+        throw new Error(`HTTP ${sida.status}`);
+      }
+      const spawns = extraheraSpawns(await sida.text());
+      if (spawns.length > 0) {
+        event.pokemon = spawns;
+        event.pokemonRubrik = 'Finns att fånga:';
+        console.log(`Spawns: ${spawns.length} Pokémon för "${raw.name}".`);
+      }
+    } catch (fel) {
+      console.error(`VARNING: kunde inte hämta spawns för "${raw.name}": ${fel.message}`);
+    }
   }
 
   skrivJson('docs/events-sv.json', { uppdaterad: nu, events });

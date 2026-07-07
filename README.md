@@ -41,6 +41,11 @@ Sidan visar också en sektion **"Raids just nu"** från ScrapedDucks `raids.json
 (aktuella raidbossar per nivå). Den hämtas i samma dygnsbygge; misslyckas den
 behålls förra versionen och eventbygget räknas ändå som lyckat.
 
+För events med vilda spawns som saknar strukturerad Pokémon-data hämtar bygget
+dessutom eventsidans spawns-sektion från LeekDuck (strukturerad HTML, typiskt
+1–5 sidor per dygn) och visar den som **"Finns att fånga:"** på kortet.
+Fel på en enskild sida är icke-fatalt. Se PRD:ns ändringslogg (v1.1).
+
 ## Underhåll
 
 - **Ny engelsk term dyker upp oöversatt på sidan?** Lägg till den i

@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-07-07T21:09:13.378Z",
+  "uppdaterad": "2026-07-07T21:37:34.449Z",
   "events": [
     {
       "id": "go-pass-june-2026",
@@ -68,8 +68,50 @@
       "end": "2026-07-12T19:00:00.000",
       "region": "galler",
       "sammanfattning": null,
-      "pokemon": [],
-      "bonusar": []
+      "pokemon": [
+        {
+          "namn": "Pikachu wearing a Team Instinct hat",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2026_CAP_YELLOW.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Pikachu wearing a Team Mystic hat",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2026_CAP_BLUE.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Pikachu wearing a Team Valor hat",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2026_CAP_RED.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Bulbasaur",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_001_00_14.png",
+          "shiny": true
+        },
+        {
+          "namn": "Charmander",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_004_00_14.png",
+          "shiny": true
+        },
+        {
+          "namn": "Squirtle",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_007_00_14.png",
+          "shiny": true
+        },
+        {
+          "namn": "Tropius",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_357_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Bouffalant",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_626_00.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": [],
+      "pokemonRubrik": "Finns att fånga:"
     },
     {
       "id": "max-mondays-2026-07-13",
@@ -178,8 +220,25 @@
       "end": "2026-07-20T20:00:00.000",
       "region": "galler",
       "sammanfattning": null,
-      "pokemon": [],
-      "bonusar": []
+      "pokemon": [
+        {
+          "namn": "Pikachu wearing a Tricks & Treats costume",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.cFALL_2023_NOEVOLVE.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Winter Carnival Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_pm0025_01_pgo_winter2020.png",
+          "shiny": true
+        },
+        {
+          "namn": "Summer Style Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_025_00_05.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": [],
+      "pokemonRubrik": "Finns att fånga:"
     },
     {
       "id": "max-mondays-2026-07-20",

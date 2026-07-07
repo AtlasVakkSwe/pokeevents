@@ -1,8 +1,8 @@
 # PRD: Pokémon GO Events på svenska
 
-**Version:** 1.0
+**Version:** 1.1
 **Datum:** 2026-07-07
-**Status:** Utkast för godkännande
+**Status:** Version 1.1 driftsatt (etapp 1–7 + 9; etapp 8 och 10 återstår)
 **Ägare:** Toni
 
 ---
@@ -27,7 +27,7 @@ Bygga en webbsida på **lättläst svenska** som visar Pokémon GO-events, optim
 - Ingen inloggning, inga användarkonton, ingen persondata.
 - Ingen fullständig återgivning av all eventinformation — medvetet urval av det viktigaste.
 - Ingen realtidsdata (raidbossar just nu på kartan etc.) — endast eventkalender.
-- Ingen egen skrapning av LeekDuck — endast ScrapedDucks publicerade data.
+- Egen skrapning av LeekDuck begränsas till eventsidornas strukturerade spawns-sektion (omprövat beslut, se ändringslogg v1.1). Kalenderdata kommer alltjämt enbart från ScrapedDucks publicerade data; ingen skrapning av löptext.
 - Inte ersätta spelets egen information — komplement för överblick.
 
 ## 4. Målgrupp
@@ -328,7 +328,29 @@ Varje etapp är klar först när **samtliga** acceptanskriterier är uppfyllda o
 - Ett dygnsbygge har gått igenom automatiskt minst 7 dagar i rad utan ingripande.
 - Säkerhetskraven i avsnitt 7 verifierade (testfall 8.5, 9.2).
 
-## 10. Öppna frågor
+## 10. Ändringslogg
+
+### Version 1.1 (2026-07-07)
+
+Två tillägg utöver ursprunglig kravbild, på begäran efter driftsättning (barnen ville
+se vilka Pokémon som finns att fånga och raida):
+
+1. **Sektionen "Raids just nu"** — aktuella raidbossar per nivå (5 stjärnor/Mega/3/1)
+   från ScrapedDucks `raids.json`, med shiny-markering. Hämtas i dygnsbygget;
+   misslyckas hämtningen behålls förra versionen utan att eventbygget felar.
+2. **Spawn-listor för events utan strukturerad data** — icke-målet "ingen egen
+   skrapning av LeekDuck" omprövades sedan det verifierats (2026-07-07) att
+   eventsidornas spawn-listor är strukturerad HTML (`event-section-header spawns` +
+   `pkmn-list-item`), inte löptext. Bygget hämtar endast sidor för events med
+   `hasSpawns` som saknar strukturerad Pokémon-data (typiskt 1–5 sidor/dygn).
+   Fel på enskild sida är icke-fatalt: kortet visas då utan lista. Korten visar
+   listan under rubriken "Finns att fånga:", max 6 synliga, resten bakom "Visa mer".
+
+Kvarstående risk för punkt 2: ändrar LeekDuck sin HTML-struktur slutar spawn-listorna
+fyllas i (sidan fungerar ändå). Parserns testfixturer (`test/fixtures/`) visar då vad
+som ändrats.
+
+## 11. Öppna frågor
 
 - Ska "Gäller inte här"-events döljas helt via en inställning, eller alltid visas nedtonade? (Beslut efter barntest.)
 - Egen domän eller github.io-adress?

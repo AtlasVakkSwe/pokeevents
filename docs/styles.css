@@ -116,7 +116,8 @@ main {
 .sektion-raids .sektion-prick { background: var(--rod); box-shadow: 0 0 0 5px #fbe4e2; }
 .sektion-raids .kort { border-left-color: var(--rod); }
 
-.raid-niva {
+.raid-niva,
+.pokemon-rubrik {
   margin: 14px 0 2px;
   font-size: 19px;
   color: var(--tackt-mjuk);

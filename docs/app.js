@@ -76,6 +76,9 @@ function kortNod(event, nu) {
   const synliga = event.pokemon.slice(0, MAX_POKEMON_I_LISTVY);
   const gomda = event.pokemon.slice(MAX_POKEMON_I_LISTVY);
   if (synliga.length > 0) {
+    if (event.pokemonRubrik) {
+      kropp.append(el('h4', 'pokemon-rubrik', event.pokemonRubrik));
+    }
     kropp.append(pokemonRad(synliga));
   }
 
