@@ -1,8 +1,8 @@
 # PRD: Pokémon GO Events på svenska
 
-**Version:** 1.2
+**Version:** 2.0
 **Datum:** 2026-07-08
-**Status:** Version 1.2 driftsatt (etapp 1–7 + 9; etapp 8 och 10 återstår)
+**Status:** Version 2.0 driftsatt (etapp 1–7 + 9; etapp 8 och 10 återstår)
 **Ägare:** Toni
 
 ---
@@ -359,6 +359,28 @@ vara lång och visas därför i sin helhet bakom "Visa mer" under rubriken
 "Raids under eventet:", så att kortens 5-sekundersregel består. Events utan
 spawn-flagga (vars raider redan finns som egna raid-poster i kalendern) hämtas
 inte — sidantalet per dygn är oförändrat.
+
+### Version 2.0 (2026-07-08)
+
+**Kalendervy** — barntestet visade att listvyn var rörig och svår att överblicka,
+särskilt per dag. Hela presentationen gjordes om efter visuell brainstorm med Toni
+(tre mockup-omgångar, design godkänd — se `specs/2026-07-08-kalendervy-design.md`):
+
+- Sektionerna "Pågår nu"/"Kommer snart", de stora korten och "Visa mer" ersattes av
+  en **dagindelad kalender med kompakta bildrader** (bild + max en rads namn +
+  tidschip). Bilden är Pokémon-ikonen där en finns — den känns igen snabbare än ordet.
+- Event visas på startdag, slutdag ("till kl X") och under Idag om det pågår —
+  inte på mellandagar.
+- **NU-panel** överst när ett kort event (≤ 1 dygn) pågår just nu.
+- **Bottom sheet** med alla detaljer (bild, tid, Sverige-etikett, sammanfattning,
+  Pokémon, bonusar, raids, länk); stängs med ✕, bakgrundstryck eller bakåtknappen.
+- Långkörare (Säsong, GO Pass, Battle League, Twitch) flyttade till hopfällbar
+  **"Pågår hela tiden"**-rad längst ner.
+- "Raids just nu"-sektionen blev raden **"Raider idag"** under Idag.
+
+Etapp 3–4:s acceptanskriterier avser v1-listvyn; kalendervyn uppfyller samma
+underliggande krav (tidslogik, läsbarhet, tryckytor ≥ 44 px, 360 px, WCAG AA)
+via spec-dokumentets regler och testsviten.
 
 ## 11. Öppna frågor
 

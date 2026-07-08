@@ -58,9 +58,58 @@ export function formatKlocka(date) {
   return p.minute === '00' ? timme : `${timme}.${p.minute}`;
 }
 
-function dagNyckel(date) {
+const DYGN_MS = 24 * 60 * 60 * 1000;
+
+const veckodagFormat = new Intl.DateTimeFormat('sv-SE', {
+  timeZone: TIDSZON,
+  weekday: 'long',
+});
+
+const kortDatumFormat = new Intl.DateTimeFormat('sv-SE', {
+  timeZone: TIDSZON,
+  day: 'numeric',
+  month: 'long',
+});
+
+export function dagNyckel(date) {
   const p = stockholmsDelar(date);
   return `${p.year}-${p.month}-${p.day}`;
+}
+
+export function arHelg(date) {
+  const veckodag = veckodagFormat.format(date);
+  return veckodag === 'lördag' || veckodag === 'söndag';
+}
+
+export function formatDagRubrik(date, nu) {
+  const bas = datumFormat.format(date);
+  if (dagNyckel(date) === dagNyckel(nu)) {
+    return `Idag · ${bas}`;
+  }
+  if (dagNyckel(date) === dagNyckel(new Date(nu.getTime() + DYGN_MS))) {
+    return `Imorgon · ${bas}`;
+  }
+  return bas;
+}
+
+// Kort tidstext för en kalenderrad, relativt den dag raden står under.
+export function formatChip(start, slut, dag) {
+  const dagN = dagNyckel(dag);
+  const startN = dagNyckel(start);
+  const slutN = dagNyckel(slut);
+  if (startN === dagN && slutN === dagN) {
+    return `kl ${formatKlocka(start)}–${formatKlocka(slut)}`;
+  }
+  if (startN === dagN) {
+    return `från kl ${formatKlocka(start)}`;
+  }
+  if (slutN === dagN) {
+    return `till kl ${formatKlocka(slut)}`;
+  }
+  if (slut.getTime() - dag.getTime() < 7 * DYGN_MS) {
+    return `t.o.m. ${veckodagFormat.format(slut)}`;
+  }
+  return `t.o.m. ${kortDatumFormat.format(slut)}`;
 }
 
 export function formatDatum(date, nu) {

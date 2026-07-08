@@ -20,7 +20,10 @@ Statisk sida på GitHub Pages (docs/ — läser endast färdig svensk JSON)
 ```
 
 Inga beroenden: frontenden är ren HTML/CSS/JS och byggskriptet använder bara Node.js
-standardbibliotek. Klassificeringen "Pågår nu / Kommer snart" sker i webbläsaren vid
+standardbibliotek. Sidan visar en dagindelad kalender (se
+`specs/2026-07-08-kalendervy-design.md`): NU-panel för pågående korta events,
+kompakta bildrader per dag, bottom sheet med detaljer och en hopfällbar
+"Pågår hela tiden"-rad för långkörare. Grupperingen sker i webbläsaren vid
 sidladdning, så sidan är korrekt även om ett dygnsbygge uteblir.
 
 ## Kommandon

@@ -1,10 +1,16 @@
-// Renderar events-sv.json. All extern data sätts som text (textContent),
-// aldrig som HTML — se PRD:s säkerhetskrav.
+// Kalendervy v2.0 (spec: specs/2026-07-08-kalendervy-design.md).
+// All extern data sätts som text (textContent), aldrig som HTML.
 
-import { formatTidsspann, formatDatum, formatKlocka } from './lib/tid.js';
-import { klassificera } from './lib/klassificera.js';
+import { formatTidsspann, formatDagRubrik, formatChip, formatKlocka, formatDatum, arHelg } from './lib/tid.js';
+import { grupperaKalender } from './lib/kalender.js';
 
-const MAX_POKEMON_I_LISTVY = 6;
+const POKEMONBILD_TYPER = new Set([
+  'pokemon-spotlight-hour',
+  'raid-battles',
+  'raid-day',
+  'raid-hour',
+  'community-day',
+]);
 
 const ETIKETTER = {
   galler: { text: 'Gäller i Sverige ✓', klass: 'etikett-galler' },
@@ -23,16 +29,22 @@ function el(tagg, klass, text) {
   return nod;
 }
 
+function bildNod(url, klass) {
+  const img = document.createElement('img');
+  img.className = klass;
+  img.alt = '';
+  img.loading = 'lazy';
+  img.addEventListener('error', () => img.remove());
+  img.src = url;
+  return img;
+}
+
+/* ---------- Pokémon-rad (används i sheet och NU-panel) ---------- */
+
 function pokemonNod(p) {
   const li = el('li', 'pokemon');
   if (p.bild) {
-    const img = document.createElement('img');
-    img.alt = '';
-    img.loading = 'lazy';
-    // Trasig bildlänk: ta bort bilden, namnet står kvar.
-    img.addEventListener('error', () => img.remove());
-    img.src = p.bild;
-    li.append(img);
+    li.append(bildNod(p.bild, ''));
   }
   if (p.shiny) {
     li.append(el('span', 'pokemon-shiny', '✨'));
@@ -49,99 +61,195 @@ function pokemonRad(lista) {
   return ul;
 }
 
-function kortNod(event, nu) {
-  const kort = el('article', 'kort');
-  if (event.region === 'galler-inte') {
-    kort.classList.add('kort-galler-inte');
-  }
-
-  if (event.image) {
-    const bild = document.createElement('img');
-    bild.className = 'kort-bild';
-    bild.alt = '';
-    bild.loading = 'lazy';
-    bild.addEventListener('error', () => bild.remove());
-    bild.src = event.image;
-    kort.append(bild);
-  }
-
-  const kropp = el('div', 'kort-kropp');
-  kropp.append(el('p', 'kort-typ', event.typRubrik));
-  kropp.append(el('h3', 'kort-namn', event.name));
-  kropp.append(el('p', 'kort-tid', '🕐 ' + formatTidsspann(event.startDate, event.endDate, nu)));
-
-  const etikett = ETIKETTER[event.region] || ETIKETTER.osakert;
-  kropp.append(el('span', `etikett ${etikett.klass}`, etikett.text));
-
-  const synliga = event.pokemon.slice(0, MAX_POKEMON_I_LISTVY);
-  const gomda = event.pokemon.slice(MAX_POKEMON_I_LISTVY);
-  if (synliga.length > 0) {
-    if (event.pokemonRubrik) {
-      kropp.append(el('h4', 'pokemon-rubrik', event.pokemonRubrik));
+function miniPokemonRad(lista, max) {
+  const rad = el('div', 'mini-pokemonrad');
+  for (const p of lista.slice(0, max)) {
+    if (p.bild) {
+      rad.append(bildNod(p.bild, 'mini-poke'));
     }
-    kropp.append(pokemonRad(synliga));
   }
+  if (lista.length > max) {
+    rad.append(el('span', 'mini-fler', `+${lista.length - max}`));
+  }
+  return rad;
+}
 
-  const detaljer = el('div', 'kort-detaljer');
-  detaljer.hidden = true;
+/* ---------- Bottom sheet ---------- */
+
+let sheetOppen = false;
+
+const backdrop = el('div', 'backdrop');
+backdrop.hidden = true;
+const sheet = el('div', 'sheet');
+sheet.hidden = true;
+sheet.setAttribute('role', 'dialog');
+sheet.setAttribute('aria-modal', 'true');
+
+function stangSheet() {
+  if (!sheetOppen) {
+    return;
+  }
+  sheetOppen = false;
+  sheet.hidden = true;
+  backdrop.hidden = true;
+  document.body.style.overflow = '';
+}
+
+function oppnaSheet(noder) {
+  sheet.textContent = '';
+  const stang = el('button', 'sheet-stang', '✕');
+  stang.type = 'button';
+  stang.setAttribute('aria-label', 'Stäng');
+  stang.addEventListener('click', () => history.back());
+  sheet.append(stang, ...noder);
+  sheet.hidden = false;
+  backdrop.hidden = false;
+  sheet.scrollTop = 0;
+  document.body.style.overflow = 'hidden';
+  sheetOppen = true;
+  history.pushState({ sheet: true }, '');
+}
+
+backdrop.addEventListener('click', () => history.back());
+window.addEventListener('popstate', stangSheet);
+window.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && sheetOppen) {
+    history.back();
+  }
+});
+
+function eventSheet(event, nu) {
+  const noder = [];
+  if (event.image) {
+    noder.push(bildNod(event.image, 'sheet-bild'));
+  }
+  noder.push(el('p', 'sheet-typ', event.typRubrik));
+  noder.push(el('h2', 'sheet-namn', event.name));
+  noder.push(el('p', 'sheet-tid', '🕐 ' + formatTidsspann(event.startDate, event.endDate, nu)));
+  const etikett = ETIKETTER[event.region] || ETIKETTER.osakert;
+  noder.push(el('span', `etikett ${etikett.klass}`, etikett.text));
   if (event.sammanfattning) {
-    detaljer.append(el('p', 'kort-sammanfattning', event.sammanfattning));
+    noder.push(el('p', 'sheet-text', event.sammanfattning));
+  }
+  if (event.pokemon.length > 0) {
+    noder.push(el('h3', 'sheet-rubrik', event.pokemonRubrik || 'Pokémon:'));
+    noder.push(pokemonRad(event.pokemon));
   }
   if (event.bonusar.length > 0) {
+    noder.push(el('h3', 'sheet-rubrik', 'Bonusar:'));
     const ul = el('ul', 'bonuslista');
     for (const bonus of event.bonusar) {
       ul.append(el('li', null, bonus));
     }
-    detaljer.append(ul);
-  }
-  if (gomda.length > 0) {
-    detaljer.append(pokemonRad(gomda));
+    noder.push(ul);
   }
   if (event.raids?.length > 0) {
-    detaljer.append(el('h4', 'pokemon-rubrik', 'Raids under eventet:'));
-    detaljer.append(pokemonRad(event.raids));
+    noder.push(el('h3', 'sheet-rubrik', 'Raids under eventet:'));
+    noder.push(pokemonRad(event.raids));
   }
   if (event.link) {
-    const lank = el('a', 'kort-lank', 'Mer info (engelska) ↗');
+    const lank = el('a', 'sheet-lank', 'Mer info (engelska) ↗');
     lank.href = event.link;
     lank.target = '_blank';
     lank.rel = 'noopener';
-    detaljer.append(lank);
+    noder.push(lank);
   }
-
-  if (detaljer.childNodes.length > 0) {
-    const knapp = el('button', 'visa-mer', 'Visa mer ▾');
-    knapp.type = 'button';
-    knapp.setAttribute('aria-expanded', 'false');
-    knapp.addEventListener('click', () => {
-      const oppen = detaljer.hidden;
-      detaljer.hidden = !oppen;
-      knapp.textContent = oppen ? 'Visa mindre ▴' : 'Visa mer ▾';
-      knapp.setAttribute('aria-expanded', String(oppen));
-    });
-    kropp.append(knapp);
-    kropp.append(detaljer);
-  }
-
-  kort.append(kropp);
-  return kort;
+  oppnaSheet(noder);
 }
 
-function sektionNod(id, rubrik, events, nu, tomText) {
-  const sektion = el('section', `sektion sektion-${id}`);
-  const h2 = el('h2', 'sektion-rubrik');
-  h2.append(el('span', 'sektion-prick'));
-  h2.append(document.createTextNode(rubrik));
-  sektion.append(h2);
-  if (events.length === 0) {
-    sektion.append(el('p', 'status-meddelande', tomText));
-    return sektion;
+function raidSheet(grupper) {
+  const noder = [el('h2', 'sheet-namn', 'Raids just nu')];
+  for (const grupp of grupper) {
+    noder.push(el('h3', 'sheet-rubrik', grupp.rubrik));
+    noder.push(pokemonRad(grupp.pokemon));
   }
+  oppnaSheet(noder);
+}
+
+/* ---------- Kalenderrader ---------- */
+
+function radBild(event) {
+  if (POKEMONBILD_TYPER.has(event.typ) && event.pokemon[0]?.bild) {
+    return { url: event.pokemon[0].bild, rund: true };
+  }
+  return event.image ? { url: event.image, rund: false } : null;
+}
+
+function rad(event, dagDatum, nu, pagar) {
+  const knapp = el('button', 'rad');
+  knapp.type = 'button';
+  if (event.region === 'galler-inte') {
+    knapp.classList.add('rad-dampad');
+  }
+  const bild = radBild(event);
+  if (bild) {
+    knapp.append(bildNod(bild.url, bild.rund ? 'rad-bild rad-bild-rund' : 'rad-bild'));
+  }
+  let namn = event.name;
+  if (event.region === 'galler-inte') {
+    namn += ' ✗';
+  } else if (event.region === 'osakert') {
+    namn += ' 🟡';
+  }
+  knapp.append(el('span', 'rad-namn', namn));
+  knapp.append(el('span', pagar ? 'rad-chip rad-chip-gron' : 'rad-chip', formatChip(event.startDate, event.endDate, dagDatum)));
+  knapp.append(el('span', 'rad-pil', '›'));
+  knapp.addEventListener('click', () => eventSheet(event, nu));
+  return knapp;
+}
+
+function raidRad(grupper) {
+  const alla = grupper.flatMap((g) => g.pokemon);
+  const knapp = el('button', 'rad');
+  knapp.type = 'button';
+  if (alla[0]?.bild) {
+    knapp.append(bildNod(alla[0].bild, 'rad-bild rad-bild-rund'));
+  }
+  knapp.append(el('span', 'rad-namn', `Raider idag: ${alla[0]?.namn ?? ''} +${Math.max(alla.length - 1, 0)}`));
+  knapp.append(el('span', 'rad-chip rad-chip-gron', 'hela dagen'));
+  knapp.append(el('span', 'rad-pil', '›'));
+  knapp.addEventListener('click', () => raidSheet(grupper));
+  return knapp;
+}
+
+/* ---------- NU-panel ---------- */
+
+function nuPanelNod(event, nu) {
+  const panel = el('button', 'nu-panel');
+  panel.type = 'button';
+  panel.append(el('span', 'nu-etikett', `NU · slutar kl ${formatKlocka(event.endDate)}`));
+  panel.append(el('span', 'nu-namn', event.name));
+  if (event.pokemon.length > 0) {
+    panel.append(miniPokemonRad(event.pokemon, 4));
+  }
+  panel.addEventListener('click', () => eventSheet(event, nu));
+  return panel;
+}
+
+/* ---------- Pågår hela tiden ---------- */
+
+function stripNod(events, nu) {
+  const strip = el('section', 'strip');
+  const knapp = el('button', 'strip-knapp');
+  knapp.type = 'button';
+  knapp.setAttribute('aria-expanded', 'false');
+  knapp.textContent = `🔁 Pågår hela tiden (${events.length}) ▾`;
+  const lista = el('div', 'strip-lista');
+  lista.hidden = true;
   for (const event of events) {
-    sektion.append(kortNod(event, nu));
+    lista.append(rad(event, nu, nu, true));
   }
-  return sektion;
+  knapp.addEventListener('click', () => {
+    const oppen = lista.hidden;
+    lista.hidden = !oppen;
+    knapp.setAttribute('aria-expanded', String(oppen));
+    knapp.textContent = `🔁 Pågår hela tiden (${events.length}) ${oppen ? '▴' : '▾'}`;
+  });
+  strip.append(knapp, lista);
+  return strip;
 }
+
+/* ---------- Sidan ---------- */
 
 function visaUppdaterad(iso) {
   const nod = document.getElementById('uppdaterad');
@@ -149,29 +257,9 @@ function visaUppdaterad(iso) {
   if (Number.isNaN(datum.getTime())) {
     return;
   }
-  const nu = new Date();
-  nod.textContent = `Uppdaterad: ${formatDatum(datum, nu)} kl ${formatKlocka(datum)}`;
+  nod.textContent = `Uppdaterad: ${formatDatum(datum, new Date())} kl ${formatKlocka(datum)}`;
 }
 
-function raidSektionNod(grupper) {
-  const sektion = el('section', 'sektion sektion-raids');
-  const h2 = el('h2', 'sektion-rubrik');
-  h2.append(el('span', 'sektion-prick'));
-  h2.append(document.createTextNode('Raids just nu'));
-  sektion.append(h2);
-
-  const kort = el('article', 'kort');
-  const kropp = el('div', 'kort-kropp');
-  for (const grupp of grupper) {
-    kropp.append(el('h3', 'raid-niva', grupp.rubrik));
-    kropp.append(pokemonRad(grupp.pokemon));
-  }
-  kort.append(kropp);
-  sektion.append(kort);
-  return sektion;
-}
-
-// Raids är ett komplement — saknas filen visas sidan utan den sektionen.
 async function hamtaRaids() {
   try {
     const svar = await fetch('raids-sv.json', { cache: 'no-cache' });
@@ -197,16 +285,45 @@ async function start() {
     }
     const data = await svar.json();
     const nu = new Date();
-    const { pagarNu, kommerSnart } = klassificera(data.events, nu);
+    const { nuPanel, dagar, alltidPagaende } = grupperaKalender(data.events, nu);
 
     innehall.textContent = '';
-    innehall.append(sektionNod('pagar', 'Pågår nu', pagarNu, nu, 'Inget event pågår just nu.'));
-    if (raidGrupper) {
-      innehall.append(raidSektionNod(raidGrupper));
+
+    for (const event of nuPanel) {
+      innehall.append(nuPanelNod(event, nu));
     }
-    innehall.append(
-      sektionNod('kommer', 'Kommer snart', kommerSnart, nu, 'Inga fler events är planerade ännu.')
-    );
+
+    for (const dag of dagar) {
+      const arIdag = dag === dagar[0];
+      if (!arIdag && dag.events.length === 0) {
+        continue;
+      }
+      const rubrik = el('h2', 'dag-rubrik');
+      if (arIdag) {
+        rubrik.classList.add('dag-idag');
+      } else if (arHelg(dag.datum)) {
+        rubrik.classList.add('dag-helg');
+      }
+      rubrik.textContent = formatDagRubrik(dag.datum, nu) + (arHelg(dag.datum) ? ' 🎉' : '');
+      innehall.append(rubrik);
+
+      if (arIdag && raidGrupper) {
+        innehall.append(raidRad(raidGrupper));
+      }
+      for (const event of dag.events) {
+        const pagar = event.startDate.getTime() <= nu.getTime();
+        innehall.append(rad(event, dag.datum, nu, pagar));
+      }
+      if (arIdag && dag.events.length === 0 && !raidGrupper && nuPanel.length === 0) {
+        innehall.append(el('p', 'status-meddelande', 'Inget särskilt idag.'));
+      }
+    }
+
+    if (alltidPagaende.length > 0) {
+      innehall.append(stripNod(alltidPagaende, nu));
+    }
+
+    document.body.append(backdrop, sheet);
     visaUppdaterad(data.uppdaterad);
   } catch (fel) {
     innehall.textContent = '';
