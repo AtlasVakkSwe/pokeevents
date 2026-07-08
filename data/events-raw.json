@@ -1,38 +1,6 @@
 {
-  "hamtad": "2026-07-07T22:01:25.335Z",
+  "hamtad": "2026-07-08T06:43:48.234Z",
   "events": [
-    {
-      "eventID": "go-pass-june-2026",
-      "name": "GO Pass: June",
-      "eventType": "go-pass",
-      "heading": "GO Pass",
-      "link": "https://leekduck.com/events/go-pass-june-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-06-02-go-pass-june-2026/go-pass-june-2026.jpg",
-      "start": "2026-06-02T10:00:00.000",
-      "end": "2026-07-07T10:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "gbl-forever-forward_great-league_summer-cup-great-league-edition",
-      "name": "Great League and Summer Cup: Great League Edition | Forever Forward",
-      "eventType": "go-battle-league",
-      "heading": "GO Battle League",
-      "link": "https://leekduck.com/events/gbl-forever-forward_great-league_summer-cup-great-league-edition/",
-      "image": "https://cdn.leekduck.com/assets/img/events/gobattle-greatleague-key.jpg",
-      "start": "2026-06-30T20:00:00.000Z",
-      "end": "2026-07-07T20:00:00.000Z",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "pokemon-go-10th-anniversary-celebration-twitch-drops",
       "name": "Twitch Drops for Pokémon GO 10th Anniversary Celebration",
