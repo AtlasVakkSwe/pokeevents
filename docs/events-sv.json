@@ -1,20 +1,6 @@
 {
-  "uppdaterad": "2026-07-09T07:58:04.664Z",
+  "uppdaterad": "2026-07-10T07:57:45.072Z",
   "events": [
-    {
-      "id": "pokemon-go-10th-anniversary-celebration-twitch-drops",
-      "name": "Twitch Drops for Pokémon GO 10th Anniversary Celebration",
-      "typ": "twitch-drops",
-      "typRubrik": "Twitch-belöningar",
-      "link": "https://leekduck.com/events/pokemon-go-10th-anniversary-celebration-twitch-drops/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-07-09-pokemon-go-10th-anniversary-celebration-twitch-drops/rewards.jpg",
-      "start": "2026-07-09T22:30:00.000Z",
-      "end": "2026-07-10T01:30:00.000Z",
-      "region": "galler",
-      "sammanfattning": null,
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "road-of-legends-2026",
       "name": "Road of Legends",
@@ -24,6 +10,20 @@
       "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-07-06-road-of-legends-2026/road-of-legends-2026.jpg",
       "start": "2026-07-06T00:01:00.000",
       "end": "2026-07-10T23:59:00.000",
+      "region": "galler",
+      "sammanfattning": null,
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "pokemon-go-10th-anniversary-celebration-twitch-drops",
+      "name": "Twitch Drops for Pokémon GO 10th Anniversary Celebration",
+      "typ": "twitch-drops",
+      "typRubrik": "Twitch-belöningar",
+      "link": "https://leekduck.com/events/pokemon-go-10th-anniversary-celebration-twitch-drops/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-07-09-pokemon-go-10th-anniversary-celebration-twitch-drops/rewards.jpg",
+      "start": "2026-07-09T07:00:00.000Z",
+      "end": "2026-07-12T06:58:00.000Z",
       "region": "galler",
       "sammanfattning": null,
       "pokemon": [],
