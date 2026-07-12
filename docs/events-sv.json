@@ -1,20 +1,6 @@
 {
-  "uppdaterad": "2026-07-11T06:32:10.422Z",
+  "uppdaterad": "2026-07-12T07:06:05.658Z",
   "events": [
-    {
-      "id": "road-of-legends-2026",
-      "name": "Road of Legends",
-      "typ": "event",
-      "typRubrik": "Event",
-      "link": "https://leekduck.com/events/road-of-legends-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-07-06-road-of-legends-2026/road-of-legends-2026.jpg",
-      "start": "2026-07-06T00:01:00.000",
-      "end": "2026-07-10T23:59:00.000",
-      "region": "galler",
-      "sammanfattning": null,
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "pokemon-go-10th-anniversary-celebration-twitch-drops",
       "name": "Twitch Drops for Pokémon GO 10th Anniversary Celebration",
@@ -94,6 +80,21 @@
           "namn": "Mega Mewtwo Y",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm150.fMEGA_Y.icon.png",
           "shiny": true
+        },
+        {
+          "namn": "Pikachu wearing a Team Instinct hat",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2026_CAP_YELLOW.s.icon.png",
+          "shiny": false
+        },
+        {
+          "namn": "Pikachu wearing a Team Mystic hat",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2026_CAP_BLUE.s.icon.png",
+          "shiny": false
+        },
+        {
+          "namn": "Pikachu wearing a Team Valor hat",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2026_CAP_RED.s.icon.png",
+          "shiny": false
         },
         {
           "namn": "Mega Ampharos",
@@ -1161,6 +1162,20 @@
       "end": "2026-08-22T17:00:00.000",
       "region": "galler",
       "sammanfattning": "Raiddag! Extra många raider hela dagen.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "water-festival-2026",
+      "name": "Water Festival",
+      "typ": "event",
+      "typRubrik": "Event",
+      "link": "https://leekduck.com/events/water-festival-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-18-water-festival-2026/water-festival-2026.jpg",
+      "start": "2026-08-18T10:00:00.000",
+      "end": "2026-08-24T20:00:00.000",
+      "region": "galler",
+      "sammanfattning": null,
       "pokemon": [],
       "bonusar": []
     },

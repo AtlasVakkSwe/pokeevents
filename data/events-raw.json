@@ -1,22 +1,6 @@
 {
-  "hamtad": "2026-07-11T06:32:10.422Z",
+  "hamtad": "2026-07-12T07:06:05.658Z",
   "events": [
-    {
-      "eventID": "road-of-legends-2026",
-      "name": "Road of Legends",
-      "eventType": "event",
-      "heading": "Event",
-      "link": "https://leekduck.com/events/road-of-legends-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-07-06-road-of-legends-2026/road-of-legends-2026.jpg",
-      "start": "2026-07-06T00:01:00.000",
-      "end": "2026-07-10T23:59:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "pokemon-go-10th-anniversary-celebration-twitch-drops",
       "name": "Twitch Drops for Pokémon GO 10th Anniversary Celebration",
@@ -989,6 +973,22 @@
       "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
       "start": "2026-08-22T14:00:00.000",
       "end": "2026-08-22T17:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "water-festival-2026",
+      "name": "Water Festival",
+      "eventType": "event",
+      "heading": "Event",
+      "link": "https://leekduck.com/events/water-festival-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-18-water-festival-2026/water-festival-2026.jpg",
+      "start": "2026-08-18T10:00:00.000",
+      "end": "2026-08-24T20:00:00.000",
       "extraData": {
         "generic": {
           "hasSpawns": false,
