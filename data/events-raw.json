@@ -1,22 +1,6 @@
 {
-  "hamtad": "2026-07-12T07:06:05.658Z",
+  "hamtad": "2026-07-13T07:47:07.075Z",
   "events": [
-    {
-      "eventID": "pokemon-go-10th-anniversary-celebration-twitch-drops",
-      "name": "Twitch Drops for Pokémon GO 10th Anniversary Celebration",
-      "eventType": "twitch-drops",
-      "heading": "Twitch Drops",
-      "link": "https://leekduck.com/events/pokemon-go-10th-anniversary-celebration-twitch-drops/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-07-09-pokemon-go-10th-anniversary-celebration-twitch-drops/rewards.jpg",
-      "start": "2026-07-09T07:00:00.000Z",
-      "end": "2026-07-12T06:58:00.000Z",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "pokemon-go-fest-2026-global",
       "name": "Pokémon GO Fest 2026: Global",

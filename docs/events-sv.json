@@ -1,20 +1,6 @@
 {
-  "uppdaterad": "2026-07-12T07:06:05.658Z",
+  "uppdaterad": "2026-07-13T07:47:07.075Z",
   "events": [
-    {
-      "id": "pokemon-go-10th-anniversary-celebration-twitch-drops",
-      "name": "Twitch Drops for Pokémon GO 10th Anniversary Celebration",
-      "typ": "twitch-drops",
-      "typRubrik": "Twitch-belöningar",
-      "link": "https://leekduck.com/events/pokemon-go-10th-anniversary-celebration-twitch-drops/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-07-09-pokemon-go-10th-anniversary-celebration-twitch-drops/rewards.jpg",
-      "start": "2026-07-09T07:00:00.000Z",
-      "end": "2026-07-12T06:58:00.000Z",
-      "region": "galler",
-      "sammanfattning": null,
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "pokemon-go-fest-2026-global",
       "name": "Pokémon GO Fest 2026: Global",
@@ -667,18 +653,53 @@
       "sammanfattning": null,
       "pokemon": [
         {
-          "namn": "Pikachu wearing a Tricks & Treats costume",
+          "namn": "Witch Hat Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.cHALLOWEEN_2017.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Halloween Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.cHALLOWEEN_2021_NOEVOLVE.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Trick or Treat Pikachu",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.cFALL_2023_NOEVOLVE.icon.png",
           "shiny": true
         },
         {
-          "namn": "Winter Carnival Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_pm0025_01_pgo_winter2020.png",
+          "namn": "Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_025_00_28.png",
           "shiny": true
         },
         {
           "namn": "Summer Style Pikachu",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_025_00_05.png",
+          "shiny": true
+        },
+        {
+          "namn": "Malachite Crown Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fSUMMER_2023_A.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Aquamarine Crown Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fSUMMER_2023_B.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Dapper Pikachu with red accents",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2025_GOGGLES_RED.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Dapper Pikachu with blue accents",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2025_GOGGLES_BLUE.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Dapper Pikachu with yellow accents",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2025_GOGGLES_YELLOW.icon.png",
           "shiny": true
         }
       ],
@@ -686,18 +707,18 @@
       "pokemonRubrik": "Finns att fånga:",
       "raids": [
         {
-          "namn": "Dapper Pikachu with red accents",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2025_GOGGLES_RED.icon.png",
+          "namn": "Formal Pikachu with red accents",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2025_MONOCLE_RED.icon.png",
           "shiny": true
         },
         {
-          "namn": "Dapper Pikachu with yellow accents",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2025_GOGGLES_YELLOW.icon.png",
+          "namn": "Formal Pikachu with yellow accents",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2025_MONOCLE_YELLOW.icon.png",
           "shiny": true
         },
         {
-          "namn": "Dapper Pikachu with blue accents",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2025_GOGGLES_BLUE.icon.png",
+          "namn": "Formal Pikachu with blue accents",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2025_MONOCLE_BLUE.icon.png",
           "shiny": true
         },
         {
