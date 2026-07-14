@@ -1,22 +1,6 @@
 {
-  "hamtad": "2026-07-13T07:47:07.075Z",
+  "hamtad": "2026-07-14T06:32:44.296Z",
   "events": [
-    {
-      "eventID": "pokemon-go-fest-2026-global",
-      "name": "Pokémon GO Fest 2026: Global",
-      "eventType": "pokemon-go-fest",
-      "heading": "Pokémon GO Fest",
-      "link": "https://leekduck.com/events/pokemon-go-fest-2026-global/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-07-11-pokemon-go-fest-2026-global/pokemon-go-fest-2026-global.jpg?v2",
-      "start": "2026-07-11T10:00:00.000",
-      "end": "2026-07-12T19:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": true,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "max-mondays-2026-07-13",
       "name": "Dynamax Deino during Max Monday",
@@ -333,6 +317,22 @@
         "generic": {
           "hasSpawns": false,
           "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "ultra-unlock-10th-anniversary-edition",
+      "name": "Ultra Unlock: 10th Anniversary Edition",
+      "eventType": "event",
+      "heading": "Event",
+      "link": "https://leekduck.com/events/ultra-unlock-10th-anniversary-edition/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-07-21-ultra-unlock-10th-anniversary-edition/ultra-unlock-10th-anniversary-edition.jpg",
+      "start": "2026-07-21T10:00:00.000",
+      "end": "2026-07-27T20:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": true,
+          "hasFieldResearchTasks": true
         }
       }
     },
@@ -966,17 +966,17 @@
     },
     {
       "eventID": "water-festival-2026",
-      "name": "Water Festival",
+      "name": "Ultra Unlock: Water Festival",
       "eventType": "event",
       "heading": "Event",
       "link": "https://leekduck.com/events/water-festival-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-18-water-festival-2026/water-festival-2026.jpg",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-18-water-festival-2026/water-festival-2026.jpg?v2",
       "start": "2026-08-18T10:00:00.000",
       "end": "2026-08-24T20:00:00.000",
       "extraData": {
         "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
+          "hasSpawns": true,
+          "hasFieldResearchTasks": true
         }
       }
     },
