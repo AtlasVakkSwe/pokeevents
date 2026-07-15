@@ -1,38 +1,6 @@
 {
-  "hamtad": "2026-07-14T06:32:44.296Z",
+  "hamtad": "2026-07-15T06:34:31.553Z",
   "events": [
-    {
-      "eventID": "max-mondays-2026-07-13",
-      "name": "Dynamax Deino during Max Monday",
-      "eventType": "max-mondays",
-      "heading": "Max Mondays",
-      "link": "https://leekduck.com/events/max-mondays-2026-07-13/",
-      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-      "start": "2026-07-13T06:00:00.000",
-      "end": "2026-07-13T21:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "gbl-forever-forward_ultra-league_fantasy-cup-ultra-league-edition",
-      "name": "Ultra League and Fantasy Cup: Ultra League Edition | Forever Forward",
-      "eventType": "go-battle-league",
-      "heading": "GO Battle League",
-      "link": "https://leekduck.com/events/gbl-forever-forward_ultra-league_fantasy-cup-ultra-league-edition/",
-      "image": "https://cdn.leekduck.com/assets/img/events/go-battle-league-ultra-league-machamp-swampert.jpg",
-      "start": "2026-07-07T20:00:00.000Z",
-      "end": "2026-07-14T20:00:00.000Z",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "mega-lucario-in-mega-raids-july-13-2026",
       "name": "Mega Lucario in Mega Raids - July 13",
@@ -199,7 +167,7 @@
       "eventType": "raid-battles",
       "heading": "Raid Battles",
       "link": "https://leekduck.com/events/kyogre-in-5-star-raid-battles-july-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "image": "https://cdn.leekduck.com/assets/img/events/kyogre.jpg",
       "start": "2026-07-15T06:00:00.000",
       "end": "2026-07-21T22:00:00.000",
       "extraData": {
@@ -475,6 +443,22 @@
         },
         "generic": {
           "hasSpawns": true,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "gigantamax-rillaboom-max-battle-day-2026",
+      "name": "Gigantamax Rillaboom Max Battle Day",
+      "eventType": "max-battles",
+      "heading": "Max Battles",
+      "link": "https://leekduck.com/events/gigantamax-rillaboom-max-battle-day-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-01-gigantamax-rillaboom-max-battle-day-2026/gigantamax-rillaboom-max-battle-day.jpg",
+      "start": "2026-08-01T14:00:00.000",
+      "end": "2026-08-01T17:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
           "hasFieldResearchTasks": false
         }
       }
@@ -949,13 +933,13 @@
       }
     },
     {
-      "eventID": "raid-day-august-2026",
-      "name": "Raid Day",
+      "eventID": "starmie-super-mega-raid-day-2026",
+      "name": "Starmie Super Mega Raid Day",
       "eventType": "raid-day",
       "heading": "Raid Day",
-      "link": "https://leekduck.com/events/raid-day-august-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
-      "start": "2026-08-22T14:00:00.000",
+      "link": "https://leekduck.com/events/starmie-super-mega-raid-day-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-22-starmie-super-mega-raid-day-2026/starmie-super-mega-raid-day-2026.jpg",
+      "start": "2026-08-22T11:00:00.000",
       "end": "2026-08-22T17:00:00.000",
       "extraData": {
         "generic": {

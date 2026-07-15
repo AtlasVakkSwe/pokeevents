@@ -1,34 +1,6 @@
 {
-  "uppdaterad": "2026-07-14T06:32:44.296Z",
+  "uppdaterad": "2026-07-15T06:34:31.553Z",
   "events": [
-    {
-      "id": "max-mondays-2026-07-13",
-      "name": "Dynamax Deino during Max Monday",
-      "typ": "max-mondays",
-      "typRubrik": "Max-måndag",
-      "link": "https://leekduck.com/events/max-mondays-2026-07-13/",
-      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-      "start": "2026-07-13T06:00:00.000",
-      "end": "2026-07-13T21:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Max-måndag! Extra Max-strider ikväll.",
-      "pokemon": [],
-      "bonusar": []
-    },
-    {
-      "id": "gbl-forever-forward_ultra-league_fantasy-cup-ultra-league-edition",
-      "name": "Ultra League and Fantasy Cup: Ultra League Edition | Forever Forward",
-      "typ": "go-battle-league",
-      "typRubrik": "GO Battle League",
-      "link": "https://leekduck.com/events/gbl-forever-forward_ultra-league_fantasy-cup-ultra-league-edition/",
-      "image": "https://cdn.leekduck.com/assets/img/events/go-battle-league-ultra-league-machamp-swampert.jpg",
-      "start": "2026-07-07T20:00:00.000Z",
-      "end": "2026-07-14T20:00:00.000Z",
-      "region": "galler",
-      "sammanfattning": "Nytt i GO Battle League (strider mot andra spelare).",
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "mega-lucario-in-mega-raids-july-13-2026",
       "name": "Mega Lucario in Mega Raids - July 13",
@@ -158,6 +130,46 @@
           "namn": "Dapper Pikachu with yellow accents",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2025_GOGGLES_YELLOW.icon.png",
           "shiny": true
+        },
+        {
+          "namn": "Holiday Attire Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.cHOLIDAY_2023.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Santa Hat Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.cHOLIDAY_2016.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Polka Dot Party Hat Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_025_00_11.png",
+          "shiny": true
+        },
+        {
+          "namn": "Pyrite Crown Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fSUMMER_2023_D.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Winter Carnival Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_pm0025_01_pgo_winter2020.png",
+          "shiny": true
+        },
+        {
+          "namn": "Winter Beanie Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_025_00_08.png",
+          "shiny": true
+        },
+        {
+          "namn": "Flying Pikachu with Multicolored Balloons",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fCOSTUME_2020.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Quartz Crown Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fSUMMER_2023_C.icon.png",
+          "shiny": true
         }
       ],
       "bonusar": [],
@@ -258,7 +270,7 @@
       "typ": "raid-battles",
       "typRubrik": "Raider",
       "link": "https://leekduck.com/events/kyogre-in-5-star-raid-battles-july-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "image": "https://cdn.leekduck.com/assets/img/events/kyogre.jpg",
       "start": "2026-07-15T06:00:00.000",
       "end": "2026-07-21T22:00:00.000",
       "region": "galler",
@@ -636,6 +648,20 @@
       "bonusar": []
     },
     {
+      "id": "gigantamax-rillaboom-max-battle-day-2026",
+      "name": "Gigantamax Rillaboom Max Battle Day",
+      "typ": "max-battles",
+      "typRubrik": "Max-strider",
+      "link": "https://leekduck.com/events/gigantamax-rillaboom-max-battle-day-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-01-gigantamax-rillaboom-max-battle-day-2026/gigantamax-rillaboom-max-battle-day.jpg",
+      "start": "2026-08-01T14:00:00.000",
+      "end": "2026-08-01T17:00:00.000",
+      "region": "galler",
+      "sammanfattning": null,
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
       "id": "choose-your-path-fairy-trail-2026",
       "name": "Choose Your Path: Fairy Trail",
       "typ": "choose-your-path",
@@ -823,13 +849,13 @@
       "bonusar": []
     },
     {
-      "id": "raid-day-august-2026",
-      "name": "Raid Day",
+      "id": "starmie-super-mega-raid-day-2026",
+      "name": "Starmie Super Mega Raid Day",
       "typ": "raid-day",
       "typRubrik": "Raiddag",
-      "link": "https://leekduck.com/events/raid-day-august-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
-      "start": "2026-08-22T14:00:00.000",
+      "link": "https://leekduck.com/events/starmie-super-mega-raid-day-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-22-starmie-super-mega-raid-day-2026/starmie-super-mega-raid-day-2026.jpg",
+      "start": "2026-08-22T11:00:00.000",
       "end": "2026-08-22T17:00:00.000",
       "region": "galler",
       "sammanfattning": "Raiddag! Extra många raider hela dagen.",
