@@ -1,26 +1,6 @@
 {
-  "uppdaterad": "2026-07-15T06:34:31.553Z",
+  "uppdaterad": "2026-07-16T06:39:52.851Z",
   "events": [
-    {
-      "id": "mega-lucario-in-mega-raids-july-13-2026",
-      "name": "Mega Lucario in Mega Raids - July 13",
-      "typ": "raid-battles",
-      "typRubrik": "Raider",
-      "link": "https://leekduck.com/events/mega-lucario-in-mega-raids-july-13-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
-      "start": "2026-07-13T06:00:00.000",
-      "end": "2026-07-14T22:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Mega Lucario finns i raid. Kan vara shiny! ✨",
-      "pokemon": [
-        {
-          "namn": "Mega Lucario",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm448.fMEGA.icon.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
     {
       "id": "raidhour20260715",
       "name": "Kyogre Raid Hour",
@@ -336,6 +316,20 @@
           "shiny": true
         }
       ],
+      "bonusar": []
+    },
+    {
+      "id": "pokemon-go-fest-2026-global-sunday-raid-makeup",
+      "name": "GO Fest 2026 Sunday Raid Makeup",
+      "typ": "pokemon-go-fest",
+      "typRubrik": "GO Fest",
+      "link": "https://leekduck.com/events/pokemon-go-fest-2026-global-sunday-raid-makeup/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-07-26-pokemon-go-fest-2026-global-sunday-raid-makeup/pokemon-go-fest-2026-global-sunday-raid-makeup.jpg",
+      "start": "2026-07-26T10:00:00.000",
+      "end": "2026-07-26T19:00:00.000",
+      "region": "osakert",
+      "sammanfattning": null,
+      "pokemon": [],
       "bonusar": []
     },
     {
@@ -776,6 +770,67 @@
       "sammanfattning": null,
       "pokemon": [],
       "bonusar": []
+    },
+    {
+      "id": "summer-marathon-2026",
+      "name": "Summer Marathon: Arctic Embers",
+      "typ": "event",
+      "typRubrik": "Event",
+      "link": "https://leekduck.com/events/summer-marathon-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-04-summer-marathon-2026/summer-marathon-2026.jpg",
+      "start": "2026-08-04T10:00:00.000",
+      "end": "2026-08-10T20:00:00.000",
+      "region": "galler",
+      "sammanfattning": null,
+      "pokemon": [
+        {
+          "namn": "Vulpix",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_037_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Alolan Vulpix",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_037_61.png",
+          "shiny": true
+        },
+        {
+          "namn": "Growlithe",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_058_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Swinub",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_220_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Snorunt",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_361_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Ponyta",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_077_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Snover",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_459_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Slugma",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_218_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Vanillite",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_582_00.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": [],
+      "pokemonRubrik": "Finns att fånga:"
     },
     {
       "id": "gbl-forever-forward_ultra-league_weather-cup-great-league-edition",

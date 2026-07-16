@@ -1,41 +1,6 @@
 {
-  "hamtad": "2026-07-15T06:34:31.553Z",
+  "hamtad": "2026-07-16T06:39:52.851Z",
   "events": [
-    {
-      "eventID": "mega-lucario-in-mega-raids-july-13-2026",
-      "name": "Mega Lucario in Mega Raids - July 13",
-      "eventType": "raid-battles",
-      "heading": "Raid Battles",
-      "link": "https://leekduck.com/events/mega-lucario-in-mega-raids-july-13-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
-      "start": "2026-07-13T06:00:00.000",
-      "end": "2026-07-14T22:00:00.000",
-      "extraData": {
-        "raidbattles": {
-          "bosses": [
-            {
-              "name": "Mega Lucario",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm448.fMEGA.icon.png",
-              "canBeShiny": true
-            }
-          ],
-          "shinies": [
-            {
-              "name": "Lucario",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_448_00_shiny.png"
-            },
-            {
-              "name": "Mega Lucario",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm448.fMEGA.s.icon.png"
-            }
-          ]
-        },
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "raidhour20260715",
       "name": "Kyogre Raid Hour",
@@ -268,6 +233,22 @@
         },
         "generic": {
           "hasSpawns": true,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "pokemon-go-fest-2026-global-sunday-raid-makeup",
+      "name": "GO Fest 2026 Sunday Raid Makeup",
+      "eventType": "pokemon-go-fest",
+      "heading": "Pokémon GO Fest",
+      "link": "https://leekduck.com/events/pokemon-go-fest-2026-global-sunday-raid-makeup/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-07-26-pokemon-go-fest-2026-global-sunday-raid-makeup/pokemon-go-fest-2026-global-sunday-raid-makeup.jpg",
+      "start": "2026-07-26T10:00:00.000",
+      "end": "2026-07-26T19:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
           "hasFieldResearchTasks": false
         }
       }
@@ -620,6 +601,22 @@
       "extraData": {
         "generic": {
           "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "summer-marathon-2026",
+      "name": "Summer Marathon: Arctic Embers",
+      "eventType": "event",
+      "heading": "Event",
+      "link": "https://leekduck.com/events/summer-marathon-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-04-summer-marathon-2026/summer-marathon-2026.jpg",
+      "start": "2026-08-04T10:00:00.000",
+      "end": "2026-08-10T20:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": true,
           "hasFieldResearchTasks": false
         }
       }
