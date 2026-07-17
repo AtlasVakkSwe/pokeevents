@@ -1,20 +1,6 @@
 {
-  "uppdaterad": "2026-07-16T06:39:52.851Z",
+  "uppdaterad": "2026-07-17T06:34:30.200Z",
   "events": [
-    {
-      "id": "raidhour20260715",
-      "name": "Kyogre Raid Hour",
-      "typ": "raid-hour",
-      "typRubrik": "Raidtimme",
-      "link": "https://leekduck.com/events/raidhour20260715/",
-      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-      "start": "2026-07-15T18:00:00.000",
-      "end": "2026-07-15T19:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Raidtimme! Extra många raider i en timme.",
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "pokemonspotlighthour2026-07-16",
       "name": "Zubat Spotlight Hour",
@@ -758,12 +744,12 @@
       "bonusar": []
     },
     {
-      "id": "hatch-day-august-2026",
-      "name": "Hatch Day",
+      "id": "fire-and-ice-hatch-day-2026",
+      "name": "Fire and Ice Hatch Day",
       "typ": "event",
       "typRubrik": "Event",
-      "link": "https://leekduck.com/events/hatch-day-august-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "link": "https://leekduck.com/events/fire-and-ice-hatch-day-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-08-fire-and-ice-hatch-day-2026/fire-and-ice-hatch-day-2026.jpg",
       "start": "2026-08-08T11:00:00.000",
       "end": "2026-08-08T17:00:00.000",
       "region": "galler",
