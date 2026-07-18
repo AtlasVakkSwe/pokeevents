@@ -1,26 +1,6 @@
 {
-  "uppdaterad": "2026-07-17T06:34:30.200Z",
+  "uppdaterad": "2026-07-18T06:26:42.036Z",
   "events": [
-    {
-      "id": "pokemonspotlighthour2026-07-16",
-      "name": "Zubat Spotlight Hour",
-      "typ": "pokemon-spotlight-hour",
-      "typRubrik": "Rampljustimme",
-      "link": "https://leekduck.com/events/pokemonspotlighthour2026-07-16/",
-      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-      "start": "2026-07-16T18:00:00.000",
-      "end": "2026-07-16T19:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Zubat dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbel XP när du fångar.",
-      "pokemon": [
-        {
-          "namn": "Zubat",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_041_00.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
     {
       "id": "raichu-super-mega-raid-day-2026",
       "name": "Raichu Super Mega Raid Day",
@@ -135,6 +115,46 @@
         {
           "namn": "Quartz Crown Pikachu",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fSUMMER_2023_C.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Flying 5th Anniversary Balloons Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_pm0025_01_pgo_5thanniversary.png",
+          "shiny": true
+        },
+        {
+          "namn": "Moon Crown Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2024_MTIARA.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Sun Crown Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2024_STIARA.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Flower Hat Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_025_00_12.png",
+          "shiny": true
+        },
+        {
+          "namn": "Flower Crown Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_025_00_07.png",
+          "shiny": true
+        },
+        {
+          "namn": "Party Top Hat Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.cJAN_2023_NOEVOLVE.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Cherry Blossom Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.cSPRING_2023.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Cake Hat Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.cANNIVERSARY_2022_NOEVOLVE.icon.png",
           "shiny": true
         }
       ],
@@ -467,7 +487,7 @@
         {
           "namn": "Sprigatito",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm906.icon.png",
-          "shiny": false
+          "shiny": true
         },
         {
           "namn": "Fuecoco",

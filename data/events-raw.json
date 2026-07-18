@@ -1,35 +1,6 @@
 {
-  "hamtad": "2026-07-17T06:34:30.200Z",
+  "hamtad": "2026-07-18T06:26:42.036Z",
   "events": [
-    {
-      "eventID": "pokemonspotlighthour2026-07-16",
-      "name": "Zubat Spotlight Hour",
-      "eventType": "pokemon-spotlight-hour",
-      "heading": "Pokémon Spotlight Hour",
-      "link": "https://leekduck.com/events/pokemonspotlighthour2026-07-16/",
-      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-      "start": "2026-07-16T18:00:00.000",
-      "end": "2026-07-16T19:00:00.000",
-      "extraData": {
-        "spotlight": {
-          "name": "Zubat",
-          "canBeShiny": true,
-          "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_041_00.png",
-          "bonus": "2× Catch XP",
-          "list": [
-            {
-              "name": "Zubat",
-              "canBeShiny": true,
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_041_00.png"
-            }
-          ]
-        },
-        "generic": {
-          "hasSpawns": true,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "raichu-super-mega-raid-day-2026",
       "name": "Raichu Super Mega Raid Day",
