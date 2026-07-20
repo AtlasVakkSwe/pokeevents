@@ -1,20 +1,6 @@
 {
-  "uppdaterad": "2026-07-19T07:03:37.469Z",
+  "uppdaterad": "2026-07-20T07:39:50.078Z",
   "events": [
-    {
-      "id": "raichu-super-mega-raid-day-2026",
-      "name": "Raichu Super Mega Raid Day",
-      "typ": "raid-day",
-      "typRubrik": "Raiddag",
-      "link": "https://leekduck.com/events/raichu-super-mega-raid-day-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-07-18-raichu-super-mega-raid-day-2026/raichu-super-mega-raid-day-2026.jpg",
-      "start": "2026-07-18T14:00:00.000",
-      "end": "2026-07-18T17:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Raiddag! Extra många raider hela dagen.",
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "special-anniversary-pikachu-celebration-2026",
       "name": "Special Anniversary Pikachu Celebration",
