@@ -1,38 +1,6 @@
 {
-  "hamtad": "2026-07-21T07:04:23.912Z",
+  "hamtad": "2026-07-22T07:06:12.315Z",
   "events": [
-    {
-      "eventID": "special-anniversary-pikachu-celebration-2026",
-      "name": "Special Anniversary Pikachu Celebration",
-      "eventType": "event",
-      "heading": "Event",
-      "link": "https://leekduck.com/events/special-anniversary-pikachu-celebration-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-07-13-special-anniversary-pikachu-celebration-2026/special-anniversary-pikachu-celebration-2026.jpg",
-      "start": "2026-07-13T10:00:00.000",
-      "end": "2026-07-20T20:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": true,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "max-mondays-2026-07-20",
-      "name": "Dynamax Trubbish during Max Monday",
-      "eventType": "max-mondays",
-      "heading": "Max Mondays",
-      "link": "https://leekduck.com/events/max-mondays-2026-07-20/",
-      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-      "start": "2026-07-20T06:00:00.000",
-      "end": "2026-07-20T21:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "gbl-forever-forward_master-league_retro-cup-great-league-edition",
       "name": "Master League and Retro Cup: Great League Edition | Forever Forward",
@@ -944,6 +912,22 @@
       "extraData": {
         "generic": {
           "hasSpawns": true,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "go-pass-august-2026",
+      "name": "GO Pass: August",
+      "eventType": "go-pass",
+      "heading": "GO Pass",
+      "link": "https://leekduck.com/events/go-pass-august-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-04-go-pass-august-2026/go-pass-august-2026.jpg",
+      "start": "2026-08-04T10:00:00.000",
+      "end": "2026-09-08T10:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
           "hasFieldResearchTasks": false
         }
       }

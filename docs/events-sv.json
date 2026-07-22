@@ -1,213 +1,6 @@
 {
-  "uppdaterad": "2026-07-21T07:04:23.912Z",
+  "uppdaterad": "2026-07-22T07:06:12.315Z",
   "events": [
-    {
-      "id": "special-anniversary-pikachu-celebration-2026",
-      "name": "Special Anniversary Pikachu Celebration",
-      "typ": "event",
-      "typRubrik": "Event",
-      "link": "https://leekduck.com/events/special-anniversary-pikachu-celebration-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-07-13-special-anniversary-pikachu-celebration-2026/special-anniversary-pikachu-celebration-2026.jpg",
-      "start": "2026-07-13T10:00:00.000",
-      "end": "2026-07-20T20:00:00.000",
-      "region": "galler",
-      "sammanfattning": null,
-      "pokemon": [
-        {
-          "namn": "Witch Hat Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.cHALLOWEEN_2017.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Halloween Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.cHALLOWEEN_2021_NOEVOLVE.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Trick or Treat Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.cFALL_2023_NOEVOLVE.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_025_00_28.png",
-          "shiny": true
-        },
-        {
-          "namn": "Summer Style Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_025_00_05.png",
-          "shiny": true
-        },
-        {
-          "namn": "Malachite Crown Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fSUMMER_2023_A.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Aquamarine Crown Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fSUMMER_2023_B.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Dapper Pikachu with red accents",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2025_GOGGLES_RED.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Dapper Pikachu with blue accents",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2025_GOGGLES_BLUE.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Dapper Pikachu with yellow accents",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2025_GOGGLES_YELLOW.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Holiday Attire Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.cHOLIDAY_2023.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Santa Hat Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.cHOLIDAY_2016.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Polka Dot Party Hat Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_025_00_11.png",
-          "shiny": true
-        },
-        {
-          "namn": "Pyrite Crown Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fSUMMER_2023_D.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Winter Carnival Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_pm0025_01_pgo_winter2020.png",
-          "shiny": true
-        },
-        {
-          "namn": "Winter Beanie Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_025_00_08.png",
-          "shiny": true
-        },
-        {
-          "namn": "Flying Pikachu with Multicolored Balloons",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fCOSTUME_2020.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Quartz Crown Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fSUMMER_2023_C.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Flying 5th Anniversary Balloons Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_pm0025_01_pgo_5thanniversary.png",
-          "shiny": true
-        },
-        {
-          "namn": "Moon Crown Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2024_MTIARA.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Sun Crown Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2024_STIARA.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Flower Hat Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_025_00_12.png",
-          "shiny": true
-        },
-        {
-          "namn": "Flower Crown Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_025_00_07.png",
-          "shiny": true
-        },
-        {
-          "namn": "Party Top Hat Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.cJAN_2023_NOEVOLVE.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Cherry Blossom Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.cSPRING_2023.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Cake Hat Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.cANNIVERSARY_2022_NOEVOLVE.icon.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": [],
-      "pokemonRubrik": "Finns att fånga:",
-      "raids": [
-        {
-          "namn": "Formal Pikachu with red accents",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2025_MONOCLE_RED.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Formal Pikachu with yellow accents",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2025_MONOCLE_YELLOW.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Formal Pikachu with blue accents",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2025_MONOCLE_BLUE.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Safari Hat Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_025_00_13.png",
-          "shiny": true
-        },
-        {
-          "namn": "Pikachu wearing a varsity jacket",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fWCS_2025.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Amethyst Crown Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fSUMMER_2023_E.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "World Championships 2022 Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fWCS_2022.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "World Championships 2023 Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fWCS_2023.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "World Championships 2024 Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fWCS_2024.icon.png",
-          "shiny": true
-        }
-      ]
-    },
-    {
-      "id": "max-mondays-2026-07-20",
-      "name": "Dynamax Trubbish during Max Monday",
-      "typ": "max-mondays",
-      "typRubrik": "Max-måndag",
-      "link": "https://leekduck.com/events/max-mondays-2026-07-20/",
-      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-      "start": "2026-07-20T06:00:00.000",
-      "end": "2026-07-20T21:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Max-måndag! Extra Max-strider ikväll.",
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "gbl-forever-forward_master-league_retro-cup-great-league-edition",
       "name": "Master League and Retro Cup: Great League Edition | Forever Forward",
@@ -1033,6 +826,20 @@
       "link": "https://leekduck.com/events/season-23-forever-forward/",
       "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-06-02-season-23-forever-forward/season-23-forever-forward.jpg",
       "start": "2026-06-02T10:00:00.000",
+      "end": "2026-09-08T10:00:00.000",
+      "region": "galler",
+      "sammanfattning": null,
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "go-pass-august-2026",
+      "name": "GO Pass: August",
+      "typ": "go-pass",
+      "typRubrik": "GO Pass",
+      "link": "https://leekduck.com/events/go-pass-august-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-04-go-pass-august-2026/go-pass-august-2026.jpg",
+      "start": "2026-08-04T10:00:00.000",
       "end": "2026-09-08T10:00:00.000",
       "region": "galler",
       "sammanfattning": null,
