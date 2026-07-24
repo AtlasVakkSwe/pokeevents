@@ -1,22 +1,6 @@
 {
-  "hamtad": "2026-07-23T06:45:45.514Z",
+  "hamtad": "2026-07-24T06:44:28.730Z",
   "events": [
-    {
-      "eventID": "raidhour20260722",
-      "name": "Solgaleo Raid Hour",
-      "eventType": "raid-hour",
-      "heading": "Raid Hour",
-      "link": "https://leekduck.com/events/raidhour20260722/",
-      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-      "start": "2026-07-22T18:00:00.000",
-      "end": "2026-07-22T19:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "pokemonspotlighthour2026-07-23",
       "name": "Eevee Spotlight Hour",
