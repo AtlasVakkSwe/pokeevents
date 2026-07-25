@@ -1,26 +1,6 @@
 {
-  "uppdaterad": "2026-07-24T06:44:28.730Z",
+  "uppdaterad": "2026-07-25T06:35:39.843Z",
   "events": [
-    {
-      "id": "pokemonspotlighthour2026-07-23",
-      "name": "Eevee Spotlight Hour",
-      "typ": "pokemon-spotlight-hour",
-      "typRubrik": "Rampljustimme",
-      "link": "https://leekduck.com/events/pokemonspotlighthour2026-07-23/",
-      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-      "start": "2026-07-23T18:00:00.000",
-      "end": "2026-07-23T19:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Eevee dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbelt godis när du fångar.",
-      "pokemon": [
-        {
-          "namn": "Eevee",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_133_00.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
     {
       "id": "pokemon-go-fest-2026-global-sunday-raid-makeup",
       "name": "GO Fest 2026 Sunday Raid Makeup",
@@ -37,7 +17,7 @@
     },
     {
       "id": "ozone-ascent-2026",
-      "name": "Ozone Ascent",
+      "name": "Ozone Ascent - Rayquaza Timed Research",
       "typ": "event",
       "typRubrik": "Event",
       "link": "https://leekduck.com/events/ozone-ascent-2026/",

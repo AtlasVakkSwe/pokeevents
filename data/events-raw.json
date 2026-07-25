@@ -1,35 +1,6 @@
 {
-  "hamtad": "2026-07-24T06:44:28.730Z",
+  "hamtad": "2026-07-25T06:35:39.843Z",
   "events": [
-    {
-      "eventID": "pokemonspotlighthour2026-07-23",
-      "name": "Eevee Spotlight Hour",
-      "eventType": "pokemon-spotlight-hour",
-      "heading": "Pokémon Spotlight Hour",
-      "link": "https://leekduck.com/events/pokemonspotlighthour2026-07-23/",
-      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-      "start": "2026-07-23T18:00:00.000",
-      "end": "2026-07-23T19:00:00.000",
-      "extraData": {
-        "spotlight": {
-          "name": "Eevee",
-          "canBeShiny": true,
-          "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_133_00.png",
-          "bonus": "2× Catch Candy",
-          "list": [
-            {
-              "name": "Eevee",
-              "canBeShiny": true,
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_133_00.png"
-            }
-          ]
-        },
-        "generic": {
-          "hasSpawns": true,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "pokemon-go-fest-2026-global-sunday-raid-makeup",
       "name": "GO Fest 2026 Sunday Raid Makeup",
@@ -48,7 +19,7 @@
     },
     {
       "eventID": "ozone-ascent-2026",
-      "name": "Ozone Ascent",
+      "name": "Ozone Ascent - Rayquaza Timed Research",
       "eventType": "event",
       "heading": "Event",
       "link": "https://leekduck.com/events/ozone-ascent-2026/",
