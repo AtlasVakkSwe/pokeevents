@@ -1,34 +1,6 @@
 {
-  "uppdaterad": "2026-07-27T07:59:32.189Z",
+  "uppdaterad": "2026-07-28T07:07:44.904Z",
   "events": [
-    {
-      "id": "pokemon-go-fest-2026-global-sunday-raid-makeup",
-      "name": "GO Fest 2026 Sunday Raid Makeup",
-      "typ": "pokemon-go-fest",
-      "typRubrik": "GO Fest",
-      "link": "https://leekduck.com/events/pokemon-go-fest-2026-global-sunday-raid-makeup/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-07-26-pokemon-go-fest-2026-global-sunday-raid-makeup/pokemon-go-fest-2026-global-sunday-raid-makeup.jpg",
-      "start": "2026-07-26T10:00:00.000",
-      "end": "2026-07-26T19:00:00.000",
-      "region": "osakert",
-      "sammanfattning": null,
-      "pokemon": [],
-      "bonusar": []
-    },
-    {
-      "id": "ozone-ascent-2026",
-      "name": "Ozone Ascent - Rayquaza Timed Research",
-      "typ": "event",
-      "typRubrik": "Event",
-      "link": "https://leekduck.com/events/ozone-ascent-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-07-25-ozone-ascent-2026/ozone-ascent-2026.jpg",
-      "start": "2026-07-25T10:00:00.000",
-      "end": "2026-07-26T20:00:00.000",
-      "region": "galler",
-      "sammanfattning": null,
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "ultra-unlock-10th-anniversary-edition",
       "name": "Ultra Unlock: 10th Anniversary Edition",
