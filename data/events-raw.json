@@ -1,54 +1,6 @@
 {
-  "hamtad": "2026-07-28T07:07:44.904Z",
+  "hamtad": "2026-07-29T07:13:52.849Z",
   "events": [
-    {
-      "eventID": "ultra-unlock-10th-anniversary-edition",
-      "name": "Ultra Unlock: 10th Anniversary Edition",
-      "eventType": "event",
-      "heading": "Event",
-      "link": "https://leekduck.com/events/ultra-unlock-10th-anniversary-edition/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-07-21-ultra-unlock-10th-anniversary-edition/ultra-unlock-10th-anniversary-edition.jpg",
-      "start": "2026-07-21T10:00:00.000",
-      "end": "2026-07-27T20:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": true,
-          "hasFieldResearchTasks": true
-        }
-      }
-    },
-    {
-      "eventID": "max-mondays-2026-07-27",
-      "name": "Dynamax Feebas during Max Monday",
-      "eventType": "max-mondays",
-      "heading": "Max Mondays",
-      "link": "https://leekduck.com/events/max-mondays-2026-07-27/",
-      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-      "start": "2026-07-27T06:00:00.000",
-      "end": "2026-07-27T21:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "gbl-forever-forward_great-league_ultra-league_master-league-split-2",
-      "name": "Great League, Ultra League, and Master League | Forever Forward",
-      "eventType": "go-battle-league",
-      "heading": "GO Battle League",
-      "link": "https://leekduck.com/events/gbl-forever-forward_great-league_ultra-league_master-league-split-2/",
-      "image": "https://cdn.leekduck.com/assets/img/events/go-battle-league-season-27-forever-forward.jpg",
-      "start": "2026-07-21T20:00:00.000Z",
-      "end": "2026-07-28T20:00:00.000Z",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "mega-salamence-in-mega-raids-july-2026",
       "name": "Mega Salamence in Mega Raids",
@@ -1110,6 +1062,22 @@
       "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
       "start": "2026-09-02T18:00:00.000",
       "end": "2026-09-02T19:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "pokemon-go-fest-2026-mega-finale",
+      "name": "Pokémon GO Fest 2026: Mega Finale",
+      "eventType": "pokemon-go-fest",
+      "heading": "Pokémon GO Fest",
+      "link": "https://leekduck.com/events/pokemon-go-fest-2026-mega-finale/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-05-pokemon-go-fest-2026-mega-finale/pokemon-go-fest-2026-mega-finale.jpg?v2",
+      "start": "2026-09-05T10:00:00.000",
+      "end": "2026-09-06T19:00:00.000",
       "extraData": {
         "generic": {
           "hasSpawns": false,
