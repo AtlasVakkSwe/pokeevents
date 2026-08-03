@@ -1,51 +1,6 @@
 {
-  "hamtad": "2026-08-02T07:05:37.144Z",
+  "hamtad": "2026-08-03T07:54:26.618Z",
   "events": [
-    {
-      "eventID": "pokemonspotlighthour2026-07-30",
-      "name": "Bidoof Spotlight Hour",
-      "eventType": "pokemon-spotlight-hour",
-      "heading": "Pokémon Spotlight Hour",
-      "link": "https://leekduck.com/events/pokemonspotlighthour2026-07-30/",
-      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-      "start": "2026-07-30T18:00:00.000",
-      "end": "2026-07-30T19:00:00.000",
-      "extraData": {
-        "spotlight": {
-          "name": "Bidoof",
-          "canBeShiny": true,
-          "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_399_00.png",
-          "bonus": "2× Transfer Candy",
-          "list": [
-            {
-              "name": "Bidoof",
-              "canBeShiny": true,
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_399_00.png"
-            }
-          ]
-        },
-        "generic": {
-          "hasSpawns": true,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "gigantamax-rillaboom-max-battle-day-2026",
-      "name": "Gigantamax Rillaboom Max Battle Day",
-      "eventType": "max-battles",
-      "heading": "Max Battles",
-      "link": "https://leekduck.com/events/gigantamax-rillaboom-max-battle-day-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-01-gigantamax-rillaboom-max-battle-day-2026/gigantamax-rillaboom-max-battle-day.jpg",
-      "start": "2026-08-01T14:00:00.000",
-      "end": "2026-08-01T17:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "choose-your-path-fairy-trail-2026",
       "name": "Choose Your Path: Fairy Trail",
@@ -224,6 +179,35 @@
       }
     },
     {
+      "eventID": "pokemonspotlighthour2026-08-06",
+      "name": "Delibird Spotlight Hour",
+      "eventType": "pokemon-spotlight-hour",
+      "heading": "Pokémon Spotlight Hour",
+      "link": "https://leekduck.com/events/pokemonspotlighthour2026-08-06/",
+      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
+      "start": "2026-08-06T18:00:00.000",
+      "end": "2026-08-06T19:00:00.000",
+      "extraData": {
+        "spotlight": {
+          "name": "Delibird",
+          "canBeShiny": true,
+          "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_225_00.png",
+          "bonus": "2× Catch Stardust",
+          "list": [
+            {
+              "name": "Delibird",
+              "canBeShiny": true,
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_225_00.png"
+            }
+          ]
+        },
+        "generic": {
+          "hasSpawns": true,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
       "eventID": "fire-and-ice-hatch-day-2026",
       "name": "Fire and Ice Hatch Day",
       "eventType": "event",
@@ -383,6 +367,35 @@
       "extraData": {
         "generic": {
           "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "pokemonspotlighthour2026-08-13",
+      "name": "Wurmple Spotlight Hour",
+      "eventType": "pokemon-spotlight-hour",
+      "heading": "Pokémon Spotlight Hour",
+      "link": "https://leekduck.com/events/pokemonspotlighthour2026-08-13/",
+      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
+      "start": "2026-08-13T18:00:00.000",
+      "end": "2026-08-13T19:00:00.000",
+      "extraData": {
+        "spotlight": {
+          "name": "Wurmple",
+          "canBeShiny": true,
+          "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_265_00.png",
+          "bonus": "2× Evolution XP",
+          "list": [
+            {
+              "name": "Wurmple",
+              "canBeShiny": true,
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_265_00.png"
+            }
+          ]
+        },
+        "generic": {
+          "hasSpawns": true,
           "hasFieldResearchTasks": false
         }
       }
@@ -778,6 +791,35 @@
       }
     },
     {
+      "eventID": "pokemonspotlighthour2026-08-20",
+      "name": "Magikarp Spotlight Hour",
+      "eventType": "pokemon-spotlight-hour",
+      "heading": "Pokémon Spotlight Hour",
+      "link": "https://leekduck.com/events/pokemonspotlighthour2026-08-20/",
+      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
+      "start": "2026-08-20T18:00:00.000",
+      "end": "2026-08-20T19:00:00.000",
+      "extraData": {
+        "spotlight": {
+          "name": "Magikarp",
+          "canBeShiny": true,
+          "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_129_00.png",
+          "bonus": "2× Catch XP",
+          "list": [
+            {
+              "name": "Magikarp",
+              "canBeShiny": true,
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_129_00.png"
+            }
+          ]
+        },
+        "generic": {
+          "hasSpawns": true,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
       "eventID": "starmie-super-mega-raid-day-2026",
       "name": "Starmie Super Mega Raid Day",
       "eventType": "raid-day",
@@ -919,6 +961,35 @@
       "extraData": {
         "generic": {
           "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "pokemonspotlighthour2026-08-27",
+      "name": "Mankey Spotlight Hour",
+      "eventType": "pokemon-spotlight-hour",
+      "heading": "Pokémon Spotlight Hour",
+      "link": "https://leekduck.com/events/pokemonspotlighthour2026-08-27/",
+      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
+      "start": "2026-08-27T18:00:00.000",
+      "end": "2026-08-27T19:00:00.000",
+      "extraData": {
+        "spotlight": {
+          "name": "Mankey",
+          "canBeShiny": true,
+          "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_056_00.png",
+          "bonus": "2× Catch Candy",
+          "list": [
+            {
+              "name": "Mankey",
+              "canBeShiny": true,
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_056_00.png"
+            }
+          ]
+        },
+        "generic": {
+          "hasSpawns": true,
           "hasFieldResearchTasks": false
         }
       }
@@ -1160,6 +1231,22 @@
             }
           ]
         },
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "lego-pokemon-go-2026",
+      "name": "LEGO Stores and Pokémon GO",
+      "eventType": "event",
+      "heading": "Event",
+      "link": "https://leekduck.com/events/lego-pokemon-go-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-03-lego-pokemon-go-2026/lego-pokemon-go-2026.jpg",
+      "start": "2026-08-03T10:00:00.000",
+      "end": "2026-09-30T23:59:00.000",
+      "extraData": {
         "generic": {
           "hasSpawns": false,
           "hasFieldResearchTasks": false

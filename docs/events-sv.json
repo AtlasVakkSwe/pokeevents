@@ -1,40 +1,6 @@
 {
-  "uppdaterad": "2026-08-02T07:05:37.144Z",
+  "uppdaterad": "2026-08-03T07:54:26.618Z",
   "events": [
-    {
-      "id": "pokemonspotlighthour2026-07-30",
-      "name": "Bidoof Spotlight Hour",
-      "typ": "pokemon-spotlight-hour",
-      "typRubrik": "Rampljustimme",
-      "link": "https://leekduck.com/events/pokemonspotlighthour2026-07-30/",
-      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-      "start": "2026-07-30T18:00:00.000",
-      "end": "2026-07-30T19:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Bidoof dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbelt godis när du skickar iväg Pokémon.",
-      "pokemon": [
-        {
-          "namn": "Bidoof",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_399_00.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
-    {
-      "id": "gigantamax-rillaboom-max-battle-day-2026",
-      "name": "Gigantamax Rillaboom Max Battle Day",
-      "typ": "max-battles",
-      "typRubrik": "Max-strider",
-      "link": "https://leekduck.com/events/gigantamax-rillaboom-max-battle-day-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-01-gigantamax-rillaboom-max-battle-day-2026/gigantamax-rillaboom-max-battle-day.jpg",
-      "start": "2026-08-01T14:00:00.000",
-      "end": "2026-08-01T17:00:00.000",
-      "region": "galler",
-      "sammanfattning": null,
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "choose-your-path-fairy-trail-2026",
       "name": "Choose Your Path: Fairy Trail",
@@ -163,6 +129,26 @@
       "region": "galler",
       "sammanfattning": "Raidtimme! Extra många raider i en timme.",
       "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "pokemonspotlighthour2026-08-06",
+      "name": "Delibird Spotlight Hour",
+      "typ": "pokemon-spotlight-hour",
+      "typRubrik": "Rampljustimme",
+      "link": "https://leekduck.com/events/pokemonspotlighthour2026-08-06/",
+      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
+      "start": "2026-08-06T18:00:00.000",
+      "end": "2026-08-06T19:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Delibird dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbelt stjärnstoft när du fångar.",
+      "pokemon": [
+        {
+          "namn": "Delibird",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_225_00.png",
+          "shiny": true
+        }
+      ],
       "bonusar": []
     },
     {
@@ -333,6 +319,26 @@
       "bonusar": []
     },
     {
+      "id": "pokemonspotlighthour2026-08-13",
+      "name": "Wurmple Spotlight Hour",
+      "typ": "pokemon-spotlight-hour",
+      "typRubrik": "Rampljustimme",
+      "link": "https://leekduck.com/events/pokemonspotlighthour2026-08-13/",
+      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
+      "start": "2026-08-13T18:00:00.000",
+      "end": "2026-08-13T19:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Wurmple dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbel XP när du utvecklar.",
+      "pokemon": [
+        {
+          "namn": "Wurmple",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_265_00.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
+    },
+    {
       "id": "august-communityday2026",
       "name": "Nickit Community Day",
       "typ": "community-day",
@@ -455,6 +461,26 @@
       "region": "galler",
       "sammanfattning": "Raidtimme! Extra många raider i en timme.",
       "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "pokemonspotlighthour2026-08-20",
+      "name": "Magikarp Spotlight Hour",
+      "typ": "pokemon-spotlight-hour",
+      "typRubrik": "Rampljustimme",
+      "link": "https://leekduck.com/events/pokemonspotlighthour2026-08-20/",
+      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
+      "start": "2026-08-20T18:00:00.000",
+      "end": "2026-08-20T19:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Magikarp dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbel XP när du fångar.",
+      "pokemon": [
+        {
+          "namn": "Magikarp",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_129_00.png",
+          "shiny": true
+        }
+      ],
       "bonusar": []
     },
     {
@@ -642,6 +668,26 @@
       "bonusar": []
     },
     {
+      "id": "pokemonspotlighthour2026-08-27",
+      "name": "Mankey Spotlight Hour",
+      "typ": "pokemon-spotlight-hour",
+      "typRubrik": "Rampljustimme",
+      "link": "https://leekduck.com/events/pokemonspotlighthour2026-08-27/",
+      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
+      "start": "2026-08-27T18:00:00.000",
+      "end": "2026-08-27T19:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Mankey dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbelt godis när du fångar.",
+      "pokemon": [
+        {
+          "namn": "Mankey",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_056_00.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
+    },
+    {
       "id": "pokemon-xp-2026-worlds",
       "name": "Pokémon XP &amp; 2026 Worlds",
       "typ": "event",
@@ -821,6 +867,20 @@
           "shiny": true
         }
       ],
+      "bonusar": []
+    },
+    {
+      "id": "lego-pokemon-go-2026",
+      "name": "LEGO Stores and Pokémon GO",
+      "typ": "event",
+      "typRubrik": "Event",
+      "link": "https://leekduck.com/events/lego-pokemon-go-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-03-lego-pokemon-go-2026/lego-pokemon-go-2026.jpg",
+      "start": "2026-08-03T10:00:00.000",
+      "end": "2026-09-30T23:59:00.000",
+      "region": "galler",
+      "sammanfattning": null,
+      "pokemon": [],
       "bonusar": []
     }
   ]
