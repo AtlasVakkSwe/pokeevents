@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-08-03T07:54:26.618Z",
+  "uppdaterad": "2026-08-04T07:06:52.275Z",
   "events": [
     {
       "id": "choose-your-path-fairy-trail-2026",
@@ -200,6 +200,21 @@
         {
           "namn": "Snorunt",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_361_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Litwick",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_607_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Cubchoo",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_613_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Litleo",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_667_00.png",
           "shiny": true
         },
         {
@@ -875,7 +890,7 @@
       "typ": "event",
       "typRubrik": "Event",
       "link": "https://leekduck.com/events/lego-pokemon-go-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-03-lego-pokemon-go-2026/lego-pokemon-go-2026.jpg",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-03-lego-pokemon-go-2026/lego-stores-pokemon-go.jpg",
       "start": "2026-08-03T10:00:00.000",
       "end": "2026-09-30T23:59:00.000",
       "region": "galler",
