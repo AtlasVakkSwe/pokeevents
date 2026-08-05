@@ -1,34 +1,6 @@
 {
-  "uppdaterad": "2026-08-04T07:06:52.275Z",
+  "uppdaterad": "2026-08-05T07:09:03.816Z",
   "events": [
-    {
-      "id": "choose-your-path-fairy-trail-2026",
-      "name": "Choose Your Path: Fairy Trail",
-      "typ": "choose-your-path",
-      "typRubrik": "Välj din väg",
-      "link": "https://leekduck.com/events/choose-your-path-fairy-trail-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/choose-your-path-evergreen.jpg",
-      "start": "2026-07-28T10:00:00.000",
-      "end": "2026-08-03T20:00:00.000",
-      "region": "galler",
-      "sammanfattning": null,
-      "pokemon": [],
-      "bonusar": []
-    },
-    {
-      "id": "max-mondays-2026-08-03",
-      "name": "Dynamax Magmar during Max Monday",
-      "typ": "max-mondays",
-      "typRubrik": "Max-måndag",
-      "link": "https://leekduck.com/events/max-mondays-2026-08-03/",
-      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-      "start": "2026-08-03T06:00:00.000",
-      "end": "2026-08-03T21:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Max-måndag! Extra Max-strider ikväll.",
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "go-pass-july-2026",
       "name": "GO Pass: July",
