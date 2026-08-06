@@ -129,3 +129,33 @@ export function formatTidsspann(start, slut, nu) {
   }
   return `${formatDatum(start, nu)} kl ${formatKlocka(start)} – ${formatDatum(slut, nu)} kl ${formatKlocka(slut)}`;
 }
+
+// Nedräkning (spec: specs/2026-08-07-nedrakning-design.md).
+// Avrundning nedåt genomgående: underskattning gör att man kommer för tidigt
+// i stället för för sent, och skyndar på när tiden håller på att ta slut.
+const MINUT_MS = 60 * 1000;
+
+function enhet(diffMs) {
+  const minuter = Math.floor(diffMs / MINUT_MS);
+  if (minuter < 60) {
+    return { antal: minuter, ental: 'minut', flertal: 'minuter' };
+  }
+  const timmar = Math.floor(minuter / 60);
+  if (timmar < 24) {
+    return { antal: timmar, ental: 'timme', flertal: 'timmar' };
+  }
+  return { antal: Math.floor(timmar / 24), ental: 'dag', flertal: 'dagar' };
+}
+
+// Pekar alltid på eventets nästa gräns: starten om det inte börjat, annars slutet.
+export function formatNedrakning(start, slut, nu) {
+  const pagar = start.getTime() <= nu.getTime();
+  const mal = pagar ? slut : start;
+  const diff = mal.getTime() - nu.getTime();
+  if (diff < MINUT_MS) {
+    return pagar ? 'slutar strax' : 'börjar nu';
+  }
+  const { antal, ental, flertal } = enhet(diff);
+  const text = `om ${antal} ${antal === 1 ? ental : flertal}`;
+  return pagar ? `slutar ${text}` : text;
+}
