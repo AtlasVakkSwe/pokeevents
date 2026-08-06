@@ -86,6 +86,10 @@ const sheetTickare = [];
 let tickTimer = null;
 let senasteRendering = 0;
 let renderadDag = null;
+// Spärrar start() mot att köra flera gånger samtidigt: tick() kan anropa
+// ritaOm() var 30:e sekund så länge dagbytet kvarstår, och utan spärren
+// skulle en långsam hämtning ge en ny, överlappande nätverksbegäran per tick.
+let renderingPagar = false;
 
 function registrera(register, nod, textFn) {
   register.push({ nod, textFn });
@@ -360,6 +364,10 @@ async function hamtaRaids() {
 }
 
 async function start() {
+  if (renderingPagar) {
+    return;
+  }
+  renderingPagar = true;
   const innehall = document.getElementById('innehall');
   try {
     const [svar, raidGrupper] = await Promise.all([
@@ -421,6 +429,8 @@ async function start() {
       el('p', 'status-meddelande', 'Hoppsan! Det gick inte att ladda events. Testa igen om en stund.')
     );
     console.error(fel);
+  } finally {
+    renderingPagar = false;
   }
 }
 
