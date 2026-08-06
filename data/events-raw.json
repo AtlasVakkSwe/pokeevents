@@ -1,22 +1,6 @@
 {
-  "hamtad": "2026-08-06T07:11:11.280Z",
+  "hamtad": "2026-08-06T21:59:53.726Z",
   "events": [
-    {
-      "eventID": "raidhour20260805",
-      "name": "Uxie, Mesprit, and Azelf Raid Hour",
-      "eventType": "raid-hour",
-      "heading": "Raid Hour",
-      "link": "https://leekduck.com/events/raidhour20260805/",
-      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-      "start": "2026-08-05T18:00:00.000",
-      "end": "2026-08-05T19:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "pokemonspotlighthour2026-08-06",
       "name": "Delibird Spotlight Hour",
