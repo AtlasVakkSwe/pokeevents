@@ -1,7 +1,7 @@
 // Kalendervy v2.0 (spec: specs/2026-07-08-kalendervy-design.md).
 // All extern data sätts som text (textContent), aldrig som HTML.
 
-import { formatTidsspann, formatDagRubrik, formatChip, formatKlocka, formatDatum, arHelg } from './lib/tid.js';
+import { formatTidsspann, formatDagRubrik, formatChip, formatKlocka, formatDatum, arHelg, formatNedrakning } from './lib/tid.js';
 import { grupperaKalender } from './lib/kalender.js';
 
 const POKEMONBILD_TYPER = new Set([
@@ -168,6 +168,17 @@ function raidSheet(grupper) {
 
 /* ---------- Kalenderrader ---------- */
 
+/* ---------- Tidsrad: klockslag · nedräkning ---------- */
+
+// nedrakningFn tar ett nu och returnerar texten, så Task 4 kan uppdatera
+// enbart nedräkningsnoden utan att röra klockslaget.
+function tidsrad(klockText, nedrakningFn, nu, gron) {
+  const nod = el('span', gron ? 'rad-tid rad-tid-gron' : 'rad-tid');
+  nod.append(el('span', 'rad-klocka', `${klockText} · `));
+  nod.append(el('span', 'rad-nedrakning', nedrakningFn(nu)));
+  return nod;
+}
+
 function radBild(event) {
   if (POKEMONBILD_TYPER.has(event.typ) && event.pokemon[0]?.bild) {
     return { url: event.pokemon[0].bild, rund: true };
@@ -191,8 +202,17 @@ function rad(event, dagDatum, nu, pagar) {
   } else if (event.region === 'osakert') {
     namn += ' 🟡';
   }
-  knapp.append(el('span', 'rad-namn', namn));
-  knapp.append(el('span', pagar ? 'rad-chip rad-chip-gron' : 'rad-chip', formatChip(event.startDate, event.endDate, dagDatum)));
+  const textkolumn = el('span', 'rad-text');
+  textkolumn.append(el('span', 'rad-namn', namn));
+  textkolumn.append(
+    tidsrad(
+      formatChip(event.startDate, event.endDate, dagDatum),
+      (n) => formatNedrakning(event.startDate, event.endDate, n),
+      nu,
+      pagar
+    )
+  );
+  knapp.append(textkolumn);
   knapp.append(el('span', 'rad-pil', '›'));
   knapp.addEventListener('click', () => eventSheet(event, nu));
   return knapp;
@@ -205,8 +225,12 @@ function raidRad(grupper) {
   if (alla[0]?.bild) {
     knapp.append(bildNod(alla[0].bild, 'rad-bild rad-bild-rund'));
   }
-  knapp.append(el('span', 'rad-namn', `Raider idag: ${alla[0]?.namn ?? ''} +${Math.max(alla.length - 1, 0)}`));
-  knapp.append(el('span', 'rad-chip rad-chip-gron', 'hela dagen'));
+  const textkolumn = el('span', 'rad-text');
+  textkolumn.append(el('span', 'rad-namn', `Raider idag: ${alla[0]?.namn ?? ''} +${Math.max(alla.length - 1, 0)}`));
+  const tid = el('span', 'rad-tid rad-tid-gron');
+  tid.append(el('span', 'rad-klocka', 'hela dagen'));
+  textkolumn.append(tid);
+  knapp.append(textkolumn);
   knapp.append(el('span', 'rad-pil', '›'));
   knapp.addEventListener('click', () => raidSheet(grupper));
   return knapp;
