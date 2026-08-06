@@ -74,6 +74,46 @@ function miniPokemonRad(lista, max) {
   return rad;
 }
 
+/* ---------- Tickande nedräkningar ---------- */
+
+const TICK_MS = 30 * 1000;
+const OMRITNING_MS = 5 * 60 * 1000;
+
+// Sidans egna nedräkningar töms vid varje omritning; sheetens hålls separat
+// och töms när sheeten stängs, annars växer registret för varje öppnat event.
+const tickare = [];
+const sheetTickare = [];
+let tickTimer = null;
+let senasteRendering = 0;
+
+function registrera(register, nod, textFn) {
+  register.push({ nod, textFn });
+  return nod;
+}
+
+function tick() {
+  const nu = new Date();
+  for (const post of tickare) {
+    post.nod.textContent = post.textFn(nu);
+  }
+  for (const post of sheetTickare) {
+    post.nod.textContent = post.textFn(nu);
+  }
+}
+
+function startaTick() {
+  if (tickTimer === null) {
+    tickTimer = setInterval(tick, TICK_MS);
+  }
+}
+
+function stoppaTick() {
+  if (tickTimer !== null) {
+    clearInterval(tickTimer);
+    tickTimer = null;
+  }
+}
+
 /* ---------- Bottom sheet ---------- */
 
 let sheetOppen = false;
@@ -90,6 +130,7 @@ function stangSheet() {
     return;
   }
   sheetOppen = false;
+  sheetTickare.length = 0;
   sheet.hidden = true;
   backdrop.hidden = true;
   document.body.style.overflow = '';
@@ -126,7 +167,13 @@ function eventSheet(event, nu) {
   noder.push(el('p', 'sheet-typ', event.typRubrik));
   noder.push(el('h2', 'sheet-namn', event.name));
   const sheetTid = el('p', 'sheet-tid', '🕐 ' + formatTidsspann(event.startDate, event.endDate, nu) + ' · ');
-  sheetTid.append(el('span', 'rad-nedrakning', formatNedrakning(event.startDate, event.endDate, nu)));
+  sheetTid.append(
+    registrera(
+      sheetTickare,
+      el('span', 'rad-nedrakning', formatNedrakning(event.startDate, event.endDate, nu)),
+      (n) => formatNedrakning(event.startDate, event.endDate, n)
+    )
+  );
   noder.push(sheetTid);
   const etikett = ETIKETTER[event.region] || ETIKETTER.osakert;
   noder.push(el('span', `etikett ${etikett.klass}`, etikett.text));
@@ -177,7 +224,7 @@ function raidSheet(grupper) {
 function tidsrad(klockText, nedrakningFn, nu, gron) {
   const nod = el('span', gron ? 'rad-tid rad-tid-gron' : 'rad-tid');
   nod.append(el('span', 'rad-klocka', `${klockText} · `));
-  nod.append(el('span', 'rad-nedrakning', nedrakningFn(nu)));
+  nod.append(registrera(tickare, el('span', 'rad-nedrakning', nedrakningFn(nu)), nedrakningFn));
   return nod;
 }
 
@@ -319,6 +366,8 @@ async function start() {
     }
     const data = await svar.json();
     const nu = new Date();
+    tickare.length = 0;
+    senasteRendering = Date.now();
     const { nuPanel, dagar, alltidPagaende } = grupperaKalender(data.events, nu);
 
     innehall.textContent = '';
@@ -358,6 +407,7 @@ async function start() {
     }
 
     document.body.append(backdrop, sheet);
+    startaTick();
     visaUppdaterad(data.uppdaterad);
   } catch (fel) {
     innehall.textContent = '';
@@ -367,5 +417,21 @@ async function start() {
     console.error(fel);
   }
 }
+
+document.addEventListener('visibilitychange', () => {
+  if (document.hidden) {
+    stoppaTick();
+    return;
+  }
+  // Har det gått länge är hela grupperingen byggd på ett gammalt nu — dagrubriker,
+  // vilka events som räknas som pågående och NU-panelen är då fel, inte bara siffran.
+  if (Date.now() - senasteRendering > OMRITNING_MS) {
+    stangSheet();
+    start();
+    return;
+  }
+  tick();
+  startaTick();
+});
 
 start();
