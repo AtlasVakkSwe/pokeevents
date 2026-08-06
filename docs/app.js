@@ -1,7 +1,7 @@
 // Kalendervy v2.0 (spec: specs/2026-07-08-kalendervy-design.md).
 // All extern data sätts som text (textContent), aldrig som HTML.
 
-import { formatTidsspann, formatDagRubrik, formatChip, formatKlocka, formatDatum, arHelg, formatNedrakning } from './lib/tid.js';
+import { formatTidsspann, formatDagRubrik, formatChip, formatKlocka, formatDatum, arHelg, formatNedrakning, dagNyckel } from './lib/tid.js';
 import { grupperaKalender } from './lib/kalender.js';
 
 const POKEMONBILD_TYPER = new Set([
@@ -85,6 +85,7 @@ const tickare = [];
 const sheetTickare = [];
 let tickTimer = null;
 let senasteRendering = 0;
+let renderadDag = null;
 
 function registrera(register, nod, textFn) {
   register.push({ nod, textFn });
@@ -93,6 +94,10 @@ function registrera(register, nod, textFn) {
 
 function tick() {
   const nu = new Date();
+  if (renderadDag !== null && dagNyckel(nu) !== renderadDag) {
+    ritaOm();
+    return;
+  }
   for (const post of tickare) {
     post.nod.textContent = post.textFn(nu);
   }
@@ -368,6 +373,7 @@ async function start() {
     const nu = new Date();
     tickare.length = 0;
     senasteRendering = Date.now();
+    renderadDag = dagNyckel(nu);
     const { nuPanel, dagar, alltidPagaende } = grupperaKalender(data.events, nu);
 
     innehall.textContent = '';
@@ -418,6 +424,17 @@ async function start() {
   }
 }
 
+// Stänger en ev. öppen sheet (och unwindar dess history-post så att en Back-tryck
+// efteråt lämnar appen i stället för att träffa en övergiven post) och ritar om
+// hela sidan mot ett färskt nu.
+function ritaOm() {
+  if (sheetOppen) {
+    stangSheet();
+    history.back();
+  }
+  start();
+}
+
 document.addEventListener('visibilitychange', () => {
   if (document.hidden) {
     stoppaTick();
@@ -426,8 +443,7 @@ document.addEventListener('visibilitychange', () => {
   // Har det gått länge är hela grupperingen byggd på ett gammalt nu — dagrubriker,
   // vilka events som räknas som pågående och NU-panelen är då fel, inte bara siffran.
   if (Date.now() - senasteRendering > OMRITNING_MS) {
-    stangSheet();
-    start();
+    ritaOm();
     return;
   }
   tick();
