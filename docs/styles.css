@@ -123,6 +123,11 @@ button {
   line-height: 1.2;
 }
 
+.nu-panel .rad-tid {
+  display: block;
+  margin-top: 2px;
+}
+
 .mini-pokemonrad {
   display: flex;
   align-items: center;

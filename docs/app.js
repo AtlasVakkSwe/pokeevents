@@ -125,7 +125,9 @@ function eventSheet(event, nu) {
   }
   noder.push(el('p', 'sheet-typ', event.typRubrik));
   noder.push(el('h2', 'sheet-namn', event.name));
-  noder.push(el('p', 'sheet-tid', '🕐 ' + formatTidsspann(event.startDate, event.endDate, nu)));
+  const sheetTid = el('p', 'sheet-tid', '🕐 ' + formatTidsspann(event.startDate, event.endDate, nu) + ' · ');
+  sheetTid.append(el('span', 'rad-nedrakning', formatNedrakning(event.startDate, event.endDate, nu)));
+  noder.push(sheetTid);
   const etikett = ETIKETTER[event.region] || ETIKETTER.osakert;
   noder.push(el('span', `etikett ${etikett.klass}`, etikett.text));
   if (event.sammanfattning) {
@@ -241,8 +243,16 @@ function raidRad(grupper) {
 function nuPanelNod(event, nu) {
   const panel = el('button', 'nu-panel');
   panel.type = 'button';
-  panel.append(el('span', 'nu-etikett', `NU · slutar kl ${formatKlocka(event.endDate)}`));
+  panel.append(el('span', 'nu-etikett', 'NU'));
   panel.append(el('span', 'nu-namn', event.name));
+  panel.append(
+    tidsrad(
+      formatChip(event.startDate, event.endDate, nu),
+      (n) => formatNedrakning(event.startDate, event.endDate, n),
+      nu,
+      true
+    )
+  );
   if (event.pokemon.length > 0) {
     panel.append(miniPokemonRad(event.pokemon, 4));
   }
