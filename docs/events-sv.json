@@ -1,94 +1,6 @@
 {
-  "uppdaterad": "2026-08-05T07:09:03.816Z",
+  "uppdaterad": "2026-08-06T07:11:11.280Z",
   "events": [
-    {
-      "id": "go-pass-july-2026",
-      "name": "GO Pass: July",
-      "typ": "go-pass",
-      "typRubrik": "GO Pass",
-      "link": "https://leekduck.com/events/go-pass-july-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-07-07-go-pass-july-2026/go-pass-july-2026.jpg",
-      "start": "2026-07-07T10:00:00.000",
-      "end": "2026-08-04T10:00:00.000",
-      "region": "galler",
-      "sammanfattning": null,
-      "pokemon": [],
-      "bonusar": []
-    },
-    {
-      "id": "gbl-forever-forward_great-league_master-premier",
-      "name": "Great League and Master Premier | Forever Forward",
-      "typ": "go-battle-league",
-      "typRubrik": "GO Battle League",
-      "link": "https://leekduck.com/events/gbl-forever-forward_great-league_master-premier/",
-      "image": "https://cdn.leekduck.com/assets/img/events/gobattle-greatleague-key.jpg",
-      "start": "2026-07-28T20:00:00.000Z",
-      "end": "2026-08-04T20:00:00.000Z",
-      "region": "galler",
-      "sammanfattning": "Nytt i GO Battle League (strider mot andra spelare).",
-      "pokemon": [],
-      "bonusar": []
-    },
-    {
-      "id": "shadow-palkia-in-shadow-raids-july-2026",
-      "name": "Shadow Palkia in Shadow Raids",
-      "typ": "raid-battles",
-      "typRubrik": "Raider",
-      "link": "https://leekduck.com/events/shadow-palkia-in-shadow-raids-july-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
-      "start": "2026-07-01T06:00:00.000",
-      "end": "2026-08-04T22:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Palkia finns i raid. Kan vara shiny! ✨",
-      "pokemon": [
-        {
-          "namn": "Palkia",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_484_00.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
-    {
-      "id": "kyurem-in-5-star-raid-battles-july-2026",
-      "name": "Kyurem in 5-star Raid Battles",
-      "typ": "raid-battles",
-      "typRubrik": "Raider",
-      "link": "https://leekduck.com/events/kyurem-in-5-star-raid-battles-july-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/kyurem.jpg",
-      "start": "2026-07-29T06:00:00.000",
-      "end": "2026-08-04T22:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Kyurem finns i raid. Kan vara shiny! ✨",
-      "pokemon": [
-        {
-          "namn": "Kyurem",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_646_11.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
-    {
-      "id": "mega-aggron-in-mega-raids-july-2026",
-      "name": "Mega Aggron in Mega Raids",
-      "typ": "raid-battles",
-      "typRubrik": "Raider",
-      "link": "https://leekduck.com/events/mega-aggron-in-mega-raids-july-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
-      "start": "2026-07-29T06:00:00.000",
-      "end": "2026-08-04T22:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Mega Aggron finns i raid. Kan vara shiny! ✨",
-      "pokemon": [
-        {
-          "namn": "Mega Aggron",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm306.fMEGA.icon.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
     {
       "id": "raidhour20260805",
       "name": "Uxie, Mesprit, and Azelf Raid Hour",
@@ -675,18 +587,146 @@
       "bonusar": []
     },
     {
-      "id": "pokemon-xp-2026-worlds",
-      "name": "Pokémon XP &amp; 2026 Worlds",
-      "typ": "event",
-      "typRubrik": "Event",
-      "link": "https://leekduck.com/events/pokemon-xp-2026-worlds/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
-      "start": "2026-08-25T10:00:00.000",
-      "end": "2026-08-30T20:00:00.000",
+      "id": "pokemon-world-championships-2026-timed-research-twitch-drops",
+      "name": "Twitch Drops for 2026 Pokémon World Championships",
+      "typ": "research",
+      "typRubrik": "Forskning",
+      "link": "https://leekduck.com/events/pokemon-world-championships-2026-timed-research-twitch-drops/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-28-pokemon-world-championships-2026-timed-research-twitch-drops/2026-worlds-go-drops.jpg",
+      "start": "2026-08-28T16:00:00.000Z",
+      "end": "2026-08-31T03:00:00.000Z",
       "region": "galler",
       "sammanfattning": null,
       "pokemon": [],
       "bonusar": []
+    },
+    {
+      "id": "pokemon-xp-2026-worlds",
+      "name": "PokémonXP &amp; 2026 Worlds",
+      "typ": "event",
+      "typRubrik": "Event",
+      "link": "https://leekduck.com/events/pokemon-xp-2026-worlds/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-25-pokemon-xp-2026-worlds/pokemon-xp-2026-worlds.jpg",
+      "start": "2026-08-25T10:00:00.000",
+      "end": "2026-08-30T20:00:00.000",
+      "region": "galler",
+      "sammanfattning": null,
+      "pokemon": [
+        {
+          "namn": "Ralts",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_280_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Numel",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_322_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Spheal",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_363_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Drifloon",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_425_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Elgyem",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_605_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Sobble",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm816.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Pawmi",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm921.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Deino",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_633_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Alolan Sandshrew",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_027_61.png",
+          "shiny": true
+        },
+        {
+          "namn": "Mankey",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_056_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Lickitung",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_108_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Totodile",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_158_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Wooper",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_194_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Foongus",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_590_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Froakie",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_656_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Litten",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm725.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Togetic",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_176_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Beldum",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_374_00.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": [],
+      "pokemonRubrik": "Finns att fånga:",
+      "raids": [
+        {
+          "namn": "Pikachu wearing a Cosmog-themed spacesuit",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fPXP_2026.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Impidimp",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm859.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "World Championships 2026 Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fWCS_2026.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Honedge",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_679_00.png",
+          "shiny": true
+        }
+      ]
     },
     {
       "id": "max-mondays-2026-08-31",

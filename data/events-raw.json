@@ -1,135 +1,6 @@
 {
-  "hamtad": "2026-08-05T07:09:03.816Z",
+  "hamtad": "2026-08-06T07:11:11.280Z",
   "events": [
-    {
-      "eventID": "go-pass-july-2026",
-      "name": "GO Pass: July",
-      "eventType": "go-pass",
-      "heading": "GO Pass",
-      "link": "https://leekduck.com/events/go-pass-july-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-07-07-go-pass-july-2026/go-pass-july-2026.jpg",
-      "start": "2026-07-07T10:00:00.000",
-      "end": "2026-08-04T10:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "gbl-forever-forward_great-league_master-premier",
-      "name": "Great League and Master Premier | Forever Forward",
-      "eventType": "go-battle-league",
-      "heading": "GO Battle League",
-      "link": "https://leekduck.com/events/gbl-forever-forward_great-league_master-premier/",
-      "image": "https://cdn.leekduck.com/assets/img/events/gobattle-greatleague-key.jpg",
-      "start": "2026-07-28T20:00:00.000Z",
-      "end": "2026-08-04T20:00:00.000Z",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "shadow-palkia-in-shadow-raids-july-2026",
-      "name": "Shadow Palkia in Shadow Raids",
-      "eventType": "raid-battles",
-      "heading": "Raid Battles",
-      "link": "https://leekduck.com/events/shadow-palkia-in-shadow-raids-july-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
-      "start": "2026-07-01T06:00:00.000",
-      "end": "2026-08-04T22:00:00.000",
-      "extraData": {
-        "raidbattles": {
-          "bosses": [
-            {
-              "name": "Palkia",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_484_00.png",
-              "canBeShiny": true
-            }
-          ],
-          "shinies": [
-            {
-              "name": "Palkia",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_484_00_shiny.png"
-            }
-          ]
-        },
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "kyurem-in-5-star-raid-battles-july-2026",
-      "name": "Kyurem in 5-star Raid Battles",
-      "eventType": "raid-battles",
-      "heading": "Raid Battles",
-      "link": "https://leekduck.com/events/kyurem-in-5-star-raid-battles-july-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/kyurem.jpg",
-      "start": "2026-07-29T06:00:00.000",
-      "end": "2026-08-04T22:00:00.000",
-      "extraData": {
-        "raidbattles": {
-          "bosses": [
-            {
-              "name": "Kyurem",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_646_11.png",
-              "canBeShiny": true
-            }
-          ],
-          "shinies": [
-            {
-              "name": "Kyurem",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_646_11_shiny.png"
-            }
-          ]
-        },
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "mega-aggron-in-mega-raids-july-2026",
-      "name": "Mega Aggron in Mega Raids",
-      "eventType": "raid-battles",
-      "heading": "Raid Battles",
-      "link": "https://leekduck.com/events/mega-aggron-in-mega-raids-july-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
-      "start": "2026-07-29T06:00:00.000",
-      "end": "2026-08-04T22:00:00.000",
-      "extraData": {
-        "raidbattles": {
-          "bosses": [
-            {
-              "name": "Mega Aggron",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm306.fMEGA.icon.png",
-              "canBeShiny": true
-            }
-          ],
-          "shinies": [
-            {
-              "name": "Aggron",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_306_00_shiny.png"
-            },
-            {
-              "name": "Mega Aggron",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/ppm306.fMEGA.s.icon.png"
-            }
-          ]
-        },
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "raidhour20260805",
       "name": "Uxie, Mesprit, and Azelf Raid Hour",
@@ -963,17 +834,33 @@
       }
     },
     {
+      "eventID": "pokemon-world-championships-2026-timed-research-twitch-drops",
+      "name": "Twitch Drops for 2026 Pokémon World Championships",
+      "eventType": "research",
+      "heading": "Research",
+      "link": "https://leekduck.com/events/pokemon-world-championships-2026-timed-research-twitch-drops/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-28-pokemon-world-championships-2026-timed-research-twitch-drops/2026-worlds-go-drops.jpg",
+      "start": "2026-08-28T16:00:00.000Z",
+      "end": "2026-08-31T03:00:00.000Z",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
       "eventID": "pokemon-xp-2026-worlds",
-      "name": "Pokémon XP &amp; 2026 Worlds",
+      "name": "PokémonXP &amp; 2026 Worlds",
       "eventType": "event",
       "heading": "Event",
       "link": "https://leekduck.com/events/pokemon-xp-2026-worlds/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-25-pokemon-xp-2026-worlds/pokemon-xp-2026-worlds.jpg",
       "start": "2026-08-25T10:00:00.000",
       "end": "2026-08-30T20:00:00.000",
       "extraData": {
         "generic": {
-          "hasSpawns": false,
+          "hasSpawns": true,
           "hasFieldResearchTasks": false
         }
       }
