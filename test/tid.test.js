@@ -156,10 +156,15 @@ test('event som startar exakt nu räknas som pågående', () => {
   assert.equal(formatNedrakning(NU, efter(2 * TIMME), NU), 'slutar om 2 timmar');
 });
 
-// Kalendergrupperingen filtrerar bort avslutade events, men funktionen får
-// aldrig visa ett negativt tal om den ändå anropas med ett.
-test('redan avslutat event ger "slutar strax" i stället för negativ tid', () => {
-  assert.equal(formatNedrakning(fore(3 * TIMME), fore(TIMME), NU), 'slutar strax');
+// Kalendergrupperingen filtrerar bort avslutade events vid render, men ticker n
+// (app.js) kan hinna passera slutet innan en omritning hinner ske — funktionen
+// måste då vara ärlig i stället för att visa ett negativt tal som "slutar strax".
+test('redan avslutat event ger "har slutat" i stället för negativ tid', () => {
+  assert.equal(formatNedrakning(fore(3 * TIMME), fore(TIMME), NU), 'har slutat');
+});
+
+test('exakt noll kvar (slutet passerat i precis detta ögonblick) ger "har slutat"', () => {
+  assert.equal(formatNedrakning(fore(TIMME), NU, NU), 'har slutat');
 });
 
 test('samma event ger samma nedräkning oavsett vilken dag raden står under', () => {

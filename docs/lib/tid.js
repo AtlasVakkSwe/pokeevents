@@ -152,6 +152,9 @@ export function formatNedrakning(start, slut, nu) {
   const pagar = start.getTime() <= nu.getTime();
   const mal = pagar ? slut : start;
   const diff = mal.getTime() - nu.getTime();
+  if (pagar && diff <= 0) {
+    return 'har slutat';
+  }
   if (diff < MINUT_MS) {
     return pagar ? 'slutar strax' : 'börjar nu';
   }

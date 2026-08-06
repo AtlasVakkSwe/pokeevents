@@ -238,6 +238,12 @@ button {
 .rad-tid-gron {
   color: var(--gron);
 }
+/* U+2013 i "kl 18–19" är annars en giltig radbrytningspunkt, så klockslaget kan
+   knäckas mitt itu. Nowrap håller det atomärt; kolumnen (min-width: 0) tar hand
+   om att raden ändå inte flyter ut vid 360 px. */
+.rad-klocka {
+  white-space: nowrap;
+}
 
 .rad-pil {
   flex: none;

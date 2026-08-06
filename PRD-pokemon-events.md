@@ -382,6 +382,25 @@ Etapp 3–4:s acceptanskriterier avser v1-listvyn; kalendervyn uppfyller samma
 underliggande krav (tidslogik, läsbarhet, tryckytor ≥ 44 px, 360 px, WCAG AA)
 via spec-dokumentets regler och testsviten.
 
+### Version 2.1 (2026-08-07)
+
+**Nedräkning** — ett klockslag som "kl 18–19" kräver att barnet räknar ut hur länge
+det är kvar, precis den sortens uppgift målgruppen har svårt för. Efter brainstorm
+med Toni (design godkänd — se `specs/2026-08-07-nedrakning-design.md`) visar varje
+eventtid nu både klockslag och återstående tid, t.ex. `kl 18–19 · slutar om 40
+minuter`:
+
+- Kalenderraden blev tvåradig (namn, sedan `klockslag · nedräkning`) så båda värdena
+  ryms på 360 px utan att namnet klipps.
+- Utskrivna ord genomgående (`om 45 minuter`, `slutar om 2 timmar`, `om 9 dagar`),
+  aldrig förkortningar, med avrundning nedåt — en underskattning gör att barnet
+  kommer för tidigt i stället för för sent.
+- En 30-sekunderstimer uppdaterar enbart nedräkningstexten, inte hela vyn. Utöver
+  det ritas hela vyn nu om vid dagbyte, när klockan passerar ett events start eller
+  slut, och vid återkomst till fliken efter mer än fem minuter — samma omritning
+  rättar samtidigt ett befintligt fel där `nu` sattes en enda gång vid sidladdning,
+  vilket kunde visa gårdagens kalender om appen låg kvar öppen över natten.
+
 ## 11. Öppna frågor
 
 - Ska "Gäller inte här"-events döljas helt via en inställning, eller alltid visas nedtonade? (Beslut efter barntest.)

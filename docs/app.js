@@ -1,4 +1,5 @@
-// Kalendervy v2.0 (spec: specs/2026-07-08-kalendervy-design.md).
+// Kalendervy v2.0 (spec: specs/2026-07-08-kalendervy-design.md) och
+// nedräkning (spec: specs/2026-08-07-nedrakning-design.md).
 // All extern data sätts som text (textContent), aldrig som HTML.
 
 import { formatTidsspann, formatDagRubrik, formatChip, formatKlocka, formatDatum, arHelg, formatNedrakning, dagNyckel } from './lib/tid.js';
@@ -76,6 +77,15 @@ function miniPokemonRad(lista, max) {
 
 /* ---------- Tickande nedräkningar ---------- */
 
+// Mekanismen i sammanhang, eftersom den är utspridd över filen: sidans nodregister
+// (tickare) byggs om från grunden vid varje omritning (start()); sheetens register
+// (sheetTickare) lever ett eget liv per öppning/stängning eftersom sheeten inte
+// ritas om med resten av sidan (se oppnaSheet/stangSheet). Timern (tick(), var
+// 30:e sekund) pausas när dokumentet är dolt — ingen anledning att räkna ner mot
+// en skärm ingen ser. En hel omritning (ritaOm(), längre ner i filen) sker vid
+// dagbyte, när en nedräkning passerar sin gräns (nastaGrans) eller när appen blir
+// synlig igen efter mer än OMRITNING_MS — då är hela grupperingen, inte bara
+// siffrorna, för gammal för att lita på.
 const TICK_MS = 30 * 1000;
 const OMRITNING_MS = 5 * 60 * 1000;
 
@@ -86,6 +96,11 @@ const sheetTickare = [];
 let tickTimer = null;
 let senasteRendering = 0;
 let renderadDag = null;
+// Nästa tidpunkt (ms) då en synlig nedräkning byter sida av sin gräns — starten
+// för ett ej börjat event, slutet för ett pågående. null när inget renderat event
+// har en kommande gräns. Sätts på samma ställe och med samma livslängd som
+// renderadDag; se start().
+let nastaGrans = null;
 // Spärrar start() mot att köra flera gånger samtidigt: tick() kan anropa
 // ritaOm() var 30:e sekund så länge dagbytet kvarstår, och utan spärren
 // skulle en långsam hämtning ge en ny, överlappande nätverksbegäran per tick.
@@ -96,11 +111,38 @@ function registrera(register, nod, textFn) {
   return nod;
 }
 
+// Söker igenom alla renderade events (NU-panelen, varje dags rader, "pågår hela
+// tiden") efter den tidigast kommande gränsen. Samma event kan förekomma under
+// flera dagar — det gör inget, resultatet blir ändå ett minimum.
+function beraknaNastaGrans(nuPanel, dagar, alltidPagaende, nu) {
+  let minsta = null;
+  const uppdatera = (event) => {
+    const borjat = event.startDate.getTime() <= nu.getTime();
+    const grans = (borjat ? event.endDate : event.startDate).getTime();
+    if (grans > nu.getTime() && (minsta === null || grans < minsta)) {
+      minsta = grans;
+    }
+  };
+  for (const event of nuPanel) {
+    uppdatera(event);
+  }
+  for (const dag of dagar) {
+    for (const event of dag.events) {
+      uppdatera(event);
+    }
+  }
+  for (const event of alltidPagaende) {
+    uppdatera(event);
+  }
+  return minsta;
+}
+
 function tick() {
   const nu = new Date();
-  if (renderadDag !== null && dagNyckel(nu) !== renderadDag) {
+  const dagBytt = renderadDag !== null && dagNyckel(nu) !== renderadDag;
+  const gransPasserad = nastaGrans !== null && nu.getTime() >= nastaGrans;
+  if (dagBytt || gransPasserad) {
     ritaOm();
-    return;
   }
   for (const post of tickare) {
     post.nod.textContent = post.textFn(nu);
@@ -145,6 +187,9 @@ function stangSheet() {
   document.body.style.overflow = '';
 }
 
+// sheetTickare rymmer som mest en post: varje väg ut ur sheeten (✕, backdrop,
+// Escape, bakåtknappen) går via stangSheet(), som tömmer registret innan en ny
+// sheet kan öppna sitt eget.
 function oppnaSheet(noder) {
   sheet.textContent = '';
   const stang = el('button', 'sheet-stang', '✕');
@@ -224,8 +269,6 @@ function raidSheet(grupper) {
   oppnaSheet(noder);
 }
 
-/* ---------- Kalenderrader ---------- */
-
 /* ---------- Tidsrad: klockslag · nedräkning ---------- */
 
 // nedrakningFn tar ett nu och returnerar texten, så Task 4 kan uppdatera
@@ -236,6 +279,8 @@ function tidsrad(klockText, nedrakningFn, nu, gron) {
   nod.append(registrera(tickare, el('span', 'rad-nedrakning', nedrakningFn(nu)), nedrakningFn));
   return nod;
 }
+
+/* ---------- Kalenderrader ---------- */
 
 function radBild(event) {
   if (POKEMONBILD_TYPER.has(event.typ) && event.pokemon[0]?.bild) {
@@ -378,11 +423,16 @@ async function start() {
       throw new Error(`HTTP ${svar.status}`);
     }
     const data = await svar.json();
+    // Från och med här är allt synkront — inget await får smygas in mellan det här
+    // och sista raden i try-blocket. Sekvensen "töm registren, bygg om DOM:en, fyll
+    // registren igen" måste ske i ett svep, annars kan tick() hinna köra mitt i,
+    // mot tomma register eller ett halvfärdigt träd.
     const nu = new Date();
     tickare.length = 0;
     senasteRendering = Date.now();
     renderadDag = dagNyckel(nu);
     const { nuPanel, dagar, alltidPagaende } = grupperaKalender(data.events, nu);
+    nastaGrans = beraknaNastaGrans(nuPanel, dagar, alltidPagaende, nu);
 
     innehall.textContent = '';
 
