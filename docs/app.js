@@ -458,7 +458,10 @@ async function start() {
         innehall.append(raidRad(raidGrupper));
       }
       for (const event of dag.events) {
-        const pagar = event.startDate.getTime() <= nu.getTime();
+        // Grönt betyder "pågår nu", inte "pågår denna dag", och används därför bara
+        // där nuet är ramen. Ett pågående flerdagarsevent syns ändå grönt under Idag;
+        // grönt även på dess slutdagsrad hade bara sagt emot dagrubriken ovanför.
+        const pagar = arIdag && event.startDate.getTime() <= nu.getTime();
         innehall.append(rad(event, dag.datum, nu, pagar));
       }
       if (arIdag && dag.events.length === 0 && !raidGrupper && nuPanel.length === 0) {

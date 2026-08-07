@@ -88,6 +88,18 @@ kommer för tidigt i stället för för sent, och för `slutar om` skyndar en sn
 siffra på i stället för att invagga. Dygnsräkningen är däremot exakt — en kalenderdag
 är inte en avrundning av något.
 
+## Grönt begränsas till Idag
+
+Justering av v2.0 som föll ut av barntestet av den här vyn. Grön tidsrad betyder
+"pågår nu". Tidigare fick varje rad för ett pågående event grön färg, även raden under
+en kommande dag — ett event som slutar på tisdag stod grönt under `TISDAG 11 AUGUSTI`
+trots att grönt syftade på nuet, inte på tisdagen. Färgen sade emot rubriken ovanför.
+
+Grönt förekommer nu bara där nuet är ramen: NU-panelen, raderna under Idag och
+"Pågår hela tiden"-raden. Ett pågående flerdagarsevent syns ändå grönt under Idag, så
+signalen går inte förlorad — den upprepas bara inte där den blir missvisande. Raden
+under slutdagen bär informationen i text i stället: `till kl 22 · slutar om 4 dagar`.
+
 ## Att siffran förblir sann
 
 En nedräkning som står still ljuger. Två mekanismer:
