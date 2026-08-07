@@ -162,6 +162,15 @@ function enhet(diffMs, nu, mal) {
   return { antal: Math.floor(minuter / 60), ental: 'timme', flertal: 'timmar' };
 }
 
+// Hur många kalenderdagar ett event pågår, för startdagsraden på kommande
+// flerdagarsevent. Räknas i kalenderdagar precis som nedräkningen, så de två siffrorna
+// på samma kort aldrig bygger på olika sätt att räkna dygn. Endagsevent får null —
+// deras chip säger redan "kl 10–18" och en längdrad hade bara upprepat det.
+export function formatLangd(start, slut) {
+  const dagar = dagSkillnad(start, slut) + 1;
+  return dagar < 2 ? null : `pågår ${dagar} dagar`;
+}
+
 // Pekar alltid på eventets nästa gräns: starten om det inte börjat, annars slutet.
 export function formatNedrakning(start, slut, nu) {
   const pagar = start.getTime() <= nu.getTime();

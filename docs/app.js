@@ -2,7 +2,7 @@
 // nedräkning (spec: specs/2026-08-07-nedrakning-design.md).
 // All extern data sätts som text (textContent), aldrig som HTML.
 
-import { formatTidsspann, formatDagRubrik, formatChip, formatKlocka, formatDatum, arHelg, formatNedrakning, dagNyckel } from './lib/tid.js';
+import { formatTidsspann, formatDagRubrik, formatChip, formatKlocka, formatDatum, arHelg, formatNedrakning, formatLangd, dagNyckel } from './lib/tid.js';
 import { grupperaKalender } from './lib/kalender.js';
 
 const POKEMONBILD_TYPER = new Set([
@@ -315,6 +315,14 @@ function rad(event, dagDatum, nu, pagar) {
       pagar
     )
   );
+  // Kommande flerdagarsevent syns bara på sin startdag, så hur länge det håller på
+  // finns ingen annanstans i kalendern. För pågående står slutdagen redan i chippet.
+  if (event.startDate.getTime() > nu.getTime()) {
+    const langd = formatLangd(event.startDate, event.endDate);
+    if (langd) {
+      textkolumn.append(el('span', 'rad-langd', langd));
+    }
+  }
   knapp.append(textkolumn);
   knapp.append(el('span', 'rad-pil', '›'));
   knapp.addEventListener('click', () => eventSheet(event, nu));

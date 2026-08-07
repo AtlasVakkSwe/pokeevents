@@ -401,10 +401,14 @@ minuter`:
 - Grön tidsrad betyder "pågår nu" och förekommer bara där nuet är ramen — NU-panelen,
   Idag och "Pågår hela tiden". Tidigare stod ett pågående event grönt även under en
   kommande dag, där färgen sade emot dagrubriken.
-- v2.0:s mellandagsregel är upphävd: ett event syns nu varje dag det är aktivt.
-  Regeln skulle dämpa brus, men mätning visar 1–4 rader per dag — bruset kom från
-  långkörarna, som "Pågår hela tiden" redan tar hand om. Regeln skapade i stället
-  tomma dagar mitt i pågående events, så en helg kunde se händelselös ut.
+- v2.0:s dagtillhörighetsregel är upphävd. Kalendern visar nu **vad som börjar, plus
+  vad som gäller idag**: ett pågående event syns bara under Idag, ett kommande bara på
+  sin startdag. Då säger dagrubriken och nedräkningen samma sak — raden under
+  `TISDAG 11 AUGUSTI` säger `om 4 dagar`, och tisdagen är fyra dagar bort. Tidigare
+  kunde samma siffra stå under dagar som låg helt andra avstånd bort.
+- Kommande flerdagarsevent får en tredje rad, `pågår 7 dagar`, eftersom de bara syns
+  en gång och längden annars inte skulle finnas i kalendern. Detaljvyn visar som förut
+  hela spannet med veckodag, datum och klockslag.
 - En 30-sekunderstimer uppdaterar enbart nedräkningstexten, inte hela vyn. Utöver
   det ritas hela vyn nu om vid dagbyte, när klockan passerar ett events start eller
   slut, och vid återkomst till fliken efter mer än fem minuter — samma omritning

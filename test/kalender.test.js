@@ -27,57 +27,38 @@ test('kort event senare i veckan hamnar på sin dag, inte i NU-panelen', () => {
   assert.equal(dag.events[0].name, 'Snubbull');
 });
 
-// Ett event syns de dagar det är aktivt. Tidigare visades bara startdag, slutdag och
-// Idag; en dag där eventet pågick men varken började eller slutade saknades helt, vilket
-// gjorde att raden på slutdagen läste som om eventet hörde till just den dagen.
+// En rad per event. Kalendern visar vad som börjar, plus vad som gäller idag.
+// Ett pågående event hör hemma under Idag; ett kommande under sin startdag. Att låta
+// samma event upprepas på fler dagar gav antingen tom upprepning (samma nedräkning om
+// och om igen) eller en rad under en framtida dag vars siffra räknade från nu.
 
-test('pågående flerdagarsevent visas varje dag det är aktivt', () => {
+test('pågående flerdagarsevent visas bara under Idag', () => {
   const e = ev('Road', 'event', '2026-07-06T00:01:00.000', '2026-07-10T23:59:00.000');
   const k = grupperaKalender([e], NU);
   const nycklar = k.dagar.filter((d) => d.events.some((x) => x.name === 'Road')).map((d) => d.nyckel);
-  assert.deepEqual(nycklar, ['2026-07-08', '2026-07-09', '2026-07-10']);
+  assert.deepEqual(nycklar, ['2026-07-08']);
 });
 
-test('pågående event visas inte på dagar som redan passerat', () => {
-  const e = ev('Road', 'event', '2026-07-06T00:01:00.000', '2026-07-10T23:59:00.000');
-  const k = grupperaKalender([e], NU);
-  const nycklar = k.dagar.filter((d) => d.events.some((x) => x.name === 'Road')).map((d) => d.nyckel);
-  assert.ok(!nycklar.includes('2026-07-06'));
-  assert.ok(!nycklar.includes('2026-07-07'));
-});
-
-test('kommande flerdagarsevent visas varje dag från start till slut', () => {
+test('kommande flerdagarsevent visas bara på sin startdag', () => {
   const e = ev('Vattenfest', 'event', '2026-07-11T10:00:00.000', '2026-07-15T20:00:00.000');
   const k = grupperaKalender([e], NU);
   const nycklar = k.dagar.filter((d) => d.events.some((x) => x.name === 'Vattenfest')).map((d) => d.nyckel);
-  assert.deepEqual(nycklar, ['2026-07-11', '2026-07-12', '2026-07-13', '2026-07-14', '2026-07-15']);
+  assert.deepEqual(nycklar, ['2026-07-11']);
 });
 
-test('tvådagarsevent visas båda dagarna', () => {
-  const gofest = ev('GO Fest', 'pokemon-go-fest', '2026-07-11T10:00:00.000', '2026-07-12T19:00:00.000');
-  const k = grupperaKalender([gofest], NU);
-  const nycklar = k.dagar.filter((d) => d.events.some((x) => x.name === 'GO Fest')).map((d) => d.nyckel);
-  assert.deepEqual(nycklar, ['2026-07-11', '2026-07-12']);
+test('event som börjar senare idag hamnar under Idag', () => {
+  const e = ev('Kvällsraid', 'raid-battles', '2026-07-08T20:00:00.000', '2026-07-09T22:00:00.000');
+  const k = grupperaKalender([e], NU);
+  const nycklar = k.dagar.filter((d) => d.events.some((x) => x.name === 'Kvällsraid')).map((d) => d.nyckel);
+  assert.deepEqual(nycklar, ['2026-07-08']);
 });
 
-// Det konkreta hålet i den gamla regeln: en dag mitt i ett event hoppades över helt,
-// så en helgdag kunde se tom ut trots att två events pågick.
-test('dag där inget börjar eller slutar finns ändå när ett event är aktivt', () => {
+// Följden av regeln: en dag där ingenting börjar finns inte. Det är avsiktligt —
+// att eventet pågår den dagen framgår av Idag-raden, som namnger slutdagen.
+test('dag där ingenting börjar finns inte i kalendern', () => {
   const e = ev('Marathon', 'event', '2026-07-06T00:01:00.000', '2026-07-12T23:59:00.000');
   const k = grupperaKalender([e], NU);
-  const dag = k.dagar.find((d) => d.nyckel === '2026-07-10');
-  assert.ok(dag, 'mellandagen ska finnas som egen dag i kalendern');
-  assert.equal(dag.events[0].name, 'Marathon');
-});
-
-// Natten till 29 mars 2026 ställs klockan fram och dygnet blir 23 timmar långt.
-// Dagstegningen får varken hoppa över eller dubblera en dag.
-test('dagstegningen påverkas inte av sommartidsskiftet', () => {
-  const nu = tolkaTid('2026-03-27T12:00:00.000');
-  const e = ev('Vårevent', 'event', '2026-03-27T10:00:00.000', '2026-03-30T20:00:00.000');
-  const k = grupperaKalender([e], nu);
-  const nycklar = k.dagar.filter((d) => d.events.some((x) => x.name === 'Vårevent')).map((d) => d.nyckel);
-  assert.deepEqual(nycklar, ['2026-03-27', '2026-03-28', '2026-03-29', '2026-03-30']);
+  assert.ok(!k.dagar.some((d) => d.nyckel === '2026-07-10'));
 });
 
 test('kommande endagsevent får bara en rad', () => {
@@ -129,11 +110,10 @@ test('Idag finns alltid som första dag, även utan events', () => {
 
 test('events inom en dag sorteras på starttid, äldst först', () => {
   const gammalt = ev('Pågående', 'event', '2026-07-06T00:00:00.000', '2026-07-09T23:00:00.000');
-  const nytt = ev('Raidkväll', 'raid-battles', '2026-07-09T17:00:00.000', '2026-07-09T20:00:00.000');
-  const tidigt = ev('Morgon', 'raid-battles', '2026-07-09T06:00:00.000', '2026-07-09T09:00:00.000');
-  const k = grupperaKalender([nytt, tidigt, gammalt], NU);
-  const dag = k.dagar.find((d) => d.nyckel === '2026-07-09');
-  assert.deepEqual(dag.events.map((e) => e.name), ['Pågående', 'Morgon', 'Raidkväll']);
+  const senare = ev('Raidkväll', 'raid-battles', '2026-07-08T21:00:00.000', '2026-07-08T22:30:00.000');
+  const k = grupperaKalender([senare, gammalt], NU);
+  const dag = k.dagar.find((d) => d.nyckel === '2026-07-08');
+  assert.deepEqual(dag.events.map((e) => e.name), ['Pågående', 'Raidkväll']);
 });
 
 test('parsade tidsobjekt följer med händelserna', () => {

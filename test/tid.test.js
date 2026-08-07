@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { tolkaTid, formatKlocka, formatDatum, formatTidsspann, formatNedrakning } from '../docs/lib/tid.js';
+import { tolkaTid, formatKlocka, formatDatum, formatTidsspann, formatNedrakning, formatLangd } from '../docs/lib/tid.js';
 
 // Testfall 2.1: tid utan Z tolkas som svensk lokal tid och konverteras INTE
 test('tid utan Z tolkas som svensk väggklocka (18 förblir 18)', () => {
@@ -165,6 +165,34 @@ test('samma kalenderdag räknas i timmar även när det är nästan ett helt dyg
   const start = tolkaTid('2026-08-07T23:50:00.000');
   const slut = tolkaTid('2026-08-08T01:00:00.000');
   assert.equal(formatNedrakning(start, slut, nu), 'om 23 timmar');
+});
+
+// --- Längdtext på kommande flerdagarsevents startdagsrad ---
+// Räknas i kalenderdagar precis som nedräkningen, så de två siffrorna på samma kort
+// aldrig kan bygga på olika sätt att räkna dygn.
+
+test('kommande flerdagarsevent får längden i kalenderdagar', () => {
+  const start = tolkaTid('2026-08-11T10:00:00.000');
+  const slut = tolkaTid('2026-08-17T20:00:00.000');
+  assert.equal(formatLangd(start, slut), 'pågår 7 dagar');
+});
+
+test('event som börjar och slutar samma dag får ingen längdtext', () => {
+  const start = tolkaTid('2026-08-11T10:00:00.000');
+  const slut = tolkaTid('2026-08-11T18:00:00.000');
+  assert.equal(formatLangd(start, slut), null);
+});
+
+test('event över exakt två kalenderdagar ger "pågår 2 dagar"', () => {
+  const start = tolkaTid('2026-08-11T10:00:00.000');
+  const slut = tolkaTid('2026-08-12T18:00:00.000');
+  assert.equal(formatLangd(start, slut), 'pågår 2 dagar');
+});
+
+test('längden påverkas inte av sommartidsskiftet', () => {
+  const start = tolkaTid('2026-03-27T10:00:00.000');
+  const slut = tolkaTid('2026-03-30T18:00:00.000');
+  assert.equal(formatLangd(start, slut), 'pågår 4 dagar');
 });
 
 // Sommartidsskiftet gör dygnet 23 timmar långt. Kalenderdagsräkningen ska inte bry

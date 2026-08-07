@@ -8,16 +8,6 @@ const LANGKORARTYPER = new Set(['season', 'go-pass', 'go-battle-league', 'twitch
 const MAX_LANGD_LANGKORARE = 14 * DYGN_MS;
 const MAX_LANGD_NU_PANEL = DYGN_MS + 60 * 1000;
 
-// Nästa kalenderdags nyckel. Räknas på datumkomponenterna och aldrig genom att lägga
-// till 24 timmar, så sommartidsskiftets 23- och 25-timmarsdygn inte kan få stegningen
-// att hoppa över eller upprepa en dag.
-function nastaDag(nyckel) {
-  const [ar, manad, dag] = nyckel.split('-').map(Number);
-  const nasta = new Date(Date.UTC(ar, manad - 1, dag) + DYGN_MS);
-  const tva = (n) => String(n).padStart(2, '0');
-  return `${nasta.getUTCFullYear()}-${tva(nasta.getUTCMonth() + 1)}-${tva(nasta.getUTCDate())}`;
-}
-
 export function grupperaKalender(events, nu) {
   const nuPanel = [];
   const alltidPagaende = [];
@@ -58,13 +48,15 @@ export function grupperaKalender(events, nu) {
       continue;
     }
 
-    // Ett event visas de dagar det är aktivt, räknat från idag. Tidigare visades bara
-    // startdag, slutdag och Idag; en dag där eventet pågick men varken började eller
-    // slutade saknades helt. Det gjorde dels att en helgdag mitt i ett event kunde se
-    // tom ut, dels att slutdagsraden läste som om eventet hörde till just den dagen.
-    const sista = dagNyckel(endDate);
-    for (let nyckel = pagar ? idag : dagNyckel(startDate); nyckel <= sista; nyckel = nastaDag(nyckel)) {
-      laggTill(nyckel, tolkaTid(`${nyckel}T12:00:00`), event);
+    // En rad per event: kalendern visar vad som börjar, plus vad som gäller idag.
+    // Ett pågående event hör hemma under Idag, där raden namnger slutdagen och räknar
+    // ner till den. Ett kommande hör hemma under sin startdag, där nedräkningen och
+    // dagrubriken säger samma sak. Att upprepa eventet på fler dagar gav antingen tom
+    // upprepning eller en rad vars siffra räknade från nu men stod under en annan dag.
+    if (pagar) {
+      laggTill(idag, new Date(nu), event);
+    } else {
+      laggTill(dagNyckel(startDate), startDate, event);
     }
   }
 

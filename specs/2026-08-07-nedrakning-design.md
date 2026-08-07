@@ -100,21 +100,40 @@ Grönt förekommer nu bara där nuet är ramen: NU-panelen, raderna under Idag o
 signalen går inte förlorad — den upprepas bara inte där den blir missvisande. Raden
 under slutdagen bär informationen i text i stället: `till kl 22 · slutar om 4 dagar`.
 
-## Ett event syns de dagar det är aktivt
+## En rad per event
 
 Ersätter v2.0:s dagtillhörighetsregel (startdag, slutdag och Idag, men inte mellandagar).
-Den regeln infördes för att dämpa brus, men mätning på både aktuell data och den julidata
-beslutet fattades på ger 1–4 rader per dag när varje aktiv dag visas. Bruset kom rimligen
-från långkörarna — säsongen sträcker sig över ett nittiotal dagar — och det problemet löste
-"Pågår hela tiden"-strippen. Mellandagsregeln blev därmed överflödig men blev kvar.
 
-Två konkreta fel följde av den. En dag mitt i ett event saknades helt i kalendern, så en
-helg kunde se tom ut trots att flera events pågick. Och raden under slutdagen läste som om
-eventet hörde till just den dagen, eftersom eventet inte syntes på dagarna före.
+**Regeln: kalendern visar vad som börjar, plus vad som gäller idag.** Ett pågående event
+syns bara under Idag. Ett kommande syns bara på sin startdag. Långkörare ligger kvar i
+"Pågår hela tiden" och berörs inte.
 
-Nya regeln: ett event syns varje kalenderdag det är aktivt, räknat från idag och framåt.
-Långkörare ligger kvar i strippen och berörs inte. Chippet beskriver dagens förhållande
-till eventet som förut (`från kl 6`, `kl 10–18`, `till kl 22`, `t.o.m. tisdag`).
+Vägen hit gick via ett mellansteg som visade eventet varje dag det var aktivt. Det löste
+v2.0:s problem — att en dag mitt i ett event saknades helt, och att slutdagsraden läste som
+om eventet hörde till just den dagen — men skapade ett nytt: nedräkningen räknar alltid
+från nu, så ett event som började om fyra dagar stod med `om 4 dagar` på sju rader i följd,
+varav sex under dagar som inte var fyra dagar bort.
+
+Med en rad per event försvinner den krocken. Raden står under `TISDAG 11 AUGUSTI` och säger
+`om 4 dagar` — och tisdagen *är* fyra dagar bort. Rubriken och siffran säger samma sak på
+två sätt i stället för att säga emot varandra. Samma princip som gäller för den gröna
+färgen: information som betyder "räknat från nu" placeras bara där nuet är ramen.
+
+En dag där ingenting börjar finns därmed inte i kalendern, även om events pågår den dagen.
+Det är avsiktligt. Att eventet pågår framgår av Idag-raden, som namnger slutdagen
+(`t.o.m. måndag`) och räknar ner till den. Konsekvent frånvaro är mindre vilseledande än
+den inkonsekventa närvaro v2.0 gav, där eventet syntes på slutdagen men inte på dagarna
+före och därmed såg ut att höra till just den dagen.
+
+**Längdrad.** Eftersom ett kommande flerdagarsevent bara syns en gång finns dess längd
+ingen annanstans i kalendern. Startdagsraden får därför en tredje rad, `pågår 7 dagar`.
+Endagsevent får ingen — deras chip säger redan `kl 10–18`. Pågående event får ingen
+heller: deras chip namnger slutdagen, vilket är det som är kvar att veta.
+
+Längden räknas i kalenderdagar, samma som nedräkningen, så de två siffrorna på ett kort
+aldrig bygger på olika sätt att räkna dygn. Följden är att ett event 11 augusti kl 22 till
+18 augusti kl 20 anges som `pågår 8 dagar` trots att det är sex dygn och 22 timmar — det
+berör åtta datum. Det är priset för att hålla dygnsbegreppet enhetligt genom hela vyn.
 
 ## Att siffran förblir sann
 

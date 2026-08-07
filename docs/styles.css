@@ -235,6 +235,11 @@ button {
   font-weight: 700;
   color: var(--bla);
 }
+.rad-langd {
+  font-size: 15px;
+  font-weight: 600;
+  color: #8a7a63;
+}
 .rad-tid-gron {
   color: var(--gron);
 }
