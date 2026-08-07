@@ -123,6 +123,11 @@ button {
   line-height: 1.2;
 }
 
+.nu-panel .rad-tid {
+  display: block;
+  margin-top: 2px;
+}
+
 .mini-pokemonrad {
   display: flex;
   align-items: center;
@@ -209,8 +214,14 @@ button {
   background: var(--bakgrund);
 }
 
-.rad-namn {
+.rad-text {
   flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.rad-namn {
   font-size: 17px;
   font-weight: 700;
   line-height: 1.25;
@@ -219,17 +230,24 @@ button {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
-
-.rad-chip {
-  flex: none;
+.rad-tid {
   font-size: 15px;
   font-weight: 700;
   color: var(--bla);
-  white-space: nowrap;
 }
-
-.rad-chip-gron {
+.rad-langd {
+  font-size: 15px;
+  font-weight: 600;
+  color: #8a7a63;
+}
+.rad-tid-gron {
   color: var(--gron);
+}
+/* U+2013 i "kl 18–19" är annars en giltig radbrytningspunkt, så klockslaget kan
+   knäckas mitt itu. Nowrap håller det atomärt; kolumnen (min-width: 0) tar hand
+   om att raden ändå inte flyter ut vid 360 px. */
+.rad-klocka {
+  white-space: nowrap;
 }
 
 .rad-pil {

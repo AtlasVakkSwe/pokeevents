@@ -61,20 +61,79 @@ varandra.
 | Återstår | Ej börjat | Pågår |
 |---|---|---|
 | under 1 minut | `börjar nu` | `slutar strax` |
-| under 1 timme | `om 45 minuter` | `slutar om 40 minuter` |
-| under 1 dygn | `om 2 timmar` | `slutar om 5 timmar` |
-| 1 dygn eller mer | `om 9 dagar` | `slutar om 32 dagar` |
+| senare samma dygn, under 1 timme | `om 45 minuter` | `slutar om 40 minuter` |
+| senare samma dygn, en timme eller mer | `om 2 timmar` | `slutar om 5 timmar` |
+| ett senare datum | `om 9 dagar` | `slutar om 32 dagar` |
+| redan passerat | — | `har slutat` |
 
 Singularformer: `om 1 minut`, `om 1 timme`, `om 1 dag` (och `slutar om 1 minut` osv).
 
 Förkortningar (`tim`, `dgr`) används inte — de är extra avkodningsarbete för en ovan
 läsare, och tvåradslayouten ger plats för hela ord.
 
-**Avrundning nedåt genomgående.** `om 2 timmar` visas alltså även när det återstår
-2 timmar och 50 minuter. Valet är medvetet: underskattning gör att barnet kommer för
-tidigt i stället för för sent, och för `slutar om` skyndar en snålare siffra på i
-stället för att invagga. Enheten bestäms av det nedåtavrundade värdet, så gränsen
-mellan timmar och dagar hamnar exakt på 24 timmar.
+**Dygn räknas i kalenderdagar, inte i förflutna 24-timmarsperioder.** Barn tänker i
+sömnar. Är det fredag ska ett event på måndag stå `om 3 dagar` oavsett vad klockan är
+— även klockan 22 på fredagskvällen, när den förflutna tiden bara är 60 timmar och en
+24-timmarsräkning hade sagt `om 2 dagar`. Följden är att gränsen mellan timmar och
+dagar ligger vid midnatt och inte vid 24 timmar: ett event 09.00 imorgon står som
+`om 1 dag` även när klockan är 23.30 ikväll. Det är avsiktligt — klockslaget står
+bredvid i samma rad och visar hur nära det faktiskt är.
+
+Kalenderdagarna räknas på datumkomponenterna i svensk tid, aldrig på förfluten tid,
+så sommartidsskiftets 23- och 25-timmarsdygn inte kan förskjuta räkningen.
+
+**Minuter och timmar avrundas nedåt.** `om 2 timmar` visas alltså även när det
+återstår 2 timmar och 50 minuter. Valet är medvetet: underskattning gör att barnet
+kommer för tidigt i stället för för sent, och för `slutar om` skyndar en snålare
+siffra på i stället för att invagga. Dygnsräkningen är däremot exakt — en kalenderdag
+är inte en avrundning av något.
+
+## Grönt begränsas till Idag
+
+Justering av v2.0 som föll ut av barntestet av den här vyn. Grön tidsrad betyder
+"pågår nu". Tidigare fick varje rad för ett pågående event grön färg, även raden under
+en kommande dag — ett event som slutar på tisdag stod grönt under `TISDAG 11 AUGUSTI`
+trots att grönt syftade på nuet, inte på tisdagen. Färgen sade emot rubriken ovanför.
+
+Grönt förekommer nu bara där nuet är ramen: NU-panelen, raderna under Idag och
+"Pågår hela tiden"-raden. Ett pågående flerdagarsevent syns ändå grönt under Idag, så
+signalen går inte förlorad — den upprepas bara inte där den blir missvisande. Raden
+under slutdagen bär informationen i text i stället: `till kl 22 · slutar om 4 dagar`.
+
+## En rad per event
+
+Ersätter v2.0:s dagtillhörighetsregel (startdag, slutdag och Idag, men inte mellandagar).
+
+**Regeln: kalendern visar vad som börjar, plus vad som gäller idag.** Ett pågående event
+syns bara under Idag. Ett kommande syns bara på sin startdag. Långkörare ligger kvar i
+"Pågår hela tiden" och berörs inte.
+
+Vägen hit gick via ett mellansteg som visade eventet varje dag det var aktivt. Det löste
+v2.0:s problem — att en dag mitt i ett event saknades helt, och att slutdagsraden läste som
+om eventet hörde till just den dagen — men skapade ett nytt: nedräkningen räknar alltid
+från nu, så ett event som började om fyra dagar stod med `om 4 dagar` på sju rader i följd,
+varav sex under dagar som inte var fyra dagar bort.
+
+Med en rad per event försvinner den krocken. Raden står under `TISDAG 11 AUGUSTI` och säger
+`om 4 dagar` — och tisdagen *är* fyra dagar bort. Rubriken och siffran säger samma sak på
+två sätt i stället för att säga emot varandra. Samma princip som gäller för den gröna
+färgen: information som betyder "räknat från nu" placeras bara där nuet är ramen.
+
+En dag där ingenting börjar finns därmed inte i kalendern, även om events pågår den dagen.
+Det är avsiktligt. Att eventet pågår framgår av Idag-raden, som namnger slutdagen
+(`t.o.m. måndag`) och räknar ner till den. Konsekvent frånvaro är mindre vilseledande än
+den inkonsekventa närvaro v2.0 gav, där eventet syntes på slutdagen men inte på dagarna
+före och därmed såg ut att höra till just den dagen.
+
+**Längdrad.** Eftersom ett kommande flerdagarsevent bara syns en gång finns dess längd
+ingen annanstans i kalendern. Startdagsraden får därför en tredje rad, `pågår 7 dagar`.
+Endagsevent får ingen — deras chip säger redan `kl 10–18`. Pågående event får ingen
+heller: deras chip namnger slutdagen, vilket är det som är kvar att veta.
+
+Längden räknas i kalenderdagar, samma som nedräkningen, så de två siffrorna på ett kort
+aldrig bygger på olika sätt att räkna dygn. Följden är att ett event 11 augusti kl 22 till
+18 augusti kl 20 anges som `pågår 8 dagar` trots att det är sex dygn och 22 timmar — det
+berör åtta datum. Det är priset för att hålla dygnsbegreppet enhetligt genom hela vyn.
 
 ## Att siffran förblir sann
 
@@ -117,8 +176,10 @@ svårt att upptäcka idag men skulle bli uppenbart med en nedräkning bredvid.
 ## Testning
 
 TDD för nedräkningsfunktionen i `test/tid.test.js`, bredvid de befintliga tidstesterna.
-Täcker varje gräns i trappan (59 s mot 60 s, 59 min mot 60 min, 23:59 mot dygnsgränsen),
-båda riktningarna (ej börjat / pågår), singularformerna, och att avrundningen går nedåt.
+Täcker varje gräns i trappan (59 s mot 60 s, 59 min mot 60 min, midnatt som gräns
+mellan timmar och dagar), båda riktningarna (ej börjat / pågår), singularformerna,
+att minuter och timmar avrundas nedåt, att fredag→måndag ger tre dagar oavsett
+klockslag, och att sommartidsskiftet inte förskjuter dygnsräkningen.
 
 Verifiering utöver enhetstesterna: 360 px-rendering utan horisontell skroll, och att
 samtliga befintliga tester fortsätter passera.

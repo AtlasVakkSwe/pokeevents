@@ -48,17 +48,15 @@ export function grupperaKalender(events, nu) {
       continue;
     }
 
-    // Ett event visas på sin startdag, sin slutdag ("till kl X" = sista chansen)
-    // och under Idag om det pågår — men inte på mellandagar, det blir bara brus.
-    const traffar = new Map();
+    // En rad per event: kalendern visar vad som börjar, plus vad som gäller idag.
+    // Ett pågående event hör hemma under Idag, där raden namnger slutdagen och räknar
+    // ner till den. Ett kommande hör hemma under sin startdag, där nedräkningen och
+    // dagrubriken säger samma sak. Att upprepa eventet på fler dagar gav antingen tom
+    // upprepning eller en rad vars siffra räknade från nu men stod under en annan dag.
     if (pagar) {
-      traffar.set(idag, new Date(nu));
+      laggTill(idag, new Date(nu), event);
     } else {
-      traffar.set(dagNyckel(startDate), startDate);
-    }
-    traffar.set(dagNyckel(endDate), endDate);
-    for (const [nyckel, datum] of traffar) {
-      laggTill(nyckel, datum, event);
+      laggTill(dagNyckel(startDate), startDate, event);
     }
   }
 

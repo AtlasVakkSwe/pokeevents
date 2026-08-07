@@ -129,3 +129,60 @@ export function formatTidsspann(start, slut, nu) {
   }
   return `${formatDatum(start, nu)} kl ${formatKlocka(start)} – ${formatDatum(slut, nu)} kl ${formatKlocka(slut)}`;
 }
+
+// Nedräkning (spec: specs/2026-08-07-nedrakning-design.md).
+// Minuter och timmar avrundas nedåt: underskattning gör att man kommer för tidigt
+// i stället för för sent, och skyndar på när tiden håller på att ta slut.
+// Dygn räknas däremot i kalenderdagar och är exakta — se dagSkillnad.
+const MINUT_MS = 60 * 1000;
+
+// Antal kalenderdagar mellan två tidpunkter, räknat i svensk tid. Räkningen sker på
+// datumkomponenterna och inte på förfluten tid, så varken sommartidsskiften (dygn på
+// 23 respektive 25 timmar) eller klockslag kan förskjuta resultatet.
+function dagSkillnad(fran, till) {
+  const [franAr, franManad, franDag] = dagNyckel(fran).split('-').map(Number);
+  const [tillAr, tillManad, tillDag] = dagNyckel(till).split('-').map(Number);
+  const franMidnatt = Date.UTC(franAr, franManad - 1, franDag);
+  const tillMidnatt = Date.UTC(tillAr, tillManad - 1, tillDag);
+  return Math.round((tillMidnatt - franMidnatt) / DYGN_MS);
+}
+
+// Ligger målet på ett senare datum räknas det alltid i dagar, oavsett klockslag:
+// barn tänker i sömnar, inte i förflutna timmar. Är det fredag står ett event på
+// måndag som "om 3 dagar" även sent på fredagskvällen. Klockslaget står bredvid.
+function enhet(diffMs, nu, mal) {
+  const dagar = dagSkillnad(nu, mal);
+  if (dagar >= 1) {
+    return { antal: dagar, ental: 'dag', flertal: 'dagar' };
+  }
+  const minuter = Math.floor(diffMs / MINUT_MS);
+  if (minuter < 60) {
+    return { antal: minuter, ental: 'minut', flertal: 'minuter' };
+  }
+  return { antal: Math.floor(minuter / 60), ental: 'timme', flertal: 'timmar' };
+}
+
+// Hur många kalenderdagar ett event pågår, för startdagsraden på kommande
+// flerdagarsevent. Räknas i kalenderdagar precis som nedräkningen, så de två siffrorna
+// på samma kort aldrig bygger på olika sätt att räkna dygn. Endagsevent får null —
+// deras chip säger redan "kl 10–18" och en längdrad hade bara upprepat det.
+export function formatLangd(start, slut) {
+  const dagar = dagSkillnad(start, slut) + 1;
+  return dagar < 2 ? null : `pågår ${dagar} dagar`;
+}
+
+// Pekar alltid på eventets nästa gräns: starten om det inte börjat, annars slutet.
+export function formatNedrakning(start, slut, nu) {
+  const pagar = start.getTime() <= nu.getTime();
+  const mal = pagar ? slut : start;
+  const diff = mal.getTime() - nu.getTime();
+  if (pagar && diff <= 0) {
+    return 'har slutat';
+  }
+  if (diff < MINUT_MS) {
+    return pagar ? 'slutar strax' : 'börjar nu';
+  }
+  const { antal, ental, flertal } = enhet(diff, nu, mal);
+  const text = `om ${antal} ${antal === 1 ? ental : flertal}`;
+  return pagar ? `slutar ${text}` : text;
+}

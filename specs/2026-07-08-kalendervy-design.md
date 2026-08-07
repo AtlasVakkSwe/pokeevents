@@ -36,9 +36,12 @@ igen snabbare än ordet) → bottom sheet framför expandera-på-plats.
 - **Långkörare**: eventtyp ∈ {season, go-pass, go-battle-league, twitch-drops} ELLER
   längd > 14 dygn. Pågående långkörare → strippen; ej påbörjade → kalenderrad på
   startdagen; avslutade → visas inte.
-- **Dagtillhörighet**: event visas på sin startdag, sin slutdag ("till kl X" =
+- **Dagtillhörighet**: ~~event visas på sin startdag, sin slutdag ("till kl X" =
   sista chansen) och under Idag om det pågår — men inte på mellandagar
-  (justerat efter första renderingen: upprepade rader varje dag blev brus).
+  (justerat efter första renderingen: upprepade rader varje dag blev brus).~~
+  **Upphävd 2026-08-07** — en rad per event: pågående under Idag, kommande på sin
+  startdag. Se `specs/2026-08-07-nedrakning-design.md`. Slutdagsraden fick eventet
+  att se ut som en endagsföreteelse, eftersom det inte syntes på dagarna före.
 - **Sortering inom dag**: starttid, äldst först (pågående överst, sedan dagens nya).
 - **Tidschip**: startar+slutar samma dag → "kl 10–18"; startar denna dag, slutar
   senare → "från kl 6"; började tidigare, slutar denna dag → "till kl 22"; började

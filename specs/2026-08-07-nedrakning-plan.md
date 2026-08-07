@@ -183,7 +183,7 @@ export function formatNedrakning(start, slut, nu) {
 
 Kör: `npm test 2>&1 | tail -12`
 
-Förväntat: PASS, 94 tester (76 befintliga + 18 nya), noll failade.
+Förväntat: PASS, 93 tester (76 befintliga + 17 nya), noll failade.
 
 - [ ] **Steg 5: Committa**
 
@@ -324,7 +324,7 @@ Kontrollera:
 
 Kör: `npm test 2>&1 | tail -8`
 
-Förväntat: PASS, 94 tester. Inget test rör DOM:en, så ingenting ska ha ändrats — steget finns för att fånga oavsiktliga följdfel.
+Förväntat: PASS, 93 tester. Inget test rör DOM:en, så ingenting ska ha ändrats — steget finns för att fånga oavsiktliga följdfel.
 
 - [ ] **Steg 8: Committa**
 
@@ -416,7 +416,7 @@ Starta servern som i Task 2 steg 6 och kontrollera på 360 px:
 
 Kör: `npm test 2>&1 | tail -8`
 
-Förväntat: PASS, 94 tester.
+Förväntat: PASS, 93 tester.
 
 - [ ] **Steg 6: Committa**
 
@@ -584,7 +584,7 @@ Förväntat: hela vyn ritas om — en nätverksbegäran till `events-sv.json` sy
 
 Kör: `npm test 2>&1 | tail -8`
 
-Förväntat: PASS, 94 tester.
+Förväntat: PASS, 93 tester.
 
 - [ ] **Steg 10: Committa**
 
@@ -599,6 +599,16 @@ git commit -m "Tickande nedräkningar och omritning vid återkomst"
 
 - [ ] Bekräfta att `TICK_MS` är `30 * 1000` och `OMRITNING_MS` är `5 * 60 * 1000` — de tillfälliga testvärdena från Task 4 får inte följa med i en commit. Kontrollera med `grep -n "TICK_MS\|OMRITNING_MS" docs/app.js`.
 - [ ] Bekräfta att inga `console.log` från felsökningen ligger kvar: `grep -n "console.log" docs/app.js` ska ge noll träffar.
-- [ ] Kör `npm test` en sista gång: 94 tester, alla gröna.
+- [ ] Kör `npm test` en sista gång: 93 tester, alla gröna.
 - [ ] Uppdatera PRD:ns ändringslogg med en kort v2.1-post om nedräkningen, i samma form som v2.0-posten.
 - [ ] Pusha. Sidan deployas automatiskt via Pages när `main` uppdateras.
+
+---
+
+## Efterändring 2026-08-07 (efter genomförd plan)
+
+Toni ändrade dygnsregeln efter granskning: dygn räknas nu i **kalenderdagar**, inte i
+förflutna 24-timmarsperioder. Planens globala förutsättning "avrundning nedåt i alla
+tidsenheter" gäller därför bara minuter och timmar, och Task 1:s testkod ovan är inte
+längre aktuell för dygnsfallen. Designspecen är uppdaterad och är det som gäller —
+planen står kvar oförändrad som protokoll över hur arbetet faktiskt utfördes.
