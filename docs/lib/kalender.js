@@ -8,6 +8,16 @@ const LANGKORARTYPER = new Set(['season', 'go-pass', 'go-battle-league', 'twitch
 const MAX_LANGD_LANGKORARE = 14 * DYGN_MS;
 const MAX_LANGD_NU_PANEL = DYGN_MS + 60 * 1000;
 
+// Nästa kalenderdags nyckel. Räknas på datumkomponenterna och aldrig genom att lägga
+// till 24 timmar, så sommartidsskiftets 23- och 25-timmarsdygn inte kan få stegningen
+// att hoppa över eller upprepa en dag.
+function nastaDag(nyckel) {
+  const [ar, manad, dag] = nyckel.split('-').map(Number);
+  const nasta = new Date(Date.UTC(ar, manad - 1, dag) + DYGN_MS);
+  const tva = (n) => String(n).padStart(2, '0');
+  return `${nasta.getUTCFullYear()}-${tva(nasta.getUTCMonth() + 1)}-${tva(nasta.getUTCDate())}`;
+}
+
 export function grupperaKalender(events, nu) {
   const nuPanel = [];
   const alltidPagaende = [];
@@ -48,17 +58,13 @@ export function grupperaKalender(events, nu) {
       continue;
     }
 
-    // Ett event visas på sin startdag, sin slutdag ("till kl X" = sista chansen)
-    // och under Idag om det pågår — men inte på mellandagar, det blir bara brus.
-    const traffar = new Map();
-    if (pagar) {
-      traffar.set(idag, new Date(nu));
-    } else {
-      traffar.set(dagNyckel(startDate), startDate);
-    }
-    traffar.set(dagNyckel(endDate), endDate);
-    for (const [nyckel, datum] of traffar) {
-      laggTill(nyckel, datum, event);
+    // Ett event visas de dagar det är aktivt, räknat från idag. Tidigare visades bara
+    // startdag, slutdag och Idag; en dag där eventet pågick men varken började eller
+    // slutade saknades helt. Det gjorde dels att en helgdag mitt i ett event kunde se
+    // tom ut, dels att slutdagsraden läste som om eventet hörde till just den dagen.
+    const sista = dagNyckel(endDate);
+    for (let nyckel = pagar ? idag : dagNyckel(startDate); nyckel <= sista; nyckel = nastaDag(nyckel)) {
+      laggTill(nyckel, tolkaTid(`${nyckel}T12:00:00`), event);
     }
   }
 

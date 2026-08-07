@@ -100,6 +100,22 @@ Grönt förekommer nu bara där nuet är ramen: NU-panelen, raderna under Idag o
 signalen går inte förlorad — den upprepas bara inte där den blir missvisande. Raden
 under slutdagen bär informationen i text i stället: `till kl 22 · slutar om 4 dagar`.
 
+## Ett event syns de dagar det är aktivt
+
+Ersätter v2.0:s dagtillhörighetsregel (startdag, slutdag och Idag, men inte mellandagar).
+Den regeln infördes för att dämpa brus, men mätning på både aktuell data och den julidata
+beslutet fattades på ger 1–4 rader per dag när varje aktiv dag visas. Bruset kom rimligen
+från långkörarna — säsongen sträcker sig över ett nittiotal dagar — och det problemet löste
+"Pågår hela tiden"-strippen. Mellandagsregeln blev därmed överflödig men blev kvar.
+
+Två konkreta fel följde av den. En dag mitt i ett event saknades helt i kalendern, så en
+helg kunde se tom ut trots att flera events pågick. Och raden under slutdagen läste som om
+eventet hörde till just den dagen, eftersom eventet inte syntes på dagarna före.
+
+Nya regeln: ett event syns varje kalenderdag det är aktivt, räknat från idag och framåt.
+Långkörare ligger kvar i strippen och berörs inte. Chippet beskriver dagens förhållande
+till eventet som förut (`från kl 6`, `kl 10–18`, `till kl 22`, `t.o.m. tisdag`).
+
 ## Att siffran förblir sann
 
 En nedräkning som står still ljuger. Två mekanismer:

@@ -398,6 +398,13 @@ minuter`:
 - Dygn räknas i kalenderdagar, inte i förflutna 24-timmarsperioder: är det fredag står
   ett event på måndag som `om 3 dagar` oavsett klockslag, för barn tänker i sömnar.
   Gränsen mellan timmar och dagar går därmed vid midnatt.
+- Grön tidsrad betyder "pågår nu" och förekommer bara där nuet är ramen — NU-panelen,
+  Idag och "Pågår hela tiden". Tidigare stod ett pågående event grönt även under en
+  kommande dag, där färgen sade emot dagrubriken.
+- v2.0:s mellandagsregel är upphävd: ett event syns nu varje dag det är aktivt.
+  Regeln skulle dämpa brus, men mätning visar 1–4 rader per dag — bruset kom från
+  långkörarna, som "Pågår hela tiden" redan tar hand om. Regeln skapade i stället
+  tomma dagar mitt i pågående events, så en helg kunde se händelselös ut.
 - En 30-sekunderstimer uppdaterar enbart nedräkningstexten, inte hela vyn. Utöver
   det ritas hela vyn nu om vid dagbyte, när klockan passerar ett events start eller
   slut, och vid återkomst till fliken efter mer än fem minuter — samma omritning
