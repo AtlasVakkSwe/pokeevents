@@ -393,8 +393,11 @@ minuter`:
 - Kalenderraden blev tvåradig (namn, sedan `klockslag · nedräkning`) så båda värdena
   ryms på 360 px utan att namnet klipps.
 - Utskrivna ord genomgående (`om 45 minuter`, `slutar om 2 timmar`, `om 9 dagar`),
-  aldrig förkortningar, med avrundning nedåt — en underskattning gör att barnet
-  kommer för tidigt i stället för för sent.
+  aldrig förkortningar. Minuter och timmar avrundas nedåt — en underskattning gör att
+  barnet kommer för tidigt i stället för för sent.
+- Dygn räknas i kalenderdagar, inte i förflutna 24-timmarsperioder: är det fredag står
+  ett event på måndag som `om 3 dagar` oavsett klockslag, för barn tänker i sömnar.
+  Gränsen mellan timmar och dagar går därmed vid midnatt.
 - En 30-sekunderstimer uppdaterar enbart nedräkningstexten, inte hela vyn. Utöver
   det ritas hela vyn nu om vid dagbyte, när klockan passerar ett events start eller
   slut, och vid återkomst till fliken efter mer än fem minuter — samma omritning

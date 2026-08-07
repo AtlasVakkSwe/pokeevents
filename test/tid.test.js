@@ -112,8 +112,8 @@ test('exakt en timme till start ger "om 1 timme" (singular)', () => {
   assert.equal(formatNedrakning(efter(TIMME), efter(3 * TIMME), NU), 'om 1 timme');
 });
 
-test('23 timmar 59 minuter till start räknas fortfarande i timmar', () => {
-  assert.equal(formatNedrakning(efter(23 * TIMME + 59 * MINUT), efter(30 * TIMME), NU), 'om 23 timmar');
+test('23 timmar 59 minuter till start är nästa kalenderdag och ger "om 1 dag"', () => {
+  assert.equal(formatNedrakning(efter(23 * TIMME + 59 * MINUT), efter(30 * TIMME), NU), 'om 1 dag');
 });
 
 test('exakt ett dygn till start ger "om 1 dag" (singular)', () => {
@@ -124,14 +124,56 @@ test('nio dygn till start ger "om 9 dagar"', () => {
   assert.equal(formatNedrakning(efter(9 * DYGN), efter(9 * DYGN + 3 * TIMME), NU), 'om 9 dagar');
 });
 
-// --- Avrundning nedåt (spec: underskattning är den ofarliga riktningen) ---
+// --- Avrundning nedåt för minuter och timmar (underskattning är ofarliga riktningen).
+//     Dygn räknas däremot exakt i kalenderdagar, se nästa avsnitt. ---
 
 test('2 timmar 50 minuter avrundas nedåt till "om 2 timmar"', () => {
   assert.equal(formatNedrakning(efter(2 * TIMME + 50 * MINUT), efter(5 * TIMME), NU), 'om 2 timmar');
 });
 
-test('1 dygn 23 timmar avrundas nedåt till "om 1 dag"', () => {
-  assert.equal(formatNedrakning(efter(DYGN + 23 * TIMME), efter(3 * DYGN), NU), 'om 1 dag');
+// --- Dygn räknas i kalenderdagar, inte i förflutna 24-timmarsperioder ---
+// Barn tänker i sömnar, inte i timmar: är det fredag ska ett event på måndag stå
+// "om 3 dagar" oavsett vad klockan är. NU i testerna ovan är en fredag.
+
+test('1 dygn 23 timmar spänner över två kalenderdagar och ger "om 2 dagar"', () => {
+  assert.equal(formatNedrakning(efter(DYGN + 23 * TIMME), efter(3 * DYGN), NU), 'om 2 dagar');
+});
+
+test('fredag morgon till måndag ger "om 3 dagar"', () => {
+  const nu = tolkaTid('2026-08-07T08:00:00.000');
+  const start = tolkaTid('2026-08-10T10:00:00.000');
+  const slut = tolkaTid('2026-08-10T13:00:00.000');
+  assert.equal(formatNedrakning(start, slut, nu), 'om 3 dagar');
+});
+
+test('fredag sen kväll till samma måndag ger också "om 3 dagar" (60 timmar, inte 2 dygn)', () => {
+  const nu = tolkaTid('2026-08-07T22:00:00.000');
+  const start = tolkaTid('2026-08-10T10:00:00.000');
+  const slut = tolkaTid('2026-08-10T13:00:00.000');
+  assert.equal(formatNedrakning(start, slut, nu), 'om 3 dagar');
+});
+
+test('nästa kalenderdag ger "om 1 dag" även när starten bara är en timme bort', () => {
+  const nu = tolkaTid('2026-08-07T23:30:00.000');
+  const start = tolkaTid('2026-08-08T00:30:00.000');
+  const slut = tolkaTid('2026-08-08T02:00:00.000');
+  assert.equal(formatNedrakning(start, slut, nu), 'om 1 dag');
+});
+
+test('samma kalenderdag räknas i timmar även när det är nästan ett helt dygn', () => {
+  const nu = tolkaTid('2026-08-07T00:10:00.000');
+  const start = tolkaTid('2026-08-07T23:50:00.000');
+  const slut = tolkaTid('2026-08-08T01:00:00.000');
+  assert.equal(formatNedrakning(start, slut, nu), 'om 23 timmar');
+});
+
+// Sommartidsskiftet gör dygnet 23 timmar långt. Kalenderdagsräkningen ska inte bry
+// sig: natten till 29 mars 2026 ställs klockan fram, och nästa dag är ändå nästa dag.
+test('dygnsräkningen påverkas inte av sommartidsskiftet', () => {
+  const nu = tolkaTid('2026-03-28T12:00:00.000');
+  const start = tolkaTid('2026-03-29T11:30:00.000');
+  const slut = tolkaTid('2026-03-29T14:00:00.000');
+  assert.equal(formatNedrakning(start, slut, nu), 'om 1 dag');
 });
 
 // --- Pågående event: räknar ner till slutet, med prefixet "slutar" ---

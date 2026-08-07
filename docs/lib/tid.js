@@ -131,20 +131,35 @@ export function formatTidsspann(start, slut, nu) {
 }
 
 // Nedräkning (spec: specs/2026-08-07-nedrakning-design.md).
-// Avrundning nedåt genomgående: underskattning gör att man kommer för tidigt
+// Minuter och timmar avrundas nedåt: underskattning gör att man kommer för tidigt
 // i stället för för sent, och skyndar på när tiden håller på att ta slut.
+// Dygn räknas däremot i kalenderdagar och är exakta — se dagSkillnad.
 const MINUT_MS = 60 * 1000;
 
-function enhet(diffMs) {
+// Antal kalenderdagar mellan två tidpunkter, räknat i svensk tid. Räkningen sker på
+// datumkomponenterna och inte på förfluten tid, så varken sommartidsskiften (dygn på
+// 23 respektive 25 timmar) eller klockslag kan förskjuta resultatet.
+function dagSkillnad(fran, till) {
+  const [franAr, franManad, franDag] = dagNyckel(fran).split('-').map(Number);
+  const [tillAr, tillManad, tillDag] = dagNyckel(till).split('-').map(Number);
+  const franMidnatt = Date.UTC(franAr, franManad - 1, franDag);
+  const tillMidnatt = Date.UTC(tillAr, tillManad - 1, tillDag);
+  return Math.round((tillMidnatt - franMidnatt) / DYGN_MS);
+}
+
+// Ligger målet på ett senare datum räknas det alltid i dagar, oavsett klockslag:
+// barn tänker i sömnar, inte i förflutna timmar. Är det fredag står ett event på
+// måndag som "om 3 dagar" även sent på fredagskvällen. Klockslaget står bredvid.
+function enhet(diffMs, nu, mal) {
+  const dagar = dagSkillnad(nu, mal);
+  if (dagar >= 1) {
+    return { antal: dagar, ental: 'dag', flertal: 'dagar' };
+  }
   const minuter = Math.floor(diffMs / MINUT_MS);
   if (minuter < 60) {
     return { antal: minuter, ental: 'minut', flertal: 'minuter' };
   }
-  const timmar = Math.floor(minuter / 60);
-  if (timmar < 24) {
-    return { antal: timmar, ental: 'timme', flertal: 'timmar' };
-  }
-  return { antal: Math.floor(timmar / 24), ental: 'dag', flertal: 'dagar' };
+  return { antal: Math.floor(minuter / 60), ental: 'timme', flertal: 'timmar' };
 }
 
 // Pekar alltid på eventets nästa gräns: starten om det inte börjat, annars slutet.
@@ -158,7 +173,7 @@ export function formatNedrakning(start, slut, nu) {
   if (diff < MINUT_MS) {
     return pagar ? 'slutar strax' : 'börjar nu';
   }
-  const { antal, ental, flertal } = enhet(diff);
+  const { antal, ental, flertal } = enhet(diff, nu, mal);
   const text = `om ${antal} ${antal === 1 ? ental : flertal}`;
   return pagar ? `slutar ${text}` : text;
 }

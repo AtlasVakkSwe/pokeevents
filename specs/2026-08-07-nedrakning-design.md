@@ -61,20 +61,32 @@ varandra.
 | Återstår | Ej börjat | Pågår |
 |---|---|---|
 | under 1 minut | `börjar nu` | `slutar strax` |
-| under 1 timme | `om 45 minuter` | `slutar om 40 minuter` |
-| under 1 dygn | `om 2 timmar` | `slutar om 5 timmar` |
-| 1 dygn eller mer | `om 9 dagar` | `slutar om 32 dagar` |
+| senare samma dygn, under 1 timme | `om 45 minuter` | `slutar om 40 minuter` |
+| senare samma dygn, en timme eller mer | `om 2 timmar` | `slutar om 5 timmar` |
+| ett senare datum | `om 9 dagar` | `slutar om 32 dagar` |
+| redan passerat | — | `har slutat` |
 
 Singularformer: `om 1 minut`, `om 1 timme`, `om 1 dag` (och `slutar om 1 minut` osv).
 
 Förkortningar (`tim`, `dgr`) används inte — de är extra avkodningsarbete för en ovan
 läsare, och tvåradslayouten ger plats för hela ord.
 
-**Avrundning nedåt genomgående.** `om 2 timmar` visas alltså även när det återstår
-2 timmar och 50 minuter. Valet är medvetet: underskattning gör att barnet kommer för
-tidigt i stället för för sent, och för `slutar om` skyndar en snålare siffra på i
-stället för att invagga. Enheten bestäms av det nedåtavrundade värdet, så gränsen
-mellan timmar och dagar hamnar exakt på 24 timmar.
+**Dygn räknas i kalenderdagar, inte i förflutna 24-timmarsperioder.** Barn tänker i
+sömnar. Är det fredag ska ett event på måndag stå `om 3 dagar` oavsett vad klockan är
+— även klockan 22 på fredagskvällen, när den förflutna tiden bara är 60 timmar och en
+24-timmarsräkning hade sagt `om 2 dagar`. Följden är att gränsen mellan timmar och
+dagar ligger vid midnatt och inte vid 24 timmar: ett event 09.00 imorgon står som
+`om 1 dag` även när klockan är 23.30 ikväll. Det är avsiktligt — klockslaget står
+bredvid i samma rad och visar hur nära det faktiskt är.
+
+Kalenderdagarna räknas på datumkomponenterna i svensk tid, aldrig på förfluten tid,
+så sommartidsskiftets 23- och 25-timmarsdygn inte kan förskjuta räkningen.
+
+**Minuter och timmar avrundas nedåt.** `om 2 timmar` visas alltså även när det
+återstår 2 timmar och 50 minuter. Valet är medvetet: underskattning gör att barnet
+kommer för tidigt i stället för för sent, och för `slutar om` skyndar en snålare
+siffra på i stället för att invagga. Dygnsräkningen är däremot exakt — en kalenderdag
+är inte en avrundning av något.
 
 ## Att siffran förblir sann
 
@@ -117,8 +129,10 @@ svårt att upptäcka idag men skulle bli uppenbart med en nedräkning bredvid.
 ## Testning
 
 TDD för nedräkningsfunktionen i `test/tid.test.js`, bredvid de befintliga tidstesterna.
-Täcker varje gräns i trappan (59 s mot 60 s, 59 min mot 60 min, 23:59 mot dygnsgränsen),
-båda riktningarna (ej börjat / pågår), singularformerna, och att avrundningen går nedåt.
+Täcker varje gräns i trappan (59 s mot 60 s, 59 min mot 60 min, midnatt som gräns
+mellan timmar och dagar), båda riktningarna (ej börjat / pågår), singularformerna,
+att minuter och timmar avrundas nedåt, att fredag→måndag ger tre dagar oavsett
+klockslag, och att sommartidsskiftet inte förskjuter dygnsräkningen.
 
 Verifiering utöver enhetstesterna: 360 px-rendering utan horisontell skroll, och att
 samtliga befintliga tester fortsätter passera.

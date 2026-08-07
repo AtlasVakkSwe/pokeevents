@@ -602,3 +602,13 @@ git commit -m "Tickande nedräkningar och omritning vid återkomst"
 - [ ] Kör `npm test` en sista gång: 93 tester, alla gröna.
 - [ ] Uppdatera PRD:ns ändringslogg med en kort v2.1-post om nedräkningen, i samma form som v2.0-posten.
 - [ ] Pusha. Sidan deployas automatiskt via Pages när `main` uppdateras.
+
+---
+
+## Efterändring 2026-08-07 (efter genomförd plan)
+
+Toni ändrade dygnsregeln efter granskning: dygn räknas nu i **kalenderdagar**, inte i
+förflutna 24-timmarsperioder. Planens globala förutsättning "avrundning nedåt i alla
+tidsenheter" gäller därför bara minuter och timmar, och Task 1:s testkod ovan är inte
+längre aktuell för dygnsfallen. Designspecen är uppdaterad och är det som gäller —
+planen står kvar oförändrad som protokoll över hur arbetet faktiskt utfördes.
