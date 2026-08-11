@@ -1,51 +1,6 @@
 {
-  "hamtad": "2026-08-10T05:52:25.098Z",
+  "hamtad": "2026-08-11T05:32:49.164Z",
   "events": [
-    {
-      "eventID": "pokemonspotlighthour2026-08-06",
-      "name": "Delibird Spotlight Hour",
-      "eventType": "pokemon-spotlight-hour",
-      "heading": "Pokémon Spotlight Hour",
-      "link": "https://leekduck.com/events/pokemonspotlighthour2026-08-06/",
-      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-      "start": "2026-08-06T18:00:00.000",
-      "end": "2026-08-06T19:00:00.000",
-      "extraData": {
-        "spotlight": {
-          "name": "Delibird",
-          "canBeShiny": true,
-          "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_225_00.png",
-          "bonus": "2× Catch Stardust",
-          "list": [
-            {
-              "name": "Delibird",
-              "canBeShiny": true,
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_225_00.png"
-            }
-          ]
-        },
-        "generic": {
-          "hasSpawns": true,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "fire-and-ice-hatch-day-2026",
-      "name": "Fire and Ice Hatch Day",
-      "eventType": "event",
-      "heading": "Event",
-      "link": "https://leekduck.com/events/fire-and-ice-hatch-day-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-08-fire-and-ice-hatch-day-2026/fire-and-ice-hatch-day-2026.jpg",
-      "start": "2026-08-08T11:00:00.000",
-      "end": "2026-08-08T17:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "summer-marathon-2026",
       "name": "Summer Marathon: Arctic Embers",
@@ -1077,6 +1032,54 @@
       }
     },
     {
+      "eventID": "september-communitydayclassic2026",
+      "name": "September Community Day Classic",
+      "eventType": "community-day",
+      "heading": "Community Day",
+      "link": "https://leekduck.com/events/september-communitydayclassic2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/cd-default.jpg",
+      "start": "2026-09-12T14:00:00.000",
+      "end": "2026-09-12T17:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "super-mega-raid-day-september-2026",
+      "name": "Super Mega Raid Day",
+      "eventType": "raid-day",
+      "heading": "Raid Day",
+      "link": "https://leekduck.com/events/super-mega-raid-day-september-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-09-19T14:00:00.000",
+      "end": "2026-09-19T17:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "catch-mastery-september-2026",
+      "name": "Catch Mastery",
+      "eventType": "event",
+      "heading": "Event",
+      "link": "https://leekduck.com/events/catch-mastery-september-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-09-26T10:00:00.000",
+      "end": "2026-09-26T20:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
       "eventID": "lego-pokemon-go-2026",
       "name": "LEGO Stores and Pokémon GO",
       "eventType": "event",
@@ -1085,6 +1088,118 @@
       "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-03-lego-pokemon-go-2026/lego-stores-pokemon-go.jpg",
       "start": "2026-08-03T10:00:00.000",
       "end": "2026-09-30T23:59:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "max-battle-day-october-2026",
+      "name": "Max Battle Day",
+      "eventType": "max-battles",
+      "heading": "Max Battles",
+      "link": "https://leekduck.com/events/max-battle-day-october-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-10-03T14:00:00.000",
+      "end": "2026-10-03T17:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "october-communityday2026",
+      "name": "October Community Day",
+      "eventType": "community-day",
+      "heading": "Community Day",
+      "link": "https://leekduck.com/events/october-communityday2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/cd-default.jpg",
+      "start": "2026-10-10T14:00:00.000",
+      "end": "2026-10-10T17:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "hatch-day-october-2026",
+      "name": "Hatch Day",
+      "eventType": "event",
+      "heading": "Event",
+      "link": "https://leekduck.com/events/hatch-day-october-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-10-17T11:00:00.000",
+      "end": "2026-10-17T17:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "max-battle-day-october-24-2026",
+      "name": "Max Battle Day",
+      "eventType": "max-battles",
+      "heading": "Max Battles",
+      "link": "https://leekduck.com/events/max-battle-day-october-24-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-10-24T14:00:00.000",
+      "end": "2026-10-24T17:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "super-mega-raid-day-october-2026",
+      "name": "Super Mega Raid Day",
+      "eventType": "raid-day",
+      "heading": "Raid Day",
+      "link": "https://leekduck.com/events/super-mega-raid-day-october-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-10-31T14:00:00.000",
+      "end": "2026-10-31T17:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "november-communityday2026",
+      "name": "November Community Day",
+      "eventType": "community-day",
+      "heading": "Community Day",
+      "link": "https://leekduck.com/events/november-communityday2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/cd-default.jpg",
+      "start": "2026-11-21T14:00:00.000",
+      "end": "2026-11-21T17:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "super-mega-raid-day-november-2026",
+      "name": "Super Mega Raid Day",
+      "eventType": "raid-day",
+      "heading": "Raid Day",
+      "link": "https://leekduck.com/events/super-mega-raid-day-november-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-11-28T14:00:00.000",
+      "end": "2026-11-28T17:00:00.000",
       "extraData": {
         "generic": {
           "hasSpawns": false,
