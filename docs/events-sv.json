@@ -1,20 +1,6 @@
 {
-  "uppdaterad": "2026-08-13T05:53:40.663Z",
+  "uppdaterad": "2026-08-14T05:51:44.984Z",
   "events": [
-    {
-      "id": "raidhour20260812",
-      "name": "Groudon Raid Hour",
-      "typ": "raid-hour",
-      "typRubrik": "Raidtimme",
-      "link": "https://leekduck.com/events/raidhour20260812/",
-      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-      "start": "2026-08-12T18:00:00.000",
-      "end": "2026-08-12T19:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Raidtimme! Extra många raider i en timme.",
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "pokemonspotlighthour2026-08-13",
       "name": "Wurmple Spotlight Hour",
