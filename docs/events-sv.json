@@ -1,26 +1,6 @@
 {
-  "uppdaterad": "2026-08-15T04:53:55.080Z",
+  "uppdaterad": "2026-08-16T04:57:28.777Z",
   "events": [
-    {
-      "id": "pokemonspotlighthour2026-08-13",
-      "name": "Wurmple Spotlight Hour",
-      "typ": "pokemon-spotlight-hour",
-      "typRubrik": "Rampljustimme",
-      "link": "https://leekduck.com/events/pokemonspotlighthour2026-08-13/",
-      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-      "start": "2026-08-13T18:00:00.000",
-      "end": "2026-08-13T19:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Wurmple dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbel XP när du utvecklar.",
-      "pokemon": [
-        {
-          "namn": "Wurmple",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_265_00.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
     {
       "id": "august-communityday2026",
       "name": "Nickit Community Day",
