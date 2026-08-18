@@ -1,35 +1,6 @@
 {
-  "uppdaterad": "2026-08-17T05:05:03.319Z",
+  "uppdaterad": "2026-08-18T04:59:46.396Z",
   "events": [
-    {
-      "id": "august-communityday2026",
-      "name": "Nickit Community Day",
-      "typ": "community-day",
-      "typRubrik": "Community Day",
-      "link": "https://leekduck.com/events/august-communityday2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-16-august-communityday2026/nickit-august-cd-2026.jpg",
-      "start": "2026-08-16T14:00:00.000",
-      "end": "2026-08-16T17:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Community Day med Nickit! Extra många dyker upp och det finns bonusar hela tiden.",
-      "pokemon": [
-        {
-          "namn": "Nickit",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm827.icon.png",
-          "shiny": false
-        }
-      ],
-      "bonusar": [
-        "Extra många Pokémon dyker upp",
-        "Trippelt stjärnstoft när du fångar",
-        "Rökelse räcker i 3 timmar",
-        "Lockmoduler räcker i 1 timme",
-        "Dubbelt godis när du fångar",
-        "Dubbel chans till XL-godis när du fångar",
-        "Ett extra specialbyte den här dagen",
-        "Byten kostar hälften så mycket stjärnstoft"
-      ]
-    },
     {
       "id": "choose-your-path-venom-and-vines-2026",
       "name": "Choose Your Path: Venom and Vines",
@@ -178,8 +149,43 @@
           "shiny": true
         },
         {
+          "namn": "Tentacool",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_072_00.png",
+          "shiny": true
+        },
+        {
           "namn": "Goldeen",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_118_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Magikarp",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_129_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Marill",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_183_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Wailmer",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_320_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Corphish",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_341_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Ducklett",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_580_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Frillish",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_592_01.png",
           "shiny": true
         },
         {
@@ -188,8 +194,18 @@
           "shiny": true
         },
         {
+          "namn": "Dewpider",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm751.icon.png",
+          "shiny": true
+        },
+        {
           "namn": "Wimpod",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm767.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Gyarados",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_130_00.png",
           "shiny": true
         },
         {
