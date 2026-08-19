@@ -1,34 +1,6 @@
 {
-  "uppdaterad": "2026-08-18T04:59:46.396Z",
+  "uppdaterad": "2026-08-19T04:59:33.919Z",
   "events": [
-    {
-      "id": "choose-your-path-venom-and-vines-2026",
-      "name": "Choose Your Path: Venom and Vines",
-      "typ": "choose-your-path",
-      "typRubrik": "Välj din väg",
-      "link": "https://leekduck.com/events/choose-your-path-venom-and-vines-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/choose-your-path-evergreen.jpg",
-      "start": "2026-08-11T10:00:00.000",
-      "end": "2026-08-17T20:00:00.000",
-      "region": "galler",
-      "sammanfattning": null,
-      "pokemon": [],
-      "bonusar": []
-    },
-    {
-      "id": "max-mondays-2026-08-17",
-      "name": "Dynamax Magikarp during Max Monday",
-      "typ": "max-mondays",
-      "typRubrik": "Max-måndag",
-      "link": "https://leekduck.com/events/max-mondays-2026-08-17/",
-      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-      "start": "2026-08-17T06:00:00.000",
-      "end": "2026-08-17T21:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Max-måndag! Extra Max-strider ikväll.",
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "gbl-forever-forward_master-league_evolution-cup-great-league-edition",
       "name": "Master League and Evolution Cup: Great League Edition | Forever Forward",
@@ -298,7 +270,7 @@
       "typ": "raid-battles",
       "typRubrik": "Raider",
       "link": "https://leekduck.com/events/lunala-in-5-star-raid-battles-august-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "image": "https://cdn.leekduck.com/assets/img/events/lunala.jpg?v2",
       "start": "2026-08-19T06:00:00.000",
       "end": "2026-08-25T22:00:00.000",
       "region": "galler",
