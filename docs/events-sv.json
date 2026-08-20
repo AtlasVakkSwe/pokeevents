@@ -1,60 +1,6 @@
 {
-  "uppdaterad": "2026-08-19T04:59:33.919Z",
+  "uppdaterad": "2026-08-20T05:01:15.293Z",
   "events": [
-    {
-      "id": "gbl-forever-forward_master-league_evolution-cup-great-league-edition",
-      "name": "Master League and Evolution Cup: Great League Edition | Forever Forward",
-      "typ": "go-battle-league",
-      "typRubrik": "GO Battle League",
-      "link": "https://leekduck.com/events/gbl-forever-forward_master-league_evolution-cup-great-league-edition/",
-      "image": "https://cdn.leekduck.com/assets/img/events/gobattleleague-master-key.jpg",
-      "start": "2026-08-11T20:00:00.000Z",
-      "end": "2026-08-18T20:00:00.000Z",
-      "region": "galler",
-      "sammanfattning": "Nytt i GO Battle League (strider mot andra spelare).",
-      "pokemon": [],
-      "bonusar": []
-    },
-    {
-      "id": "groudon-in-5-star-raid-battles-august-2026",
-      "name": "Groudon in 5-star Raid Battles",
-      "typ": "raid-battles",
-      "typRubrik": "Raider",
-      "link": "https://leekduck.com/events/groudon-in-5-star-raid-battles-august-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
-      "start": "2026-08-12T06:00:00.000",
-      "end": "2026-08-18T22:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Groudon finns i raid. Kan vara shiny! ✨",
-      "pokemon": [
-        {
-          "namn": "Groudon",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_383_00.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
-    {
-      "id": "mega-garchomp-in-mega-raids-august-2026",
-      "name": "Mega Garchomp in Mega Raids",
-      "typ": "raid-battles",
-      "typRubrik": "Raider",
-      "link": "https://leekduck.com/events/mega-garchomp-in-mega-raids-august-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
-      "start": "2026-08-12T06:00:00.000",
-      "end": "2026-08-18T22:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Mega Garchomp finns i raid. Kan vara shiny! ✨",
-      "pokemon": [
-        {
-          "namn": "Mega Garchomp",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm445.fMEGA.icon.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
     {
       "id": "raidhour20260819",
       "name": "Lunala Raid Hour",

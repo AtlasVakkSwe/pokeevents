@@ -1,13 +1,13 @@
 {
-  "uppdaterad": "2026-08-19T04:59:33.919Z",
+  "uppdaterad": "2026-08-20T05:01:15.293Z",
   "grupper": [
     {
       "rubrik": "5 stjärnor",
       "pokemon": [
         {
-          "namn": "Groudon",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm383.icon.png",
-          "shiny": true
+          "namn": "Lunala",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm792.icon.png",
+          "shiny": false
         },
         {
           "namn": "Shadow Giratina (Altered)",
@@ -20,8 +20,8 @@
       "rubrik": "Mega",
       "pokemon": [
         {
-          "namn": "Mega Garchomp",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm445.fMEGA.icon.png",
+          "namn": "Mega Swampert",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm260.fMEGA.icon.png",
           "shiny": true
         }
       ]
@@ -30,18 +30,18 @@
       "rubrik": "3 stjärnor",
       "pokemon": [
         {
-          "namn": "Galarian Mr. Mime",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm122.fGALARIAN.icon.png",
+          "namn": "Lapras wearing a Scarf",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm131.fCOSTUME_2020.icon.png",
           "shiny": true
         },
         {
-          "namn": "Turtonator",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm776.icon.png",
+          "namn": "Hisuian Samurott",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm503.fHISUIAN.icon.png",
           "shiny": true
         },
         {
-          "namn": "Kleavor",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm900.icon.png",
+          "namn": "Dondozo",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm977.icon.png",
           "shiny": true
         },
         {
@@ -65,24 +65,24 @@
       "rubrik": "1 stjärna",
       "pokemon": [
         {
-          "namn": "Tirtouga",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm564.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Archen",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm566.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Axew",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm610.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Poltchageist",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm1012.fCOUNTERFEIT.icon.png",
+          "namn": "Tatsugiri (Curly)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm978.fCURLY.icon.png",
           "shiny": false
+        },
+        {
+          "namn": "Tatsugiri (Droopy)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm978.fDROOPY.icon.png",
+          "shiny": false
+        },
+        {
+          "namn": "Tatsugiri (Stretchy)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm978.fSTRETCHY.icon.png",
+          "shiny": false
+        },
+        {
+          "namn": "Psyduck with a swim ring",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm54.fSWIM_2025.icon.png",
+          "shiny": true
         },
         {
           "namn": "Shadow Slowpoke",
