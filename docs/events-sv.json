@@ -1,40 +1,6 @@
 {
-  "uppdaterad": "2026-08-21T05:01:34.143Z",
+  "uppdaterad": "2026-08-22T04:56:49.468Z",
   "events": [
-    {
-      "id": "raidhour20260819",
-      "name": "Lunala Raid Hour",
-      "typ": "raid-hour",
-      "typRubrik": "Raidtimme",
-      "link": "https://leekduck.com/events/raidhour20260819/",
-      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-      "start": "2026-08-19T18:00:00.000",
-      "end": "2026-08-19T19:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Raidtimme! Extra många raider i en timme.",
-      "pokemon": [],
-      "bonusar": []
-    },
-    {
-      "id": "pokemonspotlighthour2026-08-20",
-      "name": "Magikarp Spotlight Hour",
-      "typ": "pokemon-spotlight-hour",
-      "typRubrik": "Rampljustimme",
-      "link": "https://leekduck.com/events/pokemonspotlighthour2026-08-20/",
-      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-      "start": "2026-08-20T18:00:00.000",
-      "end": "2026-08-20T19:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Magikarp dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbel XP när du fångar.",
-      "pokemon": [
-        {
-          "namn": "Magikarp",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_129_00.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
     {
       "id": "starmie-super-mega-raid-day-2026",
       "name": "Starmie Super Mega Raid Day",

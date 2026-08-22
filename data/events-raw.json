@@ -1,51 +1,6 @@
 {
-  "hamtad": "2026-08-21T05:01:34.143Z",
+  "hamtad": "2026-08-22T04:56:49.468Z",
   "events": [
-    {
-      "eventID": "raidhour20260819",
-      "name": "Lunala Raid Hour",
-      "eventType": "raid-hour",
-      "heading": "Raid Hour",
-      "link": "https://leekduck.com/events/raidhour20260819/",
-      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-      "start": "2026-08-19T18:00:00.000",
-      "end": "2026-08-19T19:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "pokemonspotlighthour2026-08-20",
-      "name": "Magikarp Spotlight Hour",
-      "eventType": "pokemon-spotlight-hour",
-      "heading": "Pokémon Spotlight Hour",
-      "link": "https://leekduck.com/events/pokemonspotlighthour2026-08-20/",
-      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-      "start": "2026-08-20T18:00:00.000",
-      "end": "2026-08-20T19:00:00.000",
-      "extraData": {
-        "spotlight": {
-          "name": "Magikarp",
-          "canBeShiny": true,
-          "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_129_00.png",
-          "bonus": "2× Catch XP",
-          "list": [
-            {
-              "name": "Magikarp",
-              "canBeShiny": true,
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_129_00.png"
-            }
-          ]
-        },
-        "generic": {
-          "hasSpawns": true,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "starmie-super-mega-raid-day-2026",
       "name": "Starmie Super Mega Raid Day",
