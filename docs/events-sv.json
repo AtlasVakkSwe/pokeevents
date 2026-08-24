@@ -1,20 +1,6 @@
 {
-  "uppdaterad": "2026-08-23T04:58:52.508Z",
+  "uppdaterad": "2026-08-24T05:08:42.064Z",
   "events": [
-    {
-      "id": "starmie-super-mega-raid-day-2026",
-      "name": "Starmie Super Mega Raid Day",
-      "typ": "raid-day",
-      "typRubrik": "Raiddag",
-      "link": "https://leekduck.com/events/starmie-super-mega-raid-day-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-22-starmie-super-mega-raid-day-2026/starmie-super-mega-raid-day-2026.jpg",
-      "start": "2026-08-22T11:00:00.000",
-      "end": "2026-08-22T17:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Raiddag! Extra många raider hela dagen.",
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "water-festival-2026",
       "name": "Ultra Unlock: Water Festival",
@@ -1167,7 +1153,7 @@
       "typ": "raid-battles",
       "typRubrik": "Raider",
       "link": "https://leekduck.com/events/regirock-regice-registeel-in-5-star-raid-battles-august-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "image": "https://cdn.leekduck.com/assets/img/events/regi-trio.jpg",
       "start": "2026-08-26T06:00:00.000",
       "end": "2026-09-08T22:00:00.000",
       "region": "galler",

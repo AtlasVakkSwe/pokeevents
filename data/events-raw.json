@@ -1,22 +1,6 @@
 {
-  "hamtad": "2026-08-23T04:58:52.508Z",
+  "hamtad": "2026-08-24T05:08:42.064Z",
   "events": [
-    {
-      "eventID": "starmie-super-mega-raid-day-2026",
-      "name": "Starmie Super Mega Raid Day",
-      "eventType": "raid-day",
-      "heading": "Raid Day",
-      "link": "https://leekduck.com/events/starmie-super-mega-raid-day-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-22-starmie-super-mega-raid-day-2026/starmie-super-mega-raid-day-2026.jpg",
-      "start": "2026-08-22T11:00:00.000",
-      "end": "2026-08-22T17:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "water-festival-2026",
       "name": "Ultra Unlock: Water Festival",
@@ -424,7 +408,7 @@
       "eventType": "raid-battles",
       "heading": "Raid Battles",
       "link": "https://leekduck.com/events/regirock-regice-registeel-in-5-star-raid-battles-august-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "image": "https://cdn.leekduck.com/assets/img/events/regi-trio.jpg",
       "start": "2026-08-26T06:00:00.000",
       "end": "2026-09-08T22:00:00.000",
       "extraData": {
