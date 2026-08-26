@@ -1,38 +1,6 @@
 {
-  "hamtad": "2026-08-25T05:01:39.240Z",
+  "hamtad": "2026-08-26T05:02:41.625Z",
   "events": [
-    {
-      "eventID": "water-festival-2026",
-      "name": "Ultra Unlock: Water Festival",
-      "eventType": "event",
-      "heading": "Event",
-      "link": "https://leekduck.com/events/water-festival-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-18-water-festival-2026/water-festival-2026.jpg?v2",
-      "start": "2026-08-18T10:00:00.000",
-      "end": "2026-08-24T20:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": true,
-          "hasFieldResearchTasks": true
-        }
-      }
-    },
-    {
-      "eventID": "max-mondays-2026-08-24",
-      "name": "Dynamax Hitmontop during Max Monday",
-      "eventType": "max-mondays",
-      "heading": "Max Mondays",
-      "link": "https://leekduck.com/events/max-mondays-2026-08-24/",
-      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-      "start": "2026-08-24T06:00:00.000",
-      "end": "2026-08-24T21:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "gbl-forever-forward_great-league_scroll-cup-great-league-edition",
       "name": "Great League and Scroll Cup: Great League Edition | Forever Forward",
@@ -289,6 +257,22 @@
       }
     },
     {
+      "eventID": "max-mondays-2026-09-07",
+      "name": "Dynamax Ralts during Max Monday",
+      "eventType": "max-mondays",
+      "heading": "Max Mondays",
+      "link": "https://leekduck.com/events/max-mondays-2026-09-07/",
+      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
+      "start": "2026-09-07T06:00:00.000",
+      "end": "2026-09-07T21:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
       "eventID": "season-23-forever-forward",
       "name": "Forever Forward",
       "eventType": "season",
@@ -452,6 +436,61 @@
       }
     },
     {
+      "eventID": "raidhour20260909",
+      "name": "Zacian (Hero of Many Battles) Raid Hour",
+      "eventType": "raid-hour",
+      "heading": "Raid Hour",
+      "link": "https://leekduck.com/events/raidhour20260909/",
+      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
+      "start": "2026-09-09T18:00:00.000",
+      "end": "2026-09-09T19:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "pokemonspotlighthour2026-09-10",
+      "name": "Weedle, Kakuna, and Beedrill Spotlight Hour",
+      "eventType": "pokemon-spotlight-hour",
+      "heading": "Pokémon Spotlight Hour",
+      "link": "https://leekduck.com/events/pokemonspotlighthour2026-09-10/",
+      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
+      "start": "2026-09-10T18:00:00.000",
+      "end": "2026-09-10T19:00:00.000",
+      "extraData": {
+        "spotlight": {
+          "name": "Weedle",
+          "canBeShiny": true,
+          "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_013_00.png",
+          "bonus": "2× Transfer Candy",
+          "list": [
+            {
+              "name": "Weedle",
+              "canBeShiny": true,
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_013_00.png"
+            },
+            {
+              "name": "Kakuna",
+              "canBeShiny": true,
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_014_00.png"
+            },
+            {
+              "name": "Beedrill",
+              "canBeShiny": true,
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_015_00.png"
+            }
+          ]
+        },
+        "generic": {
+          "hasSpawns": true,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
       "eventID": "september-communitydayclassic2026",
       "name": "September Community Day Classic",
       "eventType": "community-day",
@@ -460,6 +499,205 @@
       "image": "https://cdn.leekduck.com/assets/img/events/cd-default.jpg",
       "start": "2026-09-12T14:00:00.000",
       "end": "2026-09-12T17:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "pokemonspotlighthour2026-09-13",
+      "name": "Houndour and Houndoom Spotlight Hour",
+      "eventType": "pokemon-spotlight-hour",
+      "heading": "Pokémon Spotlight Hour",
+      "link": "https://leekduck.com/events/pokemonspotlighthour2026-09-13/",
+      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
+      "start": "2026-09-13T18:00:00.000",
+      "end": "2026-09-13T19:00:00.000",
+      "extraData": {
+        "spotlight": {
+          "name": "Houndour",
+          "canBeShiny": true,
+          "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_228_00.png",
+          "bonus": "2× Transfer Candy",
+          "list": [
+            {
+              "name": "Houndour",
+              "canBeShiny": true,
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_228_00.png"
+            },
+            {
+              "name": "Houndoom",
+              "canBeShiny": true,
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_229_00.png"
+            }
+          ]
+        },
+        "generic": {
+          "hasSpawns": true,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "mega-squads-2026",
+      "name": "Mega Squads",
+      "eventType": "event",
+      "heading": "Event",
+      "link": "https://leekduck.com/events/mega-squads-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
+      "start": "2026-09-08T10:00:00.000",
+      "end": "2026-09-14T20:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "max-mondays-2026-09-14",
+      "name": "Dynamax Rhyhorn during Max Monday",
+      "eventType": "max-mondays",
+      "heading": "Max Mondays",
+      "link": "https://leekduck.com/events/max-mondays-2026-09-14/",
+      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
+      "start": "2026-09-14T06:00:00.000",
+      "end": "2026-09-14T21:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "mega-beedrill-in-mega-raids-september-2026",
+      "name": "Mega Beedrill in Mega Raids",
+      "eventType": "raid-battles",
+      "heading": "Raid Battles",
+      "link": "https://leekduck.com/events/mega-beedrill-in-mega-raids-september-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
+      "start": "2026-09-08T06:00:00.000",
+      "end": "2026-09-15T22:00:00.000",
+      "extraData": {
+        "raidbattles": {
+          "bosses": [
+            {
+              "name": "Mega Beedrill",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_015_51.png",
+              "canBeShiny": true
+            }
+          ],
+          "shinies": [
+            {
+              "name": "Beedrill",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_015_00_shiny.png"
+            },
+            {
+              "name": "Mega Beedrill",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_015_51_shiny.png"
+            }
+          ]
+        },
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "zacian-hero-of-many-battles-in-5-star-raid-battles-september-2026",
+      "name": "Zacian (Hero of Many Battles) in 5-star Raid Battles",
+      "eventType": "raid-battles",
+      "heading": "Raid Battles",
+      "link": "https://leekduck.com/events/zacian-hero-of-many-battles-in-5-star-raid-battles-september-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-09-09T06:00:00.000",
+      "end": "2026-09-15T22:00:00.000",
+      "extraData": {
+        "raidbattles": {
+          "bosses": [
+            {
+              "name": "Zacian (Hero of Many Battles)",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm888.fHERO.icon.png",
+              "canBeShiny": true
+            }
+          ],
+          "shinies": [
+            {
+              "name": "Zacian (Hero of Many Battles)",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm888.fHERO.s.icon.png"
+            }
+          ]
+        },
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "mega-houndoom-in-mega-raids-september-2026",
+      "name": "Mega Houndoom in Mega Raids",
+      "eventType": "raid-battles",
+      "heading": "Raid Battles",
+      "link": "https://leekduck.com/events/mega-houndoom-in-mega-raids-september-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
+      "start": "2026-09-11T06:00:00.000",
+      "end": "2026-09-15T22:00:00.000",
+      "extraData": {
+        "raidbattles": {
+          "bosses": [
+            {
+              "name": "Mega Houndoom",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_229_51.png",
+              "canBeShiny": true
+            }
+          ],
+          "shinies": [
+            {
+              "name": "Houndoom",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_229_00_shiny.png"
+            },
+            {
+              "name": "Mega Houndoom",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_229_51_shiny.png"
+            }
+          ]
+        },
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "raidhour20260916",
+      "name": "Zamazenta (Hero of Many Battles) Raid Hour",
+      "eventType": "raid-hour",
+      "heading": "Raid Hour",
+      "link": "https://leekduck.com/events/raidhour20260916/",
+      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
+      "start": "2026-09-16T18:00:00.000",
+      "end": "2026-09-16T19:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "pokemonspotlighthour2026-09-17",
+      "name": "Mystery Pokémon Spotlight Hour",
+      "eventType": "pokemon-spotlight-hour",
+      "heading": "Pokémon Spotlight Hour",
+      "link": "https://leekduck.com/events/pokemonspotlighthour2026-09-17/",
+      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
+      "start": "2026-09-17T18:00:00.000",
+      "end": "2026-09-17T19:00:00.000",
       "extraData": {
         "generic": {
           "hasSpawns": false,
@@ -484,6 +722,149 @@
       }
     },
     {
+      "eventID": "max-mondays-2026-09-21",
+      "name": "Dynamax Articuno, Zapdos, and Moltres during Max Monday",
+      "eventType": "max-mondays",
+      "heading": "Max Mondays",
+      "link": "https://leekduck.com/events/max-mondays-2026-09-21/",
+      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
+      "start": "2026-09-21T06:00:00.000",
+      "end": "2026-09-21T21:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "unannounced-september-event-season-24",
+      "name": "Unannounced Event",
+      "eventType": "event",
+      "heading": "Event",
+      "link": "https://leekduck.com/events/unannounced-september-event-season-24/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-09-16T10:00:00.000",
+      "end": "2026-09-22T20:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "mega-venusaur-in-mega-raids-september-2026",
+      "name": "Mega Venusaur in Mega Raids",
+      "eventType": "raid-battles",
+      "heading": "Raid Battles",
+      "link": "https://leekduck.com/events/mega-venusaur-in-mega-raids-september-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
+      "start": "2026-09-16T06:00:00.000",
+      "end": "2026-09-22T22:00:00.000",
+      "extraData": {
+        "raidbattles": {
+          "bosses": [
+            {
+              "name": "Mega Venusaur",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_003_51.png",
+              "canBeShiny": true
+            }
+          ],
+          "shinies": [
+            {
+              "name": "Venusaur",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_003_00_shiny.png"
+            },
+            {
+              "name": "Mega Venusaur",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_003_51_shiny.png"
+            }
+          ]
+        },
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "zamazenta-hero-of-many-battles-in-5-star-raid-battles-september-2026",
+      "name": "Zamazenta (Hero of Many Battles) in 5-star Raid Battles",
+      "eventType": "raid-battles",
+      "heading": "Raid Battles",
+      "link": "https://leekduck.com/events/zamazenta-hero-of-many-battles-in-5-star-raid-battles-september-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-09-16T06:00:00.000",
+      "end": "2026-09-22T22:00:00.000",
+      "extraData": {
+        "raidbattles": {
+          "bosses": [
+            {
+              "name": "Zamazenta (Hero of Many Battles)",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm889.fHERO.icon.png",
+              "canBeShiny": true
+            }
+          ],
+          "shinies": [
+            {
+              "name": "Zamazenta (Hero of Many Battles)",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm889.fHERO.s.icon.png"
+            }
+          ]
+        },
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "raidhour20260923",
+      "name": "Xurkitree, Pheromosa, and Buzzwole Raid Hour",
+      "eventType": "raid-hour",
+      "heading": "Raid Hour",
+      "link": "https://leekduck.com/events/raidhour20260923/",
+      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
+      "start": "2026-09-23T18:00:00.000",
+      "end": "2026-09-23T19:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "pokemonspotlighthour2026-09-24",
+      "name": "Rattata Spotlight Hour",
+      "eventType": "pokemon-spotlight-hour",
+      "heading": "Pokémon Spotlight Hour",
+      "link": "https://leekduck.com/events/pokemonspotlighthour2026-09-24/",
+      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
+      "start": "2026-09-24T18:00:00.000",
+      "end": "2026-09-24T19:00:00.000",
+      "extraData": {
+        "spotlight": {
+          "name": "Rattata",
+          "canBeShiny": true,
+          "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_019_00.png",
+          "bonus": "2× Evolution XP",
+          "list": [
+            {
+              "name": "Rattata",
+              "canBeShiny": true,
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_019_00.png"
+            }
+          ]
+        },
+        "generic": {
+          "hasSpawns": true,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
       "eventID": "catch-mastery-september-2026",
       "name": "Catch Mastery",
       "eventType": "event",
@@ -492,6 +873,122 @@
       "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
       "start": "2026-09-26T10:00:00.000",
       "end": "2026-09-26T20:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "max-mondays-2026-09-28",
+      "name": "Dynamax Sobble during Max Monday",
+      "eventType": "max-mondays",
+      "heading": "Max Mondays",
+      "link": "https://leekduck.com/events/max-mondays-2026-09-28/",
+      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
+      "start": "2026-09-28T06:00:00.000",
+      "end": "2026-09-28T21:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "mega-malamar-in-mega-raids-september-2026",
+      "name": "Mega Malamar in Mega Raids",
+      "eventType": "raid-battles",
+      "heading": "Raid Battles",
+      "link": "https://leekduck.com/events/mega-malamar-in-mega-raids-september-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
+      "start": "2026-09-23T06:00:00.000",
+      "end": "2026-09-29T22:00:00.000",
+      "extraData": {
+        "raidbattles": {
+          "bosses": [
+            {
+              "name": "Mega Malamar",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm687.fMEGA.icon.png",
+              "canBeShiny": true
+            }
+          ],
+          "shinies": [
+            {
+              "name": "Malamar",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_687_00_shiny.png"
+            },
+            {
+              "name": "Mega Malamar",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm687.fMEGA.s.icon.png"
+            }
+          ]
+        },
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "xurkitree-pheromosa-buzzwole-in-5-star-raid-battles-september-2026",
+      "name": "Xurkitree, Pheromosa, and Buzzwole in 5-star Raid Battles",
+      "eventType": "raid-battles",
+      "heading": "Raid Battles",
+      "link": "https://leekduck.com/events/xurkitree-pheromosa-buzzwole-in-5-star-raid-battles-september-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-09-23T06:00:00.000",
+      "end": "2026-09-29T22:00:00.000",
+      "extraData": {
+        "raidbattles": {
+          "bosses": [
+            {
+              "name": "Buzzwole",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm794.icon.png",
+              "canBeShiny": true
+            },
+            {
+              "name": "Pheromosa",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm795.icon.png",
+              "canBeShiny": true
+            },
+            {
+              "name": "Xurkitree",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm796.icon.png",
+              "canBeShiny": true
+            }
+          ],
+          "shinies": [
+            {
+              "name": "Buzzwole",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm794.s.icon.png"
+            },
+            {
+              "name": "Pheromosa",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm795.s.icon.png"
+            },
+            {
+              "name": "Xurkitree",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm796.s.icon.png"
+            }
+          ]
+        },
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "raidhour20260930",
+      "name": "Xerneas Raid Hour",
+      "eventType": "raid-hour",
+      "heading": "Raid Hour",
+      "link": "https://leekduck.com/events/raidhour20260930/",
+      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
+      "start": "2026-09-30T18:00:00.000",
+      "end": "2026-09-30T19:00:00.000",
       "extraData": {
         "generic": {
           "hasSpawns": false,
@@ -525,6 +1022,135 @@
       "start": "2026-10-03T14:00:00.000",
       "end": "2026-10-03T17:00:00.000",
       "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "harvest-festival-2026",
+      "name": "Harvest Festival",
+      "eventType": "event",
+      "heading": "Event",
+      "link": "https://leekduck.com/events/harvest-festival-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-09-29T10:00:00.000",
+      "end": "2026-10-05T20:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "go-pass-september-2026",
+      "name": "GO Pass: September",
+      "eventType": "go-pass",
+      "heading": "GO Pass",
+      "link": "https://leekduck.com/events/go-pass-september-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-08-go-pass-september-2026/go-pass-september-2026.jpg",
+      "start": "2026-09-08T10:00:00.000",
+      "end": "2026-10-06T10:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "shadow-thundurus-incarnate-forme-in-shadow-raids-september-2026",
+      "name": "Shadow Thundurus (Incarnate Forme) in Shadow Raids",
+      "eventType": "raid-battles",
+      "heading": "Raid Battles",
+      "link": "https://leekduck.com/events/shadow-thundurus-incarnate-forme-in-shadow-raids-september-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-09-09T06:00:00.000",
+      "end": "2026-10-06T22:00:00.000",
+      "extraData": {
+        "raidbattles": {
+          "bosses": [
+            {
+              "name": "Thundurus (Incarnate)",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_642_11.png",
+              "canBeShiny": true
+            }
+          ],
+          "shinies": [
+            {
+              "name": "Thundurus (Incarnate)",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_642_11_shiny.png"
+            }
+          ]
+        },
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "mega-victreebel-in-mega-raids-september-2026",
+      "name": "Mega Victreebel in Mega Raids",
+      "eventType": "raid-battles",
+      "heading": "Raid Battles",
+      "link": "https://leekduck.com/events/mega-victreebel-in-mega-raids-september-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
+      "start": "2026-09-30T06:00:00.000",
+      "end": "2026-10-06T22:00:00.000",
+      "extraData": {
+        "raidbattles": {
+          "bosses": [
+            {
+              "name": "Mega Victreebel",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm71.fMEGA.icon.png",
+              "canBeShiny": true
+            }
+          ],
+          "shinies": [
+            {
+              "name": "Victreebel",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_071_00_shiny.png"
+            },
+            {
+              "name": "Mega Victreebel",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm71.fMEGA.s.icon.png"
+            }
+          ]
+        },
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "xerneas-in-5-star-raid-battles-september-2026",
+      "name": "Xerneas in 5-star Raid Battles",
+      "eventType": "raid-battles",
+      "heading": "Raid Battles",
+      "link": "https://leekduck.com/events/xerneas-in-5-star-raid-battles-september-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-09-30T06:00:00.000",
+      "end": "2026-10-06T22:00:00.000",
+      "extraData": {
+        "raidbattles": {
+          "bosses": [
+            {
+              "name": "Xerneas",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_716_00.png",
+              "canBeShiny": true
+            }
+          ],
+          "shinies": [
+            {
+              "name": "Xerneas",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_716_00_shiny.png"
+            }
+          ]
+        },
         "generic": {
           "hasSpawns": false,
           "hasFieldResearchTasks": false
@@ -623,6 +1249,22 @@
       "extraData": {
         "generic": {
           "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "season-24-twilight-trails",
+      "name": "Twilight Trails",
+      "eventType": "season",
+      "heading": "Season",
+      "link": "https://leekduck.com/events/season-24-twilight-trails/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-08-season-24-twilight-trails/season-24-twilight-trails.jpg",
+      "start": "2026-09-08T10:00:00.000",
+      "end": "2026-12-01T10:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": true,
           "hasFieldResearchTasks": false
         }
       }

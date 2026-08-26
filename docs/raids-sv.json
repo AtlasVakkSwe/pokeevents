@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-08-25T05:01:39.240Z",
+  "uppdaterad": "2026-08-26T05:02:41.625Z",
   "grupper": [
     {
       "rubrik": "5 stjärnor",
@@ -30,21 +30,6 @@
       "rubrik": "3 stjärnor",
       "pokemon": [
         {
-          "namn": "Lapras wearing a Scarf",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm131.fCOSTUME_2020.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Hisuian Samurott",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm503.fHISUIAN.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Dondozo",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm977.icon.png",
-          "shiny": true
-        },
-        {
           "namn": "Shadow Snorlax",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm143.icon.png",
           "shiny": true
@@ -65,23 +50,13 @@
       "rubrik": "1 stjärna",
       "pokemon": [
         {
-          "namn": "Tatsugiri (Curly)",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm978.fCURLY.icon.png",
-          "shiny": false
+          "namn": "Pikachu wearing a Cosmog-themed spacesuit",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fPXP_2026.icon.png",
+          "shiny": true
         },
         {
-          "namn": "Tatsugiri (Droopy)",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm978.fDROOPY.icon.png",
-          "shiny": false
-        },
-        {
-          "namn": "Tatsugiri (Stretchy)",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm978.fSTRETCHY.icon.png",
-          "shiny": false
-        },
-        {
-          "namn": "Psyduck with a swim ring",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm54.fSWIM_2025.icon.png",
+          "namn": "Impidimp",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm859.icon.png",
           "shiny": true
         },
         {
