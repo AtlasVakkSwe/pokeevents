@@ -1,13 +1,23 @@
 {
-  "uppdaterad": "2026-08-26T05:02:41.625Z",
+  "uppdaterad": "2026-08-27T15:22:07.832Z",
   "grupper": [
     {
       "rubrik": "5 stjärnor",
       "pokemon": [
         {
-          "namn": "Lunala",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm792.icon.png",
-          "shiny": false
+          "namn": "Regirock",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm377.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Regice",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm378.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Registeel",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm379.icon.png",
+          "shiny": true
         },
         {
           "namn": "Shadow Giratina (Altered)",
@@ -20,8 +30,8 @@
       "rubrik": "Mega",
       "pokemon": [
         {
-          "namn": "Mega Swampert",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm260.fMEGA.icon.png",
+          "namn": "Mega Gyarados",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm130.fMEGA.icon.png",
           "shiny": true
         }
       ]
@@ -29,6 +39,21 @@
     {
       "rubrik": "3 stjärnor",
       "pokemon": [
+        {
+          "namn": "Hisuian Sneasel",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm215.fHISUIAN.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Hisuian Lilligant",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm549.fHISUIAN.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Passimian",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm766.icon.png",
+          "shiny": true
+        },
         {
           "namn": "Shadow Snorlax",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm143.icon.png",
