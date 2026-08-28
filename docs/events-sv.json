@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-08-27T15:22:07.832Z",
+  "uppdaterad": "2026-08-28T16:45:58.987Z",
   "events": [
     {
       "id": "pokemonspotlighthour2026-08-27",
@@ -1292,18 +1292,30 @@
       "bonusar": []
     },
     {
-      "id": "catch-mastery-september-2026",
-      "name": "Catch Mastery",
+      "id": "catch-mastery-phantump-2026",
+      "name": "Phantump Catch Mastery",
       "typ": "event",
       "typRubrik": "Event",
-      "link": "https://leekduck.com/events/catch-mastery-september-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "link": "https://leekduck.com/events/catch-mastery-phantump-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-26-catch-mastery-phantump-2026/phantump-catch-mastery.jpg?v2",
       "start": "2026-09-26T10:00:00.000",
       "end": "2026-09-26T20:00:00.000",
       "region": "galler",
       "sammanfattning": null,
-      "pokemon": [],
-      "bonusar": []
+      "pokemon": [
+        {
+          "namn": "Cherubi",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_420_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Drifloon",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_425_00.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": [],
+      "pokemonRubrik": "Finns att fånga:"
     },
     {
       "id": "max-mondays-2026-09-28",

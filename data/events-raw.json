@@ -1,5 +1,5 @@
 {
-  "hamtad": "2026-08-27T15:22:07.832Z",
+  "hamtad": "2026-08-28T16:45:58.987Z",
   "events": [
     {
       "eventID": "pokemonspotlighthour2026-08-27",
@@ -767,17 +767,17 @@
       }
     },
     {
-      "eventID": "catch-mastery-september-2026",
-      "name": "Catch Mastery",
+      "eventID": "catch-mastery-phantump-2026",
+      "name": "Phantump Catch Mastery",
       "eventType": "event",
       "heading": "Event",
-      "link": "https://leekduck.com/events/catch-mastery-september-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "link": "https://leekduck.com/events/catch-mastery-phantump-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-26-catch-mastery-phantump-2026/phantump-catch-mastery.jpg?v2",
       "start": "2026-09-26T10:00:00.000",
       "end": "2026-09-26T20:00:00.000",
       "extraData": {
         "generic": {
-          "hasSpawns": false,
+          "hasSpawns": true,
           "hasFieldResearchTasks": false
         }
       }
