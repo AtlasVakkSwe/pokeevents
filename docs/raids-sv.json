@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-08-28T16:45:58.987Z",
+  "uppdaterad": "2026-08-29T11:14:44.363Z",
   "grupper": [
     {
       "rubrik": "5 stjärnor",
@@ -40,21 +40,6 @@
       "rubrik": "3 stjärnor",
       "pokemon": [
         {
-          "namn": "Hisuian Sneasel",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm215.fHISUIAN.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Hisuian Lilligant",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm549.fHISUIAN.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Passimian",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm766.icon.png",
-          "shiny": true
-        },
-        {
           "namn": "Shadow Snorlax",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm143.icon.png",
           "shiny": true
@@ -80,8 +65,13 @@
           "shiny": true
         },
         {
-          "namn": "Impidimp",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm859.icon.png",
+          "namn": "World Championships 2026 Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fWCS_2026.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Honedge",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm679.icon.png",
           "shiny": true
         },
         {

@@ -1,26 +1,6 @@
 {
-  "uppdaterad": "2026-08-28T16:45:58.987Z",
+  "uppdaterad": "2026-08-29T11:14:44.363Z",
   "events": [
-    {
-      "id": "pokemonspotlighthour2026-08-27",
-      "name": "Mankey Spotlight Hour",
-      "typ": "pokemon-spotlight-hour",
-      "typRubrik": "Rampljustimme",
-      "link": "https://leekduck.com/events/pokemonspotlighthour2026-08-27/",
-      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-      "start": "2026-08-27T18:00:00.000",
-      "end": "2026-08-27T19:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Mankey dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbelt godis när du fångar.",
-      "pokemon": [
-        {
-          "namn": "Mankey",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_056_00.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
     {
       "id": "pokemon-world-championships-2026-timed-research-twitch-drops",
       "name": "Twitch Drops for 2026 Pokémon World Championships",
@@ -31,6 +11,20 @@
       "start": "2026-08-28T16:00:00.000Z",
       "end": "2026-08-31T03:00:00.000Z",
       "region": "galler",
+      "sammanfattning": null,
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "pokemon-world-championships-2026-san-francisco",
+      "name": "[San Francisco] 2026 Pokémon World Championships",
+      "typ": "event",
+      "typRubrik": "Event",
+      "link": "https://leekduck.com/events/pokemon-world-championships-2026-san-francisco/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-28-pokemon-world-championships-2026-san-francisco/2026-worlds-san-francisco.png",
+      "start": "2026-08-28T17:00:00.000Z",
+      "end": "2026-08-31T03:00:00.000Z",
+      "region": "galler-inte",
       "sammanfattning": null,
       "pokemon": [],
       "bonusar": []
