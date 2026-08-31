@@ -1,41 +1,6 @@
 {
-  "hamtad": "2026-08-30T10:01:07.033Z",
+  "hamtad": "2026-08-31T11:00:02.065Z",
   "events": [
-    {
-      "eventID": "pokemon-world-championships-2026-timed-research-twitch-drops",
-      "name": "Twitch Drops for 2026 Pokémon World Championships",
-      "eventType": "research",
-      "heading": "Research",
-      "link": "https://leekduck.com/events/pokemon-world-championships-2026-timed-research-twitch-drops/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-28-pokemon-world-championships-2026-timed-research-twitch-drops/2026-worlds-go-drops.jpg",
-      "start": "2026-08-28T16:00:00.000Z",
-      "end": "2026-08-31T03:00:00.000Z",
-      "extraData": {
-        "promocodes": [
-          "SANFRANCISCO2026"
-        ],
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "pokemon-world-championships-2026-san-francisco",
-      "name": "[San Francisco] 2026 Pokémon World Championships",
-      "eventType": "event",
-      "heading": "Event",
-      "link": "https://leekduck.com/events/pokemon-world-championships-2026-san-francisco/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-28-pokemon-world-championships-2026-san-francisco/2026-worlds-san-francisco.png",
-      "start": "2026-08-28T17:00:00.000Z",
-      "end": "2026-08-31T03:00:00.000Z",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "pokemon-xp-2026-worlds",
       "name": "PokémonXP &amp; 2026 Worlds",
@@ -128,6 +93,32 @@
       "extraData": {
         "generic": {
           "hasSpawns": true,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "armored-mewtwo-in-5-star-raid-battles-september-2026",
+      "name": "Armored Mewtwo in 5-star Raid Battles",
+      "eventType": "raid-battles",
+      "heading": "Raid Battles",
+      "link": "https://leekduck.com/events/armored-mewtwo-in-5-star-raid-battles-september-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/armored-mewtwo-mega-finale-2026.png",
+      "start": "2026-09-05T10:00:00.000",
+      "end": "2026-09-06T18:00:00.000",
+      "extraData": {
+        "raidbattles": {
+          "bosses": [
+            {
+              "name": "Armored Mewtwo",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_pm0150_00_pgo_a.png",
+              "canBeShiny": false
+            }
+          ],
+          "shinies": []
+        },
+        "generic": {
+          "hasSpawns": false,
           "hasFieldResearchTasks": false
         }
       }

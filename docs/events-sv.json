@@ -1,34 +1,6 @@
 {
-  "uppdaterad": "2026-08-30T10:01:07.033Z",
+  "uppdaterad": "2026-08-31T11:00:02.065Z",
   "events": [
-    {
-      "id": "pokemon-world-championships-2026-timed-research-twitch-drops",
-      "name": "Twitch Drops for 2026 Pokémon World Championships",
-      "typ": "research",
-      "typRubrik": "Forskning",
-      "link": "https://leekduck.com/events/pokemon-world-championships-2026-timed-research-twitch-drops/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-28-pokemon-world-championships-2026-timed-research-twitch-drops/2026-worlds-go-drops.jpg",
-      "start": "2026-08-28T16:00:00.000Z",
-      "end": "2026-08-31T03:00:00.000Z",
-      "region": "galler",
-      "sammanfattning": null,
-      "pokemon": [],
-      "bonusar": []
-    },
-    {
-      "id": "pokemon-world-championships-2026-san-francisco",
-      "name": "[San Francisco] 2026 Pokémon World Championships",
-      "typ": "event",
-      "typRubrik": "Event",
-      "link": "https://leekduck.com/events/pokemon-world-championships-2026-san-francisco/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-28-pokemon-world-championships-2026-san-francisco/2026-worlds-san-francisco.png",
-      "start": "2026-08-28T17:00:00.000Z",
-      "end": "2026-08-31T03:00:00.000Z",
-      "region": "galler-inte",
-      "sammanfattning": null,
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "pokemon-xp-2026-worlds",
       "name": "PokémonXP &amp; 2026 Worlds",
@@ -664,6 +636,11 @@
       "pokemonRubrik": "Finns att fånga:",
       "raids": [
         {
+          "namn": "Armored Mewtwo",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_pm0150_00_pgo_a.png",
+          "shiny": false
+        },
+        {
           "namn": "Mega Mewtwo X",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm150.fMEGA_X.icon.png",
           "shiny": true
@@ -829,6 +806,26 @@
           "shiny": true
         }
       ]
+    },
+    {
+      "id": "armored-mewtwo-in-5-star-raid-battles-september-2026",
+      "name": "Armored Mewtwo in 5-star Raid Battles",
+      "typ": "raid-battles",
+      "typRubrik": "Raider",
+      "link": "https://leekduck.com/events/armored-mewtwo-in-5-star-raid-battles-september-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/armored-mewtwo-mega-finale-2026.png",
+      "start": "2026-09-05T10:00:00.000",
+      "end": "2026-09-06T18:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Armored Mewtwo finns i raid.",
+      "pokemon": [
+        {
+          "namn": "Armored Mewtwo",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_pm0150_00_pgo_a.png",
+          "shiny": false
+        }
+      ],
+      "bonusar": []
     },
     {
       "id": "10th-anniversary-celebration",

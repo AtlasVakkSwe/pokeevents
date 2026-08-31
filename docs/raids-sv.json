@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-08-30T10:01:07.033Z",
+  "uppdaterad": "2026-08-31T11:00:02.065Z",
   "grupper": [
     {
       "rubrik": "5 stjärnor",
@@ -59,21 +59,6 @@
     {
       "rubrik": "1 stjärna",
       "pokemon": [
-        {
-          "namn": "Pikachu wearing a Cosmog-themed spacesuit",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fPXP_2026.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "World Championships 2026 Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fWCS_2026.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Honedge",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm679.icon.png",
-          "shiny": true
-        },
         {
           "namn": "Shadow Slowpoke",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm79.icon.png",
