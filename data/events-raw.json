@@ -1,22 +1,6 @@
 {
-  "hamtad": "2026-09-01T09:30:31.884Z",
+  "hamtad": "2026-09-02T08:53:29.807Z",
   "events": [
-    {
-      "eventID": "max-mondays-2026-08-31",
-      "name": "Dynamax Eevee during Max Monday",
-      "eventType": "max-mondays",
-      "heading": "Max Mondays",
-      "link": "https://leekduck.com/events/max-mondays-2026-08-31/",
-      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-      "start": "2026-08-31T06:00:00.000",
-      "end": "2026-08-31T21:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "raidhour20260902",
       "name": "Regirock, Regice, and Registeel Raid Hour",
@@ -788,12 +772,12 @@
       }
     },
     {
-      "eventID": "super-mega-raid-day-september-2026",
-      "name": "Super Mega Raid Day",
+      "eventID": "staraptor-super-mega-raid-day-2026",
+      "name": "Staraptor Super Mega Raid Day",
       "eventType": "raid-day",
       "heading": "Raid Day",
-      "link": "https://leekduck.com/events/super-mega-raid-day-september-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "link": "https://leekduck.com/events/staraptor-super-mega-raid-day-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-19-staraptor-super-mega-raid-day-2026/staraptor-super-mega-raid-day-2026.jpg",
       "start": "2026-09-19T14:00:00.000",
       "end": "2026-09-19T17:00:00.000",
       "extraData": {
