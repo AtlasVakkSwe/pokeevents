@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-09-02T08:53:29.807Z",
+  "uppdaterad": "2026-09-03T09:03:19.492Z",
   "events": [
     {
       "id": "raidhour20260902",
@@ -1108,18 +1108,87 @@
       "bonusar": []
     },
     {
-      "id": "unannounced-september-event-season-24",
-      "name": "Unannounced Event",
+      "id": "pokemon-horizons-the-series-celebration-event-2026",
+      "name": "Pokémon Horizons: The Series Celebration Event",
       "typ": "event",
       "typRubrik": "Event",
-      "link": "https://leekduck.com/events/unannounced-september-event-season-24/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "link": "https://leekduck.com/events/pokemon-horizons-the-series-celebration-event-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-16-pokemon-horizons-the-series-celebration-event-2026/pokemon-horizons-celebration-event-2026.jpg",
       "start": "2026-09-16T10:00:00.000",
       "end": "2026-09-22T20:00:00.000",
       "region": "galler",
       "sammanfattning": null,
-      "pokemon": [],
-      "bonusar": []
+      "pokemon": [
+        {
+          "namn": "Charmander wearing Friede's goggles",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_004_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Captain's Cap Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fHORIZONS.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Fidough",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm926.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Wattrel",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm940.icon.png",
+          "shiny": false
+        },
+        {
+          "namn": "Chansey",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_113_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Eevee",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_133_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Hatenna",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm856.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Rockruff",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm744.icon.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": [],
+      "pokemonRubrik": "Finns att fånga:",
+      "raids": [
+        {
+          "namn": "Captain's Cap Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fHORIZONS.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Charizard wearing Friede's goggles",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_006_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Meowscarada",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm908.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Skeledirge",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm911.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Quaquaval",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm914.icon.png",
+          "shiny": true
+        }
+      ]
     },
     {
       "id": "mega-venusaur-in-mega-raids-september-2026",

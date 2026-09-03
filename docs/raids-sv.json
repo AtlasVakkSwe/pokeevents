@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-09-02T08:53:29.807Z",
+  "uppdaterad": "2026-09-03T09:03:19.492Z",
   "grupper": [
     {
       "rubrik": "5 stjärnor",
@@ -15,8 +15,8 @@
       "rubrik": "Mega",
       "pokemon": [
         {
-          "namn": "Mega Skarmory",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm227.fMEGA.icon.png",
+          "namn": "Mega Starmie",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/Mega%20Starmie.png",
           "shiny": true
         },
         {
@@ -34,21 +34,6 @@
     {
       "rubrik": "3 stjärnor",
       "pokemon": [
-        {
-          "namn": "Hisuian Sneasel",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm215.fHISUIAN.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Hisuian Lilligant",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm549.fHISUIAN.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Passimian",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm766.icon.png",
-          "shiny": true
-        },
         {
           "namn": "Shadow Snorlax",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm143.icon.png",
@@ -69,26 +54,6 @@
     {
       "rubrik": "1 stjärna",
       "pokemon": [
-        {
-          "namn": "Dratini",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm147.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Honedge",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm679.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Tyrunt",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm696.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Amaura",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm698.icon.png",
-          "shiny": true
-        },
         {
           "namn": "Shadow Slowpoke",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm79.icon.png",

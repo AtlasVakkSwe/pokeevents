@@ -1,5 +1,5 @@
 {
-  "hamtad": "2026-09-02T08:53:29.807Z",
+  "hamtad": "2026-09-03T09:03:19.492Z",
   "events": [
     {
       "eventID": "raidhour20260902",
@@ -820,17 +820,17 @@
       }
     },
     {
-      "eventID": "unannounced-september-event-season-24",
-      "name": "Unannounced Event",
+      "eventID": "pokemon-horizons-the-series-celebration-event-2026",
+      "name": "Pokémon Horizons: The Series Celebration Event",
       "eventType": "event",
       "heading": "Event",
-      "link": "https://leekduck.com/events/unannounced-september-event-season-24/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "link": "https://leekduck.com/events/pokemon-horizons-the-series-celebration-event-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-16-pokemon-horizons-the-series-celebration-event-2026/pokemon-horizons-celebration-event-2026.jpg",
       "start": "2026-09-16T10:00:00.000",
       "end": "2026-09-22T20:00:00.000",
       "extraData": {
         "generic": {
-          "hasSpawns": false,
+          "hasSpawns": true,
           "hasFieldResearchTasks": false
         }
       }
