@@ -1,22 +1,6 @@
 {
-  "hamtad": "2026-09-03T09:03:19.492Z",
+  "hamtad": "2026-09-04T08:56:06.225Z",
   "events": [
-    {
-      "eventID": "raidhour20260902",
-      "name": "Regirock, Regice, and Registeel Raid Hour",
-      "eventType": "raid-hour",
-      "heading": "Raid Hour",
-      "link": "https://leekduck.com/events/raidhour20260902/",
-      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-      "start": "2026-09-02T18:00:00.000",
-      "end": "2026-09-02T19:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "mega-ascension",
       "name": "Mega Ascension",

@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-09-03T09:03:19.492Z",
+  "uppdaterad": "2026-09-04T08:56:06.225Z",
   "grupper": [
     {
       "rubrik": "5 stjärnor",
@@ -15,8 +15,13 @@
       "rubrik": "Mega",
       "pokemon": [
         {
-          "namn": "Mega Starmie",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/Mega%20Starmie.png",
+          "namn": "Mega Raichu X",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm26.fMEGA_X.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Mega Raichu Y",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm26.fMEGA_Y.icon.png",
           "shiny": true
         },
         {

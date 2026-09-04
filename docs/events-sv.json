@@ -1,20 +1,6 @@
 {
-  "uppdaterad": "2026-09-03T09:03:19.492Z",
+  "uppdaterad": "2026-09-04T08:56:06.225Z",
   "events": [
-    {
-      "id": "raidhour20260902",
-      "name": "Regirock, Regice, and Registeel Raid Hour",
-      "typ": "raid-hour",
-      "typRubrik": "Raidtimme",
-      "link": "https://leekduck.com/events/raidhour20260902/",
-      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-      "start": "2026-09-02T18:00:00.000",
-      "end": "2026-09-02T19:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Raidtimme! Extra många raider i en timme.",
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "mega-ascension",
       "name": "Mega Ascension",
