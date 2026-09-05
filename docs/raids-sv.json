@@ -1,9 +1,14 @@
 {
-  "uppdaterad": "2026-09-04T08:56:06.225Z",
+  "uppdaterad": "2026-09-05T08:27:15.450Z",
   "grupper": [
     {
       "rubrik": "5 stjärnor",
       "pokemon": [
+        {
+          "namn": "Armored Mewtwo",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_pm0150_00_pgo_a.png",
+          "shiny": false
+        },
         {
           "namn": "Shadow Giratina (Altered)",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm487.fALTERED.icon.png",
@@ -15,23 +20,23 @@
       "rubrik": "Mega",
       "pokemon": [
         {
-          "namn": "Mega Raichu X",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm26.fMEGA_X.icon.png",
+          "namn": "Mega Beedrill",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm15.fMEGA.icon.png",
           "shiny": true
         },
         {
-          "namn": "Mega Raichu Y",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm26.fMEGA_Y.icon.png",
+          "namn": "Mega Victreebel",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm71.fMEGA.icon.png",
           "shiny": true
         },
         {
-          "namn": "Mega Latias",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm380.fMEGA.icon.png",
+          "namn": "Mega Pinsir",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm127.fMEGA.icon.png",
           "shiny": true
         },
         {
-          "namn": "Mega Latios",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm381.fMEGA.icon.png",
+          "namn": "Mega Abomasnow",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm460.fMEGA.icon.png",
           "shiny": true
         }
       ]
@@ -77,6 +82,16 @@
         {
           "namn": "Shadow Grubbin",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm736.icon.png",
+          "shiny": true
+        }
+      ]
+    },
+    {
+      "rubrik": "Super Mega Raids",
+      "pokemon": [
+        {
+          "namn": "Mega Mewtwo X",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm150.fMEGA_X.icon.png",
           "shiny": true
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-09-04T08:56:06.225Z",
+  "uppdaterad": "2026-09-05T08:27:15.450Z",
   "events": [
     {
       "id": "mega-ascension",
@@ -508,7 +508,7 @@
         {
           "namn": "Mega Slowbro",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_080_51.png",
-          "shiny": false
+          "shiny": true
         },
         {
           "namn": "Mega Starmie",
