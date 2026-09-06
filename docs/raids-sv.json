@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-09-05T08:27:15.450Z",
+  "uppdaterad": "2026-09-06T08:44:58.738Z",
   "grupper": [
     {
       "rubrik": "5 stjärnor",
@@ -20,23 +20,23 @@
       "rubrik": "Mega",
       "pokemon": [
         {
-          "namn": "Mega Beedrill",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm15.fMEGA.icon.png",
+          "namn": "Mega Steelix",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm208.fMEGA.icon.png",
           "shiny": true
         },
         {
-          "namn": "Mega Victreebel",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm71.fMEGA.icon.png",
+          "namn": "Mega Skarmory",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm227.fMEGA.icon.png",
           "shiny": true
         },
         {
-          "namn": "Mega Pinsir",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm127.fMEGA.icon.png",
+          "namn": "Mega Aggron",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm306.fMEGA.icon.png",
           "shiny": true
         },
         {
-          "namn": "Mega Abomasnow",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm460.fMEGA.icon.png",
+          "namn": "Mega Glalie",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm362.fMEGA.icon.png",
           "shiny": true
         }
       ]
@@ -90,8 +90,8 @@
       "rubrik": "Super Mega Raids",
       "pokemon": [
         {
-          "namn": "Mega Mewtwo X",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm150.fMEGA_X.icon.png",
+          "namn": "Mega Mewtwo Y",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm150.fMEGA_Y.icon.png",
           "shiny": true
         }
       ]

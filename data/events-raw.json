@@ -1,22 +1,6 @@
 {
-  "hamtad": "2026-09-05T08:27:15.450Z",
+  "hamtad": "2026-09-06T08:44:58.738Z",
   "events": [
-    {
-      "eventID": "mega-ascension",
-      "name": "Mega Ascension",
-      "eventType": "event",
-      "heading": "Event",
-      "link": "https://leekduck.com/events/mega-ascension/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-31-mega-ascension/mega-ascension.jpg",
-      "start": "2026-08-31T10:00:00.000",
-      "end": "2026-09-04T23:59:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": true,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "pokemon-go-fest-2026-mega-finale",
       "name": "Pokémon GO Fest 2026: Mega Finale",
