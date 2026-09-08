@@ -1,64 +1,6 @@
 {
-  "hamtad": "2026-09-07T09:31:30.813Z",
+  "hamtad": "2026-09-08T08:57:07.167Z",
   "events": [
-    {
-      "eventID": "pokemon-go-fest-2026-mega-finale",
-      "name": "Pokémon GO Fest 2026: Mega Finale",
-      "eventType": "pokemon-go-fest",
-      "heading": "Pokémon GO Fest",
-      "link": "https://leekduck.com/events/pokemon-go-fest-2026-mega-finale/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-05-pokemon-go-fest-2026-mega-finale/pokemon-go-fest-2026-mega-finale.jpg",
-      "start": "2026-09-05T10:00:00.000",
-      "end": "2026-09-06T18:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": true,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "armored-mewtwo-in-5-star-raid-battles-september-2026",
-      "name": "Armored Mewtwo in 5-star Raid Battles",
-      "eventType": "raid-battles",
-      "heading": "Raid Battles",
-      "link": "https://leekduck.com/events/armored-mewtwo-in-5-star-raid-battles-september-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/armored-mewtwo-mega-finale-2026.png",
-      "start": "2026-09-05T10:00:00.000",
-      "end": "2026-09-06T18:00:00.000",
-      "extraData": {
-        "raidbattles": {
-          "bosses": [
-            {
-              "name": "Armored Mewtwo",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_pm0150_00_pgo_a.png",
-              "canBeShiny": false
-            }
-          ],
-          "shinies": []
-        },
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "10th-anniversary-celebration",
-      "name": "10th Anniversary Celebration - Perfect Mewtwo Timed Research",
-      "eventType": "event",
-      "heading": "Event",
-      "link": "https://leekduck.com/events/10th-anniversary-celebration/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-12-10th-anniversary-celebration/10th-anniversary-celebration-2026.jpg",
-      "start": "2026-08-12T16:00:00.000",
-      "end": "2026-09-06T23:59:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "max-mondays-2026-09-07",
       "name": "Dynamax Ralts during Max Monday",
@@ -1096,17 +1038,33 @@
     },
     {
       "eventID": "harvest-festival-2026",
-      "name": "Harvest Festival",
+      "name": "Harvest Festival 2026: Applin Picking",
       "eventType": "event",
       "heading": "Event",
       "link": "https://leekduck.com/events/harvest-festival-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-29-harvest-festival-2026/harvest-festival-2026.jpg",
       "start": "2026-09-29T10:00:00.000",
       "end": "2026-10-05T20:00:00.000",
       "extraData": {
         "generic": {
-          "hasSpawns": false,
+          "hasSpawns": true,
           "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "harvest-festival-taken-over-2026",
+      "name": "Harvest Festival: Taken Over",
+      "eventType": "event",
+      "heading": "Event",
+      "link": "https://leekduck.com/events/harvest-festival-taken-over-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-10-02-harvest-festival-taken-over-2026/harvest-festival-taken-over-2026.jpg",
+      "start": "2026-10-02T00:00:00.000",
+      "end": "2026-10-05T20:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": true,
+          "hasFieldResearchTasks": true
         }
       }
     },
