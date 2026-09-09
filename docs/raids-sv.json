@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-09-08T08:57:07.167Z",
+  "uppdaterad": "2026-09-09T09:03:06.940Z",
   "grupper": [
     {
       "rubrik": "5 stjärnor",
@@ -20,8 +20,8 @@
           "shiny": true
         },
         {
-          "namn": "Shadow Giratina (Altered)",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm487.fALTERED.icon.png",
+          "namn": "Shadow Thundurus (Incarnate)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm642.fINCARNATE.icon.png",
           "shiny": true
         }
       ]
@@ -29,6 +29,11 @@
     {
       "rubrik": "Mega",
       "pokemon": [
+        {
+          "namn": "Mega Beedrill",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm15.fMEGA.icon.png",
+          "shiny": true
+        },
         {
           "namn": "Mega Gyarados",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm130.fMEGA.icon.png",
@@ -40,28 +45,13 @@
       "rubrik": "3 stjärnor",
       "pokemon": [
         {
-          "namn": "Hisuian Sneasel",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm215.fHISUIAN.icon.png",
+          "namn": "Shadow Alolan Sandslash",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm28.fALOLA.icon.png",
           "shiny": true
         },
         {
-          "namn": "Hisuian Lilligant",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm549.fHISUIAN.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Passimian",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm766.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Shadow Snorlax",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm143.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Shadow Hitmontop",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm237.icon.png",
+          "namn": "Shadow Quagsire",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm195.icon.png",
           "shiny": true
         },
         {
@@ -75,43 +65,23 @@
       "rubrik": "1 stjärna",
       "pokemon": [
         {
-          "namn": "Dratini",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm147.icon.png",
+          "namn": "Shadow Machop",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm66.icon.png",
           "shiny": true
         },
         {
-          "namn": "Honedge",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm679.icon.png",
+          "namn": "Shadow Bellsprout",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm69.icon.png",
           "shiny": true
         },
         {
-          "namn": "Tyrunt",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm696.icon.png",
+          "namn": "Shadow Torchic",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm255.icon.png",
           "shiny": true
         },
         {
-          "namn": "Amaura",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm698.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Shadow Slowpoke",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm79.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Shadow Aipom",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm190.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Shadow Croagunk",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm453.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Shadow Grubbin",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm736.icon.png",
+          "namn": "Shadow Bagon",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm371.icon.png",
           "shiny": true
         }
       ]

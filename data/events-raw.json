@@ -1,54 +1,6 @@
 {
-  "hamtad": "2026-09-08T08:57:07.167Z",
+  "hamtad": "2026-09-09T09:03:06.940Z",
   "events": [
-    {
-      "eventID": "max-mondays-2026-09-07",
-      "name": "Dynamax Ralts during Max Monday",
-      "eventType": "max-mondays",
-      "heading": "Max Mondays",
-      "link": "https://leekduck.com/events/max-mondays-2026-09-07/",
-      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-      "start": "2026-09-07T06:00:00.000",
-      "end": "2026-09-07T21:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "season-23-forever-forward",
-      "name": "Forever Forward",
-      "eventType": "season",
-      "heading": "Season",
-      "link": "https://leekduck.com/events/season-23-forever-forward/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-06-02-season-23-forever-forward/season-23-forever-forward.jpg",
-      "start": "2026-06-02T10:00:00.000",
-      "end": "2026-09-08T10:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": true,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "go-pass-august-2026",
-      "name": "GO Pass: August",
-      "eventType": "go-pass",
-      "heading": "GO Pass",
-      "link": "https://leekduck.com/events/go-pass-august-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-04-go-pass-august-2026/go-pass-august-2026.jpg",
-      "start": "2026-08-04T10:00:00.000",
-      "end": "2026-09-08T10:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "shadow-giratina-altered-in-shadow-raids-august-2026",
       "name": "Shadow Giratina (Altered Forme) in Shadow Raids",
@@ -589,7 +541,7 @@
       "eventType": "raid-battles",
       "heading": "Raid Battles",
       "link": "https://leekduck.com/events/zacian-hero-of-many-battles-in-5-star-raid-battles-september-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "image": "https://cdn.leekduck.com/assets/img/events/zacian-and-zamazenta-2.jpg",
       "start": "2026-09-09T06:00:00.000",
       "end": "2026-09-15T22:00:00.000",
       "extraData": {
@@ -786,7 +738,7 @@
       "eventType": "raid-battles",
       "heading": "Raid Battles",
       "link": "https://leekduck.com/events/zamazenta-hero-of-many-battles-in-5-star-raid-battles-september-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "image": "https://cdn.leekduck.com/assets/img/events/zacian-and-zamazenta-2.jpg",
       "start": "2026-09-16T06:00:00.000",
       "end": "2026-09-22T22:00:00.000",
       "extraData": {
@@ -945,7 +897,7 @@
       "eventType": "raid-battles",
       "heading": "Raid Battles",
       "link": "https://leekduck.com/events/xurkitree-pheromosa-buzzwole-in-5-star-raid-battles-september-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "image": "https://cdn.leekduck.com/assets/img/events/buzzwole-xurkitree-pheromosa-ultra-beasts.jpg",
       "start": "2026-09-23T06:00:00.000",
       "end": "2026-09-29T22:00:00.000",
       "extraData": {
@@ -1172,7 +1124,7 @@
       "eventType": "raid-battles",
       "heading": "Raid Battles",
       "link": "https://leekduck.com/events/xerneas-in-5-star-raid-battles-september-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "image": "https://cdn.leekduck.com/assets/img/events/xerneas-woods.jpg",
       "start": "2026-09-30T06:00:00.000",
       "end": "2026-10-06T22:00:00.000",
       "extraData": {
