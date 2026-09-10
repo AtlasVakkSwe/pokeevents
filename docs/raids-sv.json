@@ -1,22 +1,12 @@
 {
-  "uppdaterad": "2026-09-09T09:03:06.940Z",
+  "uppdaterad": "2026-09-10T09:02:04.029Z",
   "grupper": [
     {
       "rubrik": "5 stjärnor",
       "pokemon": [
         {
-          "namn": "Regirock",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm377.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Regice",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm378.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Registeel",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm379.icon.png",
+          "namn": "Zacian (Hero)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm888.fHERO.icon.png",
           "shiny": true
         },
         {
@@ -33,17 +23,27 @@
           "namn": "Mega Beedrill",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm15.fMEGA.icon.png",
           "shiny": true
-        },
-        {
-          "namn": "Mega Gyarados",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm130.fMEGA.icon.png",
-          "shiny": true
         }
       ]
     },
     {
       "rubrik": "3 stjärnor",
       "pokemon": [
+        {
+          "namn": "Alolan Dugtrio",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm51.fALOLA.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Lapras",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm131.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Falinks",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm870.icon.png",
+          "shiny": true
+        },
         {
           "namn": "Shadow Alolan Sandslash",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm28.fALOLA.icon.png",
@@ -64,6 +64,26 @@
     {
       "rubrik": "1 stjärna",
       "pokemon": [
+        {
+          "namn": "Alolan Rattata",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm19.fALOLA.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Dunsparce",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm206.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Scraggy",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm559.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Fidough",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm926.icon.png",
+          "shiny": true
+        },
         {
           "namn": "Shadow Machop",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm66.icon.png",
