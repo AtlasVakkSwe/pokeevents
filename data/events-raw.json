@@ -1,22 +1,6 @@
 {
-  "hamtad": "2026-09-10T09:02:04.029Z",
+  "hamtad": "2026-09-11T08:59:46.703Z",
   "events": [
-    {
-      "eventID": "raidhour20260909",
-      "name": "Zacian (Hero of Many Battles) Raid Hour",
-      "eventType": "raid-hour",
-      "heading": "Raid Hour",
-      "link": "https://leekduck.com/events/raidhour20260909/",
-      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-      "start": "2026-09-09T18:00:00.000",
-      "end": "2026-09-09T19:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "pokemonspotlighthour2026-09-10",
       "name": "Weedle, Kakuna, and Beedrill Spotlight Hour",

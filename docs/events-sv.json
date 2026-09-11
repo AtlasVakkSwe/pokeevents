@@ -1,20 +1,6 @@
 {
-  "uppdaterad": "2026-09-10T09:02:04.029Z",
+  "uppdaterad": "2026-09-11T08:59:46.703Z",
   "events": [
-    {
-      "id": "raidhour20260909",
-      "name": "Zacian (Hero of Many Battles) Raid Hour",
-      "typ": "raid-hour",
-      "typRubrik": "Raidtimme",
-      "link": "https://leekduck.com/events/raidhour20260909/",
-      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-      "start": "2026-09-09T18:00:00.000",
-      "end": "2026-09-09T19:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Raidtimme! Extra många raider i en timme.",
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "pokemonspotlighthour2026-09-10",
       "name": "Weedle, Kakuna, and Beedrill Spotlight Hour",
@@ -150,6 +136,16 @@
         {
           "namn": "Carvanha",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_318_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Purrloin",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_509_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Nickit",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm827.icon.png",
           "shiny": true
         }
       ],
