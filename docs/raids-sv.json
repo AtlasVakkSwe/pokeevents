@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-09-11T08:59:46.703Z",
+  "uppdaterad": "2026-09-12T08:43:30.844Z",
   "grupper": [
     {
       "rubrik": "5 stjärnor",
@@ -22,6 +22,11 @@
         {
           "namn": "Mega Beedrill",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm15.fMEGA.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Mega Houndoom",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm229.fMEGA.icon.png",
           "shiny": true
         }
       ]

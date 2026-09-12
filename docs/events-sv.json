@@ -1,36 +1,6 @@
 {
-  "uppdaterad": "2026-09-11T08:59:46.703Z",
+  "uppdaterad": "2026-09-12T08:43:30.844Z",
   "events": [
-    {
-      "id": "pokemonspotlighthour2026-09-10",
-      "name": "Weedle, Kakuna, and Beedrill Spotlight Hour",
-      "typ": "pokemon-spotlight-hour",
-      "typRubrik": "Rampljustimme",
-      "link": "https://leekduck.com/events/pokemonspotlighthour2026-09-10/",
-      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-      "start": "2026-09-10T18:00:00.000",
-      "end": "2026-09-10T19:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Weedle dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbelt godis när du skickar iväg Pokémon.",
-      "pokemon": [
-        {
-          "namn": "Weedle",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_013_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Kakuna",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_014_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Beedrill",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_015_00.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
     {
       "id": "september-communitydayclassic2026",
       "name": "Gible Community Day Classic",
@@ -610,6 +580,77 @@
       "sammanfattning": null,
       "pokemon": [],
       "bonusar": []
+    },
+    {
+      "id": "patterns-of-the-wild-2026",
+      "name": "Patterns of the Wild",
+      "typ": "event",
+      "typRubrik": "Event",
+      "link": "https://leekduck.com/events/patterns-of-the-wild-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-10-02-patterns-of-the-wild-2026/patterns-of-the-wild-2026.jpg",
+      "start": "2026-10-02T10:00:00.000",
+      "end": "2026-10-02T20:00:00.000",
+      "region": "galler",
+      "sammanfattning": null,
+      "pokemon": [
+        {
+          "namn": "Caterpie",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_010_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Batik Shirt Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fTSHIRT_03.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Oddish",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_043_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Gloom",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_044_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Bellsprout",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_069_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Ledyba",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_165_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Ledian",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_166_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Hoppip",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_187_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Skiploom",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_188_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Sunkern",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_191_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Wurmple",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_265_00.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": [],
+      "pokemonRubrik": "Finns att fånga:"
     },
     {
       "id": "gigantamax-cinderace-max-battle-day-2026",
