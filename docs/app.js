@@ -13,11 +13,31 @@ const POKEMONBILD_TYPER = new Set([
   'community-day',
 ]);
 
+// Färgkant per typfamilj (spec 2026-09-13, punkt 6). Typer utanför tabellen får ingen.
+const TYPFAMILJ = {
+  'raid-battles': 'raid',
+  'raid-hour': 'raid',
+  'raid-day': 'raid',
+  'elite-raids': 'raid',
+  'shadow-raids': 'raid',
+  'raid-weekend': 'raid',
+  'pokemon-spotlight-hour': 'rampljus',
+  'community-day': 'community',
+  'max-mondays': 'max',
+  'max-battles': 'max',
+};
+
 const ETIKETTER = {
   galler: { text: 'Gäller i Sverige ✓', klass: 'etikett-galler' },
   'galler-inte': { text: 'Gäller inte här ✗', klass: 'etikett-galler-inte' },
   osakert: { text: 'Osäkert – kolla 🟡', klass: 'etikett-osakert' },
 };
+
+// Radnamnet är det lättlästa namnet från bygget; äldre JSON utan fältet faller
+// tillbaka på originalet.
+function visningsnamn(event) {
+  return event.namn || event.name;
+}
 
 function el(tagg, klass, text) {
   const nod = document.createElement(tagg);
@@ -88,6 +108,9 @@ function miniPokemonRad(lista, max) {
 // siffrorna, för gammal för att lita på.
 const TICK_MS = 30 * 1000;
 const OMRITNING_MS = 5 * 60 * 1000;
+// Dagar längre bort än så här ligger bakom "Visa fler dagar" (spec 2026-09-13, punkt 4).
+const MAX_DAGAR_SYNLIGA = 30;
+const DYGN_MS = 24 * 60 * 60 * 1000;
 
 // Sidans egna nedräkningar töms vid varje omritning; sheetens hålls separat
 // och töms när sheeten stängs, annars växer registret för varje öppnat event.
@@ -114,7 +137,7 @@ function registrera(register, nod, textFn) {
 // Söker igenom alla renderade events (NU-panelen, varje dags rader, "pågår hela
 // tiden") efter den tidigast kommande gränsen. Samma event kan förekomma under
 // flera dagar — det gör inget, resultatet blir ändå ett minimum.
-function beraknaNastaGrans(nuPanel, dagar, alltidPagaende, nu) {
+function beraknaNastaGrans(nuPanel, dagar, alltidPagaende, raidRotationer, nu) {
   let minsta = null;
   const uppdatera = (event) => {
     const borjat = event.startDate.getTime() <= nu.getTime();
@@ -132,6 +155,9 @@ function beraknaNastaGrans(nuPanel, dagar, alltidPagaende, nu) {
     }
   }
   for (const event of alltidPagaende) {
+    uppdatera(event);
+  }
+  for (const event of raidRotationer) {
     uppdatera(event);
   }
   return minsta;
@@ -219,7 +245,10 @@ function eventSheet(event, nu) {
     noder.push(bildNod(event.image, 'sheet-bild'));
   }
   noder.push(el('p', 'sheet-typ', event.typRubrik));
-  noder.push(el('h2', 'sheet-namn', event.name));
+  noder.push(el('h2', 'sheet-namn', visningsnamn(event)));
+  if (visningsnamn(event) !== event.name) {
+    noder.push(el('p', 'sheet-original', event.name));
+  }
   const sheetTid = el('p', 'sheet-tid', '🕐 ' + formatTidsspann(event.startDate, event.endDate, nu) + ' · ');
   sheetTid.append(
     registrera(
@@ -260,11 +289,16 @@ function eventSheet(event, nu) {
   oppnaSheet(noder);
 }
 
-function raidSheet(grupper) {
+function raidSheet(grupper, kommande, nu) {
   const noder = [el('h2', 'sheet-namn', 'Raids just nu')];
   for (const grupp of grupper) {
     noder.push(el('h3', 'sheet-rubrik', grupp.rubrik));
     noder.push(pokemonRad(grupp.pokemon));
+  }
+  if (kommande.length > 0) {
+    const nar = formatDatum(kommande[0].startDate, nu).toLowerCase();
+    noder.push(el('h3', 'sheet-rubrik', `Nya raider ${nar}:`));
+    noder.push(pokemonRad(kommande.flatMap((e) => e.pokemon)));
   }
   oppnaSheet(noder);
 }
@@ -292,6 +326,9 @@ function radBild(event) {
 function rad(event, dagDatum, nu, pagar) {
   const knapp = el('button', 'rad');
   knapp.type = 'button';
+  if (TYPFAMILJ[event.typ]) {
+    knapp.classList.add(`rad-typ-${TYPFAMILJ[event.typ]}`);
+  }
   if (event.region === 'galler-inte') {
     knapp.classList.add('rad-dampad');
   }
@@ -299,7 +336,7 @@ function rad(event, dagDatum, nu, pagar) {
   if (bild) {
     knapp.append(bildNod(bild.url, bild.rund ? 'rad-bild rad-bild-rund' : 'rad-bild'));
   }
-  let namn = event.name;
+  let namn = visningsnamn(event);
   if (event.region === 'galler-inte') {
     namn += ' ✗';
   } else if (event.region === 'osakert') {
@@ -329,22 +366,47 @@ function rad(event, dagDatum, nu, pagar) {
   return knapp;
 }
 
-function raidRad(grupper) {
+// rotationer: pågående flerdagars raidevent som raden representerar (kan vara tom).
+// kommande: raidevent som startar näst i kalendern, alla på samma dag (kan vara tom).
+function raidRad(grupper, rotationer, kommande, nu) {
   const alla = grupper.flatMap((g) => g.pokemon);
-  const knapp = el('button', 'rad');
+  const knapp = el('button', 'rad rad-typ-raid');
   knapp.type = 'button';
   if (alla[0]?.bild) {
     knapp.append(bildNod(alla[0].bild, 'rad-bild rad-bild-rund'));
   }
   const textkolumn = el('span', 'rad-text');
   textkolumn.append(el('span', 'rad-namn', `Raider idag: ${alla[0]?.namn ?? ''} +${Math.max(alla.length - 1, 0)}`));
-  const tid = el('span', 'rad-tid rad-tid-gron');
-  tid.append(el('span', 'rad-klocka', 'hela dagen'));
-  textkolumn.append(tid);
+  if (rotationer.length > 0) {
+    const forst = rotationer[0];
+    textkolumn.append(
+      tidsrad(
+        formatChip(forst.startDate, forst.endDate, nu),
+        (n) => formatNedrakning(forst.startDate, forst.endDate, n, 'byts'),
+        nu,
+        true
+      )
+    );
+  } else {
+    const tid = el('span', 'rad-tid rad-tid-gron');
+    tid.append(el('span', 'rad-klocka', 'hela dagen'));
+    textkolumn.append(tid);
+  }
   knapp.append(textkolumn);
   knapp.append(el('span', 'rad-pil', '›'));
-  knapp.addEventListener('click', () => raidSheet(grupper));
+  knapp.addEventListener('click', () => raidSheet(grupper, kommande, nu));
   return knapp;
+}
+
+// De raid-battles-event som startar näst i kalendern — alla som startar den dagen.
+function nastaRaidRotationer(dagar, nu) {
+  for (const dag of dagar) {
+    const raids = dag.events.filter((e) => e.typ === 'raid-battles' && e.startDate.getTime() > nu.getTime());
+    if (raids.length > 0) {
+      return raids;
+    }
+  }
+  return [];
 }
 
 /* ---------- NU-panel ---------- */
@@ -353,7 +415,7 @@ function nuPanelNod(event, nu) {
   const panel = el('button', 'nu-panel');
   panel.type = 'button';
   panel.append(el('span', 'nu-etikett', 'NU'));
-  panel.append(el('span', 'nu-namn', event.name));
+  panel.append(el('span', 'nu-namn', visningsnamn(event)));
   panel.append(
     tidsrad(
       formatChip(event.startDate, event.endDate, nu),
@@ -439,8 +501,9 @@ async function start() {
     tickare.length = 0;
     senasteRendering = Date.now();
     renderadDag = dagNyckel(nu);
-    const { nuPanel, dagar, alltidPagaende } = grupperaKalender(data.events, nu);
-    nastaGrans = beraknaNastaGrans(nuPanel, dagar, alltidPagaende, nu);
+    const { nuPanel, dagar, alltidPagaende, raidRotationer } = grupperaKalender(data.events, nu);
+    nastaGrans = beraknaNastaGrans(nuPanel, dagar, alltidPagaende, raidRotationer, nu);
+    const kommandeRaids = nastaRaidRotationer(dagar, nu);
 
     innehall.textContent = '';
 
@@ -448,10 +511,28 @@ async function start() {
       innehall.append(nuPanelNod(event, nu));
     }
 
+    // Dagar bortom MAX_DAGAR_SYNLIGA ritas in i en dold behållare bakom knappen
+    // "Visa fler dagar". mal pekar på innehall tills första dolda dagen, sedan på
+    // behållaren. Strippen längst ner ligger alltid på innehall, efter behållaren.
+    const sistaSynligaDag = dagNyckel(new Date(nu.getTime() + MAX_DAGAR_SYNLIGA * DYGN_MS));
+    let mal = innehall;
+
     for (const dag of dagar) {
       const arIdag = dag === dagar[0];
       if (!arIdag && dag.events.length === 0) {
         continue;
+      }
+      if (mal === innehall && dag.nyckel > sistaSynligaDag) {
+        const dolda = el('div', 'dolda-dagar');
+        dolda.hidden = true;
+        const visa = el('button', 'visa-fler', 'Visa fler dagar ▾');
+        visa.type = 'button';
+        visa.addEventListener('click', () => {
+          dolda.hidden = false;
+          visa.remove();
+        });
+        innehall.append(visa, dolda);
+        mal = dolda;
       }
       const rubrik = el('h2', 'dag-rubrik');
       if (arIdag) {
@@ -460,20 +541,27 @@ async function start() {
         rubrik.classList.add('dag-helg');
       }
       rubrik.textContent = formatDagRubrik(dag.datum, nu) + (arHelg(dag.datum) ? ' 🎉' : '');
-      innehall.append(rubrik);
+      mal.append(rubrik);
 
-      if (arIdag && raidGrupper) {
-        innehall.append(raidRad(raidGrupper));
+      if (arIdag) {
+        if (raidGrupper) {
+          mal.append(raidRad(raidGrupper, raidRotationer, kommandeRaids, nu));
+        } else {
+          // Utan raiddata finns ingen rad att slå in rotationerna i — visa dem som förut.
+          for (const event of raidRotationer) {
+            mal.append(rad(event, dag.datum, nu, true));
+          }
+        }
       }
       for (const event of dag.events) {
         // Grönt betyder "pågår nu", inte "pågår denna dag", och används därför bara
         // där nuet är ramen. Ett pågående flerdagarsevent syns ändå grönt under Idag;
         // grönt även på dess slutdagsrad hade bara sagt emot dagrubriken ovanför.
         const pagar = arIdag && event.startDate.getTime() <= nu.getTime();
-        innehall.append(rad(event, dag.datum, nu, pagar));
+        mal.append(rad(event, dag.datum, nu, pagar));
       }
-      if (arIdag && dag.events.length === 0 && !raidGrupper && nuPanel.length === 0) {
-        innehall.append(el('p', 'status-meddelande', 'Inget särskilt idag.'));
+      if (arIdag && dag.events.length === 0 && !raidGrupper && raidRotationer.length === 0 && nuPanel.length === 0) {
+        mal.append(el('p', 'status-meddelande', 'Inget särskilt idag.'));
       }
     }
 

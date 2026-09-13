@@ -15,6 +15,18 @@
   --rod: #e8483f;
   --linje: #eadfcd;
   --skugga: 0 4px 16px rgba(94, 70, 34, 0.12);
+  --pil: #b7a88f;
+  --langd: #6f6250;
+  --strip-bg: #f4ede0;
+  --poke-bg: #ffffff;
+  --rod-ljus: #fbe4e2;
+  --rod-morgon: #a02b24;
+  --radskugga: 0 1px 5px rgba(94, 70, 34, 0.14);
+  --backdrop: rgba(43, 33, 24, 0.45);
+  --typ-raid: #d63b2f;
+  --typ-rampljus: #e8901c;
+  --typ-community: #d6438f;
+  --typ-max: #7b4fd1;
 }
 
 * {
@@ -139,7 +151,7 @@ button {
   width: 44px;
   height: 44px;
   object-fit: contain;
-  background: #fff;
+  background: var(--poke-bg);
   border-radius: 50%;
   padding: 3px;
 }
@@ -183,12 +195,19 @@ button {
   text-align: left;
   background: var(--kort);
   border: 0;
+  border-left: 5px solid transparent;
   border-radius: 14px;
   padding: 8px 10px;
   margin: 6px 0;
-  box-shadow: 0 1px 5px rgba(94, 70, 34, 0.14);
+  box-shadow: var(--radskugga);
   cursor: pointer;
 }
+
+/* Färgkant per typfamilj (spec 2026-09-13, punkt 6): raid, rampljus, community, max. */
+.rad-typ-raid { border-left-color: var(--typ-raid); }
+.rad-typ-rampljus { border-left-color: var(--typ-rampljus); }
+.rad-typ-community { border-left-color: var(--typ-community); }
+.rad-typ-max { border-left-color: var(--typ-max); }
 
 .rad:active {
   background: var(--linje);
@@ -238,7 +257,7 @@ button {
 .rad-langd {
   font-size: 15px;
   font-weight: 600;
-  color: #8a7a63;
+  color: var(--langd);
 }
 .rad-tid-gron {
   color: var(--gron);
@@ -252,7 +271,7 @@ button {
 
 .rad-pil {
   flex: none;
-  color: #b7a88f;
+  color: var(--pil);
   font-size: 22px;
   font-weight: 800;
 }
@@ -273,7 +292,7 @@ button {
   display: block;
   width: 100%;
   min-height: 48px;
-  background: #f4ede0;
+  background: var(--strip-bg);
   border: 0;
   border-radius: 12px;
   padding: 10px 12px;
@@ -288,12 +307,26 @@ button {
   opacity: 0.75;
 }
 
+.visa-fler {
+  display: block;
+  width: 100%;
+  min-height: 48px;
+  margin-top: 18px;
+  background: var(--bla-ljus);
+  border: 0;
+  border-radius: 12px;
+  color: var(--bla);
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
 /* ---------- Bottom sheet ---------- */
 
 .backdrop {
   position: fixed;
   inset: 0;
-  background: rgba(43, 33, 24, 0.45);
+  background: var(--backdrop);
   z-index: 10;
 }
 
@@ -359,6 +392,12 @@ button {
   line-height: 1.2;
 }
 
+.sheet-original {
+  margin: -4px 0 8px;
+  font-size: 15px;
+  color: var(--tackt-mjuk);
+}
+
 .sheet-tid {
   margin: 0 0 10px;
   font-size: 19px;
@@ -399,7 +438,7 @@ button {
 }
 
 .etikett-galler { background: var(--gron-ljus); color: var(--gron); }
-.etikett-galler-inte { background: #fbe4e2; color: #a02b24; }
+.etikett-galler-inte { background: var(--rod-ljus); color: var(--rod-morgon); }
 .etikett-osakert { background: var(--gul-ljus); color: var(--gul-morgon); }
 
 /* ---------- Pokémon-listor (i sheet) ---------- */
@@ -478,4 +517,45 @@ button {
 @media (prefers-reduced-motion: reduce) {
   .pokeboll { animation: none; }
   .sheet { animation: none; }
+}
+
+/* ---------- Mörkt läge (spec 2026-09-13, punkt 7) ---------- */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bakgrund: #1a1511;
+    --kort: #282019;
+    --tackt: #f4ecdf;
+    --tackt-mjuk: #c2b39c;
+    --gron: #6fd68a;
+    --gron-ljus: #1e3524;
+    --bla: #8ab8ff;
+    --bla-ljus: #1f2c45;
+    --gul-morgon: #f1cd6a;
+    --gul-ljus: #3b3012;
+    --rod: #ff6b61;
+    --linje: #3b3128;
+    --skugga: 0 4px 16px rgba(0, 0, 0, 0.4);
+    --pil: #8f8068;
+    --langd: #a8987f;
+    --strip-bg: #2f271f;
+    --poke-bg: #3a3128;
+    --rod-ljus: #452320;
+    --rod-morgon: #ffb0a8;
+    --radskugga: 0 1px 5px rgba(0, 0, 0, 0.35);
+    --backdrop: rgba(0, 0, 0, 0.6);
+    --typ-raid: #ff7b6e;
+    --typ-rampljus: #ffb347;
+    --typ-community: #ff7ac0;
+    --typ-max: #b48cff;
+  }
+  body {
+    background-image: none;
+  }
+  .pokeboll {
+    background:
+      radial-gradient(circle at 50% 50%, #fff 0 7px, #1a1511 7px 10px, transparent 10px),
+      linear-gradient(to bottom, transparent 0 calc(50% - 3px), #1a1511 calc(50% - 3px) calc(50% + 3px), transparent calc(50% + 3px)),
+      linear-gradient(to bottom, var(--rod) 0 50%, #fff 50%);
+  }
 }
