@@ -9,12 +9,85 @@ function namnlista(poke) {
   return poke.map((p) => p.name).join(', ');
 }
 
+const MANADER = {
+  January: 'januari', February: 'februari', March: 'mars', April: 'april', May: 'maj', June: 'juni',
+  July: 'juli', August: 'augusti', September: 'september', October: 'oktober', November: 'november', December: 'december',
+};
+
+// Steg 1–2 i namnreglerna (spec 2026-09-13, punkt 1): suffix efter " | " och
+// formnamn i parentes klipps.
+function rensaNamn(name) {
+  return name.split(' | ')[0].replace(/\s*\([^)]*\)/g, '').replace(/\s+/g, ' ').trim();
+}
+
+// Uppräkningsdelen av ett namn: "A, B, and C" → "A, B och C". Pokémon-namn rörs inte.
+function ochLista(text) {
+  return text.replace(/, and /g, ' och ').replace(/ and /g, ' och ').replace(/Mystery Pokémon/g, 'Hemlig Pokémon');
+}
+
 export function skapaOversattare(ordlista) {
   const okanda = new Set();
 
   const bonusIndex = new Map(
     Object.entries(ordlista.bonusar).map(([nyckel, svensk]) => [normalisera(nyckel), svensk])
   );
+
+  const raidTypIndex = new Map(
+    Object.entries(ordlista.raidTyper || {}).map(([nyckel, svensk]) => [nyckel.toLowerCase(), svensk])
+  );
+
+  // Lättläst namn (spec punkt 1). Originalet ligger kvar i event.name och visas i
+  // detaljvyn; det här är radens namn. Matchar inget mönster returneras det rensade
+  // originalet.
+  function lattlastNamn(event) {
+    const bas = rensaNamn(event.name);
+    let m;
+    switch (event.eventType) {
+      case 'raid-battles':
+        m = bas.match(/^(.+?) in (.+)$/);
+        if (!m) {
+          return bas;
+        }
+        if (!raidTypIndex.has(m[2].toLowerCase())) {
+          okanda.add(m[2]);
+          return bas;
+        }
+        return `${ochLista(m[1])} i ${raidTypIndex.get(m[2].toLowerCase())}`;
+      case 'pokemon-spotlight-hour':
+        m = bas.match(/^(.+) Spotlight Hour$/);
+        return m ? `Rampljustimme: ${ochLista(m[1])}` : bas;
+      case 'raid-hour':
+        m = bas.match(/^(.+) Raid Hour$/);
+        return m ? `Raidtimme: ${ochLista(m[1])}` : bas;
+      case 'raid-day': {
+        const re = /\s*(?:Super\s+)?(?:Mega\s+)?Raid Day$/;
+        if (!re.test(bas)) {
+          return bas;
+        }
+        const x = bas.replace(re, '');
+        return x ? `Raiddag: ${ochLista(x)}` : 'Raiddag';
+      }
+      case 'max-mondays':
+        m = bas.match(/^Dynamax (.+) during Max Monday$/);
+        return m ? `Max-måndag: ${ochLista(m[1])}` : bas;
+      case 'max-battles': {
+        const re = /\s*Max Battle Day$/;
+        if (!re.test(bas)) {
+          return bas;
+        }
+        const x = bas.replace(re, '');
+        return x ? `Max-stridsdag: ${ochLista(x)}` : 'Max-stridsdag';
+      }
+      case 'community-day':
+        m = bas.match(/^(.+) Community Day$/);
+        if (!m) {
+          return bas;
+        }
+        return MANADER[m[1]] ? `Community Day i ${MANADER[m[1]]}` : `Community Day: ${ochLista(m[1])}`;
+      default:
+        return bas;
+    }
+  }
 
   function bonus(text) {
     const svensk = bonusIndex.get(normalisera(text));
@@ -81,5 +154,5 @@ export function skapaOversattare(ordlista) {
     return [...okanda];
   }
 
-  return { bonus, eventtyp, sammanfattning, okandaTermer };
+  return { bonus, eventtyp, sammanfattning, lattlastNamn, okandaTermer };
 }

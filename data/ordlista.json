@@ -45,6 +45,15 @@
     "3-Star Raids": "3 stjärnor",
     "1-Star Raids": "1 stjärna"
   },
+  "raidTyper": {
+    "5-star Raid Battles": "5-stjärniga raider",
+    "4-star Raid Battles": "4-stjärniga raider",
+    "3-star Raid Battles": "3-stjärniga raider",
+    "1-star Raid Battles": "1-stjärniga raider",
+    "Mega Raids": "Mega-raider",
+    "Shadow Raids": "Shadow-raider",
+    "Elite Raids": "Elitraider"
+  },
   "bonusar": {
     "2x Catch XP": "Dubbel XP när du fångar",
     "3x Catch XP": "Trippel XP när du fångar",
