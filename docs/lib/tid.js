@@ -172,7 +172,7 @@ export function formatLangd(start, slut) {
 }
 
 // Pekar alltid på eventets nästa gräns: starten om det inte börjat, annars slutet.
-export function formatNedrakning(start, slut, nu) {
+export function formatNedrakning(start, slut, nu, verb = 'slutar') {
   const pagar = start.getTime() <= nu.getTime();
   const mal = pagar ? slut : start;
   const diff = mal.getTime() - nu.getTime();
@@ -180,9 +180,9 @@ export function formatNedrakning(start, slut, nu) {
     return 'har slutat';
   }
   if (diff < MINUT_MS) {
-    return pagar ? 'slutar strax' : 'börjar nu';
+    return pagar ? `${verb} strax` : 'börjar nu';
   }
   const { antal, ental, flertal } = enhet(diff, nu, mal);
   const text = `om ${antal} ${antal === 1 ? ental : flertal}`;
-  return pagar ? `slutar ${text}` : text;
+  return pagar ? `${verb} ${text}` : text;
 }
