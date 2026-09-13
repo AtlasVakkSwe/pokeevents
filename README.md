@@ -21,9 +21,10 @@ Statisk sida på GitHub Pages (docs/ — läser endast färdig svensk JSON)
 
 Inga beroenden: frontenden är ren HTML/CSS/JS och byggskriptet använder bara Node.js
 standardbibliotek. Sidan visar en dagindelad kalender (se
-`specs/2026-07-08-kalendervy-design.md`): NU-panel för pågående korta events,
-kompakta bildrader per dag, bottom sheet med detaljer och en hopfällbar
-"Pågår hela tiden"-rad för långkörare. Grupperingen sker i webbläsaren vid
+`specs/2026-07-08-kalendervy-design.md` och `specs/2026-09-13-lattlast-kalender-design.md`):
+NU-panel för pågående korta events, kompakta bildrader per dag med lättlästa svenska
+namn och färgkant per typ, bottom sheet med detaljer, 30 dagar synliga och en
+hopfällbar "Pågår hela tiden"-rad för långkörare. Mörkt läge följer mobilens tema. Grupperingen sker i webbläsaren vid
 sidladdning, så sidan är korrekt även om ett dygnsbygge uteblir.
 
 ## Kommandon
@@ -54,6 +55,8 @@ Fel på en enskild sida är icke-fatalt. Se PRD:ns ändringslogg (v1.1).
 - **Ny engelsk term dyker upp oöversatt på sidan?** Lägg till den i
   `data/ordlista.json` (bonusar eller eventtyper). Okända termer loggas vid bygget
   och skrivs till `data/okanda-termer.json`.
+- **Event utan svensk text?** Bygget listar dem i `data/saknar-beskrivning.json`.
+  Skriv en text per originalnamn i `data/beskrivningar.json` — den slår mallen.
 - **Fel regionsetikett?** Komplettera `data/regioner.json`. Termer som täcker Sverige
   → `gallerISverige`, termer/städer som utesluter Sverige → `gallerInte`.
   Vid osäkerhet visar sidan "Osäkert – kolla 🟡" — den gissar aldrig grönt.

@@ -110,3 +110,37 @@ test('okända termer samlas ihop för loggning', () => {
   const { okandaTermer } = berikaEvents([konstig], { ordlista, regioner });
   assert.ok(okandaTermer.includes('Weird New Bonus'));
 });
+
+// Fältet namn, beskrivningsfil och logg över saknade texter (spec 2026-09-13, punkt 1 och 5)
+test('varje event får ett lättläst namn', () => {
+  const { events } = berikaEvents([spotlight, raid, generiskt], { ordlista, regioner });
+  assert.equal(events[0].namn, 'Rampljustimme: Zubat');
+  assert.equal(events[1].namn, 'Mega Lucario i Mega-raider');
+  assert.equal(events[2].namn, 'Battle Weekend');
+});
+
+test('beskrivningsfilen slår mallen på originalnamnet', () => {
+  const beskrivningar = { 'Zubat Spotlight Hour': 'Zubat överallt ikväll.' };
+  const { events } = berikaEvents([spotlight], { ordlista, regioner, beskrivningar });
+  assert.equal(events[0].sammanfattning, 'Zubat överallt ikväll.');
+});
+
+test('event utan egen mall och utan beskrivning loggas som saknad', () => {
+  const festival = {
+    ...generiskt,
+    eventID: 'f-1',
+    name: 'Harvest Festival',
+    eventType: 'event',
+    extraData: { generic: { hasSpawns: true } },
+  };
+  const { saknarBeskrivning } = berikaEvents([spotlight, festival], { ordlista, regioner });
+  assert.deepEqual(saknarBeskrivning, [
+    { name: 'Harvest Festival', typ: 'event', start: festival.start, end: festival.end, link: festival.link },
+  ]);
+});
+
+test('event med beskrivning loggas inte som saknad', () => {
+  const festival = { ...generiskt, eventID: 'f-1', name: 'Harvest Festival', eventType: 'event' };
+  const { saknarBeskrivning } = berikaEvents([festival], { ordlista, regioner, beskrivningar: { 'Harvest Festival': 'Skördefest!' } });
+  assert.deepEqual(saknarBeskrivning, []);
+});

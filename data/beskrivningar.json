@@ -1,0 +1,4 @@
+{
+  "kommentar": "Svenska beskrivningar per originalnamn (spec 2026-09-13, punkt 5). Nyckeln är eventets engelska namn exakt som i events-raw.json. En träff här slår alltid mallen i oversatt.js. Bygget skriver data/saknar-beskrivning.json med de event som bara fått standardtext — fyll på härifrån. Max 2 meningar, lättläst svenska, Pokémon-namn oöversatta.",
+  "beskrivningar": {}
+}

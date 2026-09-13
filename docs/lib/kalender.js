@@ -11,6 +11,7 @@ const MAX_LANGD_NU_PANEL = DYGN_MS + 60 * 1000;
 export function grupperaKalender(events, nu) {
   const nuPanel = [];
   const alltidPagaende = [];
+  const raidRotationer = [];
   const perDag = new Map();
 
   const idag = dagNyckel(nu);
@@ -37,7 +38,9 @@ export function grupperaKalender(events, nu) {
     if (arLangkorare) {
       if (pagar) {
         alltidPagaende.push(event);
-      } else {
+      } else if (event.typ !== 'go-battle-league') {
+        // Battle League svarar inte på någon av barnens frågor; en kommande omgång
+        // får ingen rad. Pågående ligger kvar i "Pågår hela tiden" (spec 2026-09-13, punkt 2).
         laggTill(dagNyckel(startDate), startDate, event);
       }
       continue;
@@ -45,6 +48,13 @@ export function grupperaKalender(events, nu) {
 
     if (pagar && langd <= MAX_LANGD_NU_PANEL) {
       nuPanel.push(event);
+      continue;
+    }
+
+    // Pågående raidrotationer visas av raden "Raider idag" när raiddata finns,
+    // annars som rader under Idag — det avgör app.js (spec 2026-09-13, punkt 3).
+    if (pagar && event.typ === 'raid-battles') {
+      raidRotationer.push(event);
       continue;
     }
 
@@ -66,6 +76,7 @@ export function grupperaKalender(events, nu) {
   }
   nuPanel.sort((a, b) => a.endDate - b.endDate);
   alltidPagaende.sort((a, b) => a.endDate - b.endDate);
+  raidRotationer.sort((a, b) => a.endDate - b.endDate);
 
-  return { nuPanel, dagar, alltidPagaende };
+  return { nuPanel, dagar, alltidPagaende, raidRotationer };
 }

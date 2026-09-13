@@ -123,3 +123,47 @@ test('parsade tidsobjekt följer med händelserna', () => {
   assert.ok(dag.events[0].startDate instanceof Date);
   assert.ok(dag.datum instanceof Date);
 });
+
+// Battle League får ingen kalenderrad (spec 2026-09-13, punkt 2)
+test('kommande go-battle-league får ingen rad någonstans', () => {
+  const gbl = ev('Ultra League', 'go-battle-league', '2026-07-14T22:00:00.000', '2026-07-21T22:00:00.000');
+  const k = grupperaKalender([gbl], NU);
+  assert.equal(k.alltidPagaende.length, 0);
+  assert.ok(k.dagar.every((d) => d.events.length === 0));
+});
+
+// Pågående raidrotationer i egen lista (spec punkt 3)
+test('pågående flerdagars raid-battles hamnar i raidRotationer, inte under Idag', () => {
+  const rot = ev('Mega Beedrill in Mega Raids', 'raid-battles', '2026-07-07T10:00:00.000', '2026-07-14T10:00:00.000');
+  const k = grupperaKalender([rot], NU);
+  assert.deepEqual(k.raidRotationer.map((e) => e.name), ['Mega Beedrill in Mega Raids']);
+  assert.ok(k.dagar.every((d) => d.events.length === 0));
+});
+
+test('raidRotationer sorteras på sluttid', () => {
+  const sen = ev('Sen', 'raid-battles', '2026-07-07T10:00:00.000', '2026-07-16T10:00:00.000');
+  const tidig = ev('Tidig', 'raid-battles', '2026-07-06T10:00:00.000', '2026-07-10T10:00:00.000');
+  const k = grupperaKalender([sen, tidig], NU);
+  assert.deepEqual(k.raidRotationer.map((e) => e.name), ['Tidig', 'Sen']);
+});
+
+test('kort pågående raid-battles hamnar fortfarande i NU-panelen', () => {
+  const kort = ev('Raidkväll', 'raid-battles', '2026-07-08T18:00:00.000', '2026-07-08T21:00:00.000');
+  const k = grupperaKalender([kort], NU);
+  assert.equal(k.nuPanel.length, 1);
+  assert.equal(k.raidRotationer.length, 0);
+});
+
+test('kommande raid-battles står kvar på sin startdag', () => {
+  const rot = ev('Xerneas in 5-star Raid Battles', 'raid-battles', '2026-07-15T10:00:00.000', '2026-07-22T10:00:00.000');
+  const k = grupperaKalender([rot], NU);
+  assert.equal(k.raidRotationer.length, 0);
+  assert.equal(k.dagar.find((d) => d.nyckel === '2026-07-15').events[0].name, 'Xerneas in 5-star Raid Battles');
+});
+
+test('raid-battles längre än 14 dagar är fortfarande långkörare', () => {
+  const shadow = ev('Shadow Thundurus in Shadow Raids', 'raid-battles', '2026-07-01T10:00:00.000', '2026-07-30T10:00:00.000');
+  const k = grupperaKalender([shadow], NU);
+  assert.equal(k.alltidPagaende.length, 1);
+  assert.equal(k.raidRotationer.length, 0);
+});

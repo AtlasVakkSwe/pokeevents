@@ -81,3 +81,90 @@ test('eventtyp utan mall ger null (ingen gissad text)', () => {
   const o = nyOversattare();
   assert.equal(o.sammanfattning({ eventType: 'twitch-drops', name: 'X', extraData: {} }), null);
 });
+
+// Lättlästa namn (spec: specs/2026-09-13-lattlast-kalender-design.md, punkt 1)
+function namn(name, eventType) {
+  return nyOversattare().lattlastNamn({ name, eventType });
+}
+
+test('raidrotation: "X in 5-star Raid Battles" blir "X i 5-stjärniga raider"', () => {
+  assert.equal(namn('Xerneas in 5-star Raid Battles', 'raid-battles'), 'Xerneas i 5-stjärniga raider');
+});
+
+test('formnamn i parentes klipps ur radnamnet', () => {
+  assert.equal(namn('Zacian (Hero of Many Battles) in 5-star Raid Battles', 'raid-battles'), 'Zacian i 5-stjärniga raider');
+});
+
+test('Mega- och Shadow-raider', () => {
+  assert.equal(namn('Mega Beedrill in Mega Raids', 'raid-battles'), 'Mega Beedrill i Mega-raider');
+  assert.equal(namn('Shadow Thundurus (Incarnate Forme) in Shadow Raids', 'raid-battles'), 'Shadow Thundurus i Shadow-raider');
+});
+
+test('"and" i uppräkning blir "och"', () => {
+  assert.equal(
+    namn('Xurkitree, Pheromosa, and Buzzwole in 5-star Raid Battles', 'raid-battles'),
+    'Xurkitree, Pheromosa och Buzzwole i 5-stjärniga raider'
+  );
+});
+
+test('okänd raidnivå lämnar namnet orört (utom klipp) och loggas', () => {
+  const o = nyOversattare();
+  assert.equal(o.lattlastNamn({ name: 'Groudon in Primal Raids', eventType: 'raid-battles' }), 'Groudon in Primal Raids');
+  assert.ok(o.okandaTermer().includes('Primal Raids'));
+});
+
+test('rampljustimme sätter typen först', () => {
+  assert.equal(namn('Houndour and Houndoom Spotlight Hour', 'pokemon-spotlight-hour'), 'Rampljustimme: Houndour och Houndoom');
+  assert.equal(namn('Mystery Pokémon Spotlight Hour', 'pokemon-spotlight-hour'), 'Rampljustimme: Hemlig Pokémon');
+});
+
+test('raidtimme, raiddag och Max-stridsdag', () => {
+  assert.equal(namn('Zamazenta (Hero of Many Battles) Raid Hour', 'raid-hour'), 'Raidtimme: Zamazenta');
+  assert.equal(namn('Staraptor Super Mega Raid Day', 'raid-day'), 'Raiddag: Staraptor');
+  assert.equal(namn('Super Mega Raid Day', 'raid-day'), 'Raiddag');
+  assert.equal(namn('Gigantamax Cinderace Max Battle Day', 'max-battles'), 'Max-stridsdag: Gigantamax Cinderace');
+  assert.equal(namn('Max Battle Day', 'max-battles'), 'Max-stridsdag');
+});
+
+test('Max-måndag', () => {
+  assert.equal(namn('Dynamax Rhyhorn during Max Monday', 'max-mondays'), 'Max-måndag: Rhyhorn');
+});
+
+test('Community Day med månad eller Pokémon', () => {
+  assert.equal(namn('October Community Day', 'community-day'), 'Community Day i oktober');
+  assert.equal(namn('Nickit Community Day', 'community-day'), 'Community Day: Nickit');
+});
+
+test('suffix efter " | " klipps även för typer utan mönster', () => {
+  assert.equal(namn('Great League and Little Cup | Twilight Trails', 'go-battle-league'), 'Great League and Little Cup');
+  assert.equal(namn('Harvest Festival 2026: Applin Picking', 'event'), 'Harvest Festival 2026: Applin Picking');
+});
+
+// Standardtexter för typer som saknade mall (spec punkt 5)
+function samm(event) {
+  return nyOversattare().sammanfattning(event);
+}
+
+test('generiskt event med spawns får standardtext, utan spawns ingen', () => {
+  assert.equal(
+    samm({ name: 'Mega Squads', eventType: 'event', extraData: { generic: { hasSpawns: true } } }),
+    'Särskilda Pokémon dyker upp under eventet. Se listan.'
+  );
+  assert.equal(samm({ name: 'LEGO Stores and Pokémon GO', eventType: 'event', extraData: { generic: { hasSpawns: false } } }), null);
+});
+
+test('Hatch Day känns igen på namnet', () => {
+  assert.equal(samm({ name: 'Hatch Day', eventType: 'event', extraData: {} }), 'Kläckdag! Kläck ägg och få en särskild Pokémon.');
+});
+
+test('Max-måndag namnger Pokémonen och säger inte längre "ikväll"', () => {
+  assert.equal(samm({ name: 'Dynamax Rhyhorn during Max Monday', eventType: 'max-mondays' }), 'Rhyhorn i Max-strider hela dagen.');
+  assert.equal(samm({ name: 'Max Monday', eventType: 'max-mondays' }), 'Max-måndag! Extra Max-strider hela dagen.');
+});
+
+test('wild-area, max-battles, go-pass och season får korta mallar', () => {
+  assert.equal(samm({ name: 'X', eventType: 'wild-area' }), 'Wild Area: massor av Pokémon att fånga och särskilda bonusar.');
+  assert.equal(samm({ name: 'X', eventType: 'max-battles' }), 'Extra många Max-strider.');
+  assert.equal(samm({ name: 'X', eventType: 'go-pass' }), 'Samla poäng och få belöningar hela månaden.');
+  assert.equal(samm({ name: 'X', eventType: 'season' }), 'Ny säsong med nya Pokémon och bonusar.');
+});

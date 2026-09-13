@@ -1,8 +1,8 @@
 # PRD: Pokémon GO Events på svenska
 
-**Version:** 2.0
-**Datum:** 2026-07-08
-**Status:** Version 2.0 driftsatt (etapp 1–7 + 9; etapp 8 och 10 återstår)
+**Version:** 2.2
+**Datum:** 2026-09-13
+**Status:** Version 2.2 driftsatt (etapp 1–7 + 9; etapp 8 och 10 återstår)
 **Ägare:** Toni
 
 ---
@@ -221,7 +221,7 @@ Varje etapp är klar först när **samtliga** acceptanskriterier är uppfyllda o
 
 - [ ] Ordlistefil (`ordlista.json`) mappar återkommande termer: eventtyper, bonusar, regionstermer. Exempel: "Spotlight Hour" → "Rampljustimme", "2× Catch XP" → "Dubbel XP när du fångar", "1/4 Hatch Distance" → "Ägg kläcks på en fjärdedel av sträckan".
 - [ ] Mallar per eventtyp genererar lättläst sammanfattning direkt ur datan, t.ex. Spotlight Hour → "[Pokémon] dyker upp extra ofta. Kan vara shiny! Bonus: [bonus på svenska]." Max 2 meningar.
-- [ ] Pokémon-namn och officiella eventnamn översätts ALDRIG.
+- [ ] Pokémon-namn översätts ALDRIG. Originalnamnet visas alltid i detaljvyn; kalenderradens namn får skrivas om deterministiskt ur LeekDucks rubrikmönster (v2.2, `namn`-fältet).
 - [ ] Term som saknas i ordlistan loggas vid bygget och visas oöversatt (hellre engelska än fel svenska).
 - [ ] Minst eventtyperna spotlight-hour, community-day, raid-hour, raid-battles, raid-day har mallar.
 
@@ -323,10 +323,10 @@ Varje etapp är klar först när **samtliga** acceptanskriterier är uppfyllda o
 
 ## 9. Definition of Done (hela projektet)
 
-- Etapp 1–9 godkända enligt acceptanskriterier.
-- Barnen har använt sidan minst en vecka och kan självständigt svara på de fyra frågorna i avsnitt 2.
-- Ett dygnsbygge har gått igenom automatiskt minst 7 dagar i rad utan ingripande.
-- Säkerhetskraven i avsnitt 7 verifierade (testfall 8.5, 9.2).
+- [x] Etapp 1–7 och 9 godkända enligt acceptanskriterier. Etapp 8 och 10 återstår (nästa version).
+- [x] Barnen har använt sidan minst en vecka och kan självständigt svara på de fyra frågorna i avsnitt 2 — sidan används självständigt sedan augusti 2026.
+- [x] Ett dygnsbygge har gått igenom automatiskt minst 7 dagar i rad utan ingripande — felfritt dagligen sedan 2026-08-07.
+- [x] Säkerhetskraven i avsnitt 7 verifierade (testfall 9.2; 8.5 gäller först när etapp 8 byggs).
 
 ## 10. Ändringslogg
 
@@ -415,8 +415,39 @@ minuter`:
   rättar samtidigt ett befintligt fel där `nu` sattes en enda gång vid sidladdning,
   vilket kunde visa gårdagens kalender om appen låg kvar öppen över natten.
 
+### Version 2.2 (2026-09-13)
+
+**Lättläst kalender** — en rendering av dagens kalender (52 events, 46 rader, 76 dagar
+framåt) visade att läsbördan låg i de engelska radnamnen och i brus, inte i tiderna.
+Utvärdering och design godkända av Toni — se `specs/2026-09-13-lattlast-kalender-design.md`:
+
+- **Lättlästa namn.** Bygget sätter fältet `namn` deterministiskt ur LeekDucks
+  rubrikmönster: `Zacian (Hero of Many Battles) in 5-star Raid Battles` →
+  `Zacian i 5-stjärniga raider`, `Houndour and Houndoom Spotlight Hour` →
+  `Rampljustimme: Houndour och Houndoom`, `Dynamax Rhyhorn during Max Monday` →
+  `Max-måndag: Rhyhorn`. Raidnivåerna slås upp i `raidTyper` i ordlistan; okänd nivå
+  loggas och namnet lämnas orört. Originalet visas alltid i detaljvyn.
+- **GO Battle League utan kalenderrad.** Kommande ligaomgångar (11 av 46 rader, de
+  längsta namnen på sidan) visas inte; pågående ligger kvar i "Pågår hela tiden".
+- **Raidrotationer i "Raider idag".** Pågående flerdagars raidevent får inga egna rader
+  under Idag; raidraden räknar i stället ner till nästa byte (`t.o.m. tisdag · byts om
+  2 dagar`) och raidsheeten visar `Nya raider onsdag:` med de kommande bossarna. Saknas
+  raiddata ritas rotationerna som rader som förut.
+- **30 dagar synliga.** Dagar längre bort ligger bakom knappen `Visa fler dagar ▾`.
+- **Standardtexter och beskrivningsfil.** Mallar för `event` (med spawns), Hatch Day,
+  `wild-area`, `max-battles`, `go-pass`, `season`; Max-måndagen namnger Pokémonen och
+  säger inte längre "ikväll". `data/beskrivningar.json` slår mallen per originalnamn, och
+  bygget skriver `data/saknar-beskrivning.json` med de event som bara fått standardtext.
+- **Färgkant per typfamilj** på raderna (raid röd, rampljustimme orange, Community Day
+  rosa, Max lila) så att typen syns utan att läsa.
+- **Mörkt läge** via `prefers-color-scheme`, enbart CSS-variabler. Längdradens gråton
+  mörknades samtidigt till AA-kontrast även i ljust läge.
+
+Kalendern gick från 46 till 32 rader med samma data. Inga nya beroenden, CSP orörd.
+
 ## 11. Öppna frågor
 
 - Ska "Gäller inte här"-events döljas helt via en inställning, eller alltid visas nedtonade? (Beslut efter barntest.)
 - Egen domän eller github.io-adress?
+- Ska Toni fylla `data/beskrivningar.json` löpande utifrån `data/saknar-beskrivning.json`, eller är det dags för etapp 8?
 - AI-leverantör för etapp 8: Claude Haiku (kan förenkla språket) eller DeepL Free (gratis, men endast översättning)? Beslut kan skjutas till etapp 8 — allt innan dess är AI-fritt.

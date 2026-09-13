@@ -242,3 +242,14 @@ test('samma event ger samma nedräkning oavsett vilken dag raden står under', (
   const slut = efter(3 * DYGN);
   assert.equal(formatNedrakning(start, slut, NU), 'slutar om 3 dagar');
 });
+
+// Raidraden säger "byts" i stället för "slutar" (spec 2026-09-13, punkt 3)
+test('verb-parametern byter ut "slutar" för pågående event', () => {
+  assert.equal(formatNedrakning(fore(TIMME), efter(2 * DYGN), NU, 'byts'), 'byts om 2 dagar');
+  assert.equal(formatNedrakning(fore(TIMME), efter(30 * SEKUND), NU, 'byts'), 'byts strax');
+});
+
+test('verb-parametern påverkar inte kommande eller avslutade event', () => {
+  assert.equal(formatNedrakning(efter(TIMME), efter(2 * TIMME), NU, 'byts'), 'om 1 timme');
+  assert.equal(formatNedrakning(fore(2 * TIMME), fore(TIMME), NU, 'byts'), 'har slutat');
+});

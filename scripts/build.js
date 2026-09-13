@@ -39,7 +39,18 @@ async function main() {
 
   const ordlista = lasJson('data/ordlista.json');
   const regioner = lasJson('data/regioner.json');
-  const { events, okandaTermer } = berikaEvents(rawEvents, { ordlista, regioner });
+  const beskrivningar = lasJson('data/beskrivningar.json').beskrivningar || {};
+  const { events, okandaTermer, saknarBeskrivning } = berikaEvents(rawEvents, { ordlista, regioner, beskrivningar });
+
+  // Pågående och kommande event som bara fått standardtext — Tonis att-göra-lista
+  // för data/beskrivningar.json. Skrivs alltid, så åtgärdade poster försvinner.
+  const aktuella = saknarBeskrivning
+    .filter((e) => new Date(e.end).getTime() >= Date.now())
+    .map(({ end, ...rest }) => rest);
+  skrivJson('data/saknar-beskrivning.json', { uppdaterad: nu, events: aktuella });
+  if (aktuella.length > 0) {
+    console.log(`${aktuella.length} event saknar svensk beskrivning (se data/saknar-beskrivning.json).`);
+  }
 
   if (okandaTermer.length > 0) {
     console.log('Okända termer (komplettera data/ordlista.json eller data/regioner.json):');
