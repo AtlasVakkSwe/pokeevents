@@ -139,3 +139,32 @@ test('suffix efter " | " klipps även för typer utan mönster', () => {
   assert.equal(namn('Great League and Little Cup | Twilight Trails', 'go-battle-league'), 'Great League and Little Cup');
   assert.equal(namn('Harvest Festival 2026: Applin Picking', 'event'), 'Harvest Festival 2026: Applin Picking');
 });
+
+// Standardtexter för typer som saknade mall (spec punkt 5)
+function samm(event) {
+  return nyOversattare().sammanfattning(event);
+}
+
+test('generiskt event med spawns får standardtext, utan spawns ingen', () => {
+  assert.equal(
+    samm({ name: 'Mega Squads', eventType: 'event', extraData: { generic: { hasSpawns: true } } }),
+    'Särskilda Pokémon dyker upp under eventet. Se listan.'
+  );
+  assert.equal(samm({ name: 'LEGO Stores and Pokémon GO', eventType: 'event', extraData: { generic: { hasSpawns: false } } }), null);
+});
+
+test('Hatch Day känns igen på namnet', () => {
+  assert.equal(samm({ name: 'Hatch Day', eventType: 'event', extraData: {} }), 'Kläckdag! Kläck ägg och få en särskild Pokémon.');
+});
+
+test('Max-måndag namnger Pokémonen och säger inte längre "ikväll"', () => {
+  assert.equal(samm({ name: 'Dynamax Rhyhorn during Max Monday', eventType: 'max-mondays' }), 'Rhyhorn i Max-strider hela dagen.');
+  assert.equal(samm({ name: 'Max Monday', eventType: 'max-mondays' }), 'Max-måndag! Extra Max-strider hela dagen.');
+});
+
+test('wild-area, max-battles, go-pass och season får korta mallar', () => {
+  assert.equal(samm({ name: 'X', eventType: 'wild-area' }), 'Wild Area: massor av Pokémon att fånga och särskilda bonusar.');
+  assert.equal(samm({ name: 'X', eventType: 'max-battles' }), 'Extra många Max-strider.');
+  assert.equal(samm({ name: 'X', eventType: 'go-pass' }), 'Samla poäng och få belöningar hela månaden.');
+  assert.equal(samm({ name: 'X', eventType: 'season' }), 'Ny säsong med nya Pokémon och bonusar.');
+});

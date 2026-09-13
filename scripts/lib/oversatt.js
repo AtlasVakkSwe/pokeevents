@@ -141,10 +141,25 @@ export function skapaOversattare(ordlista) {
         return 'Raidtimme! Extra många raider i en timme.';
       case 'raid-day':
         return 'Raiddag! Extra många raider hela dagen.';
-      case 'max-mondays':
-        return 'Max-måndag! Extra Max-strider ikväll.';
+      case 'max-mondays': {
+        const m = rensaNamn(event.name).match(/^Dynamax (.+) during Max Monday$/);
+        return m ? `${ochLista(m[1])} i Max-strider hela dagen.` : 'Max-måndag! Extra Max-strider hela dagen.';
+      }
       case 'go-battle-league':
         return 'Nytt i GO Battle League (strider mot andra spelare).';
+      case 'max-battles':
+        return 'Extra många Max-strider.';
+      case 'wild-area':
+        return 'Wild Area: massor av Pokémon att fånga och särskilda bonusar.';
+      case 'go-pass':
+        return 'Samla poäng och få belöningar hela månaden.';
+      case 'season':
+        return 'Ny säsong med nya Pokémon och bonusar.';
+      case 'event':
+        if (/\bHatch Day\b/.test(event.name)) {
+          return 'Kläckdag! Kläck ägg och få en särskild Pokémon.';
+        }
+        return extra.generic?.hasSpawns ? 'Särskilda Pokémon dyker upp under eventet. Se listan.' : null;
       default:
         return null;
     }
