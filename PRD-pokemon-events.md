@@ -74,7 +74,7 @@ Varje etapp är klar först när **samtliga** acceptanskriterier är uppfyllda o
 
 **Acceptanskriterier:**
 
-- [ ] Skriptet hämtar events.json och validerar att svaret är en JSON-array där varje objekt har `name`, `eventType`, `start`, `end`.
+- [ ] Skriptet hämtar events.json och validerar att svaret är en JSON-array där varje objekt har `name`, `eventType`, `start`, `end`. Event som saknar `start`/`end` (LeekDucks odaterade poster) hoppas över med loggrad i stället för att stoppa bygget; saknar alla event datum stoppas bygget (v2.2.1).
 - [ ] Vid lyckad hämtning sparas resultatet som `events-raw.json` med tidsstämpel.
 - [ ] Vid misslyckad hämtning (nätverksfel, ogiltig JSON, tomt svar) behålls senaste lyckade version orörd och skriptet avslutas med tydligt felmeddelande — sidan blir aldrig tom.
 - [ ] Sidan visar antal events och deras namn, samt "Uppdaterad: [datum klockslag]".
@@ -444,6 +444,14 @@ Utvärdering och design godkända av Toni — se `specs/2026-09-13-lattlast-kale
   mörknades samtidigt till AA-kontrast även i ljust läge.
 
 Kalendern gick från 46 till 32 rader med samma data. Inga nya beroenden, CSP orörd.
+
+### Version 2.2.1 (2026-09-14)
+
+Driftfix. Dygnsbygget 2026-09-14 stoppades av ett ScrapedDuck-event utan datum
+("Houndour and Houndoom Spotlight Hour", `start`/`end` null) och sidan låg kvar på
+gårdagens data. Valideringen hoppar nu över event som saknar `start` eller `end` och
+loggar dem (`Hoppar över "…": saknar start och end.`); `name`/`eventType` är fortsatt
+obligatoriska och ett svar där inget event har datum stoppar bygget som förut.
 
 ## 11. Öppna frågor
 

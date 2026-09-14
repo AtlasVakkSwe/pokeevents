@@ -31,7 +31,7 @@ async function main() {
   if (!svar.ok) {
     throw new Error(`Hämtningen misslyckades: HTTP ${svar.status}`);
   }
-  const rawEvents = valideraEvents(await svar.json());
+  const rawEvents = valideraEvents(await svar.json(), { varna: (m) => console.log(m) });
   console.log(`OK: ${rawEvents.length} events hämtade och validerade.`);
 
   const nu = new Date().toISOString();
