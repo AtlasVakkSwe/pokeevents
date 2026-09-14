@@ -1,58 +1,6 @@
 {
-  "uppdaterad": "2026-09-13T15:48:03.512Z",
+  "uppdaterad": "2026-09-14T17:00:23.114Z",
   "events": [
-    {
-      "id": "september-communitydayclassic2026",
-      "name": "Gible Community Day Classic",
-      "namn": "Gible Community Day Classic",
-      "typ": "community-day",
-      "typRubrik": "Community Day",
-      "link": "https://leekduck.com/events/september-communitydayclassic2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-12-september-communitydayclassic2026/gible-community-day-classic.jpg",
-      "start": "2026-09-12T14:00:00.000",
-      "end": "2026-09-12T17:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Community Day med Gible! Extra många dyker upp och det finns bonusar hela tiden.",
-      "pokemon": [
-        {
-          "namn": "Gible",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_443_00.png",
-          "shiny": false
-        }
-      ],
-      "bonusar": [
-        "Extra många Pokémon dyker upp",
-        "Trippel XP när du fångar",
-        "Rökelse räcker i 3 timmar",
-        "Lockmoduler räcker i 1 timme"
-      ]
-    },
-    {
-      "id": "pokemonspotlighthour2026-09-13",
-      "name": "Houndour and Houndoom Spotlight Hour",
-      "namn": "Rampljustimme: Houndour och Houndoom",
-      "typ": "pokemon-spotlight-hour",
-      "typRubrik": "Rampljustimme",
-      "link": "https://leekduck.com/events/pokemonspotlighthour2026-09-13/",
-      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-      "start": "2026-09-13T18:00:00.000",
-      "end": "2026-09-13T19:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Houndour dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbelt godis när du skickar iväg Pokémon.",
-      "pokemon": [
-        {
-          "namn": "Houndour",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_228_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Houndoom",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_229_00.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
     {
       "id": "mega-squads",
       "name": "Mega Squads",
@@ -247,8 +195,8 @@
     },
     {
       "id": "pokemonspotlighthour2026-09-17",
-      "name": "Mystery Pokémon Spotlight Hour",
-      "namn": "Rampljustimme: Hemlig Pokémon",
+      "name": "Charmander wearing Friede's goggles Spotlight Hour",
+      "namn": "Rampljustimme: Charmander wearing Friede's goggles",
       "typ": "pokemon-spotlight-hour",
       "typRubrik": "Rampljustimme",
       "link": "https://leekduck.com/events/pokemonspotlighthour2026-09-17/",
@@ -256,8 +204,14 @@
       "start": "2026-09-17T18:00:00.000",
       "end": "2026-09-17T19:00:00.000",
       "region": "galler",
-      "sammanfattning": "En Pokémon dyker upp extra ofta.",
-      "pokemon": [],
+      "sammanfattning": "Charmander wearing Friede's goggles dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbelt stjärnstoft när du fångar.",
+      "pokemon": [
+        {
+          "namn": "Charmander wearing Friede's goggles",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm4.fGOGGLES_2026.icon.png",
+          "shiny": true
+        }
+      ],
       "bonusar": []
     },
     {

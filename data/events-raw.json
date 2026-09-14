@@ -1,287 +1,6 @@
 {
-  "hamtad": "2026-09-13T15:48:03.512Z",
+  "hamtad": "2026-09-14T17:00:23.114Z",
   "events": [
-    {
-      "eventID": "september-communitydayclassic2026",
-      "name": "Gible Community Day Classic",
-      "eventType": "community-day",
-      "heading": "Community Day",
-      "link": "https://leekduck.com/events/september-communitydayclassic2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-12-september-communitydayclassic2026/gible-community-day-classic.jpg",
-      "start": "2026-09-12T14:00:00.000",
-      "end": "2026-09-12T17:00:00.000",
-      "extraData": {
-        "communityday": {
-          "spawns": [
-            {
-              "name": "Gible",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_443_00.png"
-            }
-          ],
-          "bonuses": [
-            {
-              "text": "Increased Spawns",
-              "image": "https://cdn.leekduck.com/assets/img/events/bonuses/wildgrass.png"
-            },
-            {
-              "text": "3x Catch XP",
-              "image": "https://cdn.leekduck.com/assets/img/events/bonuses/xp.png"
-            },
-            {
-              "text": "3-hour Incense*",
-              "image": "https://cdn.leekduck.com/assets/img/events/bonuses/incense.png"
-            },
-            {
-              "text": "1-hour Lures**",
-              "image": "https://cdn.leekduck.com/assets/img/events/bonuses/lure.png"
-            }
-          ],
-          "bonusDisclaimers": [
-            "* The three-hour Incense bonus excludes Daily Adventure Incense.\n** Lure Modules will last for one hour and may attract the featured Pokémon. While most bonuses are only active during the three-hour event period, this bonus will be active from 2:00 p.m. to 9:00 p.m. local time."
-          ],
-          "shinies": [
-            {
-              "name": "Gible",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_443_00_shiny.png"
-            },
-            {
-              "name": "Gabite",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_444_00_shiny.png"
-            },
-            {
-              "name": "Garchomp",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_445_00_shiny.png"
-            }
-          ],
-          "specialresearch": [
-            {
-              "name": "Just One Bite (1/3)",
-              "step": 1,
-              "tasks": [
-                {
-                  "text": "Catch 3 Pokemon",
-                  "reward": {
-                    "text": "Gible",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_443_00.png"
-                  }
-                },
-                {
-                  "text": "Catch 5 Pokemon",
-                  "reward": {
-                    "text": "Gible",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_443_00.png"
-                  }
-                },
-                {
-                  "text": "Catch 10 Pokemon",
-                  "reward": {
-                    "text": "Gible",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_443_00.png"
-                  }
-                },
-                {
-                  "text": "Make 7 Nice Throws",
-                  "reward": {
-                    "text": "Ultra Ball ×20",
-                    "image": "https://cdn.leekduck.com/assets/img/items/Ultra%20Ball.png"
-                  }
-                },
-                {
-                  "text": "Make 5 Great Throws",
-                  "reward": {
-                    "text": "Lucky Egg ×1",
-                    "image": "https://cdn.leekduck.com/assets/img/items/Lucky%20Egg.png"
-                  }
-                },
-                {
-                  "text": "Make 5 Curveball Throws",
-                  "reward": {
-                    "text": "Incense ×1",
-                    "image": "https://cdn.leekduck.com/assets/img/items/Incense.png"
-                  }
-                }
-              ],
-              "rewards": [
-                {
-                  "text": "Gible",
-                  "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_443_00.png"
-                },
-                {
-                  "text": "×50",
-                  "image": "https://cdn.leekduck.com/assets/img/candy/regular/443.png"
-                },
-                {
-                  "text": "×5",
-                  "image": "https://cdn.leekduck.com/assets/img/candy/xl/443.png"
-                }
-              ]
-            },
-            {
-              "name": "Just One Bite (2/3)",
-              "step": 2,
-              "tasks": [
-                {
-                  "text": "Catch 3 Pokemon",
-                  "reward": {
-                    "text": "Gible",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_443_00.png"
-                  }
-                },
-                {
-                  "text": "Catch 5 Pokemon",
-                  "reward": {
-                    "text": "Gible",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_443_00.png"
-                  }
-                },
-                {
-                  "text": "Catch 10 Pokemon",
-                  "reward": {
-                    "text": "Gabite",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_444_00.png"
-                  }
-                },
-                {
-                  "text": "Use 3 Berries to help catch Pokemon",
-                  "reward": {
-                    "text": "Ultra Ball ×20",
-                    "image": "https://cdn.leekduck.com/assets/img/items/Ultra%20Ball.png"
-                  }
-                },
-                {
-                  "text": "Use 5 Berries to help catch Pokemon",
-                  "reward": {
-                    "text": "Charged TM ×1",
-                    "image": "https://cdn.leekduck.com/assets/img/items/Charged%20TM.png"
-                  }
-                },
-                {
-                  "text": "Use 7 Berries to help catch Pokemon",
-                  "reward": {
-                    "text": "Silver Pinap Berry ×3",
-                    "image": "https://cdn.leekduck.com/assets/img/items/Silver%20Pinap%20Berry.png"
-                  }
-                }
-              ],
-              "rewards": [
-                {
-                  "text": "Gible",
-                  "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_443_00.png"
-                },
-                {
-                  "text": "×7500",
-                  "image": "https://cdn.leekduck.com/assets/img/items/Stardust.png"
-                },
-                {
-                  "text": "×3",
-                  "image": "https://cdn.leekduck.com/assets/img/items/Rare%20Candy.png"
-                }
-              ]
-            },
-            {
-              "name": "Just One Bite (3/3)",
-              "step": 3,
-              "tasks": [
-                {
-                  "text": "Catch 3 Pokemon",
-                  "reward": {
-                    "text": "Gible",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_443_00.png"
-                  }
-                },
-                {
-                  "text": "Catch 5 Pokemon",
-                  "reward": {
-                    "text": "Gible",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_443_00.png"
-                  }
-                },
-                {
-                  "text": "Catch 10 Pokemon",
-                  "reward": {
-                    "text": "Garchomp",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_445_00.png"
-                  }
-                },
-                {
-                  "text": "Spin 3 PokeStops or Gyms",
-                  "reward": {
-                    "text": "Ultra Ball ×20",
-                    "image": "https://cdn.leekduck.com/assets/img/items/Ultra%20Ball.png"
-                  }
-                },
-                {
-                  "text": "Spin 5 PokeStops or Gyms",
-                  "reward": {
-                    "text": "Rocket Radar ×1",
-                    "image": "https://cdn.leekduck.com/assets/img/items/Rocket%20Radar.png"
-                  }
-                },
-                {
-                  "text": "Explore 1 km",
-                  "reward": {
-                    "text": "Premium Battle Pass ×1",
-                    "image": "https://cdn.leekduck.com/assets/img/items/Premium%20Battle%20Pass.png"
-                  }
-                }
-              ],
-              "rewards": [
-                {
-                  "text": "Gible",
-                  "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_443_00.png"
-                },
-                {
-                  "text": "10000 XP",
-                  "image": "https://cdn.leekduck.com/assets/img/icons/xp.png"
-                },
-                {
-                  "text": "×1",
-                  "image": "https://cdn.leekduck.com/assets/img/items/Rare%20Candy%20XL.png"
-                }
-              ]
-            }
-          ]
-        },
-        "generic": {
-          "hasSpawns": true,
-          "hasFieldResearchTasks": true
-        }
-      }
-    },
-    {
-      "eventID": "pokemonspotlighthour2026-09-13",
-      "name": "Houndour and Houndoom Spotlight Hour",
-      "eventType": "pokemon-spotlight-hour",
-      "heading": "Pokémon Spotlight Hour",
-      "link": "https://leekduck.com/events/pokemonspotlighthour2026-09-13/",
-      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-      "start": "2026-09-13T18:00:00.000",
-      "end": "2026-09-13T19:00:00.000",
-      "extraData": {
-        "spotlight": {
-          "name": "Houndour",
-          "canBeShiny": true,
-          "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_228_00.png",
-          "bonus": "2× Transfer Candy",
-          "list": [
-            {
-              "name": "Houndour",
-              "canBeShiny": true,
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_228_00.png"
-            },
-            {
-              "name": "Houndoom",
-              "canBeShiny": true,
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_229_00.png"
-            }
-          ]
-        },
-        "generic": {
-          "hasSpawns": true,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "mega-squads",
       "name": "Mega Squads",
@@ -449,7 +168,7 @@
     },
     {
       "eventID": "pokemonspotlighthour2026-09-17",
-      "name": "Mystery Pokémon Spotlight Hour",
+      "name": "Charmander wearing Friede's goggles Spotlight Hour",
       "eventType": "pokemon-spotlight-hour",
       "heading": "Pokémon Spotlight Hour",
       "link": "https://leekduck.com/events/pokemonspotlighthour2026-09-17/",
@@ -457,8 +176,21 @@
       "start": "2026-09-17T18:00:00.000",
       "end": "2026-09-17T19:00:00.000",
       "extraData": {
+        "spotlight": {
+          "name": "Charmander wearing Friede's goggles",
+          "canBeShiny": true,
+          "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm4.fGOGGLES_2026.icon.png",
+          "bonus": "2× Catch Stardust",
+          "list": [
+            {
+              "name": "Charmander wearing Friede's goggles",
+              "canBeShiny": true,
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm4.fGOGGLES_2026.icon.png"
+            }
+          ]
+        },
         "generic": {
-          "hasSpawns": false,
+          "hasSpawns": true,
           "hasFieldResearchTasks": false
         }
       }
