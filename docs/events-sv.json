@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-09-14T17:01:35.754Z",
+  "uppdaterad": "2026-09-15T09:30:46.432Z",
   "events": [
     {
       "id": "mega-squads",
@@ -449,6 +449,21 @@
       "pokemonRubrik": "Finns att fånga:"
     },
     {
+      "id": "choose-your-path-twilight-trails-2026",
+      "name": "Choose Your Path: Twilight Trails",
+      "namn": "Choose Your Path: Twilight Trails",
+      "typ": "choose-your-path",
+      "typRubrik": "Välj din väg",
+      "link": "https://leekduck.com/events/choose-your-path-twilight-trails-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/choose-your-path-twilight-trails-2026.jpg",
+      "start": "2026-09-23T10:00:00.000",
+      "end": "2026-09-28T20:00:00.000",
+      "region": "galler",
+      "sammanfattning": null,
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
       "id": "max-mondays-2026-09-28",
       "name": "Dynamax Sobble during Max Monday",
       "namn": "Max-måndag: Sobble",
@@ -816,18 +831,33 @@
     },
     {
       "id": "october-communityday2026",
-      "name": "October Community Day",
-      "namn": "Community Day i oktober",
+      "name": "Zorua Community Day",
+      "namn": "Community Day: Zorua",
       "typ": "community-day",
       "typRubrik": "Community Day",
       "link": "https://leekduck.com/events/october-communityday2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/cd-default.jpg",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-10-10-october-communityday2026/zorua-october-cd-2026.png",
       "start": "2026-10-10T14:00:00.000",
       "end": "2026-10-10T17:00:00.000",
       "region": "galler",
-      "sammanfattning": "Community Day! Extra många dyker upp och det finns bonusar hela tiden.",
-      "pokemon": [],
-      "bonusar": []
+      "sammanfattning": "Community Day med Zorua! Extra många dyker upp och det finns bonusar hela tiden.",
+      "pokemon": [
+        {
+          "namn": "Zorua",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm570.icon.png",
+          "shiny": false
+        }
+      ],
+      "bonusar": [
+        "Extra många Pokémon dyker upp",
+        "???",
+        "Rökelse räcker i 3 timmar",
+        "Lockmoduler räcker i 1 timme",
+        "Dubbelt godis när du fångar",
+        "Dubbel chans till XL-godis när du fångar",
+        "Ett extra specialbyte den här dagen",
+        "Byten kostar hälften så mycket stjärnstoft"
+      ]
     },
     {
       "id": "gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-2",

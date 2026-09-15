@@ -1,5 +1,5 @@
 {
-  "hamtad": "2026-09-14T17:01:35.754Z",
+  "hamtad": "2026-09-15T09:30:46.432Z",
   "events": [
     {
       "eventID": "mega-squads",
@@ -387,6 +387,22 @@
       }
     },
     {
+      "eventID": "choose-your-path-twilight-trails-2026",
+      "name": "Choose Your Path: Twilight Trails",
+      "eventType": "choose-your-path",
+      "heading": "Choose Your Path",
+      "link": "https://leekduck.com/events/choose-your-path-twilight-trails-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/choose-your-path-twilight-trails-2026.jpg",
+      "start": "2026-09-23T10:00:00.000",
+      "end": "2026-09-28T20:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
       "eventID": "max-mondays-2026-09-28",
       "name": "Dynamax Sobble during Max Monday",
       "eventType": "max-mondays",
@@ -729,17 +745,261 @@
     },
     {
       "eventID": "october-communityday2026",
-      "name": "October Community Day",
+      "name": "Zorua Community Day",
       "eventType": "community-day",
       "heading": "Community Day",
       "link": "https://leekduck.com/events/october-communityday2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/cd-default.jpg",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-10-10-october-communityday2026/zorua-october-cd-2026.png",
       "start": "2026-10-10T14:00:00.000",
       "end": "2026-10-10T17:00:00.000",
       "extraData": {
+        "communityday": {
+          "spawns": [
+            {
+              "name": "Zorua",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm570.icon.png"
+            }
+          ],
+          "bonuses": [
+            {
+              "text": "Increased Spawns",
+              "image": "https://cdn.leekduck.com/assets/img/events/bonuses/wildgrass.png"
+            },
+            {
+              "text": "???",
+              "image": "https://cdn.leekduck.com/assets/img/events/bonuses/none.png"
+            },
+            {
+              "text": "3-hour Incense",
+              "image": "https://cdn.leekduck.com/assets/img/events/bonuses/incense.png"
+            },
+            {
+              "text": "1-hour Lures*",
+              "image": "https://cdn.leekduck.com/assets/img/events/bonuses/lure.png"
+            },
+            {
+              "text": "2x Catch Candy",
+              "image": "https://cdn.leekduck.com/assets/img/events/bonuses/candy.png"
+            },
+            {
+              "text": "2x Chance to receive Candy XL from catching Pokémon",
+              "image": "https://cdn.leekduck.com/assets/img/events/bonuses/candyxl.png"
+            },
+            {
+              "text": "One additional Special Trade can be made for a maximum of two for the day*",
+              "image": "https://cdn.leekduck.com/assets/img/events/bonuses/trade.png"
+            },
+            {
+              "text": "Trades made will require 50% less Stardust*",
+              "image": "https://cdn.leekduck.com/assets/img/events/bonuses/stardust2x.png"
+            }
+          ],
+          "bonusDisclaimers": [
+            "* While most bonuses are only active during the three hours of the event (2:00 p.m. to 5:00 p.m. local time), these bonuses will be active from 2:00 p.m. to 9:00 p.m. local time.",
+            "The three-hour Incense bonus excludes Daily Adventure Incense and the one-hour Lure bonus excludes Golden Lure Modules."
+          ],
+          "shinies": [
+            {
+              "name": "Zorua",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm570.s.icon.png"
+            },
+            {
+              "name": "Zoroark",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm571.s.icon.png"
+            }
+          ],
+          "specialresearch": [
+            {
+              "name": "Zorua Community Day (1/3)",
+              "step": 1,
+              "tasks": [
+                {
+                  "text": "Catch 3 Pokemon",
+                  "reward": {
+                    "text": "Zorua",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm570.icon.png"
+                  }
+                },
+                {
+                  "text": "Catch 5 Pokemon",
+                  "reward": {
+                    "text": "Zorua",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm570.icon.png"
+                  }
+                },
+                {
+                  "text": "Catch 10 Pokemon",
+                  "reward": {
+                    "text": "Zorua",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm570.icon.png"
+                  }
+                },
+                {
+                  "text": "Make 7 Nice Throws",
+                  "reward": {
+                    "text": "Ultra Ball ×20",
+                    "image": "https://cdn.leekduck.com/assets/img/items/Ultra%20Ball.png"
+                  }
+                },
+                {
+                  "text": "Make 5 Great Throws",
+                  "reward": {
+                    "text": "??? ×1",
+                    "image": "https://cdn.leekduck.com/assets/img/items/???.png"
+                  }
+                },
+                {
+                  "text": "Make 5 Curveball Throws",
+                  "reward": {
+                    "text": "Incense ×1",
+                    "image": "https://cdn.leekduck.com/assets/img/items/Incense.png"
+                  }
+                }
+              ],
+              "rewards": [
+                {
+                  "text": "Zorua",
+                  "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm570.icon.png"
+                },
+                {
+                  "text": "×50",
+                  "image": "https://cdn.leekduck.com/assets/img/candy/regular/570.png"
+                },
+                {
+                  "text": "×5",
+                  "image": "https://cdn.leekduck.com/assets/img/candy/xl/570.png"
+                }
+              ]
+            },
+            {
+              "name": "Zorua Community Day (2/3)",
+              "step": 2,
+              "tasks": [
+                {
+                  "text": "Catch 3 Pokemon",
+                  "reward": {
+                    "text": "Zorua",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm570.icon.png"
+                  }
+                },
+                {
+                  "text": "Catch 5 Pokemon",
+                  "reward": {
+                    "text": "Zorua",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm570.icon.png"
+                  }
+                },
+                {
+                  "text": "Catch 10 Pokemon",
+                  "reward": {
+                    "text": "Zoroark",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm571.icon.png"
+                  }
+                },
+                {
+                  "text": "Use 3 Berries to help catch Pokemon",
+                  "reward": {
+                    "text": "Ultra Ball ×20",
+                    "image": "https://cdn.leekduck.com/assets/img/items/Ultra%20Ball.png"
+                  }
+                },
+                {
+                  "text": "Use 5 Berries to help catch Pokemon",
+                  "reward": {
+                    "text": "Charged TM ×1",
+                    "image": "https://cdn.leekduck.com/assets/img/items/Charged%20TM.png"
+                  }
+                },
+                {
+                  "text": "Use 7 Berries to help catch Pokemon",
+                  "reward": {
+                    "text": "Silver Pinap Berry ×3",
+                    "image": "https://cdn.leekduck.com/assets/img/items/Silver%20Pinap%20Berry.png"
+                  }
+                }
+              ],
+              "rewards": [
+                {
+                  "text": "Zorua",
+                  "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm570.icon.png"
+                },
+                {
+                  "text": "×7500",
+                  "image": "https://cdn.leekduck.com/assets/img/items/Stardust.png"
+                },
+                {
+                  "text": "×3",
+                  "image": "https://cdn.leekduck.com/assets/img/items/Rare%20Candy.png"
+                }
+              ]
+            },
+            {
+              "name": "Zorua Community Day (3/3)",
+              "step": 3,
+              "tasks": [
+                {
+                  "text": "Catch 3 Pokemon",
+                  "reward": {
+                    "text": "Zorua",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm570.icon.png"
+                  }
+                },
+                {
+                  "text": "Catch 5 Pokemon",
+                  "reward": {
+                    "text": "Zorua",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm570.icon.png"
+                  }
+                },
+                {
+                  "text": "Catch 10 Pokemon",
+                  "reward": {
+                    "text": "Zoroark",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm571.icon.png"
+                  }
+                },
+                {
+                  "text": "Spin 3 PokeStops or Gyms",
+                  "reward": {
+                    "text": "Ultra Ball ×20",
+                    "image": "https://cdn.leekduck.com/assets/img/items/Ultra%20Ball.png"
+                  }
+                },
+                {
+                  "text": "Spin 5 PokeStops or Gyms",
+                  "reward": {
+                    "text": "Rocket Radar ×1",
+                    "image": "https://cdn.leekduck.com/assets/img/items/Rocket%20Radar.png"
+                  }
+                },
+                {
+                  "text": "Explore 1 km",
+                  "reward": {
+                    "text": "Premium Battle Pass ×1",
+                    "image": "https://cdn.leekduck.com/assets/img/items/Premium%20Battle%20Pass.png"
+                  }
+                }
+              ],
+              "rewards": [
+                {
+                  "text": "Zorua",
+                  "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm570.icon.png"
+                },
+                {
+                  "text": "10000 XP",
+                  "image": "https://cdn.leekduck.com/assets/img/icons/xp.png"
+                },
+                {
+                  "text": "×1",
+                  "image": "https://cdn.leekduck.com/assets/img/items/Rare%20Candy%20XL.png"
+                }
+              ]
+            }
+          ]
+        },
         "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
+          "hasSpawns": true,
+          "hasFieldResearchTasks": true
         }
       }
     },
