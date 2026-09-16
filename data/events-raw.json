@@ -1,54 +1,6 @@
 {
-  "hamtad": "2026-09-15T09:30:46.432Z",
+  "hamtad": "2026-09-16T09:23:35.419Z",
   "events": [
-    {
-      "eventID": "mega-squads",
-      "name": "Mega Squads",
-      "eventType": "event",
-      "heading": "Event",
-      "link": "https://leekduck.com/events/mega-squads/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-08-mega-squads/mega-squads.jpg",
-      "start": "2026-09-08T10:00:00.000",
-      "end": "2026-09-14T20:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": true,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "max-mondays-2026-09-14",
-      "name": "Dynamax Rhyhorn during Max Monday",
-      "eventType": "max-mondays",
-      "heading": "Max Mondays",
-      "link": "https://leekduck.com/events/max-mondays-2026-09-14/",
-      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-      "start": "2026-09-14T06:00:00.000",
-      "end": "2026-09-14T21:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-1",
-      "name": "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition | Twilight Trails",
-      "eventType": "go-battle-league",
-      "heading": "GO Battle League",
-      "link": "https://leekduck.com/events/gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-1/",
-      "image": "https://cdn.leekduck.com/assets/img/events/go-battle-league-season-28-twilight-trails.png",
-      "start": "2026-09-08T20:00:00.000Z",
-      "end": "2026-09-15T20:00:00.000Z",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "mega-beedrill-in-mega-raids-september-2026",
       "name": "Mega Beedrill in Mega Raids",
@@ -245,7 +197,7 @@
     },
     {
       "eventID": "pokemon-horizons-the-series-celebration-event-2026",
-      "name": "Pokémon Horizons: The Series Celebration Event",
+      "name": "Pokémon Horizons: The Series Celebration Event 2026",
       "eventType": "event",
       "heading": "Event",
       "link": "https://leekduck.com/events/pokemon-horizons-the-series-celebration-event-2026/",
@@ -766,8 +718,8 @@
               "image": "https://cdn.leekduck.com/assets/img/events/bonuses/wildgrass.png"
             },
             {
-              "text": "???",
-              "image": "https://cdn.leekduck.com/assets/img/events/bonuses/none.png"
+              "text": "3x Catch XP",
+              "image": "https://cdn.leekduck.com/assets/img/events/bonuses/xp.png"
             },
             {
               "text": "3-hour Incense",
@@ -782,7 +734,7 @@
               "image": "https://cdn.leekduck.com/assets/img/events/bonuses/candy.png"
             },
             {
-              "text": "2x Chance to receive Candy XL from catching Pokémon",
+              "text": "2x Chance for Trainers level 31 and up to receive Candy XL from catching Pokémon",
               "image": "https://cdn.leekduck.com/assets/img/events/bonuses/candyxl.png"
             },
             {
@@ -844,8 +796,8 @@
                 {
                   "text": "Make 5 Great Throws",
                   "reward": {
-                    "text": "??? ×1",
-                    "image": "https://cdn.leekduck.com/assets/img/items/???.png"
+                    "text": "Lucky Egg ×1",
+                    "image": "https://cdn.leekduck.com/assets/img/items/Lucky%20Egg.png"
                   }
                 },
                 {

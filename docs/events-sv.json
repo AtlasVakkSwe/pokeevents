@@ -1,120 +1,6 @@
 {
-  "uppdaterad": "2026-09-15T09:30:46.432Z",
+  "uppdaterad": "2026-09-16T09:23:35.419Z",
   "events": [
-    {
-      "id": "mega-squads",
-      "name": "Mega Squads",
-      "namn": "Mega Squads",
-      "typ": "event",
-      "typRubrik": "Event",
-      "link": "https://leekduck.com/events/mega-squads/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-08-mega-squads/mega-squads.jpg",
-      "start": "2026-09-08T10:00:00.000",
-      "end": "2026-09-14T20:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Särskilda Pokémon dyker upp under eventet. Se listan.",
-      "pokemon": [
-        {
-          "namn": "Weedle",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_013_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Flamigo",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm973.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Pidgey",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_016_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Emolga",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_587_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Fletchling",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_661_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Noibat",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_714_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Rookidee",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm821.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Houndour",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_228_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Carvanha",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_318_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Purrloin",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_509_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Nickit",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm827.icon.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": [],
-      "pokemonRubrik": "Finns att fånga:",
-      "raids": [
-        {
-          "namn": "Mega Beedrill",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_015_51.png",
-          "shiny": true
-        },
-        {
-          "namn": "Mega Houndoom",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_229_51.png",
-          "shiny": true
-        }
-      ]
-    },
-    {
-      "id": "max-mondays-2026-09-14",
-      "name": "Dynamax Rhyhorn during Max Monday",
-      "namn": "Max-måndag: Rhyhorn",
-      "typ": "max-mondays",
-      "typRubrik": "Max-måndag",
-      "link": "https://leekduck.com/events/max-mondays-2026-09-14/",
-      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-      "start": "2026-09-14T06:00:00.000",
-      "end": "2026-09-14T21:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Rhyhorn i Max-strider hela dagen.",
-      "pokemon": [],
-      "bonusar": []
-    },
-    {
-      "id": "gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-1",
-      "name": "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition | Twilight Trails",
-      "namn": "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition",
-      "typ": "go-battle-league",
-      "typRubrik": "GO Battle League",
-      "link": "https://leekduck.com/events/gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-1/",
-      "image": "https://cdn.leekduck.com/assets/img/events/go-battle-league-season-28-twilight-trails.png",
-      "start": "2026-09-08T20:00:00.000Z",
-      "end": "2026-09-15T20:00:00.000Z",
-      "region": "galler",
-      "sammanfattning": "Nytt i GO Battle League (strider mot andra spelare).",
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "mega-beedrill-in-mega-raids-september-2026",
       "name": "Mega Beedrill in Mega Raids",
@@ -261,8 +147,8 @@
     },
     {
       "id": "pokemon-horizons-the-series-celebration-event-2026",
-      "name": "Pokémon Horizons: The Series Celebration Event",
-      "namn": "Pokémon Horizons: The Series Celebration Event",
+      "name": "Pokémon Horizons: The Series Celebration Event 2026",
+      "namn": "Pokémon Horizons: The Series Celebration Event 2026",
       "typ": "event",
       "typRubrik": "Event",
       "link": "https://leekduck.com/events/pokemon-horizons-the-series-celebration-event-2026/",
@@ -278,8 +164,18 @@
           "shiny": true
         },
         {
-          "namn": "Captain's Cap Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fHORIZONS.icon.png",
+          "namn": "Sprigatito",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm906.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Fuecoco",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm909.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Quaxly",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm912.icon.png",
           "shiny": true
         },
         {
@@ -293,8 +189,18 @@
           "shiny": false
         },
         {
+          "namn": "Captain's Cap Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fHORIZONS.icon.png",
+          "shiny": true
+        },
+        {
           "namn": "Chansey",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_113_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Rhyhorn",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_111_00.png",
           "shiny": true
         },
         {
@@ -305,6 +211,16 @@
         {
           "namn": "Hatenna",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm856.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Nacli",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm932.icon.png",
+          "shiny": false
+        },
+        {
+          "namn": "Tinkatink",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm957.icon.png",
           "shiny": true
         },
         {
@@ -850,11 +766,11 @@
       ],
       "bonusar": [
         "Extra många Pokémon dyker upp",
-        "???",
+        "Trippel XP när du fångar",
         "Rökelse räcker i 3 timmar",
         "Lockmoduler räcker i 1 timme",
         "Dubbelt godis när du fångar",
-        "Dubbel chans till XL-godis när du fångar",
+        "2x Chance for Trainers level 31 and up to receive Candy XL from catching Pokémon",
         "Ett extra specialbyte den här dagen",
         "Byten kostar hälften så mycket stjärnstoft"
       ]
