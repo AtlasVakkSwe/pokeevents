@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-09-16T09:23:35.419Z",
+  "uppdaterad": "2026-09-17T09:33:15.709Z",
   "grupper": [
     {
       "rubrik": "5 stjärnor",
@@ -30,6 +30,26 @@
       "rubrik": "3 stjärnor",
       "pokemon": [
         {
+          "namn": "Charizard wearing Friede's goggles",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm6.fGOGGLES_2026.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Meowscarada",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm908.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Skeledirge",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm911.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Quaquaval",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm914.icon.png",
+          "shiny": true
+        },
+        {
           "namn": "Shadow Alolan Sandslash",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm28.fALOLA.icon.png",
           "shiny": true
@@ -49,6 +69,11 @@
     {
       "rubrik": "1 stjärna",
       "pokemon": [
+        {
+          "namn": "Captain's Cap Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fHORIZONS.icon.png",
+          "shiny": true
+        },
         {
           "namn": "Shadow Machop",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm66.icon.png",
