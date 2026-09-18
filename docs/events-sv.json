@@ -1,21 +1,6 @@
 {
-  "uppdaterad": "2026-09-17T09:33:15.709Z",
+  "uppdaterad": "2026-09-18T09:05:37.809Z",
   "events": [
-    {
-      "id": "raidhour20260916",
-      "name": "Zamazenta (Hero of Many Battles) Raid Hour",
-      "namn": "Raidtimme: Zamazenta",
-      "typ": "raid-hour",
-      "typRubrik": "Raidtimme",
-      "link": "https://leekduck.com/events/raidhour20260916/",
-      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-      "start": "2026-09-16T18:00:00.000",
-      "end": "2026-09-16T19:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Raidtimme! Extra många raider i en timme.",
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "pokemonspotlighthour2026-09-17",
       "name": "Charmander wearing Friede's goggles Spotlight Hour",
@@ -429,6 +414,27 @@
       "bonusar": []
     },
     {
+      "id": "pokemonspotlighthour2026-10-01",
+      "name": "Seedot Spotlight Hour",
+      "namn": "Rampljustimme: Seedot",
+      "typ": "pokemon-spotlight-hour",
+      "typRubrik": "Rampljustimme",
+      "link": "https://leekduck.com/events/pokemonspotlighthour2026-10-01/",
+      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
+      "start": "2026-10-01T18:00:00.000",
+      "end": "2026-10-01T19:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Seedot dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbel XP när du fångar.",
+      "pokemon": [
+        {
+          "namn": "Seedot",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_273_00.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
+    },
+    {
       "id": "patterns-of-the-wild-2026",
       "name": "Patterns of the Wild",
       "namn": "Patterns of the Wild",
@@ -590,6 +596,21 @@
       "pokemonRubrik": "Finns att fånga:"
     },
     {
+      "id": "max-mondays-2026-10-05",
+      "name": "Dynamax Sizzlipede during Max Monday",
+      "namn": "Max-måndag: Sizzlipede",
+      "typ": "max-mondays",
+      "typRubrik": "Max-måndag",
+      "link": "https://leekduck.com/events/max-mondays-2026-10-05/",
+      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
+      "start": "2026-10-05T06:00:00.000",
+      "end": "2026-10-05T21:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Sizzlipede i Max-strider hela dagen.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
       "id": "go-pass-september-2026",
       "name": "GO Pass: September",
       "namn": "GO Pass: September",
@@ -683,6 +704,42 @@
       "bonusar": []
     },
     {
+      "id": "raidhour20261007",
+      "name": "Yveltal Raid Hour",
+      "namn": "Raidtimme: Yveltal",
+      "typ": "raid-hour",
+      "typRubrik": "Raidtimme",
+      "link": "https://leekduck.com/events/raidhour20261007/",
+      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
+      "start": "2026-10-07T18:00:00.000",
+      "end": "2026-10-07T19:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Raidtimme! Extra många raider i en timme.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "pokemonspotlighthour2026-10-08",
+      "name": "Elgyem Spotlight Hour",
+      "namn": "Rampljustimme: Elgyem",
+      "typ": "pokemon-spotlight-hour",
+      "typRubrik": "Rampljustimme",
+      "link": "https://leekduck.com/events/pokemonspotlighthour2026-10-08/",
+      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
+      "start": "2026-10-08T18:00:00.000",
+      "end": "2026-10-08T19:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Elgyem dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbelt godis när du fångar.",
+      "pokemon": [
+        {
+          "namn": "Elgyem",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_605_00.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
+    },
+    {
       "id": "october-communityday2026",
       "name": "Zorua Community Day",
       "namn": "Community Day: Zorua",
@@ -713,6 +770,36 @@
       ]
     },
     {
+      "id": "unannounced-event-october-2026",
+      "name": "???",
+      "namn": "???",
+      "typ": "event",
+      "typRubrik": "Event",
+      "link": "https://leekduck.com/events/unannounced-event-october-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-10-04T00:00:00.000",
+      "end": "2026-10-10T23:59:00.000",
+      "region": "galler",
+      "sammanfattning": null,
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "max-mondays-2026-10-12",
+      "name": "Dynamax Rookidee during Max Monday",
+      "namn": "Max-måndag: Rookidee",
+      "typ": "max-mondays",
+      "typRubrik": "Max-måndag",
+      "link": "https://leekduck.com/events/max-mondays-2026-10-12/",
+      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
+      "start": "2026-10-12T06:00:00.000",
+      "end": "2026-10-12T21:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Rookidee i Max-strider hela dagen.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
       "id": "gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-2",
       "name": "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition | Twilight Trails",
       "namn": "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition",
@@ -728,6 +815,84 @@
       "bonusar": []
     },
     {
+      "id": "mega-blastoise-in-mega-raids-october-2026",
+      "name": "Mega Blastoise in Mega Raids",
+      "namn": "Mega Blastoise i Mega-raider",
+      "typ": "raid-battles",
+      "typRubrik": "Raider",
+      "link": "https://leekduck.com/events/mega-blastoise-in-mega-raids-october-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
+      "start": "2026-10-07T06:00:00.000",
+      "end": "2026-10-13T22:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Mega Blastoise finns i raid. Kan vara shiny! ✨",
+      "pokemon": [
+        {
+          "namn": "Mega Blastoise",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_009_51.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
+    },
+    {
+      "id": "yveltal-in-5-star-raid-battles-october-2026",
+      "name": "Yveltal in 5-star Raid Battles",
+      "namn": "Yveltal i 5-stjärniga raider",
+      "typ": "raid-battles",
+      "typRubrik": "Raider",
+      "link": "https://leekduck.com/events/yveltal-in-5-star-raid-battles-october-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/yveltal-2.jpg",
+      "start": "2026-10-07T06:00:00.000",
+      "end": "2026-10-13T22:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Yveltal finns i raid. Kan vara shiny! ✨",
+      "pokemon": [
+        {
+          "namn": "Yveltal",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_717_00.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
+    },
+    {
+      "id": "raidhour20261014",
+      "name": "Dialga Raid Hour",
+      "namn": "Raidtimme: Dialga",
+      "typ": "raid-hour",
+      "typRubrik": "Raidtimme",
+      "link": "https://leekduck.com/events/raidhour20261014/",
+      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
+      "start": "2026-10-14T18:00:00.000",
+      "end": "2026-10-14T19:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Raidtimme! Extra många raider i en timme.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "pokemonspotlighthour2026-10-15",
+      "name": "Stufful Spotlight Hour",
+      "namn": "Rampljustimme: Stufful",
+      "typ": "pokemon-spotlight-hour",
+      "typRubrik": "Rampljustimme",
+      "link": "https://leekduck.com/events/pokemonspotlighthour2026-10-15/",
+      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
+      "start": "2026-10-15T18:00:00.000",
+      "end": "2026-10-15T19:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Stufful dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbelt godis när du skickar iväg Pokémon.",
+      "pokemon": [
+        {
+          "namn": "Stufful",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm759.icon.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
+    },
+    {
       "id": "hatch-day-october-2026",
       "name": "Hatch Day",
       "namn": "Hatch Day",
@@ -739,6 +904,36 @@
       "end": "2026-10-17T17:00:00.000",
       "region": "galler",
       "sammanfattning": "Kläckdag! Kläck ägg och få en särskild Pokémon.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "max-mondays-2026-10-19",
+      "name": "Dynamax Sneasel during Max Monday",
+      "namn": "Max-måndag: Sneasel",
+      "typ": "max-mondays",
+      "typRubrik": "Max-måndag",
+      "link": "https://leekduck.com/events/max-mondays-2026-10-19/",
+      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
+      "start": "2026-10-19T06:00:00.000",
+      "end": "2026-10-19T21:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Sneasel i Max-strider hela dagen.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "fall-marathon-buddy-trek-2026",
+      "name": "Fall Marathon: Buddy Trek",
+      "namn": "Fall Marathon: Buddy Trek",
+      "typ": "event",
+      "typRubrik": "Event",
+      "link": "https://leekduck.com/events/fall-marathon-buddy-trek-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-10-13T00:00:00.000",
+      "end": "2026-10-19T23:59:00.000",
+      "region": "galler",
+      "sammanfattning": null,
       "pokemon": [],
       "bonusar": []
     },
@@ -758,9 +953,87 @@
       "bonusar": []
     },
     {
+      "id": "dialga-in-5-star-raid-battles-october-2026",
+      "name": "Dialga in 5-star Raid Battles",
+      "namn": "Dialga i 5-stjärniga raider",
+      "typ": "raid-battles",
+      "typRubrik": "Raider",
+      "link": "https://leekduck.com/events/dialga-in-5-star-raid-battles-october-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/dialgaraids.jpg",
+      "start": "2026-10-14T06:00:00.000",
+      "end": "2026-10-20T22:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Dialga finns i raid. Kan vara shiny! ✨",
+      "pokemon": [
+        {
+          "namn": "Dialga",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_483_00.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
+    },
+    {
+      "id": "mega-dragonite-in-mega-raids-october-2026",
+      "name": "Mega Dragonite in Mega Raids",
+      "namn": "Mega Dragonite i Mega-raider",
+      "typ": "raid-battles",
+      "typRubrik": "Raider",
+      "link": "https://leekduck.com/events/mega-dragonite-in-mega-raids-october-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
+      "start": "2026-10-14T06:00:00.000",
+      "end": "2026-10-20T22:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Mega Dragonite finns i raid. Kan vara shiny! ✨",
+      "pokemon": [
+        {
+          "namn": "Mega Dragonite",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm149.fMEGA.icon.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
+    },
+    {
+      "id": "raidhour20261021",
+      "name": "Palkia Raid Hour",
+      "namn": "Raidtimme: Palkia",
+      "typ": "raid-hour",
+      "typRubrik": "Raidtimme",
+      "link": "https://leekduck.com/events/raidhour20261021/",
+      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
+      "start": "2026-10-21T18:00:00.000",
+      "end": "2026-10-21T19:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Raidtimme! Extra många raider i en timme.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "pokemonspotlighthour2026-10-22",
+      "name": "Morelull Spotlight Hour",
+      "namn": "Rampljustimme: Morelull",
+      "typ": "pokemon-spotlight-hour",
+      "typRubrik": "Rampljustimme",
+      "link": "https://leekduck.com/events/pokemonspotlighthour2026-10-22/",
+      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
+      "start": "2026-10-22T18:00:00.000",
+      "end": "2026-10-22T19:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Morelull dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbelt stjärnstoft när du fångar.",
+      "pokemon": [
+        {
+          "namn": "Morelull",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm755.icon.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
+    },
+    {
       "id": "max-battle-day-october-24-2026",
-      "name": "Max Battle Day",
-      "namn": "Max-stridsdag",
+      "name": "Dynamax Max Battle Day",
+      "namn": "Max-stridsdag: Dynamax",
       "typ": "max-battles",
       "typRubrik": "Max-strider",
       "link": "https://leekduck.com/events/max-battle-day-october-24-2026/",
@@ -769,6 +1042,21 @@
       "end": "2026-10-24T17:00:00.000",
       "region": "galler",
       "sammanfattning": "Extra många Max-strider.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "max-mondays-2026-10-26",
+      "name": "Dynamax Sableye during Max Monday",
+      "namn": "Max-måndag: Sableye",
+      "typ": "max-mondays",
+      "typRubrik": "Max-måndag",
+      "link": "https://leekduck.com/events/max-mondays-2026-10-26/",
+      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
+      "start": "2026-10-26T06:00:00.000",
+      "end": "2026-10-26T21:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Sableye i Max-strider hela dagen.",
       "pokemon": [],
       "bonusar": []
     },
@@ -788,6 +1076,89 @@
       "bonusar": []
     },
     {
+      "id": "mega-charizard-x-mega-charizard-y-in-mega-raids-october-2026",
+      "name": "Mega Charizard X and Mega Charizard Y in Mega Raids",
+      "namn": "Mega Charizard X och Mega Charizard Y i Mega-raider",
+      "typ": "raid-battles",
+      "typRubrik": "Raider",
+      "link": "https://leekduck.com/events/mega-charizard-x-mega-charizard-y-in-mega-raids-october-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
+      "start": "2026-10-21T06:00:00.000",
+      "end": "2026-10-27T22:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Mega Charizard X, Mega Charizard Y finns i raid. Kan vara shiny! ✨",
+      "pokemon": [
+        {
+          "namn": "Mega Charizard X",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_006_51.png",
+          "shiny": true
+        },
+        {
+          "namn": "Mega Charizard Y",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_006_52.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
+    },
+    {
+      "id": "palkia-in-5-star-raid-battles-october-2026",
+      "name": "Palkia in 5-star Raid Battles",
+      "namn": "Palkia i 5-stjärniga raider",
+      "typ": "raid-battles",
+      "typRubrik": "Raider",
+      "link": "https://leekduck.com/events/palkia-in-5-star-raid-battles-october-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/palkiaraid.jpg",
+      "start": "2026-10-21T06:00:00.000",
+      "end": "2026-10-27T22:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Palkia finns i raid. Kan vara shiny! ✨",
+      "pokemon": [
+        {
+          "namn": "Palkia",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_484_00.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
+    },
+    {
+      "id": "raidhour20261028",
+      "name": "Giratina (Origin Forme) Raid Hour",
+      "namn": "Raidtimme: Giratina",
+      "typ": "raid-hour",
+      "typRubrik": "Raidtimme",
+      "link": "https://leekduck.com/events/raidhour20261028/",
+      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
+      "start": "2026-10-28T18:00:00.000",
+      "end": "2026-10-28T19:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Raidtimme! Extra många raider i en timme.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "pokemonspotlighthour2026-10-29",
+      "name": "Gastly Spotlight Hour",
+      "namn": "Rampljustimme: Gastly",
+      "typ": "pokemon-spotlight-hour",
+      "typRubrik": "Rampljustimme",
+      "link": "https://leekduck.com/events/pokemonspotlighthour2026-10-29/",
+      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
+      "start": "2026-10-29T18:00:00.000",
+      "end": "2026-10-29T19:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Gastly dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbel XP när du utvecklar.",
+      "pokemon": [
+        {
+          "namn": "Gastly",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_092_00.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
+    },
+    {
       "id": "super-mega-raid-day-october-2026",
       "name": "Super Mega Raid Day",
       "namn": "Raiddag",
@@ -803,6 +1174,21 @@
       "bonusar": []
     },
     {
+      "id": "halloween-2026-part-1",
+      "name": "Halloween 2026 Part I",
+      "namn": "Halloween 2026 Part I",
+      "typ": "event",
+      "typRubrik": "Event",
+      "link": "https://leekduck.com/events/halloween-2026-part-1/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-10-27T00:00:00.000",
+      "end": "2026-10-31T23:59:00.000",
+      "region": "galler",
+      "sammanfattning": null,
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
       "id": "gbl-twilight-trails_master-league_mega-halloween-cup-great-league-edition",
       "name": "Master League and Mega Halloween Cup: Great League Edition | Twilight Trails",
       "namn": "Master League and Mega Halloween Cup: Great League Edition",
@@ -814,6 +1200,84 @@
       "end": "2026-11-03T21:00:00.000Z",
       "region": "galler",
       "sammanfattning": "Nytt i GO Battle League (strider mot andra spelare).",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "shadow-landorus-incarnate-forme-in-shadow-raids-october-2026",
+      "name": "Shadow Landorus (Incarnate Forme) in Shadow Raids",
+      "namn": "Shadow Landorus i Shadow-raider",
+      "typ": "raid-battles",
+      "typRubrik": "Raider",
+      "link": "https://leekduck.com/events/shadow-landorus-incarnate-forme-in-shadow-raids-october-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-10-07T06:00:00.000",
+      "end": "2026-11-03T22:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Landorus (Incarnate) finns i raid. Kan vara shiny! ✨",
+      "pokemon": [
+        {
+          "namn": "Landorus (Incarnate)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_645_11.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
+    },
+    {
+      "id": "giratina-origin-forme-in-5-star-raid-battles-october-2026",
+      "name": "Giratina (Origin Forme) in 5-star Raid Battles",
+      "namn": "Giratina i 5-stjärniga raider",
+      "typ": "raid-battles",
+      "typRubrik": "Raider",
+      "link": "https://leekduck.com/events/giratina-origin-forme-in-5-star-raid-battles-october-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/giratinaoriginforme.jpg",
+      "start": "2026-10-28T06:00:00.000",
+      "end": "2026-11-03T22:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Giratina (Origin) finns i raid. Kan vara shiny! ✨",
+      "pokemon": [
+        {
+          "namn": "Giratina (Origin)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_487_12.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
+    },
+    {
+      "id": "mega-sableye-in-mega-raids-october-2026",
+      "name": "Mega Sableye in Mega Raids",
+      "namn": "Mega Sableye i Mega-raider",
+      "typ": "raid-battles",
+      "typRubrik": "Raider",
+      "link": "https://leekduck.com/events/mega-sableye-in-mega-raids-october-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
+      "start": "2026-10-28T06:00:00.000",
+      "end": "2026-11-03T22:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Mega Sableye finns i raid. Kan vara shiny! ✨",
+      "pokemon": [
+        {
+          "namn": "Mega Sableye",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_302_51.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
+    },
+    {
+      "id": "halloween-2026-part-2",
+      "name": "Halloween 2026 Part II",
+      "namn": "Halloween 2026 Part II",
+      "typ": "event",
+      "typRubrik": "Event",
+      "link": "https://leekduck.com/events/halloween-2026-part-2/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-11-01T00:00:00.000",
+      "end": "2026-11-05T23:59:00.000",
+      "region": "galler",
+      "sammanfattning": null,
       "pokemon": [],
       "bonusar": []
     },

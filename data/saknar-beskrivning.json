@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-09-17T09:33:15.709Z",
+  "uppdaterad": "2026-09-18T09:05:37.809Z",
   "events": [
     {
       "name": "Pokémon Horizons: The Series Celebration Event 2026",
@@ -56,16 +56,40 @@
       "link": "https://leekduck.com/events/go-pass-september-2026/"
     },
     {
+      "name": "???",
+      "typ": "event",
+      "start": "2026-10-04T00:00:00.000",
+      "link": "https://leekduck.com/events/unannounced-event-october-2026/"
+    },
+    {
       "name": "Hatch Day",
       "typ": "event",
       "start": "2026-10-17T11:00:00.000",
       "link": "https://leekduck.com/events/hatch-day-october-2026/"
     },
     {
-      "name": "Max Battle Day",
+      "name": "Fall Marathon: Buddy Trek",
+      "typ": "event",
+      "start": "2026-10-13T00:00:00.000",
+      "link": "https://leekduck.com/events/fall-marathon-buddy-trek-2026/"
+    },
+    {
+      "name": "Dynamax Max Battle Day",
       "typ": "max-battles",
       "start": "2026-10-24T14:00:00.000",
       "link": "https://leekduck.com/events/max-battle-day-october-24-2026/"
+    },
+    {
+      "name": "Halloween 2026 Part I",
+      "typ": "event",
+      "start": "2026-10-27T00:00:00.000",
+      "link": "https://leekduck.com/events/halloween-2026-part-1/"
+    },
+    {
+      "name": "Halloween 2026 Part II",
+      "typ": "event",
+      "start": "2026-11-01T00:00:00.000",
+      "link": "https://leekduck.com/events/halloween-2026-part-2/"
     },
     {
       "name": "Pokémon GO Wild Area 2026: Sendai • Tohoku",
