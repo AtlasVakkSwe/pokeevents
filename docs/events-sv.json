@@ -1,27 +1,6 @@
 {
-  "uppdaterad": "2026-09-18T09:05:37.809Z",
+  "uppdaterad": "2026-09-19T08:52:52.652Z",
   "events": [
-    {
-      "id": "pokemonspotlighthour2026-09-17",
-      "name": "Charmander wearing Friede's goggles Spotlight Hour",
-      "namn": "Rampljustimme: Charmander wearing Friede's goggles",
-      "typ": "pokemon-spotlight-hour",
-      "typRubrik": "Rampljustimme",
-      "link": "https://leekduck.com/events/pokemonspotlighthour2026-09-17/",
-      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-      "start": "2026-09-17T18:00:00.000",
-      "end": "2026-09-17T19:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Charmander wearing Friede's goggles dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbelt stjärnstoft när du fångar.",
-      "pokemon": [
-        {
-          "namn": "Charmander wearing Friede's goggles",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm4.fGOGGLES_2026.icon.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
     {
       "id": "staraptor-super-mega-raid-day-2026",
       "name": "Staraptor Super Mega Raid Day",
@@ -64,6 +43,21 @@
       "end": "2026-09-22T20:00:00.000Z",
       "region": "galler",
       "sammanfattning": "Nytt i GO Battle League (strider mot andra spelare).",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "pokemon-horizons-bonus-timed-research-2026",
+      "name": "Pokémon Horizons Bonus Timed Research",
+      "namn": "Pokémon Horizons Bonus Timed Research",
+      "typ": "research",
+      "typRubrik": "Forskning",
+      "link": "https://leekduck.com/events/pokemon-horizons-bonus-timed-research-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-18-pokemon-horizons-bonus-timed-research-2026/pokemon-horizons-bonus-timed-research-2026.png",
+      "start": "2026-09-18T10:00:00.000",
+      "end": "2026-09-22T20:00:00.000",
+      "region": "galler",
+      "sammanfattning": null,
       "pokemon": [],
       "bonusar": []
     },
@@ -777,8 +771,8 @@
       "typRubrik": "Event",
       "link": "https://leekduck.com/events/unannounced-event-october-2026/",
       "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
-      "start": "2026-10-04T00:00:00.000",
-      "end": "2026-10-10T23:59:00.000",
+      "start": "2026-10-04T10:00:00.000",
+      "end": "2026-10-10T20:00:00.000",
       "region": "galler",
       "sammanfattning": null,
       "pokemon": [],
@@ -908,6 +902,21 @@
       "bonusar": []
     },
     {
+      "id": "fall-marathon-buddy-trek-2026",
+      "name": "Fall Marathon: Buddy Trek",
+      "namn": "Fall Marathon: Buddy Trek",
+      "typ": "event",
+      "typRubrik": "Event",
+      "link": "https://leekduck.com/events/fall-marathon-buddy-trek-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-10-13T10:00:00.000",
+      "end": "2026-10-19T20:00:00.000",
+      "region": "galler",
+      "sammanfattning": null,
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
       "id": "max-mondays-2026-10-19",
       "name": "Dynamax Sneasel during Max Monday",
       "namn": "Max-måndag: Sneasel",
@@ -919,21 +928,6 @@
       "end": "2026-10-19T21:00:00.000",
       "region": "galler",
       "sammanfattning": "Sneasel i Max-strider hela dagen.",
-      "pokemon": [],
-      "bonusar": []
-    },
-    {
-      "id": "fall-marathon-buddy-trek-2026",
-      "name": "Fall Marathon: Buddy Trek",
-      "namn": "Fall Marathon: Buddy Trek",
-      "typ": "event",
-      "typRubrik": "Event",
-      "link": "https://leekduck.com/events/fall-marathon-buddy-trek-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
-      "start": "2026-10-13T00:00:00.000",
-      "end": "2026-10-19T23:59:00.000",
-      "region": "galler",
-      "sammanfattning": null,
       "pokemon": [],
       "bonusar": []
     },
@@ -1181,8 +1175,8 @@
       "typRubrik": "Event",
       "link": "https://leekduck.com/events/halloween-2026-part-1/",
       "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
-      "start": "2026-10-27T00:00:00.000",
-      "end": "2026-10-31T23:59:00.000",
+      "start": "2026-10-27T10:00:00.000",
+      "end": "2026-10-31T20:00:00.000",
       "region": "galler",
       "sammanfattning": null,
       "pokemon": [],
@@ -1274,8 +1268,8 @@
       "typRubrik": "Event",
       "link": "https://leekduck.com/events/halloween-2026-part-2/",
       "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
-      "start": "2026-11-01T00:00:00.000",
-      "end": "2026-11-05T23:59:00.000",
+      "start": "2026-11-01T10:00:00.000",
+      "end": "2026-11-05T20:00:00.000",
       "region": "galler",
       "sammanfattning": null,
       "pokemon": [],

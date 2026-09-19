@@ -1,6 +1,12 @@
 {
-  "uppdaterad": "2026-09-18T09:05:37.809Z",
+  "uppdaterad": "2026-09-19T08:52:52.652Z",
   "events": [
+    {
+      "name": "Pokémon Horizons Bonus Timed Research",
+      "typ": "research",
+      "start": "2026-09-18T10:00:00.000",
+      "link": "https://leekduck.com/events/pokemon-horizons-bonus-timed-research-2026/"
+    },
     {
       "name": "Pokémon Horizons: The Series Celebration Event 2026",
       "typ": "event",
@@ -58,7 +64,7 @@
     {
       "name": "???",
       "typ": "event",
-      "start": "2026-10-04T00:00:00.000",
+      "start": "2026-10-04T10:00:00.000",
       "link": "https://leekduck.com/events/unannounced-event-october-2026/"
     },
     {
@@ -70,7 +76,7 @@
     {
       "name": "Fall Marathon: Buddy Trek",
       "typ": "event",
-      "start": "2026-10-13T00:00:00.000",
+      "start": "2026-10-13T10:00:00.000",
       "link": "https://leekduck.com/events/fall-marathon-buddy-trek-2026/"
     },
     {
@@ -82,13 +88,13 @@
     {
       "name": "Halloween 2026 Part I",
       "typ": "event",
-      "start": "2026-10-27T00:00:00.000",
+      "start": "2026-10-27T10:00:00.000",
       "link": "https://leekduck.com/events/halloween-2026-part-1/"
     },
     {
       "name": "Halloween 2026 Part II",
       "typ": "event",
-      "start": "2026-11-01T00:00:00.000",
+      "start": "2026-11-01T10:00:00.000",
       "link": "https://leekduck.com/events/halloween-2026-part-2/"
     },
     {
