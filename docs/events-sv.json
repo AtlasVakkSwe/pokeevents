@@ -1,21 +1,6 @@
 {
-  "uppdaterad": "2026-09-19T08:52:52.652Z",
+  "uppdaterad": "2026-09-20T09:22:31.191Z",
   "events": [
-    {
-      "id": "staraptor-super-mega-raid-day-2026",
-      "name": "Staraptor Super Mega Raid Day",
-      "namn": "Raiddag: Staraptor",
-      "typ": "raid-day",
-      "typRubrik": "Raiddag",
-      "link": "https://leekduck.com/events/staraptor-super-mega-raid-day-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-19-staraptor-super-mega-raid-day-2026/staraptor-super-mega-raid-day-2026.jpg",
-      "start": "2026-09-19T14:00:00.000",
-      "end": "2026-09-19T17:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Raiddag! Extra många raider hela dagen.",
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "max-mondays-2026-09-21",
       "name": "Dynamax Articuno, Zapdos, and Moltres during Max Monday",
