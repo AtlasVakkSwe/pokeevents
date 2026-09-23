@@ -1,38 +1,6 @@
 {
-  "hamtad": "2026-09-22T09:23:48.293Z",
+  "hamtad": "2026-09-23T09:24:31.035Z",
   "events": [
-    {
-      "eventID": "max-mondays-2026-09-21",
-      "name": "Dynamax Articuno, Zapdos, and Moltres during Max Monday",
-      "eventType": "max-mondays",
-      "heading": "Max Mondays",
-      "link": "https://leekduck.com/events/max-mondays-2026-09-21/",
-      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-      "start": "2026-09-21T06:00:00.000",
-      "end": "2026-09-21T21:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "gbl-twilight-trails_great-league_ultra-league-mega-edition_willpower-cup-great-league-edition",
-      "name": "Great League, Ultra League: Mega Edition, and Willpower Cup: Great League Edition | Twilight Trails",
-      "eventType": "go-battle-league",
-      "heading": "GO Battle League",
-      "link": "https://leekduck.com/events/gbl-twilight-trails_great-league_ultra-league-mega-edition_willpower-cup-great-league-edition/",
-      "image": "https://cdn.leekduck.com/assets/img/events/gobattle-greatleague-key.jpg",
-      "start": "2026-09-15T20:00:00.000Z",
-      "end": "2026-09-22T20:00:00.000Z",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "pokemon-horizons-bonus-timed-research-2026",
       "name": "Pokémon Horizons Bonus Timed Research",
@@ -1429,6 +1397,22 @@
       "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
       "start": "2026-10-27T10:00:00.000",
       "end": "2026-10-31T20:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "go-pass-october-2026",
+      "name": "GO Pass: October",
+      "eventType": "go-pass",
+      "heading": "GO Pass",
+      "link": "https://leekduck.com/events/go-pass-october-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-10-06-go-pass-october-2026/go-pass-october-2026.jpg",
+      "start": "2026-10-06T10:00:00.000",
+      "end": "2026-11-03T10:00:00.000",
       "extraData": {
         "generic": {
           "hasSpawns": false,
