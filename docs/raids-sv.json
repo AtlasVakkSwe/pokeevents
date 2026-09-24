@@ -1,12 +1,22 @@
 {
-  "uppdaterad": "2026-09-23T09:24:31.035Z",
+  "uppdaterad": "2026-09-24T09:24:43.220Z",
   "grupper": [
     {
       "rubrik": "5 stjärnor",
       "pokemon": [
         {
-          "namn": "Zamazenta (Hero)",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm889.fHERO.icon.png",
+          "namn": "Xurkitree",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm796.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Pheromosa",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm795.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Buzzwole",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm794.icon.png",
           "shiny": true
         },
         {
@@ -20,8 +30,8 @@
       "rubrik": "Mega",
       "pokemon": [
         {
-          "namn": "Mega Venusaur",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm3.fMEGA.icon.png",
+          "namn": "Mega Malamar",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm687.fMEGA.icon.png",
           "shiny": true
         }
       ]
@@ -30,23 +40,18 @@
       "rubrik": "3 stjärnor",
       "pokemon": [
         {
-          "namn": "Charizard wearing Friede's goggles",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm6.fGOGGLES_2026.icon.png",
+          "namn": "Hisuian Typhlosion",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm157.fHISUIAN.icon.png",
           "shiny": true
         },
         {
-          "namn": "Meowscarada",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm908.icon.png",
+          "namn": "Hisuian Samurott",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm503.fHISUIAN.icon.png",
           "shiny": true
         },
         {
-          "namn": "Skeledirge",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm911.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Quaquaval",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm914.icon.png",
+          "namn": "Hisuian Decidueye",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm724.fHISUIAN.icon.png",
           "shiny": true
         },
         {
@@ -70,8 +75,23 @@
       "rubrik": "1 stjärna",
       "pokemon": [
         {
-          "namn": "Captain's Cap Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fHORIZONS.icon.png",
+          "namn": "Dratini",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm147.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Larvitar",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm246.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Bagon",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm371.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Deino",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm633.icon.png",
           "shiny": true
         },
         {

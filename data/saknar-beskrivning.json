@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-09-23T09:24:31.035Z",
+  "uppdaterad": "2026-09-24T09:24:43.220Z",
   "events": [
     {
       "name": "Phantump Catch Mastery",
@@ -114,6 +114,24 @@
       "typ": "season",
       "start": "2026-09-08T10:00:00.000",
       "link": "https://leekduck.com/events/season-24-twilight-trails/"
+    },
+    {
+      "name": "Pokémon GO Tour: Alola - Kaohsiung 2027",
+      "typ": "pokemon-go-tour",
+      "start": "2027-02-18T16:00:00.000Z",
+      "link": "https://leekduck.com/events/pokemon-go-tour-alola-kaohsiung-2027/"
+    },
+    {
+      "name": "Pokémon GO Tour: Alola - Los Angeles 2027",
+      "typ": "pokemon-go-tour",
+      "start": "2027-02-19T08:00:00.000Z",
+      "link": "https://leekduck.com/events/pokemon-go-tour-alola-los-angeles-2027/"
+    },
+    {
+      "name": "Pokémon GO Tour: Alola - Global 2027",
+      "typ": "pokemon-go-tour",
+      "start": "2027-02-27T00:00:00.000",
+      "link": "https://leekduck.com/events/pokemon-go-tour-alola-global-2027/"
     }
   ]
 }

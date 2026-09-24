@@ -1,177 +1,6 @@
 {
-  "uppdaterad": "2026-09-23T09:24:31.035Z",
+  "uppdaterad": "2026-09-24T09:24:43.220Z",
   "events": [
-    {
-      "id": "pokemon-horizons-bonus-timed-research-2026",
-      "name": "Pokémon Horizons Bonus Timed Research",
-      "namn": "Pokémon Horizons Bonus Timed Research",
-      "typ": "research",
-      "typRubrik": "Forskning",
-      "link": "https://leekduck.com/events/pokemon-horizons-bonus-timed-research-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-18-pokemon-horizons-bonus-timed-research-2026/pokemon-horizons-bonus-timed-research-2026.png",
-      "start": "2026-09-18T10:00:00.000",
-      "end": "2026-09-22T20:00:00.000",
-      "region": "galler",
-      "sammanfattning": null,
-      "pokemon": [],
-      "bonusar": []
-    },
-    {
-      "id": "pokemon-horizons-the-series-celebration-event-2026",
-      "name": "Pokémon Horizons: The Series Celebration Event 2026",
-      "namn": "Pokémon Horizons: The Series Celebration Event 2026",
-      "typ": "event",
-      "typRubrik": "Event",
-      "link": "https://leekduck.com/events/pokemon-horizons-the-series-celebration-event-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-16-pokemon-horizons-the-series-celebration-event-2026/pokemon-horizons-celebration-event-2026.jpg",
-      "start": "2026-09-16T10:00:00.000",
-      "end": "2026-09-22T20:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Särskilda Pokémon dyker upp under eventet. Se listan.",
-      "pokemon": [
-        {
-          "namn": "Charmander wearing Friede's goggles",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm4.fGOGGLES_2026.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Sprigatito",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm906.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Fuecoco",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm909.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Quaxly",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm912.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Fidough",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm926.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Wattrel",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm940.icon.png",
-          "shiny": false
-        },
-        {
-          "namn": "Captain's Cap Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fHORIZONS.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Chansey",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_113_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Rhyhorn",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_111_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Eevee",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_133_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Hatenna",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm856.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Nacli",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm932.icon.png",
-          "shiny": false
-        },
-        {
-          "namn": "Tinkatink",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm957.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Rockruff",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm744.icon.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": [],
-      "pokemonRubrik": "Finns att fånga:",
-      "raids": [
-        {
-          "namn": "Captain's Cap Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fHORIZONS.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Charizard wearing Friede's goggles",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm6.fGOGGLES_2026.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Meowscarada",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm908.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Skeledirge",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm911.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Quaquaval",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm914.icon.png",
-          "shiny": true
-        }
-      ]
-    },
-    {
-      "id": "mega-venusaur-in-mega-raids-september-2026",
-      "name": "Mega Venusaur in Mega Raids",
-      "namn": "Mega Venusaur i Mega-raider",
-      "typ": "raid-battles",
-      "typRubrik": "Raider",
-      "link": "https://leekduck.com/events/mega-venusaur-in-mega-raids-september-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
-      "start": "2026-09-16T06:00:00.000",
-      "end": "2026-09-22T22:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Mega Venusaur finns i raid. Kan vara shiny! ✨",
-      "pokemon": [
-        {
-          "namn": "Mega Venusaur",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_003_51.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
-    {
-      "id": "zamazenta-hero-of-many-battles-in-5-star-raid-battles-september-2026",
-      "name": "Zamazenta (Hero of Many Battles) in 5-star Raid Battles",
-      "namn": "Zamazenta i 5-stjärniga raider",
-      "typ": "raid-battles",
-      "typRubrik": "Raider",
-      "link": "https://leekduck.com/events/zamazenta-hero-of-many-battles-in-5-star-raid-battles-september-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/zacian-and-zamazenta-2.jpg",
-      "start": "2026-09-16T06:00:00.000",
-      "end": "2026-09-22T22:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Zamazenta (Hero of Many Battles) finns i raid. Kan vara shiny! ✨",
-      "pokemon": [
-        {
-          "namn": "Zamazenta (Hero of Many Battles)",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm889.fHERO.icon.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
     {
       "id": "raidhour20260923",
       "name": "Xurkitree, Pheromosa, and Buzzwole Raid Hour",
@@ -863,13 +692,75 @@
       "typ": "event",
       "typRubrik": "Event",
       "link": "https://leekduck.com/events/fall-marathon-buddy-trek-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-10-13-fall-marathon-buddy-trek-2026/fall-marathon-buddy-trek-2026.jpg",
       "start": "2026-10-13T10:00:00.000",
       "end": "2026-10-19T20:00:00.000",
       "region": "galler",
-      "sammanfattning": null,
-      "pokemon": [],
-      "bonusar": []
+      "sammanfattning": "Särskilda Pokémon dyker upp under eventet. Se listan.",
+      "pokemon": [
+        {
+          "namn": "Ponyta",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_077_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Doduo",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_084_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Electrike",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_309_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Blitzle",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_522_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Skarmory",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_227_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Galarian Ponyta",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm77.fGALARIAN.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Hoppip",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_187_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Dwebble",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_557_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Bramblin",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm946.icon.png",
+          "shiny": false
+        },
+        {
+          "namn": "Hisuian Growlithe",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm58.fHISUIAN.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Nincada",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_290_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Helioptile",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm694.icon.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": [],
+      "pokemonRubrik": "Finns att fånga:"
     },
     {
       "id": "max-mondays-2026-10-19",
@@ -2559,6 +2450,51 @@
       "end": "2026-12-01T21:00:00.000Z",
       "region": "galler",
       "sammanfattning": "Nytt i GO Battle League (strider mot andra spelare).",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "pokemon-go-tour-alola-kaohsiung-2027",
+      "name": "Pokémon GO Tour: Alola - Kaohsiung 2027",
+      "namn": "Pokémon GO Tour: Alola - Kaohsiung 2027",
+      "typ": "pokemon-go-tour",
+      "typRubrik": "GO Tour",
+      "link": "https://leekduck.com/events/pokemon-go-tour-alola-kaohsiung-2027/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2027-02-18T16:00:00.000Z",
+      "end": "2027-02-21T15:59:59.000Z",
+      "region": "osakert",
+      "sammanfattning": null,
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "pokemon-go-tour-alola-los-angeles-2027",
+      "name": "Pokémon GO Tour: Alola - Los Angeles 2027",
+      "namn": "Pokémon GO Tour: Alola - Los Angeles 2027",
+      "typ": "pokemon-go-tour",
+      "typRubrik": "GO Tour",
+      "link": "https://leekduck.com/events/pokemon-go-tour-alola-los-angeles-2027/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2027-02-19T08:00:00.000Z",
+      "end": "2027-02-22T07:59:59.000Z",
+      "region": "galler-inte",
+      "sammanfattning": null,
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "pokemon-go-tour-alola-global-2027",
+      "name": "Pokémon GO Tour: Alola - Global 2027",
+      "namn": "Pokémon GO Tour: Alola - Global 2027",
+      "typ": "pokemon-go-tour",
+      "typRubrik": "GO Tour",
+      "link": "https://leekduck.com/events/pokemon-go-tour-alola-global-2027/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2027-02-27T00:00:00.000",
+      "end": "2027-02-28T23:59:59.000",
+      "region": "galler",
+      "sammanfattning": null,
       "pokemon": [],
       "bonusar": []
     }
