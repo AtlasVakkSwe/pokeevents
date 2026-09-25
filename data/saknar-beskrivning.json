@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-09-24T09:24:43.220Z",
+  "uppdaterad": "2026-09-25T09:42:35.218Z",
   "events": [
     {
       "name": "Phantump Catch Mastery",
@@ -56,10 +56,10 @@
       "link": "https://leekduck.com/events/world-space-week-2026/"
     },
     {
-      "name": "Hatch Day",
+      "name": "Sandile Hatch Day",
       "typ": "event",
       "start": "2026-10-17T11:00:00.000",
-      "link": "https://leekduck.com/events/hatch-day-october-2026/"
+      "link": "https://leekduck.com/events/sandile-hatch-day-2026/"
     },
     {
       "name": "Fall Marathon: Buddy Trek",
@@ -114,6 +114,12 @@
       "typ": "season",
       "start": "2026-09-08T10:00:00.000",
       "link": "https://leekduck.com/events/season-24-twilight-trails/"
+    },
+    {
+      "name": "adidas × Pokémon Timed Research",
+      "typ": "research",
+      "start": "2026-09-25T10:00:00.000",
+      "link": "https://leekduck.com/events/pokemon-x-adidas-2026/"
     },
     {
       "name": "Pokémon GO Tour: Alola - Kaohsiung 2027",

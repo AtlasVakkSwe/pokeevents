@@ -1,22 +1,6 @@
 {
-  "hamtad": "2026-09-24T09:24:43.220Z",
+  "hamtad": "2026-09-25T09:42:35.218Z",
   "events": [
-    {
-      "eventID": "raidhour20260923",
-      "name": "Xurkitree, Pheromosa, and Buzzwole Raid Hour",
-      "eventType": "raid-hour",
-      "heading": "Raid Hour",
-      "link": "https://leekduck.com/events/raidhour20260923/",
-      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-      "start": "2026-09-23T18:00:00.000",
-      "end": "2026-09-23T19:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "pokemonspotlighthour2026-09-24",
       "name": "Rattata Spotlight Hour",
@@ -929,12 +913,12 @@
       }
     },
     {
-      "eventID": "hatch-day-october-2026",
-      "name": "Hatch Day",
+      "eventID": "sandile-hatch-day-2026",
+      "name": "Sandile Hatch Day",
       "eventType": "event",
       "heading": "Event",
-      "link": "https://leekduck.com/events/hatch-day-october-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "link": "https://leekduck.com/events/sandile-hatch-day-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-10-17-sandile-hatch-day-2026/sandile-hatch-day-2026.jpg",
       "start": "2026-10-17T11:00:00.000",
       "end": "2026-10-17T17:00:00.000",
       "extraData": {
@@ -1601,6 +1585,22 @@
       "image": "https://cdn.leekduck.com/assets/img/events/gobattleleague-master-key.jpg",
       "start": "2026-11-24T21:00:00.000Z",
       "end": "2026-12-01T21:00:00.000Z",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "pokemon-x-adidas-2026",
+      "name": "adidas × Pokémon Timed Research",
+      "eventType": "research",
+      "heading": "Research",
+      "link": "https://leekduck.com/events/pokemon-x-adidas-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/pokemon-x-adidas-2026.jpg",
+      "start": "2026-09-25T10:00:00.000",
+      "end": "2027-01-15T20:00:00.000",
       "extraData": {
         "generic": {
           "hasSpawns": false,
