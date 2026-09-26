@@ -1,35 +1,6 @@
 {
-  "hamtad": "2026-09-25T09:42:35.218Z",
+  "hamtad": "2026-09-26T09:26:38.277Z",
   "events": [
-    {
-      "eventID": "pokemonspotlighthour2026-09-24",
-      "name": "Rattata Spotlight Hour",
-      "eventType": "pokemon-spotlight-hour",
-      "heading": "Pokémon Spotlight Hour",
-      "link": "https://leekduck.com/events/pokemonspotlighthour2026-09-24/",
-      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-      "start": "2026-09-24T18:00:00.000",
-      "end": "2026-09-24T19:00:00.000",
-      "extraData": {
-        "spotlight": {
-          "name": "Rattata",
-          "canBeShiny": true,
-          "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_019_00.png",
-          "bonus": "2× Evolution XP",
-          "list": [
-            {
-              "name": "Rattata",
-              "canBeShiny": true,
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_019_00.png"
-            }
-          ]
-        },
-        "generic": {
-          "hasSpawns": true,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "catch-mastery-phantump-2026",
       "name": "Phantump Catch Mastery",
@@ -39,6 +10,86 @@
       "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-26-catch-mastery-phantump-2026/phantump-catch-mastery.jpg?v2",
       "start": "2026-09-26T10:00:00.000",
       "end": "2026-09-26T20:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": true,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "pokemon-go-city-safari-brisbane-2026",
+      "name": "Brisbane, Australia - Pokémon GO City Safari",
+      "eventType": "city-safari",
+      "heading": "City Safari",
+      "link": "https://leekduck.com/events/pokemon-go-city-safari-brisbane-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-26-pokemon-go-city-safari-brisbane-2026/safarizone-default.jpg",
+      "start": "2026-09-26T00:00:00.000Z",
+      "end": "2026-09-27T08:00:00.000Z",
+      "extraData": {
+        "generic": {
+          "hasSpawns": true,
+          "hasFieldResearchTasks": true
+        }
+      }
+    },
+    {
+      "eventID": "pokemon-go-city-safari-marseille-2026",
+      "name": "Marseille, France - Pokémon GO City Safari",
+      "eventType": "city-safari",
+      "heading": "City Safari",
+      "link": "https://leekduck.com/events/pokemon-go-city-safari-marseille-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-26-pokemon-go-city-safari-marseille-2026/safarizone-default.jpg",
+      "start": "2026-09-26T08:00:00.000Z",
+      "end": "2026-09-27T16:00:00.000Z",
+      "extraData": {
+        "generic": {
+          "hasSpawns": true,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "pokemon-go-city-safari-munich-2026",
+      "name": "Munich, Germany - Pokémon GO City Safari",
+      "eventType": "city-safari",
+      "heading": "City Safari",
+      "link": "https://leekduck.com/events/pokemon-go-city-safari-munich-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-26-pokemon-go-city-safari-munich-2026/safarizone-default.jpg",
+      "start": "2026-09-26T08:00:00.000Z",
+      "end": "2026-09-27T16:00:00.000Z",
+      "extraData": {
+        "generic": {
+          "hasSpawns": true,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "pokemon-go-city-safari-lisbon-2026",
+      "name": "Lisbon, Portugal - Pokémon GO City Safari",
+      "eventType": "city-safari",
+      "heading": "City Safari",
+      "link": "https://leekduck.com/events/pokemon-go-city-safari-lisbon-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-26-pokemon-go-city-safari-lisbon-2026/safarizone-default.jpg",
+      "start": "2026-09-26T09:00:00.000Z",
+      "end": "2026-09-27T17:00:00.000Z",
+      "extraData": {
+        "generic": {
+          "hasSpawns": true,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "pokemon-go-city-safari-rio-de-janeiro-2026",
+      "name": "Rio de Janeiro, Brazil - Pokémon GO City Safari",
+      "eventType": "city-safari",
+      "heading": "City Safari",
+      "link": "https://leekduck.com/events/pokemon-go-city-safari-rio-de-janeiro-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-26-pokemon-go-city-safari-rio-de-janeiro-2026/safarizone-default.jpg",
+      "start": "2026-09-26T13:00:00.000Z",
+      "end": "2026-09-27T21:00:00.000Z",
       "extraData": {
         "generic": {
           "hasSpawns": true,
