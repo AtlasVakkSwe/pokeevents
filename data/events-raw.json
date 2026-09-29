@@ -1,22 +1,6 @@
 {
-  "hamtad": "2026-09-28T11:05:53.505Z",
+  "hamtad": "2026-09-29T10:48:35.438Z",
   "events": [
-    {
-      "eventID": "pokemon-go-city-safari-rio-de-janeiro-2026",
-      "name": "Rio de Janeiro, Brazil - Pokémon GO City Safari",
-      "eventType": "city-safari",
-      "heading": "City Safari",
-      "link": "https://leekduck.com/events/pokemon-go-city-safari-rio-de-janeiro-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-26-pokemon-go-city-safari-rio-de-janeiro-2026/city-safari-rio-de-janeiro-2026.jpg",
-      "start": "2026-09-26T13:00:00.000Z",
-      "end": "2026-09-27T21:00:00.000Z",
-      "extraData": {
-        "generic": {
-          "hasSpawns": true,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "choose-your-path-twilight-trails-2026",
       "name": "Choose Your Path: Twilight Trails",
