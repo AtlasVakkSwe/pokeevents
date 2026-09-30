@@ -1,38 +1,6 @@
 {
-  "hamtad": "2026-09-29T10:48:35.438Z",
+  "hamtad": "2026-09-30T10:36:23.715Z",
   "events": [
-    {
-      "eventID": "choose-your-path-twilight-trails-2026",
-      "name": "Choose Your Path: Twilight Trails",
-      "eventType": "choose-your-path",
-      "heading": "Choose Your Path",
-      "link": "https://leekduck.com/events/choose-your-path-twilight-trails-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/choose-your-path-twilight-trails-2026.jpg",
-      "start": "2026-09-23T10:00:00.000",
-      "end": "2026-09-28T20:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "max-mondays-2026-09-28",
-      "name": "Dynamax Sobble during Max Monday",
-      "eventType": "max-mondays",
-      "heading": "Max Mondays",
-      "link": "https://leekduck.com/events/max-mondays-2026-09-28/",
-      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-      "start": "2026-09-28T06:00:00.000",
-      "end": "2026-09-28T21:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "gbl-twilight-trails_ultra-league_master-league-mega-edition_retro-cup-great-league-edition",
       "name": "Ultra League, Master League: Mega Edition, and Retro Cup: Great League Edition | Twilight Trails",
@@ -1573,6 +1541,9 @@
       "start": "2026-09-25T10:00:00.000",
       "end": "2027-01-15T20:00:00.000",
       "extraData": {
+        "promocodes": [
+          "ADIDASxPOKEMON"
+        ],
         "generic": {
           "hasSpawns": false,
           "hasFieldResearchTasks": false

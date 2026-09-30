@@ -1,36 +1,6 @@
 {
-  "uppdaterad": "2026-09-29T10:48:35.438Z",
+  "uppdaterad": "2026-09-30T10:36:23.715Z",
   "events": [
-    {
-      "id": "choose-your-path-twilight-trails-2026",
-      "name": "Choose Your Path: Twilight Trails",
-      "namn": "Choose Your Path: Twilight Trails",
-      "typ": "choose-your-path",
-      "typRubrik": "Välj din väg",
-      "link": "https://leekduck.com/events/choose-your-path-twilight-trails-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/choose-your-path-twilight-trails-2026.jpg",
-      "start": "2026-09-23T10:00:00.000",
-      "end": "2026-09-28T20:00:00.000",
-      "region": "galler",
-      "sammanfattning": null,
-      "pokemon": [],
-      "bonusar": []
-    },
-    {
-      "id": "max-mondays-2026-09-28",
-      "name": "Dynamax Sobble during Max Monday",
-      "namn": "Max-måndag: Sobble",
-      "typ": "max-mondays",
-      "typRubrik": "Max-måndag",
-      "link": "https://leekduck.com/events/max-mondays-2026-09-28/",
-      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-      "start": "2026-09-28T06:00:00.000",
-      "end": "2026-09-28T21:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Sobble i Max-strider hela dagen.",
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "gbl-twilight-trails_ultra-league_master-league-mega-edition_retro-cup-great-league-edition",
       "name": "Ultra League, Master League: Mega Edition, and Retro Cup: Great League Edition | Twilight Trails",
