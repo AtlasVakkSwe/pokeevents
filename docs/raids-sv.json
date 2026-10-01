@@ -1,22 +1,12 @@
 {
-  "uppdaterad": "2026-09-30T10:36:23.715Z",
+  "uppdaterad": "2026-10-01T11:05:10.302Z",
   "grupper": [
     {
       "rubrik": "5 stjärnor",
       "pokemon": [
         {
-          "namn": "Xurkitree",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm796.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Pheromosa",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm795.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Buzzwole",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm794.icon.png",
+          "namn": "Xerneas",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm716.icon.png",
           "shiny": true
         },
         {
@@ -30,8 +20,8 @@
       "rubrik": "Mega",
       "pokemon": [
         {
-          "namn": "Mega Malamar",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm687.fMEGA.icon.png",
+          "namn": "Mega Victreebel",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm71.fMEGA.icon.png",
           "shiny": true
         }
       ]
@@ -40,18 +30,18 @@
       "rubrik": "3 stjärnor",
       "pokemon": [
         {
-          "namn": "Hisuian Typhlosion",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm157.fHISUIAN.icon.png",
+          "namn": "Miltank",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm241.icon.png",
           "shiny": true
         },
         {
-          "namn": "Hisuian Samurott",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm503.fHISUIAN.icon.png",
+          "namn": "Hisuian Lilligant",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm549.fHISUIAN.icon.png",
           "shiny": true
         },
         {
-          "namn": "Hisuian Decidueye",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm724.fHISUIAN.icon.png",
+          "namn": "Dondozo",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm977.icon.png",
           "shiny": true
         },
         {
@@ -75,23 +65,23 @@
       "rubrik": "1 stjärna",
       "pokemon": [
         {
-          "namn": "Dratini",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm147.icon.png",
+          "namn": "Galarian Farfetch'd",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm83.fGALARIAN.icon.png",
           "shiny": true
         },
         {
-          "namn": "Larvitar",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm246.icon.png",
+          "namn": "Galarian Zigzagoon",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm263.fGALARIAN.icon.png",
           "shiny": true
         },
         {
-          "namn": "Bagon",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm371.icon.png",
+          "namn": "Combee",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm415.icon.png",
           "shiny": true
         },
         {
-          "namn": "Deino",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm633.icon.png",
+          "namn": "Honedge",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm679.icon.png",
           "shiny": true
         },
         {
