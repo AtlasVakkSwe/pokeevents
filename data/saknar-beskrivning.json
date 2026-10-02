@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-10-01T11:05:10.302Z",
+  "uppdaterad": "2026-10-02T10:37:09.286Z",
   "events": [
     {
       "name": "Patterns of the Wild",
@@ -56,10 +56,16 @@
       "link": "https://leekduck.com/events/pokemon-tcg-30th-celebration/"
     },
     {
-      "name": "Dynamax Max Battle Day",
+      "name": "Dynamax Uxie, Mesprit, and Azelf Max Battle Day",
       "typ": "max-battles",
       "start": "2026-10-24T14:00:00.000",
-      "link": "https://leekduck.com/events/max-battle-day-october-24-2026/"
+      "link": "https://leekduck.com/events/dynamax-uxie-mesprit-azelf-max-battle-day-2026/"
+    },
+    {
+      "name": "Minior Showers: Orionids 2026",
+      "typ": "event",
+      "start": "2026-10-19T17:00:00.000",
+      "link": "https://leekduck.com/events/minior-showers-orionids-2026/"
     },
     {
       "name": "Halloween 2026 Part I",
@@ -98,10 +104,22 @@
       "link": "https://leekduck.com/events/pokemon-go-wild-area-2026-global/"
     },
     {
+      "name": "Minior Showers: Leonids 2026",
+      "typ": "event",
+      "start": "2026-11-14T17:00:00.000",
+      "link": "https://leekduck.com/events/minior-showers-leonids-2026/"
+    },
+    {
       "name": "Twilight Trails",
       "typ": "season",
       "start": "2026-09-08T10:00:00.000",
       "link": "https://leekduck.com/events/season-24-twilight-trails/"
+    },
+    {
+      "name": "Minior Showers: Geminids 2026",
+      "typ": "event",
+      "start": "2026-12-11T17:00:00.000",
+      "link": "https://leekduck.com/events/minior-showers-geminids-2026/"
     },
     {
       "name": "adidas × Pokémon Timed Research",
@@ -126,6 +144,24 @@
       "typ": "pokemon-go-tour",
       "start": "2027-02-27T00:00:00.000",
       "link": "https://leekduck.com/events/pokemon-go-tour-alola-global-2027/"
+    },
+    {
+      "name": "Minior Showers: Eta Aquariids 2027",
+      "typ": "event",
+      "start": "2027-05-03T17:00:00.000",
+      "link": "https://leekduck.com/events/minior-showers-eta-aquariids-2027/"
+    },
+    {
+      "name": "Minior Showers: Southern Delta Aquariids 2027",
+      "typ": "event",
+      "start": "2027-07-28T17:00:00.000",
+      "link": "https://leekduck.com/events/minior-showers-southern-delta-aquariids-2027/"
+    },
+    {
+      "name": "Minior Showers: Perseids 2027",
+      "typ": "event",
+      "start": "2027-08-10T17:00:00.000",
+      "link": "https://leekduck.com/events/minior-showers-perseids-2027/"
     }
   ]
 }

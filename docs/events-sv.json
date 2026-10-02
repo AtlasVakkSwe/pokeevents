@@ -1,21 +1,6 @@
 {
-  "uppdaterad": "2026-10-01T11:05:10.302Z",
+  "uppdaterad": "2026-10-02T10:37:09.286Z",
   "events": [
-    {
-      "id": "lego-pokemon-go-2026",
-      "name": "LEGO Stores and Pokémon GO",
-      "namn": "LEGO Stores and Pokémon GO",
-      "typ": "event",
-      "typRubrik": "Event",
-      "link": "https://leekduck.com/events/lego-pokemon-go-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-03-lego-pokemon-go-2026/lego-stores-pokemon-go.jpg",
-      "start": "2026-08-03T10:00:00.000",
-      "end": "2026-09-30T23:59:00.000",
-      "region": "galler",
-      "sammanfattning": null,
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "pokemonspotlighthour2026-10-01",
       "name": "Seedot Spotlight Hour",
@@ -171,6 +156,31 @@
           "namn": "Applin",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm840.icon.png",
           "shiny": true
+        },
+        {
+          "namn": "Ekans",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_023_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Koffing",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_109_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Magmar",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_126_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Slugma",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_218_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Numel",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_322_00.png",
+          "shiny": true
         }
       ],
       "bonusar": [],
@@ -190,8 +200,18 @@
       "sammanfattning": "Särskilda Pokémon dyker upp under eventet. Se listan.",
       "pokemon": [
         {
+          "namn": "Ekans",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_023_00.png",
+          "shiny": true
+        },
+        {
           "namn": "Koffing",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_109_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Magmar",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_126_00.png",
           "shiny": true
         },
         {
@@ -205,8 +225,38 @@
           "shiny": true
         },
         {
-          "namn": "Magmar",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_126_00.png",
+          "namn": "Snorlax",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_143_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Shroomish",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_285_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Foongus",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_590_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Skwovet",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm819.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Applin",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm840.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Lechonk",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm915.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Smoliv",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm928.icon.png",
           "shiny": true
         }
       ],
@@ -726,19 +776,41 @@
       "bonusar": []
     },
     {
-      "id": "max-battle-day-october-24-2026",
-      "name": "Dynamax Max Battle Day",
-      "namn": "Max-stridsdag: Dynamax",
+      "id": "dynamax-uxie-mesprit-azelf-max-battle-day-2026",
+      "name": "Dynamax Uxie, Mesprit, and Azelf Max Battle Day",
+      "namn": "Max-stridsdag: Dynamax Uxie, Mesprit och Azelf",
       "typ": "max-battles",
       "typRubrik": "Max-strider",
-      "link": "https://leekduck.com/events/max-battle-day-october-24-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "link": "https://leekduck.com/events/dynamax-uxie-mesprit-azelf-max-battle-day-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-10-24-dynamax-uxie-mesprit-azelf-max-battle-day-2026/dynamax-uxie-mesprit-azelf-max-battle-day.jpg",
       "start": "2026-10-24T14:00:00.000",
       "end": "2026-10-24T17:00:00.000",
       "region": "galler",
       "sammanfattning": "Extra många Max-strider.",
       "pokemon": [],
       "bonusar": []
+    },
+    {
+      "id": "minior-showers-orionids-2026",
+      "name": "Minior Showers: Orionids 2026",
+      "namn": "Minior Showers: Orionids 2026",
+      "typ": "event",
+      "typRubrik": "Event",
+      "link": "https://leekduck.com/events/minior-showers-orionids-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/minior-showers-2026.jpg",
+      "start": "2026-10-19T17:00:00.000",
+      "end": "2026-10-24T23:59:00.000",
+      "region": "galler",
+      "sammanfattning": "Särskilda Pokémon dyker upp under eventet. Se listan.",
+      "pokemon": [
+        {
+          "namn": "Minior (Meteor Form)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/poke_capture_0774_000_uk_n_00000000_f_n.png",
+          "shiny": false
+        }
+      ],
+      "bonusar": [],
+      "pokemonRubrik": "Finns att fånga:"
     },
     {
       "id": "max-mondays-2026-10-26",
@@ -2234,6 +2306,28 @@
       "bonusar": []
     },
     {
+      "id": "minior-showers-leonids-2026",
+      "name": "Minior Showers: Leonids 2026",
+      "namn": "Minior Showers: Leonids 2026",
+      "typ": "event",
+      "typRubrik": "Event",
+      "link": "https://leekduck.com/events/minior-showers-leonids-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/minior-showers-2026.jpg",
+      "start": "2026-11-14T17:00:00.000",
+      "end": "2026-11-19T23:59:00.000",
+      "region": "galler",
+      "sammanfattning": "Särskilda Pokémon dyker upp under eventet. Se listan.",
+      "pokemon": [
+        {
+          "namn": "Minior (Meteor Form)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/poke_capture_0774_000_uk_n_00000000_f_n.png",
+          "shiny": false
+        }
+      ],
+      "bonusar": [],
+      "pokemonRubrik": "Finns att fånga:"
+    },
+    {
       "id": "november-communityday2026",
       "name": "November Community Day",
       "namn": "Community Day i november",
@@ -2309,6 +2403,28 @@
       "bonusar": []
     },
     {
+      "id": "minior-showers-geminids-2026",
+      "name": "Minior Showers: Geminids 2026",
+      "namn": "Minior Showers: Geminids 2026",
+      "typ": "event",
+      "typRubrik": "Event",
+      "link": "https://leekduck.com/events/minior-showers-geminids-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/minior-showers-2026.jpg",
+      "start": "2026-12-11T17:00:00.000",
+      "end": "2026-12-16T23:59:00.000",
+      "region": "galler",
+      "sammanfattning": "Särskilda Pokémon dyker upp under eventet. Se listan.",
+      "pokemon": [
+        {
+          "namn": "Minior (Meteor Form)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/poke_capture_0774_000_uk_n_00000000_f_n.png",
+          "shiny": false
+        }
+      ],
+      "bonusar": [],
+      "pokemonRubrik": "Finns att fånga:"
+    },
+    {
       "id": "pokemon-x-adidas-2026",
       "name": "adidas × Pokémon Timed Research",
       "namn": "adidas × Pokémon Timed Research",
@@ -2367,6 +2483,72 @@
       "sammanfattning": null,
       "pokemon": [],
       "bonusar": []
+    },
+    {
+      "id": "minior-showers-eta-aquariids-2027",
+      "name": "Minior Showers: Eta Aquariids 2027",
+      "namn": "Minior Showers: Eta Aquariids 2027",
+      "typ": "event",
+      "typRubrik": "Event",
+      "link": "https://leekduck.com/events/minior-showers-eta-aquariids-2027/",
+      "image": "https://cdn.leekduck.com/assets/img/events/minior-showers-2026.jpg",
+      "start": "2027-05-03T17:00:00.000",
+      "end": "2027-05-08T23:59:00.000",
+      "region": "galler",
+      "sammanfattning": "Särskilda Pokémon dyker upp under eventet. Se listan.",
+      "pokemon": [
+        {
+          "namn": "Minior (Meteor Form)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/poke_capture_0774_000_uk_n_00000000_f_n.png",
+          "shiny": false
+        }
+      ],
+      "bonusar": [],
+      "pokemonRubrik": "Finns att fånga:"
+    },
+    {
+      "id": "minior-showers-southern-delta-aquariids-2027",
+      "name": "Minior Showers: Southern Delta Aquariids 2027",
+      "namn": "Minior Showers: Southern Delta Aquariids 2027",
+      "typ": "event",
+      "typRubrik": "Event",
+      "link": "https://leekduck.com/events/minior-showers-southern-delta-aquariids-2027/",
+      "image": "https://cdn.leekduck.com/assets/img/events/minior-showers-2026.jpg",
+      "start": "2027-07-28T17:00:00.000",
+      "end": "2027-08-02T23:59:00.000",
+      "region": "galler",
+      "sammanfattning": "Särskilda Pokémon dyker upp under eventet. Se listan.",
+      "pokemon": [
+        {
+          "namn": "Minior (Meteor Form)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/poke_capture_0774_000_uk_n_00000000_f_n.png",
+          "shiny": false
+        }
+      ],
+      "bonusar": [],
+      "pokemonRubrik": "Finns att fånga:"
+    },
+    {
+      "id": "minior-showers-perseids-2027",
+      "name": "Minior Showers: Perseids 2027",
+      "namn": "Minior Showers: Perseids 2027",
+      "typ": "event",
+      "typRubrik": "Event",
+      "link": "https://leekduck.com/events/minior-showers-perseids-2027/",
+      "image": "https://cdn.leekduck.com/assets/img/events/minior-showers-2026.jpg",
+      "start": "2027-08-10T17:00:00.000",
+      "end": "2027-08-15T23:59:00.000",
+      "region": "galler",
+      "sammanfattning": "Särskilda Pokémon dyker upp under eventet. Se listan.",
+      "pokemon": [
+        {
+          "namn": "Minior (Meteor Form)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/poke_capture_0774_000_uk_n_00000000_f_n.png",
+          "shiny": false
+        }
+      ],
+      "bonusar": [],
+      "pokemonRubrik": "Finns att fånga:"
     }
   ]
 }
