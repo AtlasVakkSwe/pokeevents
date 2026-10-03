@@ -1,27 +1,6 @@
 {
-  "uppdaterad": "2026-10-02T10:37:09.286Z",
+  "uppdaterad": "2026-10-03T09:57:23.000Z",
   "events": [
-    {
-      "id": "pokemonspotlighthour2026-10-01",
-      "name": "Seedot Spotlight Hour",
-      "namn": "Rampljustimme: Seedot",
-      "typ": "pokemon-spotlight-hour",
-      "typRubrik": "Rampljustimme",
-      "link": "https://leekduck.com/events/pokemonspotlighthour2026-10-01/",
-      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-      "start": "2026-10-01T18:00:00.000",
-      "end": "2026-10-01T19:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Seedot dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbel XP när du fångar.",
-      "pokemon": [
-        {
-          "namn": "Seedot",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_273_00.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
     {
       "id": "patterns-of-the-wild-2026",
       "name": "Patterns of the Wild",
@@ -787,6 +766,21 @@
       "end": "2026-10-24T17:00:00.000",
       "region": "galler",
       "sammanfattning": "Extra många Max-strider.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "pokemon-night-out-2026-twitch-drops",
+      "name": "Twitch Drops for Pokémon Night Out 2026",
+      "namn": "Twitch Drops for Pokémon Night Out 2026",
+      "typ": "twitch-drops",
+      "typRubrik": "Twitch-belöningar",
+      "link": "https://leekduck.com/events/pokemon-night-out-2026-twitch-drops/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-10-24-pokemon-night-out-2026-twitch-drops/pokemon-night-out.jpg",
+      "start": "2026-10-25T02:30:00.000Z",
+      "end": "2026-10-25T06:59:00.000Z",
+      "region": "galler",
+      "sammanfattning": null,
       "pokemon": [],
       "bonusar": []
     },

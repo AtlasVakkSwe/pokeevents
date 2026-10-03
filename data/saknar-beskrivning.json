@@ -1,12 +1,6 @@
 {
-  "uppdaterad": "2026-10-02T10:37:09.286Z",
+  "uppdaterad": "2026-10-03T09:57:23.000Z",
   "events": [
-    {
-      "name": "Patterns of the Wild",
-      "typ": "event",
-      "start": "2026-10-02T10:00:00.000",
-      "link": "https://leekduck.com/events/patterns-of-the-wild-2026/"
-    },
     {
       "name": "Gigantamax Cinderace Max Battle Day",
       "typ": "max-battles",
@@ -60,6 +54,12 @@
       "typ": "max-battles",
       "start": "2026-10-24T14:00:00.000",
       "link": "https://leekduck.com/events/dynamax-uxie-mesprit-azelf-max-battle-day-2026/"
+    },
+    {
+      "name": "Twitch Drops for Pokémon Night Out 2026",
+      "typ": "twitch-drops",
+      "start": "2026-10-25T02:30:00.000Z",
+      "link": "https://leekduck.com/events/pokemon-night-out-2026-twitch-drops/"
     },
     {
       "name": "Minior Showers: Orionids 2026",
