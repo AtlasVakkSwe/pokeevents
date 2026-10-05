@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-10-04T10:40:47.494Z",
+  "uppdaterad": "2026-10-05T11:42:04.514Z",
   "grupper": [
     {
       "rubrik": "5 stjärnor",
@@ -65,23 +65,8 @@
       "rubrik": "1 stjärna",
       "pokemon": [
         {
-          "namn": "Galarian Farfetch'd",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm83.fGALARIAN.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Galarian Zigzagoon",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm263.fGALARIAN.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Combee",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm415.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Honedge",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm679.icon.png",
+          "namn": "Astronaut Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGLASS_HELMET_2026.icon.png",
           "shiny": true
         },
         {

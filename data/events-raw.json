@@ -1,22 +1,6 @@
 {
-  "hamtad": "2026-10-04T10:40:47.494Z",
+  "hamtad": "2026-10-05T11:42:04.514Z",
   "events": [
-    {
-      "eventID": "gigantamax-cinderace-max-battle-day-2026",
-      "name": "Gigantamax Cinderace Max Battle Day",
-      "eventType": "max-battles",
-      "heading": "Max Battles",
-      "link": "https://leekduck.com/events/gigantamax-cinderace-max-battle-day-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-10-03-gigantamax-cinderace-max-battle-day-2026/gigantamax-cinderace-max-battle-day.jpg",
-      "start": "2026-10-03T14:00:00.000",
-      "end": "2026-10-03T17:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "harvest-festival-2026",
       "name": "Harvest Festival 2026: Applin Picking",
