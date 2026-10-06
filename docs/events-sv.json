@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-10-05T11:42:04.514Z",
+  "uppdaterad": "2026-10-06T11:23:55.209Z",
   "events": [
     {
       "id": "harvest-festival-2026",
@@ -849,18 +849,47 @@
     },
     {
       "id": "halloween-2026-part-1",
-      "name": "Halloween 2026 Part I",
-      "namn": "Halloween 2026 Part I",
+      "name": "Pokémon GO Halloween 2026 Part I",
+      "namn": "Pokémon GO Halloween 2026 Part I",
       "typ": "event",
       "typRubrik": "Event",
       "link": "https://leekduck.com/events/halloween-2026-part-1/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-10-27-halloween-2026-part-1/halloween-2026-part-1.jpg",
       "start": "2026-10-27T10:00:00.000",
-      "end": "2026-10-31T20:00:00.000",
+      "end": "2026-11-01T10:00:00.000",
       "region": "galler",
-      "sammanfattning": null,
-      "pokemon": [],
-      "bonusar": []
+      "sammanfattning": "Särskilda Pokémon dyker upp under eventet. Se listan.",
+      "pokemon": [
+        {
+          "namn": "Zubat wearing a top hat",
+          "bild": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-10-27-halloween-2026-part-1/zubat-top-hat.png",
+          "shiny": true
+        },
+        {
+          "namn": "Duskull",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_355_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Piplup wearing a Halloween Mischief costume",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm393.cHALLOWEEN_2021_NOEVOLVE.icon.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": [],
+      "pokemonRubrik": "Finns att fånga:",
+      "raids": [
+        {
+          "namn": "Pikachu wearing a hat and capelet",
+          "bild": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-10-27-halloween-2026-part-1/pikachu-hat-capelet.png",
+          "shiny": true
+        },
+        {
+          "namn": "Sinistea wearing a bow",
+          "bild": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-10-27-halloween-2026-part-1/sinistea-bow.png",
+          "shiny": true
+        }
+      ]
     },
     {
       "id": "go-pass-october-2026",

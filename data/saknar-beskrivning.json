@@ -1,24 +1,6 @@
 {
-  "uppdaterad": "2026-10-05T11:42:04.514Z",
+  "uppdaterad": "2026-10-06T11:23:55.209Z",
   "events": [
-    {
-      "name": "Harvest Festival 2026: Applin Picking",
-      "typ": "event",
-      "start": "2026-09-29T10:00:00.000",
-      "link": "https://leekduck.com/events/harvest-festival-2026/"
-    },
-    {
-      "name": "Harvest Festival: Taken Over",
-      "typ": "event",
-      "start": "2026-10-02T00:00:00.000",
-      "link": "https://leekduck.com/events/harvest-festival-taken-over-2026/"
-    },
-    {
-      "name": "GO Pass: September",
-      "typ": "go-pass",
-      "start": "2026-09-08T10:00:00.000",
-      "link": "https://leekduck.com/events/go-pass-september-2026/"
-    },
     {
       "name": "World Space Week 2026",
       "typ": "event",
@@ -62,7 +44,7 @@
       "link": "https://leekduck.com/events/minior-showers-orionids-2026/"
     },
     {
-      "name": "Halloween 2026 Part I",
+      "name": "Pokémon GO Halloween 2026 Part I",
       "typ": "event",
       "start": "2026-10-27T10:00:00.000",
       "link": "https://leekduck.com/events/halloween-2026-part-1/"
