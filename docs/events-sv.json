@@ -1,69 +1,6 @@
 {
-  "uppdaterad": "2026-10-07T11:12:14.950Z",
+  "uppdaterad": "2026-10-08T11:29:51.398Z",
   "events": [
-    {
-      "id": "shadow-thundurus-incarnate-forme-in-shadow-raids-september-2026",
-      "name": "Shadow Thundurus (Incarnate Forme) in Shadow Raids",
-      "namn": "Shadow Thundurus i Shadow-raider",
-      "typ": "raid-battles",
-      "typRubrik": "Raider",
-      "link": "https://leekduck.com/events/shadow-thundurus-incarnate-forme-in-shadow-raids-september-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
-      "start": "2026-09-09T06:00:00.000",
-      "end": "2026-10-06T22:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Thundurus (Incarnate) finns i raid. Kan vara shiny! ✨",
-      "pokemon": [
-        {
-          "namn": "Thundurus (Incarnate)",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_642_11.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
-    {
-      "id": "mega-victreebel-in-mega-raids-september-2026",
-      "name": "Mega Victreebel in Mega Raids",
-      "namn": "Mega Victreebel i Mega-raider",
-      "typ": "raid-battles",
-      "typRubrik": "Raider",
-      "link": "https://leekduck.com/events/mega-victreebel-in-mega-raids-september-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
-      "start": "2026-09-30T06:00:00.000",
-      "end": "2026-10-06T22:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Mega Victreebel finns i raid. Kan vara shiny! ✨",
-      "pokemon": [
-        {
-          "namn": "Mega Victreebel",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm71.fMEGA.icon.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
-    {
-      "id": "xerneas-in-5-star-raid-battles-september-2026",
-      "name": "Xerneas in 5-star Raid Battles",
-      "namn": "Xerneas i 5-stjärniga raider",
-      "typ": "raid-battles",
-      "typRubrik": "Raider",
-      "link": "https://leekduck.com/events/xerneas-in-5-star-raid-battles-september-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/xerneas-woods.jpg",
-      "start": "2026-09-30T06:00:00.000",
-      "end": "2026-10-06T22:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Xerneas finns i raid. Kan vara shiny! ✨",
-      "pokemon": [
-        {
-          "namn": "Xerneas",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_716_00.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
     {
       "id": "raidhour20261007",
       "name": "Yveltal Raid Hour",
@@ -1208,6 +1145,21 @@
           "shiny": true
         },
         {
+          "namn": "Zacian (Crowned Sword)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm888.fCROWNED_SWORD.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Zamazenta (Crowned Shield)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm889.fCROWNED_SHIELD.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Gigantamax Duraludon",
+          "bild": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-06-pokemon-go-wild-area-2026-sendai-japan/gigantamax-duraludon.png",
+          "shiny": true
+        },
+        {
           "namn": "Dialga",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_483_00.png",
           "shiny": true
@@ -1627,6 +1579,21 @@
           "shiny": true
         },
         {
+          "namn": "Zacian (Crowned Sword)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm888.fCROWNED_SWORD.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Zamazenta (Crowned Shield)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm889.fCROWNED_SHIELD.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Gigantamax Duraludon",
+          "bild": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-06-pokemon-go-wild-area-2026-mexico-city/gigantamax-duraludon.png",
+          "shiny": true
+        },
+        {
           "namn": "Dialga",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_483_00.png",
           "shiny": true
@@ -2013,6 +1980,31 @@
         {
           "namn": "Modern Jacket Machamp",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_068_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Zekrom",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_644_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Kyurem (White)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_646_12.png",
+          "shiny": true
+        },
+        {
+          "namn": "Reshiram",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_643_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Kyurem (Black)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_646_13.png",
+          "shiny": true
+        },
+        {
+          "namn": "Gigantamax Duraludon",
+          "bild": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-14-pokemon-go-wild-area-2026-global/gigantamax-duraludon.png",
           "shiny": true
         },
         {

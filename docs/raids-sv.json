@@ -1,17 +1,17 @@
 {
-  "uppdaterad": "2026-10-07T11:12:14.950Z",
+  "uppdaterad": "2026-10-08T11:29:51.398Z",
   "grupper": [
     {
       "rubrik": "5 stjärnor",
       "pokemon": [
         {
-          "namn": "Xerneas",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm716.icon.png",
+          "namn": "Yveltal",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm717.icon.png",
           "shiny": true
         },
         {
-          "namn": "Shadow Thundurus (Incarnate)",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm642.fINCARNATE.icon.png",
+          "namn": "Shadow Landorus (Incarnate)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm645.fINCARNATE.icon.png",
           "shiny": true
         }
       ]
@@ -20,8 +20,8 @@
       "rubrik": "Mega",
       "pokemon": [
         {
-          "namn": "Mega Victreebel",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm71.fMEGA.icon.png",
+          "namn": "Mega Blastoise",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm9.fMEGA.icon.png",
           "shiny": true
         }
       ]
@@ -30,33 +30,33 @@
       "rubrik": "3 stjärnor",
       "pokemon": [
         {
-          "namn": "Miltank",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm241.icon.png",
+          "namn": "Starmie",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm121.icon.png",
           "shiny": true
         },
         {
-          "namn": "Hisuian Lilligant",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm549.fHISUIAN.icon.png",
+          "namn": "Umbreon",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm197.icon.png",
           "shiny": true
         },
         {
-          "namn": "Dondozo",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm977.icon.png",
+          "namn": "Gothitelle",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm576.icon.png",
           "shiny": true
         },
         {
-          "namn": "Shadow Alolan Sandslash",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm28.fALOLA.icon.png",
+          "namn": "Shadow Primeape",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm57.icon.png",
           "shiny": true
         },
         {
-          "namn": "Shadow Quagsire",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm195.icon.png",
+          "namn": "Shadow Kirlia",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm281.icon.png",
           "shiny": true
         },
         {
-          "namn": "Shadow Lampent",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm608.icon.png",
+          "namn": "Shadow Drapion",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm452.icon.png",
           "shiny": true
         }
       ]
@@ -70,23 +70,23 @@
           "shiny": true
         },
         {
-          "namn": "Shadow Machop",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm66.icon.png",
+          "namn": "Shadow Gastly",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm92.icon.png",
           "shiny": true
         },
         {
-          "namn": "Shadow Bellsprout",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm69.icon.png",
+          "namn": "Shadow Totodile",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm158.icon.png",
           "shiny": true
         },
         {
-          "namn": "Shadow Torchic",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm255.icon.png",
+          "namn": "Shadow Shieldon",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm410.icon.png",
           "shiny": true
         },
         {
-          "namn": "Shadow Bagon",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm371.icon.png",
+          "namn": "Shadow Gible",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm443.icon.png",
           "shiny": true
         }
       ]
