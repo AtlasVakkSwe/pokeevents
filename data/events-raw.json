@@ -1,22 +1,6 @@
 {
-  "hamtad": "2026-10-08T11:29:51.398Z",
+  "hamtad": "2026-10-09T11:25:40.030Z",
   "events": [
-    {
-      "eventID": "raidhour20261007",
-      "name": "Yveltal Raid Hour",
-      "eventType": "raid-hour",
-      "heading": "Raid Hour",
-      "link": "https://leekduck.com/events/raidhour20261007/",
-      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-      "start": "2026-10-07T18:00:00.000",
-      "end": "2026-10-07T19:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "pokemonspotlighthour2026-10-08",
       "name": "Elgyem Spotlight Hour",
@@ -1019,16 +1003,16 @@
     },
     {
       "eventID": "halloween-2026-part-2",
-      "name": "Halloween 2026 Part II",
+      "name": "Pokémon GO Halloween 2026 Part II",
       "eventType": "event",
       "heading": "Event",
       "link": "https://leekduck.com/events/halloween-2026-part-2/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-01-halloween-2026-part-2/halloween-2026-part-2.jpg",
       "start": "2026-11-01T10:00:00.000",
       "end": "2026-11-05T20:00:00.000",
       "extraData": {
         "generic": {
-          "hasSpawns": false,
+          "hasSpawns": true,
           "hasFieldResearchTasks": false
         }
       }

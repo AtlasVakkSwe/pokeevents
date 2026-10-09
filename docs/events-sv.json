@@ -1,21 +1,6 @@
 {
-  "uppdaterad": "2026-10-08T11:29:51.398Z",
+  "uppdaterad": "2026-10-09T11:25:40.030Z",
   "events": [
-    {
-      "id": "raidhour20261007",
-      "name": "Yveltal Raid Hour",
-      "namn": "Raidtimme: Yveltal",
-      "typ": "raid-hour",
-      "typRubrik": "Raidtimme",
-      "link": "https://leekduck.com/events/raidhour20261007/",
-      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-      "start": "2026-10-07T18:00:00.000",
-      "end": "2026-10-07T19:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Raidtimme! Extra många raider i en timme.",
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "pokemonspotlighthour2026-10-08",
       "name": "Elgyem Spotlight Hour",
@@ -724,18 +709,52 @@
     },
     {
       "id": "halloween-2026-part-2",
-      "name": "Halloween 2026 Part II",
-      "namn": "Halloween 2026 Part II",
+      "name": "Pokémon GO Halloween 2026 Part II",
+      "namn": "Pokémon GO Halloween 2026 Part II",
       "typ": "event",
       "typRubrik": "Event",
       "link": "https://leekduck.com/events/halloween-2026-part-2/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-01-halloween-2026-part-2/halloween-2026-part-2.jpg",
       "start": "2026-11-01T10:00:00.000",
       "end": "2026-11-05T20:00:00.000",
       "region": "galler",
-      "sammanfattning": null,
-      "pokemon": [],
-      "bonusar": []
+      "sammanfattning": "Särskilda Pokémon dyker upp under eventet. Se listan.",
+      "pokemon": [
+        {
+          "namn": "Litwick",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_607_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Rowlet wearing a Pokémon Halloween costume",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm722.cFALL_2024.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Greavard",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm971.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Gengar wearing a Spooky Festival costume",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm94.cFALL_2022_NOEVOLVE.icon.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": [],
+      "pokemonRubrik": "Finns att fånga:",
+      "raids": [
+        {
+          "namn": "Pikachu wearing a hat and capelet",
+          "bild": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-01-halloween-2026-part-2/pikachu-hat-capelet.png",
+          "shiny": true
+        },
+        {
+          "namn": "Sinistea wearing a bow",
+          "bild": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-01-halloween-2026-part-2/sinistea-bow.png",
+          "shiny": true
+        }
+      ]
     },
     {
       "id": "pokemon-go-wild-area-2026-sendai-japan",
