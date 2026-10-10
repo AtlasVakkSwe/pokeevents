@@ -1,27 +1,6 @@
 {
-  "uppdaterad": "2026-10-09T11:25:40.030Z",
+  "uppdaterad": "2026-10-10T10:43:07.018Z",
   "events": [
-    {
-      "id": "pokemonspotlighthour2026-10-08",
-      "name": "Elgyem Spotlight Hour",
-      "namn": "Rampljustimme: Elgyem",
-      "typ": "pokemon-spotlight-hour",
-      "typRubrik": "Rampljustimme",
-      "link": "https://leekduck.com/events/pokemonspotlighthour2026-10-08/",
-      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-      "start": "2026-10-08T18:00:00.000",
-      "end": "2026-10-08T19:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Elgyem dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbelt godis när du fångar.",
-      "pokemon": [
-        {
-          "namn": "Elgyem",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_605_00.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
     {
       "id": "october-communityday2026",
       "name": "Zorua Community Day",

@@ -1,35 +1,6 @@
 {
-  "hamtad": "2026-10-09T11:25:40.030Z",
+  "hamtad": "2026-10-10T10:43:07.018Z",
   "events": [
-    {
-      "eventID": "pokemonspotlighthour2026-10-08",
-      "name": "Elgyem Spotlight Hour",
-      "eventType": "pokemon-spotlight-hour",
-      "heading": "Pokémon Spotlight Hour",
-      "link": "https://leekduck.com/events/pokemonspotlighthour2026-10-08/",
-      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-      "start": "2026-10-08T18:00:00.000",
-      "end": "2026-10-08T19:00:00.000",
-      "extraData": {
-        "spotlight": {
-          "name": "Elgyem",
-          "canBeShiny": true,
-          "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_605_00.png",
-          "bonus": "2× Catch Candy",
-          "list": [
-            {
-              "name": "Elgyem",
-              "canBeShiny": true,
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_605_00.png"
-            }
-          ]
-        },
-        "generic": {
-          "hasSpawns": true,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "october-communityday2026",
       "name": "Zorua Community Day",
@@ -97,7 +68,7 @@
           ],
           "specialresearch": [
             {
-              "name": "Zorua Community Day (1/3)",
+              "name": "Trickster’s Trail (1/3)",
               "step": 1,
               "tasks": [
                 {
@@ -159,7 +130,7 @@
               ]
             },
             {
-              "name": "Zorua Community Day (2/3)",
+              "name": "Trickster’s Trail (2/3)",
               "step": 2,
               "tasks": [
                 {
@@ -221,7 +192,7 @@
               ]
             },
             {
-              "name": "Zorua Community Day (3/3)",
+              "name": "Trickster’s Trail (3/3)",
               "step": 3,
               "tasks": [
                 {
