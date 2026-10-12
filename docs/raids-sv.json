@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-10-11T10:56:04.791Z",
+  "uppdaterad": "2026-10-12T12:15:48.566Z",
   "grupper": [
     {
       "rubrik": "5 stjärnor",
@@ -65,8 +65,23 @@
       "rubrik": "1 stjärna",
       "pokemon": [
         {
-          "namn": "Astronaut Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGLASS_HELMET_2026.icon.png",
+          "namn": "Clefairy",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm35.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Teddiursa",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm216.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Elgyem",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm605.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Amaura",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm698.icon.png",
           "shiny": true
         },
         {
