@@ -1,21 +1,6 @@
 {
-  "uppdaterad": "2026-10-12T12:15:48.566Z",
+  "uppdaterad": "2026-10-13T11:59:33.585Z",
   "events": [
-    {
-      "id": "max-mondays-2026-10-12",
-      "name": "Dynamax Rookidee during Max Monday",
-      "namn": "Max-måndag: Rookidee",
-      "typ": "max-mondays",
-      "typRubrik": "Max-måndag",
-      "link": "https://leekduck.com/events/max-mondays-2026-10-12/",
-      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-      "start": "2026-10-12T06:00:00.000",
-      "end": "2026-10-12T21:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Rookidee i Max-strider hela dagen.",
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-2",
       "name": "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition | Twilight Trails",
@@ -148,8 +133,18 @@
           "shiny": true
         },
         {
+          "namn": "Stantler",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_234_00.png",
+          "shiny": true
+        },
+        {
           "namn": "Electrike",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_309_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Cacnea",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_331_00.png",
           "shiny": true
         },
         {
