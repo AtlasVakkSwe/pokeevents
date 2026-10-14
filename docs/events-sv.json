@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-10-13T11:59:33.585Z",
+  "uppdaterad": "2026-10-14T09:37:28.212Z",
   "events": [
     {
       "id": "gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-2",
@@ -485,13 +485,13 @@
       "bonusar": []
     },
     {
-      "id": "super-mega-raid-day-october-2026",
-      "name": "Super Mega Raid Day",
-      "namn": "Raiddag",
+      "id": "chandelure-super-mega-raid-day-2026",
+      "name": "Chandelure Super Mega Raid Day",
+      "namn": "Raiddag: Chandelure",
       "typ": "raid-day",
       "typRubrik": "Raiddag",
-      "link": "https://leekduck.com/events/super-mega-raid-day-october-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "link": "https://leekduck.com/events/chandelure-super-mega-raid-day-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/chandelure-super-mega-raid-day-2026.jpg",
       "start": "2026-10-31T14:00:00.000",
       "end": "2026-10-31T17:00:00.000",
       "region": "galler",
