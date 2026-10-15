@@ -1,88 +1,6 @@
 {
-  "hamtad": "2026-10-14T09:37:28.212Z",
+  "hamtad": "2026-10-15T09:15:27.406Z",
   "events": [
-    {
-      "eventID": "gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-2",
-      "name": "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition | Twilight Trails",
-      "eventType": "go-battle-league",
-      "heading": "GO Battle League",
-      "link": "https://leekduck.com/events/gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-2/",
-      "image": "https://cdn.leekduck.com/assets/img/events/go-battle-league-season-28-twilight-trails.png",
-      "start": "2026-10-06T20:00:00.000Z",
-      "end": "2026-10-13T20:00:00.000Z",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "mega-blastoise-in-mega-raids-october-2026",
-      "name": "Mega Blastoise in Mega Raids",
-      "eventType": "raid-battles",
-      "heading": "Raid Battles",
-      "link": "https://leekduck.com/events/mega-blastoise-in-mega-raids-october-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
-      "start": "2026-10-07T06:00:00.000",
-      "end": "2026-10-13T22:00:00.000",
-      "extraData": {
-        "raidbattles": {
-          "bosses": [
-            {
-              "name": "Mega Blastoise",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_009_51.png",
-              "canBeShiny": true
-            }
-          ],
-          "shinies": [
-            {
-              "name": "Blastoise",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_009_00_shiny.png"
-            },
-            {
-              "name": "Mega Blastoise",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_009_51_shiny.png"
-            }
-          ]
-        },
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "yveltal-in-5-star-raid-battles-october-2026",
-      "name": "Yveltal in 5-star Raid Battles",
-      "eventType": "raid-battles",
-      "heading": "Raid Battles",
-      "link": "https://leekduck.com/events/yveltal-in-5-star-raid-battles-october-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/yveltal-2.jpg",
-      "start": "2026-10-07T06:00:00.000",
-      "end": "2026-10-13T22:00:00.000",
-      "extraData": {
-        "raidbattles": {
-          "bosses": [
-            {
-              "name": "Yveltal",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_717_00.png",
-              "canBeShiny": true
-            }
-          ],
-          "shinies": [
-            {
-              "name": "Yveltal",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_717_00_shiny.png"
-            }
-          ]
-        },
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "raidhour20261014",
       "name": "Dialga Raid Hour",
@@ -360,6 +278,22 @@
       "image": "https://cdn.leekduck.com/assets/img/events/minior-showers-2026.jpg",
       "start": "2026-10-19T17:00:00.000",
       "end": "2026-10-24T23:59:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": true,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "pokemon-go-city-safari-boston-2026-rescheduled",
+      "name": "Pokémon GO City Safari: Boston (Rescheduled)",
+      "eventType": "city-safari",
+      "heading": "City Safari",
+      "link": "https://leekduck.com/events/pokemon-go-city-safari-boston-2026-rescheduled/",
+      "image": "https://cdn.leekduck.com/assets/img/events/city-safari-boston-2026.jpg",
+      "start": "2026-10-24T10:00:00.000",
+      "end": "2026-10-25T18:00:00.000",
       "extraData": {
         "generic": {
           "hasSpawns": true,
@@ -741,6 +675,22 @@
         "generic": {
           "hasSpawns": false,
           "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "into-the-wild-2026",
+      "name": "Into the Wild",
+      "eventType": "event",
+      "heading": "Event",
+      "link": "https://leekduck.com/events/into-the-wild-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-09-into-the-wild-2026/into-the-wild-2026.jpg",
+      "start": "2026-11-09T10:00:00.000",
+      "end": "2026-11-13T20:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": true,
+          "hasFieldResearchTasks": true
         }
       }
     },

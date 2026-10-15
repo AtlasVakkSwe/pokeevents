@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-10-14T09:37:28.212Z",
+  "uppdaterad": "2026-10-15T09:15:27.406Z",
   "events": [
     {
       "name": "Sandile Hatch Day",
@@ -38,6 +38,12 @@
       "link": "https://leekduck.com/events/minior-showers-orionids-2026/"
     },
     {
+      "name": "Pokémon GO City Safari: Boston (Rescheduled)",
+      "typ": "city-safari",
+      "start": "2026-10-24T10:00:00.000",
+      "link": "https://leekduck.com/events/pokemon-go-city-safari-boston-2026-rescheduled/"
+    },
+    {
       "name": "Pokémon GO Halloween 2026 Part I",
       "typ": "event",
       "start": "2026-10-27T10:00:00.000",
@@ -66,6 +72,12 @@
       "typ": "wild-area",
       "start": "2026-11-06T16:00:00.000Z",
       "link": "https://leekduck.com/events/pokemon-go-wild-area-2026-mexico-city/"
+    },
+    {
+      "name": "Into the Wild",
+      "typ": "event",
+      "start": "2026-11-09T10:00:00.000",
+      "link": "https://leekduck.com/events/into-the-wild-2026/"
     },
     {
       "name": "Pokémon GO Wild Area 2026: Global",

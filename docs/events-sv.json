@@ -1,63 +1,6 @@
 {
-  "uppdaterad": "2026-10-14T09:37:28.212Z",
+  "uppdaterad": "2026-10-15T09:15:27.406Z",
   "events": [
-    {
-      "id": "gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-2",
-      "name": "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition | Twilight Trails",
-      "namn": "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition",
-      "typ": "go-battle-league",
-      "typRubrik": "GO Battle League",
-      "link": "https://leekduck.com/events/gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-2/",
-      "image": "https://cdn.leekduck.com/assets/img/events/go-battle-league-season-28-twilight-trails.png",
-      "start": "2026-10-06T20:00:00.000Z",
-      "end": "2026-10-13T20:00:00.000Z",
-      "region": "galler",
-      "sammanfattning": "Nytt i GO Battle League (strider mot andra spelare).",
-      "pokemon": [],
-      "bonusar": []
-    },
-    {
-      "id": "mega-blastoise-in-mega-raids-october-2026",
-      "name": "Mega Blastoise in Mega Raids",
-      "namn": "Mega Blastoise i Mega-raider",
-      "typ": "raid-battles",
-      "typRubrik": "Raider",
-      "link": "https://leekduck.com/events/mega-blastoise-in-mega-raids-october-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
-      "start": "2026-10-07T06:00:00.000",
-      "end": "2026-10-13T22:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Mega Blastoise finns i raid. Kan vara shiny! ✨",
-      "pokemon": [
-        {
-          "namn": "Mega Blastoise",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_009_51.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
-    {
-      "id": "yveltal-in-5-star-raid-battles-october-2026",
-      "name": "Yveltal in 5-star Raid Battles",
-      "namn": "Yveltal i 5-stjärniga raider",
-      "typ": "raid-battles",
-      "typRubrik": "Raider",
-      "link": "https://leekduck.com/events/yveltal-in-5-star-raid-battles-october-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/yveltal-2.jpg",
-      "start": "2026-10-07T06:00:00.000",
-      "end": "2026-10-13T22:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Yveltal finns i raid. Kan vara shiny! ✨",
-      "pokemon": [
-        {
-          "namn": "Yveltal",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_717_00.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
     {
       "id": "raidhour20261014",
       "name": "Dialga Raid Hour",
@@ -365,6 +308,163 @@
         {
           "namn": "Minior (Meteor Form)",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/poke_capture_0774_000_uk_n_00000000_f_n.png",
+          "shiny": false
+        }
+      ],
+      "bonusar": [],
+      "pokemonRubrik": "Finns att fånga:"
+    },
+    {
+      "id": "pokemon-go-city-safari-boston-2026-rescheduled",
+      "name": "Pokémon GO City Safari: Boston (Rescheduled)",
+      "namn": "Pokémon GO City Safari: Boston",
+      "typ": "city-safari",
+      "typRubrik": "City Safari",
+      "link": "https://leekduck.com/events/pokemon-go-city-safari-boston-2026-rescheduled/",
+      "image": "https://cdn.leekduck.com/assets/img/events/city-safari-boston-2026.jpg",
+      "start": "2026-10-24T10:00:00.000",
+      "end": "2026-10-25T18:00:00.000",
+      "region": "osakert",
+      "sammanfattning": null,
+      "pokemon": [
+        {
+          "namn": "Jigglypuff",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_039_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Abra",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_063_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Slowpoke",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_079_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Totodile",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_158_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Mareep",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_179_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Marill",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_183_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Hoppip",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_187_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Unown B",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_201_12.png",
+          "shiny": true
+        },
+        {
+          "namn": "Unown L",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_201_22.png",
+          "shiny": true
+        },
+        {
+          "namn": "Unown M",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_201_23.png",
+          "shiny": true
+        },
+        {
+          "namn": "Unown R",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_201_28.png",
+          "shiny": true
+        },
+        {
+          "namn": "Stantler",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_234_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Miltank",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_241_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Wingull",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_278_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Baltoy",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_343_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Buizel",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_418_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Lillipup",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_506_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Petilil",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_548_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Yamask",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_562_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Gothita",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_574_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Orange Flower Flabébé",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm669.fORANGE.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Binacle",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_688_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Clauncher",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_692_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Hawlucha",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_701_00.png",
+          "shiny": false
+        },
+        {
+          "namn": "Mudbray",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm749.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Oranguru",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm765.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Komala",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm775.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Flamigo",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm973.icon.png",
           "shiny": false
         }
       ],
@@ -1567,6 +1667,90 @@
       "sammanfattning": "Nytt i GO Battle League (strider mot andra spelare).",
       "pokemon": [],
       "bonusar": []
+    },
+    {
+      "id": "into-the-wild-2026",
+      "name": "Into the Wild",
+      "namn": "Into the Wild",
+      "typ": "event",
+      "typRubrik": "Event",
+      "link": "https://leekduck.com/events/into-the-wild-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-09-into-the-wild-2026/into-the-wild-2026.jpg",
+      "start": "2026-11-09T10:00:00.000",
+      "end": "2026-11-13T20:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Särskilda Pokémon dyker upp under eventet. Se listan.",
+      "pokemon": [
+        {
+          "namn": "Magnemite",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_081_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Noibat",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_714_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Togedemaru",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm777.icon.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": [],
+      "pokemonRubrik": "Finns att fånga:",
+      "raids": [
+        {
+          "namn": "Druddigon",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_621_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Orthworm",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm968.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Zacian (Crowned Sword)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm888.fCROWNED_SWORD.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Zamazenta (Crowned Shield)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm889.fCROWNED_SHIELD.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Ralts",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_280_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Machop",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_066_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Registeel",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_379_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Regidrago",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm895.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Latias",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_380_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Latios",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_381_00.png",
+          "shiny": true
+        }
+      ]
     },
     {
       "id": "pokemon-go-wild-area-2026-global",
