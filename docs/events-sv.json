@@ -1,21 +1,6 @@
 {
-  "uppdaterad": "2026-10-15T09:15:27.406Z",
+  "uppdaterad": "2026-10-16T09:09:05.284Z",
   "events": [
-    {
-      "id": "raidhour20261014",
-      "name": "Dialga Raid Hour",
-      "namn": "Raidtimme: Dialga",
-      "typ": "raid-hour",
-      "typRubrik": "Raidtimme",
-      "link": "https://leekduck.com/events/raidhour20261014/",
-      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-      "start": "2026-10-14T18:00:00.000",
-      "end": "2026-10-14T19:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Raidtimme! Extra många raider i en timme.",
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "pokemonspotlighthour2026-10-15",
       "name": "Stufful Spotlight Hour",
