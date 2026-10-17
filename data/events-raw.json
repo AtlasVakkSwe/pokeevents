@@ -1,35 +1,6 @@
 {
-  "hamtad": "2026-10-16T09:09:05.284Z",
+  "hamtad": "2026-10-17T08:41:29.150Z",
   "events": [
-    {
-      "eventID": "pokemonspotlighthour2026-10-15",
-      "name": "Stufful Spotlight Hour",
-      "eventType": "pokemon-spotlight-hour",
-      "heading": "Pokémon Spotlight Hour",
-      "link": "https://leekduck.com/events/pokemonspotlighthour2026-10-15/",
-      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-      "start": "2026-10-15T18:00:00.000",
-      "end": "2026-10-15T19:00:00.000",
-      "extraData": {
-        "spotlight": {
-          "name": "Stufful",
-          "canBeShiny": true,
-          "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm759.icon.png",
-          "bonus": "2× Transfer Candy",
-          "list": [
-            {
-              "name": "Stufful",
-              "canBeShiny": true,
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm759.icon.png"
-            }
-          ]
-        },
-        "generic": {
-          "hasSpawns": true,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "sandile-hatch-day-2026",
       "name": "Sandile Hatch Day",

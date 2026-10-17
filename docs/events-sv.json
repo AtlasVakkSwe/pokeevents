@@ -1,27 +1,6 @@
 {
-  "uppdaterad": "2026-10-16T09:09:05.284Z",
+  "uppdaterad": "2026-10-17T08:41:29.150Z",
   "events": [
-    {
-      "id": "pokemonspotlighthour2026-10-15",
-      "name": "Stufful Spotlight Hour",
-      "namn": "Rampljustimme: Stufful",
-      "typ": "pokemon-spotlight-hour",
-      "typRubrik": "Rampljustimme",
-      "link": "https://leekduck.com/events/pokemonspotlighthour2026-10-15/",
-      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-      "start": "2026-10-15T18:00:00.000",
-      "end": "2026-10-15T19:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Stufful dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbelt godis när du skickar iväg Pokémon.",
-      "pokemon": [
-        {
-          "namn": "Stufful",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm759.icon.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
     {
       "id": "sandile-hatch-day-2026",
       "name": "Sandile Hatch Day",
