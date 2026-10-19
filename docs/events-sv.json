@@ -1,21 +1,6 @@
 {
-  "uppdaterad": "2026-10-18T08:57:32.477Z",
+  "uppdaterad": "2026-10-19T10:06:17.850Z",
   "events": [
-    {
-      "id": "sandile-hatch-day-2026",
-      "name": "Sandile Hatch Day",
-      "namn": "Sandile Hatch Day",
-      "typ": "event",
-      "typRubrik": "Event",
-      "link": "https://leekduck.com/events/sandile-hatch-day-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-10-17-sandile-hatch-day-2026/sandile-hatch-day-2026.jpg",
-      "start": "2026-10-17T11:00:00.000",
-      "end": "2026-10-17T17:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Kläckdag! Kläck ägg och få en särskild Pokémon.",
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "fall-marathon-buddy-trek-2026",
       "name": "Fall Marathon: Buddy Trek",

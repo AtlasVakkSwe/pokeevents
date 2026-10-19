@@ -1,22 +1,6 @@
 {
-  "hamtad": "2026-10-18T08:57:32.477Z",
+  "hamtad": "2026-10-19T10:06:17.850Z",
   "events": [
-    {
-      "eventID": "sandile-hatch-day-2026",
-      "name": "Sandile Hatch Day",
-      "eventType": "event",
-      "heading": "Event",
-      "link": "https://leekduck.com/events/sandile-hatch-day-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-10-17-sandile-hatch-day-2026/sandile-hatch-day-2026.jpg",
-      "start": "2026-10-17T11:00:00.000",
-      "end": "2026-10-17T17:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "fall-marathon-buddy-trek-2026",
       "name": "Fall Marathon: Buddy Trek",
