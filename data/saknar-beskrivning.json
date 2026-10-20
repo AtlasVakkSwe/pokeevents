@@ -1,12 +1,6 @@
 {
-  "uppdaterad": "2026-10-19T10:06:17.850Z",
+  "uppdaterad": "2026-10-20T09:32:09.475Z",
   "events": [
-    {
-      "name": "Fall Marathon: Buddy Trek",
-      "typ": "event",
-      "start": "2026-10-13T10:00:00.000",
-      "link": "https://leekduck.com/events/fall-marathon-buddy-trek-2026/"
-    },
     {
       "name": "Pokémon TCG: 30th Celebration",
       "typ": "event",
@@ -24,6 +18,12 @@
       "typ": "twitch-drops",
       "start": "2026-10-25T02:30:00.000Z",
       "link": "https://leekduck.com/events/pokemon-night-out-2026-twitch-drops/"
+    },
+    {
+      "name": "Pokémon Night Out 2026 - Los Angeles",
+      "typ": "event",
+      "start": "2026-10-25T02:30:00.000Z",
+      "link": "https://leekduck.com/events/pokemon-night-out-los-angeles-2026/"
     },
     {
       "name": "Minior Showers: Orionids 2026",
@@ -68,6 +68,12 @@
       "link": "https://leekduck.com/events/pokemon-go-wild-area-2026-mexico-city/"
     },
     {
+      "name": "Pokémon Night Out 2026 - London",
+      "typ": "event",
+      "start": "2026-11-10T18:00:00.000Z",
+      "link": "https://leekduck.com/events/pokemon-night-out-london-2026/"
+    },
+    {
       "name": "Into the Wild",
       "typ": "event",
       "start": "2026-11-09T10:00:00.000",
@@ -84,6 +90,18 @@
       "typ": "event",
       "start": "2026-11-14T17:00:00.000",
       "link": "https://leekduck.com/events/minior-showers-leonids-2026/"
+    },
+    {
+      "name": "Dynamax Trails",
+      "typ": "event",
+      "start": "2026-11-16T10:00:00.000",
+      "link": "https://leekduck.com/events/dynamax-trails-2026/"
+    },
+    {
+      "name": "Twilight Wishes",
+      "typ": "event",
+      "start": "2026-11-24T10:00:00.000",
+      "link": "https://leekduck.com/events/twilight-wishes-2026/"
     },
     {
       "name": "Twilight Trails",

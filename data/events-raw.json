@@ -1,5 +1,5 @@
 {
-  "hamtad": "2026-10-19T10:06:17.850Z",
+  "hamtad": "2026-10-20T09:32:09.475Z",
   "events": [
     {
       "eventID": "fall-marathon-buddy-trek-2026",
@@ -204,6 +204,22 @@
       "extraData": {
         "generic": {
           "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "pokemon-night-out-los-angeles-2026",
+      "name": "Pokémon Night Out 2026 - Los Angeles",
+      "eventType": "event",
+      "heading": "Event",
+      "link": "https://leekduck.com/events/pokemon-night-out-los-angeles-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/pokemon-night-out-2026.jpg",
+      "start": "2026-10-25T02:30:00.000Z",
+      "end": "2026-10-25T06:59:59.000Z",
+      "extraData": {
+        "generic": {
+          "hasSpawns": true,
           "hasFieldResearchTasks": false
         }
       }
@@ -425,6 +441,22 @@
       }
     },
     {
+      "eventID": "max-mondays-2026-11-02",
+      "name": "Dynamax Machop during Max Monday",
+      "eventType": "max-mondays",
+      "heading": "Max Mondays",
+      "link": "https://leekduck.com/events/max-mondays-2026-11-02/",
+      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
+      "start": "2026-11-02T06:00:00.000",
+      "end": "2026-11-02T21:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
       "eventID": "go-pass-october-2026",
       "name": "GO Pass: October",
       "eventType": "go-pass",
@@ -519,36 +551,46 @@
       }
     },
     {
-      "eventID": "mega-sableye-in-mega-raids-october-2026",
-      "name": "Mega Sableye in Mega Raids",
-      "eventType": "raid-battles",
-      "heading": "Raid Battles",
-      "link": "https://leekduck.com/events/mega-sableye-in-mega-raids-october-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
-      "start": "2026-10-28T06:00:00.000",
-      "end": "2026-11-03T22:00:00.000",
+      "eventID": "raidhour20261104",
+      "name": "Giratina (Altered Forme) Raid Hour",
+      "eventType": "raid-hour",
+      "heading": "Raid Hour",
+      "link": "https://leekduck.com/events/raidhour20261104/",
+      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
+      "start": "2026-11-04T18:00:00.000",
+      "end": "2026-11-04T19:00:00.000",
       "extraData": {
-        "raidbattles": {
-          "bosses": [
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "pokemonspotlighthour2026-11-05",
+      "name": "Teddiursa wearing a witch hat Spotlight Hour",
+      "eventType": "pokemon-spotlight-hour",
+      "heading": "Pokémon Spotlight Hour",
+      "link": "https://leekduck.com/events/pokemonspotlighthour2026-11-05/",
+      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
+      "start": "2026-11-05T18:00:00.000",
+      "end": "2026-11-05T19:00:00.000",
+      "extraData": {
+        "spotlight": {
+          "name": "Teddiursa wearing a witch hat",
+          "canBeShiny": true,
+          "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm216.cHALLOWEEN_2025.icon.png",
+          "bonus": "2× Evolution XP",
+          "list": [
             {
-              "name": "Mega Sableye",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_302_51.png",
-              "canBeShiny": true
-            }
-          ],
-          "shinies": [
-            {
-              "name": "Sableye",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_302_00_shiny.png"
-            },
-            {
-              "name": "Mega Sableye",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_302_51_shiny.png"
+              "name": "Teddiursa wearing a witch hat",
+              "canBeShiny": true,
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm216.cHALLOWEEN_2025.icon.png"
             }
           ]
         },
         "generic": {
-          "hasSpawns": false,
+          "hasSpawns": true,
           "hasFieldResearchTasks": false
         }
       }
@@ -602,6 +644,98 @@
       }
     },
     {
+      "eventID": "mega-sableye-in-mega-raids-october-2026",
+      "name": "Mega Sableye in Mega Raids",
+      "eventType": "raid-battles",
+      "heading": "Raid Battles",
+      "link": "https://leekduck.com/events/mega-sableye-in-mega-raids-october-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
+      "start": "2026-10-28T06:00:00.000",
+      "end": "2026-11-08T22:00:00.000",
+      "extraData": {
+        "raidbattles": {
+          "bosses": [
+            {
+              "name": "Mega Sableye",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_302_51.png",
+              "canBeShiny": true
+            }
+          ],
+          "shinies": [
+            {
+              "name": "Sableye",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_302_00_shiny.png"
+            },
+            {
+              "name": "Mega Sableye",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_302_51_shiny.png"
+            }
+          ]
+        },
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "giratina-altered-forme-in-5-star-raid-battles-november-2026",
+      "name": "Giratina (Altered Forme) in 5-star Raid Battles",
+      "eventType": "raid-battles",
+      "heading": "Raid Battles",
+      "link": "https://leekduck.com/events/giratina-altered-forme-in-5-star-raid-battles-november-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-11-04T06:00:00.000",
+      "end": "2026-11-08T22:00:00.000",
+      "extraData": {
+        "raidbattles": {
+          "bosses": [
+            {
+              "name": "Giratina (Altered)",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_487_11.png",
+              "canBeShiny": true
+            }
+          ],
+          "shinies": [
+            {
+              "name": "Giratina (Altered)",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_487_11_shiny.png"
+            }
+          ]
+        },
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "shadow-tornadus-incarnate-forme-in-shadow-raids-november-4-2026",
+      "name": "Shadow Tornadus (Incarnate Forme) in Shadow Raids",
+      "eventType": "raid-battles",
+      "heading": "Raid Battles",
+      "link": "https://leekduck.com/events/shadow-tornadus-incarnate-forme-in-shadow-raids-november-4-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-11-04T06:00:00.000",
+      "end": "2026-11-08T22:00:00.000",
+      "extraData": {
+        "raidbattles": {
+          "bosses": [
+            {
+              "name": "Tornadus (Incarnate)",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_641_11.png",
+              "canBeShiny": false
+            }
+          ],
+          "shinies": []
+        },
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
       "eventID": "gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-3",
       "name": "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition | Twilight Trails",
       "eventType": "go-battle-league",
@@ -613,6 +747,22 @@
       "extraData": {
         "generic": {
           "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "pokemon-night-out-london-2026",
+      "name": "Pokémon Night Out 2026 - London",
+      "eventType": "event",
+      "heading": "Event",
+      "link": "https://leekduck.com/events/pokemon-night-out-london-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/pokemon-night-out-2026.jpg",
+      "start": "2026-11-10T18:00:00.000Z",
+      "end": "2026-11-10T22:30:00.000Z",
+      "extraData": {
+        "generic": {
+          "hasSpawns": true,
           "hasFieldResearchTasks": false
         }
       }
@@ -650,6 +800,22 @@
       }
     },
     {
+      "eventID": "max-mondays-2026-11-16",
+      "name": "Max Monday: Pokémon to be announced",
+      "eventType": "max-mondays",
+      "heading": "Max Mondays",
+      "link": "https://leekduck.com/events/max-mondays-2026-11-16/",
+      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
+      "start": "2026-11-16T06:00:00.000",
+      "end": "2026-11-16T21:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
       "eventID": "gbl-twilight-trails_great-league_ultra-league-mega-edition_2026-go-laic-cup",
       "name": "Great League, Ultra League: Mega Edition, and 2026 GO LAIC Cup | Twilight Trails",
       "eventType": "go-battle-league",
@@ -658,6 +824,22 @@
       "image": "https://cdn.leekduck.com/assets/img/events/gobattle-greatleague-key.jpg",
       "start": "2026-11-10T21:00:00.000Z",
       "end": "2026-11-17T21:00:00.000Z",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "raidhour20261118",
+      "name": "Cresselia and Darkrai Raid Hour",
+      "eventType": "raid-hour",
+      "heading": "Raid Hour",
+      "link": "https://leekduck.com/events/raidhour20261118/",
+      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
+      "start": "2026-11-18T18:00:00.000",
+      "end": "2026-11-18T19:00:00.000",
       "extraData": {
         "generic": {
           "hasSpawns": false,
@@ -698,6 +880,113 @@
       }
     },
     {
+      "eventID": "dynamax-trails-2026",
+      "name": "Dynamax Trails",
+      "eventType": "event",
+      "heading": "Event",
+      "link": "https://leekduck.com/events/dynamax-trails-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-11-16T10:00:00.000",
+      "end": "2026-11-23T20:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "max-mondays-2026-11-23",
+      "name": "Dynamax Espurr during Max Monday",
+      "eventType": "max-mondays",
+      "heading": "Max Mondays",
+      "link": "https://leekduck.com/events/max-mondays-2026-11-23/",
+      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
+      "start": "2026-11-23T06:00:00.000",
+      "end": "2026-11-23T21:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "cresselia-darkrai-in-5-star-raid-battles-november-2026",
+      "name": "Cresselia and Darkrai in 5-star Raid Battles",
+      "eventType": "raid-battles",
+      "heading": "Raid Battles",
+      "link": "https://leekduck.com/events/cresselia-darkrai-in-5-star-raid-battles-november-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-11-16T06:00:00.000",
+      "end": "2026-11-24T22:00:00.000",
+      "extraData": {
+        "raidbattles": {
+          "bosses": [
+            {
+              "name": "Cresselia",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_488_00.png",
+              "canBeShiny": true
+            },
+            {
+              "name": "Darkrai",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_491_00.png",
+              "canBeShiny": true
+            }
+          ],
+          "shinies": [
+            {
+              "name": "Cresselia",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_488_00_shiny.png"
+            },
+            {
+              "name": "Darkrai",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_491_00_shiny.png"
+            }
+          ]
+        },
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "mega-banette-in-mega-raids-november-2026",
+      "name": "Mega Banette in Mega Raids",
+      "eventType": "raid-battles",
+      "heading": "Raid Battles",
+      "link": "https://leekduck.com/events/mega-banette-in-mega-raids-november-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
+      "start": "2026-11-16T06:00:00.000",
+      "end": "2026-11-24T22:00:00.000",
+      "extraData": {
+        "raidbattles": {
+          "bosses": [
+            {
+              "name": "Mega Banette",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm354.fMEGA.icon.png",
+              "canBeShiny": true
+            }
+          ],
+          "shinies": [
+            {
+              "name": "Banette",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_354_00_shiny.png"
+            },
+            {
+              "name": "Mega Banette",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm354.fMEGA.s.icon.png"
+            }
+          ]
+        },
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
       "eventID": "gbl-twilight-trails_ultra-league_master-league-mega-edition_2026-go-laic-cup",
       "name": "Ultra League, Master League: Mega Edition, and 2026 GO LAIC Cup | Twilight Trails",
       "eventType": "go-battle-league",
@@ -714,6 +1003,51 @@
       }
     },
     {
+      "eventID": "raidhour20261125",
+      "name": "Deoxys (Normal, Defense, Attack, and Speed Formes) Raid Hour",
+      "eventType": "raid-hour",
+      "heading": "Raid Hour",
+      "link": "https://leekduck.com/events/raidhour20261125/",
+      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
+      "start": "2026-11-25T18:00:00.000",
+      "end": "2026-11-25T19:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "pokemonspotlighthour2026-11-26",
+      "name": "Noibat Spotlight Hour",
+      "eventType": "pokemon-spotlight-hour",
+      "heading": "Pokémon Spotlight Hour",
+      "link": "https://leekduck.com/events/pokemonspotlighthour2026-11-26/",
+      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
+      "start": "2026-11-26T18:00:00.000",
+      "end": "2026-11-26T19:00:00.000",
+      "extraData": {
+        "spotlight": {
+          "name": "Noibat",
+          "canBeShiny": true,
+          "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_714_00.png",
+          "bonus": "2× Catch Candy",
+          "list": [
+            {
+              "name": "Noibat",
+              "canBeShiny": true,
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_714_00.png"
+            }
+          ]
+        },
+        "generic": {
+          "hasSpawns": true,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
       "eventID": "super-mega-raid-day-november-2026",
       "name": "Super Mega Raid Day",
       "eventType": "raid-day",
@@ -722,6 +1056,38 @@
       "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
       "start": "2026-11-28T14:00:00.000",
       "end": "2026-11-28T17:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "twilight-wishes-2026",
+      "name": "Twilight Wishes",
+      "eventType": "event",
+      "heading": "Event",
+      "link": "https://leekduck.com/events/twilight-wishes-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-11-24T10:00:00.000",
+      "end": "2026-11-30T20:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "max-mondays-2026-11-30",
+      "name": "Dynamax Cryogonal during Max Monday",
+      "eventType": "max-mondays",
+      "heading": "Max Mondays",
+      "link": "https://leekduck.com/events/max-mondays-2026-11-30/",
+      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
+      "start": "2026-11-30T06:00:00.000",
+      "end": "2026-11-30T21:00:00.000",
       "extraData": {
         "generic": {
           "hasSpawns": false,
@@ -755,6 +1121,125 @@
       "start": "2026-11-24T21:00:00.000Z",
       "end": "2026-12-01T21:00:00.000Z",
       "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "shadow-tornadus-incarnate-forme-in-shadow-raids-november-16-2026",
+      "name": "Shadow Tornadus (Incarnate Forme) in Shadow Raids",
+      "eventType": "raid-battles",
+      "heading": "Raid Battles",
+      "link": "https://leekduck.com/events/shadow-tornadus-incarnate-forme-in-shadow-raids-november-16-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-11-16T06:00:00.000",
+      "end": "2026-12-01T22:00:00.000",
+      "extraData": {
+        "raidbattles": {
+          "bosses": [
+            {
+              "name": "Tornadus (Incarnate)",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_641_11.png",
+              "canBeShiny": false
+            }
+          ],
+          "shinies": []
+        },
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "deoxys-normal-defense-attack-speed-formes-in-5-star-raid-battles-november-2026",
+      "name": "Deoxys (Normal, Defense, Attack, and Speed Formes) in 5-star Raid Battles",
+      "eventType": "raid-battles",
+      "heading": "Raid Battles",
+      "link": "https://leekduck.com/events/deoxys-normal-defense-attack-speed-formes-in-5-star-raid-battles-november-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-11-25T06:00:00.000",
+      "end": "2026-12-01T22:00:00.000",
+      "extraData": {
+        "raidbattles": {
+          "bosses": [
+            {
+              "name": "Deoxys (Normal)",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_386_11.png",
+              "canBeShiny": true
+            },
+            {
+              "name": "Deoxys (Defense)",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_386_13.png",
+              "canBeShiny": true
+            },
+            {
+              "name": "Deoxys (Attack)",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_386_12.png",
+              "canBeShiny": true
+            },
+            {
+              "name": "Deoxys (Speed)",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_386_14.png",
+              "canBeShiny": true
+            }
+          ],
+          "shinies": [
+            {
+              "name": "Deoxys (Normal)",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_386_11_shiny.png"
+            },
+            {
+              "name": "Deoxys (Defense)",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_386_13_shiny.png"
+            },
+            {
+              "name": "Deoxys (Attack)",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_386_12_shiny.png"
+            },
+            {
+              "name": "Deoxys (Speed)",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_386_14_shiny.png"
+            }
+          ]
+        },
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "mega-metagross-in-mega-raids-november-2026",
+      "name": "Mega Metagross in Mega Raids",
+      "eventType": "raid-battles",
+      "heading": "Raid Battles",
+      "link": "https://leekduck.com/events/mega-metagross-in-mega-raids-november-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
+      "start": "2026-11-25T06:00:00.000",
+      "end": "2026-12-01T22:00:00.000",
+      "extraData": {
+        "raidbattles": {
+          "bosses": [
+            {
+              "name": "Mega Metagross",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm376.fMEGA.icon.png",
+              "canBeShiny": true
+            }
+          ],
+          "shinies": [
+            {
+              "name": "Metagross",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_376_00_shiny.png"
+            },
+            {
+              "name": "Mega Metagross",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm376.fMEGA.s.icon.png"
+            }
+          ]
+        },
         "generic": {
           "hasSpawns": false,
           "hasFieldResearchTasks": false
