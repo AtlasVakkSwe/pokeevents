@@ -1,108 +1,6 @@
 {
-  "uppdaterad": "2026-10-20T09:32:09.475Z",
+  "uppdaterad": "2026-10-21T09:27:53.800Z",
   "events": [
-    {
-      "id": "fall-marathon-buddy-trek-2026",
-      "name": "Fall Marathon: Buddy Trek",
-      "namn": "Fall Marathon: Buddy Trek",
-      "typ": "event",
-      "typRubrik": "Event",
-      "link": "https://leekduck.com/events/fall-marathon-buddy-trek-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-10-13-fall-marathon-buddy-trek-2026/fall-marathon-buddy-trek-2026.jpg",
-      "start": "2026-10-13T10:00:00.000",
-      "end": "2026-10-19T20:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Särskilda Pokémon dyker upp under eventet. Se listan.",
-      "pokemon": [
-        {
-          "namn": "Ponyta",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_077_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Doduo",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_084_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Stantler",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_234_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Electrike",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_309_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Cacnea",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_331_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Blitzle",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_522_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Skarmory",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_227_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Galarian Ponyta",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm77.fGALARIAN.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Hoppip",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_187_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Dwebble",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_557_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Bramblin",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm946.icon.png",
-          "shiny": false
-        },
-        {
-          "namn": "Hisuian Growlithe",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm58.fHISUIAN.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Nincada",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_290_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Helioptile",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm694.icon.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": [],
-      "pokemonRubrik": "Finns att fånga:"
-    },
-    {
-      "id": "max-mondays-2026-10-19",
-      "name": "Dynamax Sneasel during Max Monday",
-      "namn": "Max-måndag: Sneasel",
-      "typ": "max-mondays",
-      "typRubrik": "Max-måndag",
-      "link": "https://leekduck.com/events/max-mondays-2026-10-19/",
-      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-      "start": "2026-10-19T06:00:00.000",
-      "end": "2026-10-19T21:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Sneasel i Max-strider hela dagen.",
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "gbl-twilight-trails_great-league_ultra-league-mega-edition_little-cup",
       "name": "Great League, Ultra League: Mega Edition, and Little Cup | Twilight Trails",
@@ -2688,6 +2586,21 @@
       "end": "2026-12-01T10:00:00.000",
       "region": "galler",
       "sammanfattning": "Ny säsong med nya Pokémon och bonusar.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "go-pass-november-2026",
+      "name": "GO Pass: November",
+      "namn": "GO Pass: November",
+      "typ": "go-pass",
+      "typRubrik": "GO Pass",
+      "link": "https://leekduck.com/events/go-pass-november-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-03-go-pass-november-2026/go-pass-november-2026.jpg",
+      "start": "2026-11-03T10:00:00.000",
+      "end": "2026-12-01T10:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Samla poäng och få belöningar hela månaden.",
       "pokemon": [],
       "bonusar": []
     },

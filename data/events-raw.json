@@ -1,38 +1,6 @@
 {
-  "hamtad": "2026-10-20T09:32:09.475Z",
+  "hamtad": "2026-10-21T09:27:53.800Z",
   "events": [
-    {
-      "eventID": "fall-marathon-buddy-trek-2026",
-      "name": "Fall Marathon: Buddy Trek",
-      "eventType": "event",
-      "heading": "Event",
-      "link": "https://leekduck.com/events/fall-marathon-buddy-trek-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-10-13-fall-marathon-buddy-trek-2026/fall-marathon-buddy-trek-2026.jpg",
-      "start": "2026-10-13T10:00:00.000",
-      "end": "2026-10-19T20:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": true,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "max-mondays-2026-10-19",
-      "name": "Dynamax Sneasel during Max Monday",
-      "eventType": "max-mondays",
-      "heading": "Max Mondays",
-      "link": "https://leekduck.com/events/max-mondays-2026-10-19/",
-      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-      "start": "2026-10-19T06:00:00.000",
-      "end": "2026-10-19T21:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "gbl-twilight-trails_great-league_ultra-league-mega-edition_little-cup",
       "name": "Great League, Ultra League: Mega Edition, and Little Cup | Twilight Trails",
@@ -1107,6 +1075,22 @@
       "extraData": {
         "generic": {
           "hasSpawns": true,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "go-pass-november-2026",
+      "name": "GO Pass: November",
+      "eventType": "go-pass",
+      "heading": "GO Pass",
+      "link": "https://leekduck.com/events/go-pass-november-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-03-go-pass-november-2026/go-pass-november-2026.jpg",
+      "start": "2026-11-03T10:00:00.000",
+      "end": "2026-12-01T10:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
           "hasFieldResearchTasks": false
         }
       }

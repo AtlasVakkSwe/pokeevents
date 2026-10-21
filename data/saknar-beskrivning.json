@@ -1,12 +1,6 @@
 {
-  "uppdaterad": "2026-10-20T09:32:09.475Z",
+  "uppdaterad": "2026-10-21T09:27:53.800Z",
   "events": [
-    {
-      "name": "Pokémon TCG: 30th Celebration",
-      "typ": "event",
-      "start": "2026-09-27T10:00:00.000",
-      "link": "https://leekduck.com/events/pokemon-tcg-30th-celebration/"
-    },
     {
       "name": "Dynamax Uxie, Mesprit, and Azelf Max Battle Day",
       "typ": "max-battles",
@@ -108,6 +102,12 @@
       "typ": "season",
       "start": "2026-09-08T10:00:00.000",
       "link": "https://leekduck.com/events/season-24-twilight-trails/"
+    },
+    {
+      "name": "GO Pass: November",
+      "typ": "go-pass",
+      "start": "2026-11-03T10:00:00.000",
+      "link": "https://leekduck.com/events/go-pass-november-2026/"
     },
     {
       "name": "Minior Showers: Geminids 2026",
