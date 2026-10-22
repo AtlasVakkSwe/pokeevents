@@ -1,120 +1,6 @@
 {
-  "hamtad": "2026-10-21T09:27:53.800Z",
+  "hamtad": "2026-10-22T09:31:01.949Z",
   "events": [
-    {
-      "eventID": "gbl-twilight-trails_great-league_ultra-league-mega-edition_little-cup",
-      "name": "Great League, Ultra League: Mega Edition, and Little Cup | Twilight Trails",
-      "eventType": "go-battle-league",
-      "heading": "GO Battle League",
-      "link": "https://leekduck.com/events/gbl-twilight-trails_great-league_ultra-league-mega-edition_little-cup/",
-      "image": "https://cdn.leekduck.com/assets/img/events/gobattle-greatleague-key.jpg",
-      "start": "2026-10-13T20:00:00.000Z",
-      "end": "2026-10-20T20:00:00.000Z",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "pokemon-tcg-30th-celebration",
-      "name": "Pokémon TCG: 30th Celebration",
-      "eventType": "event",
-      "heading": "Event",
-      "link": "https://leekduck.com/events/pokemon-tcg-30th-celebration/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-27-pokemon-tcg-30th-celebration/pokemon-tcg-30th-celebration.jpg",
-      "start": "2026-09-27T10:00:00.000",
-      "end": "2026-10-20T22:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "dialga-in-5-star-raid-battles-october-2026",
-      "name": "Dialga in 5-star Raid Battles",
-      "eventType": "raid-battles",
-      "heading": "Raid Battles",
-      "link": "https://leekduck.com/events/dialga-in-5-star-raid-battles-october-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/dialgaraids.jpg",
-      "start": "2026-10-14T06:00:00.000",
-      "end": "2026-10-20T22:00:00.000",
-      "extraData": {
-        "raidbattles": {
-          "bosses": [
-            {
-              "name": "Dialga",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_483_00.png",
-              "canBeShiny": true
-            }
-          ],
-          "shinies": [
-            {
-              "name": "Dialga",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_483_00_shiny.png"
-            }
-          ]
-        },
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "mega-dragonite-in-mega-raids-october-2026",
-      "name": "Mega Dragonite in Mega Raids",
-      "eventType": "raid-battles",
-      "heading": "Raid Battles",
-      "link": "https://leekduck.com/events/mega-dragonite-in-mega-raids-october-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
-      "start": "2026-10-14T06:00:00.000",
-      "end": "2026-10-20T22:00:00.000",
-      "extraData": {
-        "raidbattles": {
-          "bosses": [
-            {
-              "name": "Mega Dragonite",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm149.fMEGA.icon.png",
-              "canBeShiny": true
-            }
-          ],
-          "shinies": [
-            {
-              "name": "Dragonite",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_149_00_shiny.png"
-            },
-            {
-              "name": "Mega Dragonite",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm149.fMEGA.s.icon.png"
-            }
-          ]
-        },
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "raidhour20261021",
-      "name": "Palkia Raid Hour",
-      "eventType": "raid-hour",
-      "heading": "Raid Hour",
-      "link": "https://leekduck.com/events/raidhour20261021/",
-      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-      "start": "2026-10-21T18:00:00.000",
-      "end": "2026-10-21T19:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "pokemonspotlighthour2026-10-22",
       "name": "Morelull Spotlight Hour",
@@ -833,17 +719,266 @@
     },
     {
       "eventID": "november-communityday2026",
-      "name": "November Community Day",
+      "name": "Pawniard Community Day",
       "eventType": "community-day",
       "heading": "Community Day",
       "link": "https://leekduck.com/events/november-communityday2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/cd-default.jpg",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-21-november-communityday2026/pawniard-november-cd-2026.jpg",
       "start": "2026-11-21T14:00:00.000",
       "end": "2026-11-21T17:00:00.000",
       "extraData": {
+        "communityday": {
+          "spawns": [
+            {
+              "name": "Pawniard",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_624_00.png"
+            }
+          ],
+          "bonuses": [
+            {
+              "text": "Increased Spawns",
+              "image": "https://cdn.leekduck.com/assets/img/events/bonuses/wildgrass.png"
+            },
+            {
+              "text": "1/4 Egg Hatch Distance",
+              "image": "https://cdn.leekduck.com/assets/img/events/bonuses/eggdistance.png"
+            },
+            {
+              "text": "3-hour Incense",
+              "image": "https://cdn.leekduck.com/assets/img/events/bonuses/incense.png"
+            },
+            {
+              "text": "1-hour Lures*",
+              "image": "https://cdn.leekduck.com/assets/img/events/bonuses/lure.png"
+            },
+            {
+              "text": "2x Catch Candy",
+              "image": "https://cdn.leekduck.com/assets/img/events/bonuses/candy.png"
+            },
+            {
+              "text": "2x Chance for Trainers level 31 and up to receive Candy XL from catching Pokémon",
+              "image": "https://cdn.leekduck.com/assets/img/events/bonuses/candyxl.png"
+            },
+            {
+              "text": "One additional Special Trade can be made for a maximum of two for the day*",
+              "image": "https://cdn.leekduck.com/assets/img/events/bonuses/trade.png"
+            },
+            {
+              "text": "Trades made will require 50% less Stardust*",
+              "image": "https://cdn.leekduck.com/assets/img/events/bonuses/stardust2x.png"
+            }
+          ],
+          "bonusDisclaimers": [
+            "The reduced Egg Hatch Distance applies to Eggs placed in an Incubator during the event.",
+            "* While most bonuses are only active from 2:00 p.m. to 5:00 p.m. local time, these bonuses will be active from 2:00 p.m. to 9:00 p.m. local time.",
+            "The three-hour Incense bonus excludes Daily Adventure Incense and the one-hour Lure bonus excludes Golden Lure Modules."
+          ],
+          "shinies": [
+            {
+              "name": "Pawniard",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_624_00_shiny.png"
+            },
+            {
+              "name": "Bisharp",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_625_00_shiny.png"
+            },
+            {
+              "name": "Kingambit",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm983.s.icon.png"
+            }
+          ],
+          "specialresearch": [
+            {
+              "name": "Pawniard Community Day (1/3)",
+              "step": 1,
+              "tasks": [
+                {
+                  "text": "Catch 3 Pokemon",
+                  "reward": {
+                    "text": "Pawniard",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_624_00.png"
+                  }
+                },
+                {
+                  "text": "Catch 5 Pokemon",
+                  "reward": {
+                    "text": "Pawniard",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_624_00.png"
+                  }
+                },
+                {
+                  "text": "Catch 10 Pokemon",
+                  "reward": {
+                    "text": "Pawniard",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_624_00.png"
+                  }
+                },
+                {
+                  "text": "Make 7 Nice Throws",
+                  "reward": {
+                    "text": "Ultra Ball ×20",
+                    "image": "https://cdn.leekduck.com/assets/img/items/Ultra%20Ball.png"
+                  }
+                },
+                {
+                  "text": "Make 5 Great Throws",
+                  "reward": {
+                    "text": "Incubator ×1",
+                    "image": "https://cdn.leekduck.com/assets/img/items/Incubator.png"
+                  }
+                },
+                {
+                  "text": "Make 5 Curveball Throws",
+                  "reward": {
+                    "text": "Incense ×1",
+                    "image": "https://cdn.leekduck.com/assets/img/items/Incense.png"
+                  }
+                }
+              ],
+              "rewards": [
+                {
+                  "text": "Pawniard",
+                  "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_624_00.png"
+                },
+                {
+                  "text": "×50",
+                  "image": "https://cdn.leekduck.com/assets/img/candy/regular/624.png"
+                },
+                {
+                  "text": "×5",
+                  "image": "https://cdn.leekduck.com/assets/img/candy/xl/624.png"
+                }
+              ]
+            },
+            {
+              "name": "Pawniard Community Day (2/3)",
+              "step": 2,
+              "tasks": [
+                {
+                  "text": "Catch 3 Pokemon",
+                  "reward": {
+                    "text": "Pawniard",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_624_00.png"
+                  }
+                },
+                {
+                  "text": "Catch 5 Pokemon",
+                  "reward": {
+                    "text": "Pawniard",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_624_00.png"
+                  }
+                },
+                {
+                  "text": "Catch 10 Pokemon",
+                  "reward": {
+                    "text": "Bisharp",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_625_00.png"
+                  }
+                },
+                {
+                  "text": "Use 3 Berries to help catch Pokemon",
+                  "reward": {
+                    "text": "Ultra Ball ×20",
+                    "image": "https://cdn.leekduck.com/assets/img/items/Ultra%20Ball.png"
+                  }
+                },
+                {
+                  "text": "Use 5 Berries to help catch Pokemon",
+                  "reward": {
+                    "text": "Charged TM ×1",
+                    "image": "https://cdn.leekduck.com/assets/img/items/Charged%20TM.png"
+                  }
+                },
+                {
+                  "text": "Use 7 Berries to help catch Pokemon",
+                  "reward": {
+                    "text": "Silver Pinap Berry ×3",
+                    "image": "https://cdn.leekduck.com/assets/img/items/Silver%20Pinap%20Berry.png"
+                  }
+                }
+              ],
+              "rewards": [
+                {
+                  "text": "Pawniard",
+                  "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_624_00.png"
+                },
+                {
+                  "text": "×7500",
+                  "image": "https://cdn.leekduck.com/assets/img/items/Stardust.png"
+                },
+                {
+                  "text": "×3",
+                  "image": "https://cdn.leekduck.com/assets/img/items/Rare%20Candy.png"
+                }
+              ]
+            },
+            {
+              "name": "Pawniard Community Day (3/3)",
+              "step": 3,
+              "tasks": [
+                {
+                  "text": "Catch 3 Pokemon",
+                  "reward": {
+                    "text": "Pawniard",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_624_00.png"
+                  }
+                },
+                {
+                  "text": "Catch 5 Pokemon",
+                  "reward": {
+                    "text": "Pawniard",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_624_00.png"
+                  }
+                },
+                {
+                  "text": "Catch 10 Pokemon",
+                  "reward": {
+                    "text": "Bisharp",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_625_00.png"
+                  }
+                },
+                {
+                  "text": "Spin 3 PokeStops or Gyms",
+                  "reward": {
+                    "text": "Ultra Ball ×20",
+                    "image": "https://cdn.leekduck.com/assets/img/items/Ultra%20Ball.png"
+                  }
+                },
+                {
+                  "text": "Spin 5 PokeStops or Gyms",
+                  "reward": {
+                    "text": "Rocket Radar ×1",
+                    "image": "https://cdn.leekduck.com/assets/img/items/Rocket%20Radar.png"
+                  }
+                },
+                {
+                  "text": "Explore 1 km",
+                  "reward": {
+                    "text": "Premium Battle Pass ×1",
+                    "image": "https://cdn.leekduck.com/assets/img/items/Premium%20Battle%20Pass.png"
+                  }
+                }
+              ],
+              "rewards": [
+                {
+                  "text": "Pawniard",
+                  "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_624_00.png"
+                },
+                {
+                  "text": "10000 XP",
+                  "image": "https://cdn.leekduck.com/assets/img/icons/xp.png"
+                },
+                {
+                  "text": "×1",
+                  "image": "https://cdn.leekduck.com/assets/img/items/Rare%20Candy%20XL.png"
+                }
+              ]
+            }
+          ]
+        },
         "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
+          "hasSpawns": true,
+          "hasFieldResearchTasks": true
         }
       }
     },

@@ -1,12 +1,12 @@
 {
-  "uppdaterad": "2026-10-21T09:27:53.800Z",
+  "uppdaterad": "2026-10-22T09:31:01.949Z",
   "grupper": [
     {
       "rubrik": "5 stjärnor",
       "pokemon": [
         {
-          "namn": "Dialga",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm483.icon.png",
+          "namn": "Palkia",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm484.icon.png",
           "shiny": true
         },
         {
@@ -20,8 +20,13 @@
       "rubrik": "Mega",
       "pokemon": [
         {
-          "namn": "Mega Dragonite",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm149.fMEGA.icon.png",
+          "namn": "Mega Charizard X",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm6.fMEGA_X.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Mega Charizard Y",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm6.fMEGA_Y.icon.png",
           "shiny": true
         }
       ]
@@ -30,18 +35,18 @@
       "rubrik": "3 stjärnor",
       "pokemon": [
         {
-          "namn": "Hisuian Arcanine",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm59.fHISUIAN.icon.png",
+          "namn": "Alolan Raichu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm26.fALOLA.icon.png",
           "shiny": true
         },
         {
-          "namn": "Snorlax",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm143.icon.png",
+          "namn": "Alolan Ninetales",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm38.fALOLA.icon.png",
           "shiny": true
         },
         {
-          "namn": "Kleavor",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm900.icon.png",
+          "namn": "Alolan Muk",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm89.fALOLA.icon.png",
           "shiny": true
         },
         {
@@ -65,23 +70,23 @@
       "rubrik": "1 stjärna",
       "pokemon": [
         {
-          "namn": "Galarian Slowpoke",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm79.fGALARIAN.icon.png",
+          "namn": "Axew",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm610.icon.png",
           "shiny": true
         },
         {
-          "namn": "Hisuian Voltorb",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm100.fHISUIAN.icon.png",
+          "namn": "Goomy",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm704.icon.png",
           "shiny": true
         },
         {
-          "namn": "Nincada",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm290.icon.png",
+          "namn": "Jangmo-o",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm782.icon.png",
           "shiny": true
         },
         {
-          "namn": "Beldum",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm374.icon.png",
+          "namn": "Frigibax",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm996.icon.png",
           "shiny": true
         },
         {

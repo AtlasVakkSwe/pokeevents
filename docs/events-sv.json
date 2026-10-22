@@ -1,93 +1,6 @@
 {
-  "uppdaterad": "2026-10-21T09:27:53.800Z",
+  "uppdaterad": "2026-10-22T09:31:01.949Z",
   "events": [
-    {
-      "id": "gbl-twilight-trails_great-league_ultra-league-mega-edition_little-cup",
-      "name": "Great League, Ultra League: Mega Edition, and Little Cup | Twilight Trails",
-      "namn": "Great League, Ultra League: Mega Edition, and Little Cup",
-      "typ": "go-battle-league",
-      "typRubrik": "GO Battle League",
-      "link": "https://leekduck.com/events/gbl-twilight-trails_great-league_ultra-league-mega-edition_little-cup/",
-      "image": "https://cdn.leekduck.com/assets/img/events/gobattle-greatleague-key.jpg",
-      "start": "2026-10-13T20:00:00.000Z",
-      "end": "2026-10-20T20:00:00.000Z",
-      "region": "galler",
-      "sammanfattning": "Nytt i GO Battle League (strider mot andra spelare).",
-      "pokemon": [],
-      "bonusar": []
-    },
-    {
-      "id": "pokemon-tcg-30th-celebration",
-      "name": "Pokémon TCG: 30th Celebration",
-      "namn": "Pokémon TCG: 30th Celebration",
-      "typ": "event",
-      "typRubrik": "Event",
-      "link": "https://leekduck.com/events/pokemon-tcg-30th-celebration/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-27-pokemon-tcg-30th-celebration/pokemon-tcg-30th-celebration.jpg",
-      "start": "2026-09-27T10:00:00.000",
-      "end": "2026-10-20T22:00:00.000",
-      "region": "galler",
-      "sammanfattning": null,
-      "pokemon": [],
-      "bonusar": []
-    },
-    {
-      "id": "dialga-in-5-star-raid-battles-october-2026",
-      "name": "Dialga in 5-star Raid Battles",
-      "namn": "Dialga i 5-stjärniga raider",
-      "typ": "raid-battles",
-      "typRubrik": "Raider",
-      "link": "https://leekduck.com/events/dialga-in-5-star-raid-battles-october-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/dialgaraids.jpg",
-      "start": "2026-10-14T06:00:00.000",
-      "end": "2026-10-20T22:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Dialga finns i raid. Kan vara shiny! ✨",
-      "pokemon": [
-        {
-          "namn": "Dialga",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_483_00.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
-    {
-      "id": "mega-dragonite-in-mega-raids-october-2026",
-      "name": "Mega Dragonite in Mega Raids",
-      "namn": "Mega Dragonite i Mega-raider",
-      "typ": "raid-battles",
-      "typRubrik": "Raider",
-      "link": "https://leekduck.com/events/mega-dragonite-in-mega-raids-october-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
-      "start": "2026-10-14T06:00:00.000",
-      "end": "2026-10-20T22:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Mega Dragonite finns i raid. Kan vara shiny! ✨",
-      "pokemon": [
-        {
-          "namn": "Mega Dragonite",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm149.fMEGA.icon.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
-    {
-      "id": "raidhour20261021",
-      "name": "Palkia Raid Hour",
-      "namn": "Raidtimme: Palkia",
-      "typ": "raid-hour",
-      "typRubrik": "Raidtimme",
-      "link": "https://leekduck.com/events/raidhour20261021/",
-      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-      "start": "2026-10-21T18:00:00.000",
-      "end": "2026-10-21T19:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Raidtimme! Extra många raider i en timme.",
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "pokemonspotlighthour2026-10-22",
       "name": "Morelull Spotlight Hour",
@@ -2388,18 +2301,33 @@
     },
     {
       "id": "november-communityday2026",
-      "name": "November Community Day",
-      "namn": "Community Day i november",
+      "name": "Pawniard Community Day",
+      "namn": "Community Day: Pawniard",
       "typ": "community-day",
       "typRubrik": "Community Day",
       "link": "https://leekduck.com/events/november-communityday2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/cd-default.jpg",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-21-november-communityday2026/pawniard-november-cd-2026.jpg",
       "start": "2026-11-21T14:00:00.000",
       "end": "2026-11-21T17:00:00.000",
       "region": "galler",
-      "sammanfattning": "Community Day! Extra många dyker upp och det finns bonusar hela tiden.",
-      "pokemon": [],
-      "bonusar": []
+      "sammanfattning": "Community Day med Pawniard! Extra många dyker upp och det finns bonusar hela tiden.",
+      "pokemon": [
+        {
+          "namn": "Pawniard",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_624_00.png",
+          "shiny": false
+        }
+      ],
+      "bonusar": [
+        "Extra många Pokémon dyker upp",
+        "Ägg kläcks på en fjärdedel av sträckan",
+        "Rökelse räcker i 3 timmar",
+        "Lockmoduler räcker i 1 timme",
+        "Dubbelt godis när du fångar",
+        "2x Chance for Trainers level 31 and up to receive Candy XL from catching Pokémon",
+        "Ett extra specialbyte den här dagen",
+        "Byten kostar hälften så mycket stjärnstoft"
+      ]
     },
     {
       "id": "dynamax-trails-2026",
