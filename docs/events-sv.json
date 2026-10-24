@@ -1,27 +1,6 @@
 {
-  "uppdaterad": "2026-10-23T09:27:16.800Z",
+  "uppdaterad": "2026-10-24T08:58:27.626Z",
   "events": [
-    {
-      "id": "pokemonspotlighthour2026-10-22",
-      "name": "Morelull Spotlight Hour",
-      "namn": "Rampljustimme: Morelull",
-      "typ": "pokemon-spotlight-hour",
-      "typRubrik": "Rampljustimme",
-      "link": "https://leekduck.com/events/pokemonspotlighthour2026-10-22/",
-      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-      "start": "2026-10-22T18:00:00.000",
-      "end": "2026-10-22T19:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Morelull dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbelt stjärnstoft när du fångar.",
-      "pokemon": [
-        {
-          "namn": "Morelull",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm755.icon.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
     {
       "id": "dynamax-uxie-mesprit-azelf-max-battle-day-2026",
       "name": "Dynamax Uxie, Mesprit, and Azelf Max Battle Day",

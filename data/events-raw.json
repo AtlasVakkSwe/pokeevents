@@ -1,35 +1,6 @@
 {
-  "hamtad": "2026-10-23T09:27:16.800Z",
+  "hamtad": "2026-10-24T08:58:27.626Z",
   "events": [
-    {
-      "eventID": "pokemonspotlighthour2026-10-22",
-      "name": "Morelull Spotlight Hour",
-      "eventType": "pokemon-spotlight-hour",
-      "heading": "Pokémon Spotlight Hour",
-      "link": "https://leekduck.com/events/pokemonspotlighthour2026-10-22/",
-      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-      "start": "2026-10-22T18:00:00.000",
-      "end": "2026-10-22T19:00:00.000",
-      "extraData": {
-        "spotlight": {
-          "name": "Morelull",
-          "canBeShiny": true,
-          "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm755.icon.png",
-          "bonus": "2× Catch Stardust",
-          "list": [
-            {
-              "name": "Morelull",
-              "canBeShiny": true,
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm755.icon.png"
-            }
-          ]
-        },
-        "generic": {
-          "hasSpawns": true,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "dynamax-uxie-mesprit-azelf-max-battle-day-2026",
       "name": "Dynamax Uxie, Mesprit, and Azelf Max Battle Day",
@@ -106,7 +77,7 @@
       "extraData": {
         "generic": {
           "hasSpawns": true,
-          "hasFieldResearchTasks": false
+          "hasFieldResearchTasks": true
         }
       }
     },
