@@ -1,30 +1,6 @@
 {
-  "uppdaterad": "2026-10-24T08:58:27.626Z",
+  "uppdaterad": "2026-10-25T09:15:37.021Z",
   "events": [
-    {
-      "name": "Dynamax Uxie, Mesprit, and Azelf Max Battle Day",
-      "typ": "max-battles",
-      "start": "2026-10-24T14:00:00.000",
-      "link": "https://leekduck.com/events/dynamax-uxie-mesprit-azelf-max-battle-day-2026/"
-    },
-    {
-      "name": "Twitch Drops for Pokémon Night Out 2026",
-      "typ": "twitch-drops",
-      "start": "2026-10-25T02:30:00.000Z",
-      "link": "https://leekduck.com/events/pokemon-night-out-2026-twitch-drops/"
-    },
-    {
-      "name": "Pokémon Night Out 2026 - Los Angeles",
-      "typ": "event",
-      "start": "2026-10-25T02:30:00.000Z",
-      "link": "https://leekduck.com/events/pokemon-night-out-los-angeles-2026/"
-    },
-    {
-      "name": "Minior Showers: Orionids 2026",
-      "typ": "event",
-      "start": "2026-10-19T17:00:00.000",
-      "link": "https://leekduck.com/events/minior-showers-orionids-2026/"
-    },
     {
       "name": "Pokémon GO City Safari: Boston (Rescheduled)",
       "typ": "city-safari",
