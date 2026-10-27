@@ -1,163 +1,6 @@
 {
-  "uppdaterad": "2026-10-26T10:20:36.576Z",
+  "uppdaterad": "2026-10-27T09:55:38.899Z",
   "events": [
-    {
-      "id": "pokemon-go-city-safari-boston-2026-rescheduled",
-      "name": "Pokémon GO City Safari: Boston (Rescheduled)",
-      "namn": "Pokémon GO City Safari: Boston",
-      "typ": "city-safari",
-      "typRubrik": "City Safari",
-      "link": "https://leekduck.com/events/pokemon-go-city-safari-boston-2026-rescheduled/",
-      "image": "https://cdn.leekduck.com/assets/img/events/city-safari-boston-2026.jpg",
-      "start": "2026-10-24T10:00:00.000",
-      "end": "2026-10-25T18:00:00.000",
-      "region": "osakert",
-      "sammanfattning": null,
-      "pokemon": [
-        {
-          "namn": "Jigglypuff",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_039_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Abra",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_063_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Slowpoke",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_079_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Totodile",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_158_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Mareep",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_179_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Marill",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_183_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Hoppip",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_187_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Unown B",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_201_12.png",
-          "shiny": true
-        },
-        {
-          "namn": "Unown L",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_201_22.png",
-          "shiny": true
-        },
-        {
-          "namn": "Unown M",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_201_23.png",
-          "shiny": true
-        },
-        {
-          "namn": "Unown R",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_201_28.png",
-          "shiny": true
-        },
-        {
-          "namn": "Stantler",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_234_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Miltank",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_241_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Wingull",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_278_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Baltoy",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_343_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Buizel",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_418_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Lillipup",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_506_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Petilil",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_548_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Yamask",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_562_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Gothita",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_574_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Orange Flower Flabébé",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm669.fORANGE.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Binacle",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_688_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Clauncher",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_692_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Hawlucha",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_701_00.png",
-          "shiny": false
-        },
-        {
-          "namn": "Mudbray",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm749.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Oranguru",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm765.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Komala",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm775.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Flamigo",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm973.icon.png",
-          "shiny": false
-        }
-      ],
-      "bonusar": [],
-      "pokemonRubrik": "Finns att fånga:"
-    },
     {
       "id": "max-mondays-2026-10-26",
       "name": "Dynamax Sableye during Max Monday",
@@ -305,13 +148,43 @@
           "shiny": true
         },
         {
+          "namn": "Piplup wearing a Halloween Mischief costume",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm393.cHALLOWEEN_2021_NOEVOLVE.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Noibat wearing a headband",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm714.cHALLOWEEN_2025.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Pumpkaboo",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm710.icon.png",
+          "shiny": true
+        },
+        {
           "namn": "Duskull",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_355_00.png",
           "shiny": true
         },
         {
-          "namn": "Piplup wearing a Halloween Mischief costume",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm393.cHALLOWEEN_2021_NOEVOLVE.icon.png",
+          "namn": "Misdreavus",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_200_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Drifblim wearing a Halloween Mischief costume",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm426.cHALLOWEEN_2021_NOEVOLVE.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Vulpix wearing a Spooky Festival costume",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm37.cFALL_2022.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Gengar wearing a Tricks & Treats costume",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm94.cFALL_2023_NOEVOLVE.icon.png",
           "shiny": true
         }
       ],
