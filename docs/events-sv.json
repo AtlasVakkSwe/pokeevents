@@ -1,21 +1,6 @@
 {
-  "uppdaterad": "2026-10-27T09:55:38.899Z",
+  "uppdaterad": "2026-10-28T10:42:20.070Z",
   "events": [
-    {
-      "id": "max-mondays-2026-10-26",
-      "name": "Dynamax Sableye during Max Monday",
-      "namn": "Max-måndag: Sableye",
-      "typ": "max-mondays",
-      "typRubrik": "Max-måndag",
-      "link": "https://leekduck.com/events/max-mondays-2026-10-26/",
-      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-      "start": "2026-10-26T06:00:00.000",
-      "end": "2026-10-26T21:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Sableye i Max-strider hela dagen.",
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "gbl-twilight-trails_ultra-league_master-league-mega-edition_fantasy-cup-great-league-edition",
       "name": "Ultra League, Master League: Mega Edition, and Fantasy Cup: Great League Edition | Twilight Trails",
