@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-10-28T10:42:20.070Z",
+  "uppdaterad": "2026-10-29T10:59:16.256Z",
   "events": [
     {
       "name": "Pokémon GO Halloween 2026 Part I",
@@ -54,6 +54,12 @@
       "typ": "event",
       "start": "2026-11-14T17:00:00.000",
       "link": "https://leekduck.com/events/minior-showers-leonids-2026/"
+    },
+    {
+      "name": "Eternamax Eternatus Returns",
+      "typ": "max-battles",
+      "start": "2026-11-21T11:00:00.000",
+      "link": "https://leekduck.com/events/eternamax-eternatus-max-battles-2026/"
     },
     {
       "name": "Dynamax Trails",
