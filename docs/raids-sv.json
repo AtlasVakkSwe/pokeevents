@@ -1,14 +1,9 @@
 {
-  "uppdaterad": "2026-10-31T10:29:39.188Z",
+  "uppdaterad": "2026-11-01T11:24:00.619Z",
   "grupper": [
     {
       "rubrik": "5 stjärnor",
       "pokemon": [
-        {
-          "namn": "Giratina (Origin)",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm487.fORIGIN.icon.png",
-          "shiny": true
-        },
         {
           "namn": "Shadow Landorus (Incarnate)",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm645.fINCARNATE.icon.png",
@@ -17,33 +12,8 @@
       ]
     },
     {
-      "rubrik": "Mega",
-      "pokemon": [
-        {
-          "namn": "Mega Sableye",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm302.fMEGA.icon.png",
-          "shiny": true
-        }
-      ]
-    },
-    {
       "rubrik": "3 stjärnor",
       "pokemon": [
-        {
-          "namn": "Cofagrigus",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm563.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Trevenant",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm709.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Dhelmise",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm781.icon.png",
-          "shiny": true
-        },
         {
           "namn": "Shadow Primeape",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm57.icon.png",
@@ -65,16 +35,6 @@
       "rubrik": "1 stjärna",
       "pokemon": [
         {
-          "namn": "Pikachu wearing a hat and capelet",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fHALLOWEEN_2026.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Sinistea wearing a bow",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm854.fP_HALLOWEEN_2026_01.icon.png",
-          "shiny": true
-        },
-        {
           "namn": "Shadow Gastly",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm92.icon.png",
           "shiny": true
@@ -92,6 +52,16 @@
         {
           "namn": "Shadow Gible",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm443.icon.png",
+          "shiny": true
+        }
+      ]
+    },
+    {
+      "rubrik": "Super Mega Raids",
+      "pokemon": [
+        {
+          "namn": "Mega Chandelure",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm609.fMEGA.icon.png",
           "shiny": true
         }
       ]
