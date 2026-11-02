@@ -1,22 +1,6 @@
 {
-  "hamtad": "2026-11-01T11:24:00.619Z",
+  "hamtad": "2026-11-02T12:42:44.991Z",
   "events": [
-    {
-      "eventID": "chandelure-super-mega-raid-day-2026",
-      "name": "Chandelure Super Mega Raid Day",
-      "eventType": "raid-day",
-      "heading": "Raid Day",
-      "link": "https://leekduck.com/events/chandelure-super-mega-raid-day-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/chandelure-super-mega-raid-day-2026.jpg",
-      "start": "2026-10-31T14:00:00.000",
-      "end": "2026-10-31T17:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "halloween-2026-part-1",
       "name": "Pokémon GO Halloween 2026 Part I",

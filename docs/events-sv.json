@@ -1,21 +1,6 @@
 {
-  "uppdaterad": "2026-11-01T11:24:00.619Z",
+  "uppdaterad": "2026-11-02T12:42:44.991Z",
   "events": [
-    {
-      "id": "chandelure-super-mega-raid-day-2026",
-      "name": "Chandelure Super Mega Raid Day",
-      "namn": "Raiddag: Chandelure",
-      "typ": "raid-day",
-      "typRubrik": "Raiddag",
-      "link": "https://leekduck.com/events/chandelure-super-mega-raid-day-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/chandelure-super-mega-raid-day-2026.jpg",
-      "start": "2026-10-31T14:00:00.000",
-      "end": "2026-10-31T17:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Raiddag! Extra många raider hela dagen.",
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "halloween-2026-part-1",
       "name": "Pokémon GO Halloween 2026 Part I",
@@ -227,8 +212,8 @@
       "sammanfattning": "Särskilda Pokémon dyker upp under eventet. Se listan.",
       "pokemon": [
         {
-          "namn": "Sandygast",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm769.icon.png",
+          "namn": "Shuppet",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm353.icon.png",
           "shiny": true
         },
         {
@@ -237,23 +222,23 @@
           "shiny": true
         },
         {
-          "namn": "Greavard",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm971.icon.png",
-          "shiny": true
-        },
-        {
           "namn": "Froakie wearing a Pokémon Halloween costume",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm656.cFALL_2024.icon.png",
           "shiny": true
         },
         {
-          "namn": "Shuppet",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm353.icon.png",
+          "namn": "Rowlet wearing a Pokémon Halloween costume",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm722.cFALL_2024.icon.png",
           "shiny": true
         },
         {
-          "namn": "Rowlet wearing a Pokémon Halloween costume",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm722.cFALL_2024.icon.png",
+          "namn": "Sandygast",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm769.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Greavard",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm971.icon.png",
           "shiny": true
         },
         {
