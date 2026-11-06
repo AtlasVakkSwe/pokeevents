@@ -1,108 +1,6 @@
 {
-  "uppdaterad": "2026-11-05T12:35:55.342Z",
+  "uppdaterad": "2026-11-06T12:19:02.699Z",
   "events": [
-    {
-      "id": "max-mondays-2026-11-02",
-      "name": "Dynamax Machop during Max Monday",
-      "namn": "Max-måndag: Machop",
-      "typ": "max-mondays",
-      "typRubrik": "Max-måndag",
-      "link": "https://leekduck.com/events/max-mondays-2026-11-02/",
-      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-      "start": "2026-11-02T06:00:00.000",
-      "end": "2026-11-02T21:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Machop i Max-strider hela dagen.",
-      "pokemon": [],
-      "bonusar": []
-    },
-    {
-      "id": "go-pass-october-2026",
-      "name": "GO Pass: October",
-      "namn": "GO Pass: October",
-      "typ": "go-pass",
-      "typRubrik": "GO Pass",
-      "link": "https://leekduck.com/events/go-pass-october-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-10-06-go-pass-october-2026/go-pass-october-2026.jpg",
-      "start": "2026-10-06T10:00:00.000",
-      "end": "2026-11-03T10:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Samla poäng och få belöningar hela månaden.",
-      "pokemon": [],
-      "bonusar": []
-    },
-    {
-      "id": "gbl-twilight-trails_master-league_mega-halloween-cup-great-league-edition",
-      "name": "Master League and Mega Halloween Cup: Great League Edition | Twilight Trails",
-      "namn": "Master League and Mega Halloween Cup: Great League Edition",
-      "typ": "go-battle-league",
-      "typRubrik": "GO Battle League",
-      "link": "https://leekduck.com/events/gbl-twilight-trails_master-league_mega-halloween-cup-great-league-edition/",
-      "image": "https://cdn.leekduck.com/assets/img/events/gobattleleague-master-key.jpg",
-      "start": "2026-10-27T21:00:00.000Z",
-      "end": "2026-11-03T21:00:00.000Z",
-      "region": "galler",
-      "sammanfattning": "Nytt i GO Battle League (strider mot andra spelare).",
-      "pokemon": [],
-      "bonusar": []
-    },
-    {
-      "id": "shadow-landorus-incarnate-forme-in-shadow-raids-october-2026",
-      "name": "Shadow Landorus (Incarnate Forme) in Shadow Raids",
-      "namn": "Shadow Landorus i Shadow-raider",
-      "typ": "raid-battles",
-      "typRubrik": "Raider",
-      "link": "https://leekduck.com/events/shadow-landorus-incarnate-forme-in-shadow-raids-october-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
-      "start": "2026-10-07T06:00:00.000",
-      "end": "2026-11-03T22:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Landorus (Incarnate) finns i raid. Kan vara shiny! ✨",
-      "pokemon": [
-        {
-          "namn": "Landorus (Incarnate)",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_645_11.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
-    {
-      "id": "giratina-origin-forme-in-5-star-raid-battles-october-2026",
-      "name": "Giratina (Origin Forme) in 5-star Raid Battles",
-      "namn": "Giratina i 5-stjärniga raider",
-      "typ": "raid-battles",
-      "typRubrik": "Raider",
-      "link": "https://leekduck.com/events/giratina-origin-forme-in-5-star-raid-battles-october-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/giratinaoriginforme.jpg",
-      "start": "2026-10-28T06:00:00.000",
-      "end": "2026-11-03T22:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Giratina (Origin) finns i raid. Kan vara shiny! ✨",
-      "pokemon": [
-        {
-          "namn": "Giratina (Origin)",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_487_12.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
-    {
-      "id": "raidhour20261104",
-      "name": "Giratina (Altered Forme) Raid Hour",
-      "namn": "Raidtimme: Giratina",
-      "typ": "raid-hour",
-      "typRubrik": "Raidtimme",
-      "link": "https://leekduck.com/events/raidhour20261104/",
-      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-      "start": "2026-11-04T18:00:00.000",
-      "end": "2026-11-04T19:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Raidtimme! Extra många raider i en timme.",
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "pokemonspotlighthour2026-11-05",
       "name": "Teddiursa wearing a witch hat Spotlight Hour",
@@ -438,7 +336,7 @@
         },
         {
           "namn": "Modern Jacket Machamp",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_068_00.png",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm68.fWILDAREA_2026_01.icon.png",
           "shiny": true
         },
         {
@@ -592,7 +490,7 @@
       "raids": [
         {
           "namn": "Modern Jacket Machamp",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_068_00.png",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm68.fWILDAREA_2026_01.icon.png",
           "shiny": true
         },
         {
@@ -872,7 +770,7 @@
         },
         {
           "namn": "Modern Jacket Machamp",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_068_00.png",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm68.fWILDAREA_2026_01.icon.png",
           "shiny": true
         },
         {
@@ -1026,7 +924,7 @@
       "raids": [
         {
           "namn": "Modern Jacket Machamp",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_068_00.png",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm68.fWILDAREA_2026_01.icon.png",
           "shiny": true
         },
         {
@@ -1691,7 +1589,7 @@
       "raids": [
         {
           "namn": "Modern Jacket Machamp",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_068_00.png",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm68.fWILDAREA_2026_01.icon.png",
           "shiny": true
         },
         {
@@ -1730,6 +1628,21 @@
           "shiny": true
         }
       ]
+    },
+    {
+      "id": "go-wild-area-gigantamax-machamp-power-up-timed-research",
+      "name": "GO Wild Area: Gigantamax Machamp Power Up! Timed Research",
+      "namn": "GO Wild Area: Gigantamax Machamp Power Up! Timed Research",
+      "typ": "timed-research",
+      "typRubrik": "Tidsbegränsad forskning",
+      "link": "https://leekduck.com/events/go-wild-area-gigantamax-machamp-power-up-timed-research/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2025/2025-05-25-gigantamax-machamp-max-battle-day-may-2025/gigantamax-machamp-max-battles.jpg",
+      "start": "2026-11-06T10:00:00.000",
+      "end": "2026-11-15T23:59:00.000",
+      "region": "osakert",
+      "sammanfattning": null,
+      "pokemon": [],
+      "bonusar": []
     },
     {
       "id": "max-mondays-2026-11-16",
@@ -2003,13 +1916,13 @@
       "bonusar": []
     },
     {
-      "id": "super-mega-raid-day-november-2026",
-      "name": "Super Mega Raid Day",
-      "namn": "Raiddag",
+      "id": "clefable-super-mega-raid-day-2026",
+      "name": "Clefable Super Mega Raid Day",
+      "namn": "Raiddag: Clefable",
       "typ": "raid-day",
       "typRubrik": "Raiddag",
-      "link": "https://leekduck.com/events/super-mega-raid-day-november-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "link": "https://leekduck.com/events/clefable-super-mega-raid-day-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/clefable-super-mega-raid-day-2026.jpg",
       "start": "2026-11-28T14:00:00.000",
       "end": "2026-11-28T17:00:00.000",
       "region": "galler",

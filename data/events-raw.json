@@ -1,132 +1,6 @@
 {
-  "hamtad": "2026-11-05T12:35:55.342Z",
+  "hamtad": "2026-11-06T12:19:02.699Z",
   "events": [
-    {
-      "eventID": "max-mondays-2026-11-02",
-      "name": "Dynamax Machop during Max Monday",
-      "eventType": "max-mondays",
-      "heading": "Max Mondays",
-      "link": "https://leekduck.com/events/max-mondays-2026-11-02/",
-      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-      "start": "2026-11-02T06:00:00.000",
-      "end": "2026-11-02T21:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "go-pass-october-2026",
-      "name": "GO Pass: October",
-      "eventType": "go-pass",
-      "heading": "GO Pass",
-      "link": "https://leekduck.com/events/go-pass-october-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-10-06-go-pass-october-2026/go-pass-october-2026.jpg",
-      "start": "2026-10-06T10:00:00.000",
-      "end": "2026-11-03T10:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "gbl-twilight-trails_master-league_mega-halloween-cup-great-league-edition",
-      "name": "Master League and Mega Halloween Cup: Great League Edition | Twilight Trails",
-      "eventType": "go-battle-league",
-      "heading": "GO Battle League",
-      "link": "https://leekduck.com/events/gbl-twilight-trails_master-league_mega-halloween-cup-great-league-edition/",
-      "image": "https://cdn.leekduck.com/assets/img/events/gobattleleague-master-key.jpg",
-      "start": "2026-10-27T21:00:00.000Z",
-      "end": "2026-11-03T21:00:00.000Z",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "shadow-landorus-incarnate-forme-in-shadow-raids-october-2026",
-      "name": "Shadow Landorus (Incarnate Forme) in Shadow Raids",
-      "eventType": "raid-battles",
-      "heading": "Raid Battles",
-      "link": "https://leekduck.com/events/shadow-landorus-incarnate-forme-in-shadow-raids-october-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
-      "start": "2026-10-07T06:00:00.000",
-      "end": "2026-11-03T22:00:00.000",
-      "extraData": {
-        "raidbattles": {
-          "bosses": [
-            {
-              "name": "Landorus (Incarnate)",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_645_11.png",
-              "canBeShiny": true
-            }
-          ],
-          "shinies": [
-            {
-              "name": "Landorus (Incarnate)",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_645_11_shiny.png"
-            }
-          ]
-        },
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "giratina-origin-forme-in-5-star-raid-battles-october-2026",
-      "name": "Giratina (Origin Forme) in 5-star Raid Battles",
-      "eventType": "raid-battles",
-      "heading": "Raid Battles",
-      "link": "https://leekduck.com/events/giratina-origin-forme-in-5-star-raid-battles-october-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/giratinaoriginforme.jpg",
-      "start": "2026-10-28T06:00:00.000",
-      "end": "2026-11-03T22:00:00.000",
-      "extraData": {
-        "raidbattles": {
-          "bosses": [
-            {
-              "name": "Giratina (Origin)",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_487_12.png",
-              "canBeShiny": true
-            }
-          ],
-          "shinies": [
-            {
-              "name": "Giratina (Origin)",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_487_12_shiny.png"
-            }
-          ]
-        },
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "raidhour20261104",
-      "name": "Giratina (Altered Forme) Raid Hour",
-      "eventType": "raid-hour",
-      "heading": "Raid Hour",
-      "link": "https://leekduck.com/events/raidhour20261104/",
-      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-      "start": "2026-11-04T18:00:00.000",
-      "end": "2026-11-04T19:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "pokemonspotlighthour2026-11-05",
       "name": "Teddiursa wearing a witch hat Spotlight Hour",
@@ -356,6 +230,22 @@
       "extraData": {
         "generic": {
           "hasSpawns": true,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "go-wild-area-gigantamax-machamp-power-up-timed-research",
+      "name": "GO Wild Area: Gigantamax Machamp Power Up! Timed Research",
+      "eventType": "timed-research",
+      "heading": "Timed Research",
+      "link": "https://leekduck.com/events/go-wild-area-gigantamax-machamp-power-up-timed-research/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2025/2025-05-25-gigantamax-machamp-max-battle-day-may-2025/gigantamax-machamp-max-battles.jpg",
+      "start": "2026-11-06T10:00:00.000",
+      "end": "2026-11-15T23:59:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
           "hasFieldResearchTasks": false
         }
       }
@@ -913,12 +803,12 @@
       }
     },
     {
-      "eventID": "super-mega-raid-day-november-2026",
-      "name": "Super Mega Raid Day",
+      "eventID": "clefable-super-mega-raid-day-2026",
+      "name": "Clefable Super Mega Raid Day",
       "eventType": "raid-day",
       "heading": "Raid Day",
-      "link": "https://leekduck.com/events/super-mega-raid-day-november-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "link": "https://leekduck.com/events/clefable-super-mega-raid-day-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/clefable-super-mega-raid-day-2026.jpg",
       "start": "2026-11-28T14:00:00.000",
       "end": "2026-11-28T17:00:00.000",
       "extraData": {

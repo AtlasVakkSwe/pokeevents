@@ -1,12 +1,12 @@
 {
-  "uppdaterad": "2026-11-05T12:35:55.342Z",
+  "uppdaterad": "2026-11-06T12:19:02.699Z",
   "grupper": [
     {
       "rubrik": "5 stjärnor",
       "pokemon": [
         {
-          "namn": "Giratina (Origin)",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm487.fORIGIN.icon.png",
+          "namn": "Giratina (Altered)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm487.fALTERED.icon.png",
           "shiny": true
         },
         {
@@ -65,13 +65,23 @@
       "rubrik": "1 stjärna",
       "pokemon": [
         {
-          "namn": "Pikachu wearing a hat and capelet",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fHALLOWEEN_2026.icon.png",
+          "namn": "Duskull",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm355.icon.png",
           "shiny": true
         },
         {
-          "namn": "Sinistea wearing a bow",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm854.fP_HALLOWEEN_2026_01.icon.png",
+          "namn": "Frillish",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm592.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Frillish (Female)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm592.fFEMALE.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Litwick",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm607.icon.png",
           "shiny": true
         },
         {
