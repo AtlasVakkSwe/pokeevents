@@ -1,51 +1,6 @@
 {
-  "hamtad": "2026-11-06T12:19:02.699Z",
+  "hamtad": "2026-11-07T11:12:57.044Z",
   "events": [
-    {
-      "eventID": "pokemonspotlighthour2026-11-05",
-      "name": "Teddiursa wearing a witch hat Spotlight Hour",
-      "eventType": "pokemon-spotlight-hour",
-      "heading": "Pokémon Spotlight Hour",
-      "link": "https://leekduck.com/events/pokemonspotlighthour2026-11-05/",
-      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-      "start": "2026-11-05T18:00:00.000",
-      "end": "2026-11-05T19:00:00.000",
-      "extraData": {
-        "spotlight": {
-          "name": "Teddiursa wearing a witch hat",
-          "canBeShiny": true,
-          "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm216.cHALLOWEEN_2025.icon.png",
-          "bonus": "2× Evolution XP",
-          "list": [
-            {
-              "name": "Teddiursa wearing a witch hat",
-              "canBeShiny": true,
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm216.cHALLOWEEN_2025.icon.png"
-            }
-          ]
-        },
-        "generic": {
-          "hasSpawns": true,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "halloween-2026-part-2",
-      "name": "Pokémon GO Halloween 2026 Part II",
-      "eventType": "event",
-      "heading": "Event",
-      "link": "https://leekduck.com/events/halloween-2026-part-2/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-01-halloween-2026-part-2/halloween-2026-part-2.jpg",
-      "start": "2026-11-01T10:00:00.000",
-      "end": "2026-11-05T20:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": true,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "pokemon-go-wild-area-2026-sendai-japan",
       "name": "Pokémon GO Wild Area 2026: Sendai • Tohoku",
