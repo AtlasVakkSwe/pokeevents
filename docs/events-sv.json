@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-11-07T11:12:57.044Z",
+  "uppdaterad": "2026-11-08T11:24:37.121Z",
   "events": [
     {
       "id": "pokemon-go-wild-area-2026-sendai-japan",
@@ -416,21 +416,6 @@
         {
           "namn": "Zamazenta (Crowned Shield)",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm889.fCROWNED_SHIELD.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Gigantamax Duraludon",
-          "bild": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-06-pokemon-go-wild-area-2026-sendai-japan/gigantamax-duraludon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Dialga",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_483_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Palkia",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_484_00.png",
           "shiny": true
         }
       ]
@@ -851,21 +836,6 @@
           "namn": "Zamazenta (Crowned Shield)",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm889.fCROWNED_SHIELD.icon.png",
           "shiny": true
-        },
-        {
-          "namn": "Gigantamax Duraludon",
-          "bild": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-06-pokemon-go-wild-area-2026-mexico-city/gigantamax-duraludon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Dialga",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_483_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Palkia",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_484_00.png",
-          "shiny": true
         }
       ]
     },
@@ -1111,36 +1081,6 @@
         {
           "namn": "Zamazenta (Crowned Shield)",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm889.fCROWNED_SHIELD.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Ralts",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_280_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Machop",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_066_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Registeel",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_379_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Regidrago",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm895.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Latias",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_380_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Latios",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_381_00.png",
           "shiny": true
         }
       ]
@@ -1469,8 +1409,8 @@
           "shiny": true
         },
         {
-          "namn": "Unown D",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_201_14.png",
+          "namn": "Unown W",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_201_33.png",
           "shiny": true
         },
         {
@@ -1484,8 +1424,8 @@
           "shiny": true
         },
         {
-          "namn": "Unown W",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_201_33.png",
+          "namn": "Unown D",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_201_14.png",
           "shiny": true
         },
         {
@@ -1525,21 +1465,6 @@
         {
           "namn": "Kyurem (Black)",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_646_13.png",
-          "shiny": true
-        },
-        {
-          "namn": "Gigantamax Duraludon",
-          "bild": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-14-pokemon-go-wild-area-2026-global/gigantamax-duraludon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Dialga",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_483_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Palkia",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_484_00.png",
           "shiny": true
         }
       ]
