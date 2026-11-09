@@ -1,12 +1,17 @@
 {
-  "uppdaterad": "2026-11-08T11:24:37.121Z",
+  "uppdaterad": "2026-11-09T13:09:02.329Z",
   "grupper": [
     {
       "rubrik": "5 stjärnor",
       "pokemon": [
         {
-          "namn": "Giratina (Altered)",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm487.fALTERED.icon.png",
+          "namn": "Zacian (Crowned Sword)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm888.fCROWNED_SWORD.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Zamazenta (Crowned Shield)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm889.fCROWNED_SHIELD.icon.png",
           "shiny": true
         },
         {
@@ -17,32 +22,17 @@
       ]
     },
     {
-      "rubrik": "Mega",
-      "pokemon": [
-        {
-          "namn": "Mega Sableye",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm302.fMEGA.icon.png",
-          "shiny": true
-        }
-      ]
-    },
-    {
       "rubrik": "3 stjärnor",
       "pokemon": [
         {
-          "namn": "Cofagrigus",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm563.icon.png",
+          "namn": "Druddigon",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm621.icon.png",
           "shiny": true
         },
         {
-          "namn": "Trevenant",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm709.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Dhelmise",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm781.icon.png",
-          "shiny": true
+          "namn": "Orthworm",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm968.icon.png",
+          "shiny": false
         },
         {
           "namn": "Shadow Primeape",
@@ -64,26 +54,6 @@
     {
       "rubrik": "1 stjärna",
       "pokemon": [
-        {
-          "namn": "Duskull",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm355.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Frillish",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm592.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Frillish (Female)",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm592.fFEMALE.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Litwick",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm607.icon.png",
-          "shiny": true
-        },
         {
           "namn": "Shadow Gastly",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm92.icon.png",

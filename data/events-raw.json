@@ -1,38 +1,6 @@
 {
-  "hamtad": "2026-11-08T11:24:37.121Z",
+  "hamtad": "2026-11-09T13:09:02.329Z",
   "events": [
-    {
-      "eventID": "pokemon-go-wild-area-2026-sendai-japan",
-      "name": "Pokémon GO Wild Area 2026: Sendai • Tohoku",
-      "eventType": "wild-area",
-      "heading": "Wild Area",
-      "link": "https://leekduck.com/events/pokemon-go-wild-area-2026-sendai-japan/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-06-pokemon-go-wild-area-2026-sendai-japan/key-art.jpg",
-      "start": "2026-11-06T01:00:00.000Z",
-      "end": "2026-11-08T09:00:00.000Z",
-      "extraData": {
-        "generic": {
-          "hasSpawns": true,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "pokemon-go-wild-area-2026-mexico-city",
-      "name": "Pokémon GO Wild Area 2026: Mexico City",
-      "eventType": "wild-area",
-      "heading": "Wild Area",
-      "link": "https://leekduck.com/events/pokemon-go-wild-area-2026-mexico-city/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-06-pokemon-go-wild-area-2026-mexico-city/key-art.jpg",
-      "start": "2026-11-06T16:00:00.000Z",
-      "end": "2026-11-09T00:00:00.000Z",
-      "extraData": {
-        "generic": {
-          "hasSpawns": true,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "mega-sableye-in-mega-raids-october-2026",
       "name": "Mega Sableye in Mega Raids",
@@ -159,7 +127,7 @@
     },
     {
       "eventID": "into-the-wild-2026",
-      "name": "Into the Wild",
+      "name": "Into the Wild 2026",
       "eventType": "event",
       "heading": "Event",
       "link": "https://leekduck.com/events/into-the-wild-2026/",
