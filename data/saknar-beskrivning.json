@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-11-09T13:09:02.329Z",
+  "uppdaterad": "2026-11-10T12:50:09.595Z",
   "events": [
     {
       "name": "Pokémon Night Out 2026 - London",
@@ -62,16 +62,34 @@
       "link": "https://leekduck.com/events/go-pass-november-2026/"
     },
     {
+      "name": "Max Battle Day",
+      "typ": "max-battles",
+      "start": "2026-12-05T14:00:00.000",
+      "link": "https://leekduck.com/events/max-battle-day-december-2026/"
+    },
+    {
       "name": "Minior Showers: Geminids 2026",
       "typ": "event",
       "start": "2026-12-11T17:00:00.000",
       "link": "https://leekduck.com/events/minior-showers-geminids-2026/"
     },
     {
+      "name": "Hatch Day",
+      "typ": "event",
+      "start": "2026-12-26T11:00:00.000",
+      "link": "https://leekduck.com/events/hatch-day-december-2026/"
+    },
+    {
       "name": "adidas × Pokémon Timed Research",
       "typ": "research",
       "start": "2026-09-25T10:00:00.000",
       "link": "https://leekduck.com/events/pokemon-x-adidas-2026/"
+    },
+    {
+      "name": "Max Battle Day",
+      "typ": "max-battles",
+      "start": "2027-01-23T14:00:00.000",
+      "link": "https://leekduck.com/events/max-battle-day-january-2027/"
     },
     {
       "name": "Pokémon GO Tour: Alola - Kaohsiung 2027",

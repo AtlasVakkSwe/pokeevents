@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-11-09T13:09:02.329Z",
+  "uppdaterad": "2026-11-10T12:50:09.595Z",
   "grupper": [
     {
       "rubrik": "5 stjärnor",
@@ -15,8 +15,8 @@
           "shiny": true
         },
         {
-          "namn": "Shadow Landorus (Incarnate)",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm645.fINCARNATE.icon.png",
+          "namn": "Shadow Tornadus (Incarnate)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm641.fINCARNATE.icon.png",
           "shiny": true
         }
       ]
@@ -35,18 +35,18 @@
           "shiny": false
         },
         {
-          "namn": "Shadow Primeape",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm57.icon.png",
+          "namn": "Shadow Poliwhirl",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm61.icon.png",
           "shiny": true
         },
         {
-          "namn": "Shadow Kirlia",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm281.icon.png",
+          "namn": "Shadow Piloswine",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm221.icon.png",
           "shiny": true
         },
         {
-          "namn": "Shadow Drapion",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm452.icon.png",
+          "namn": "Shadow Prinplup",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm394.icon.png",
           "shiny": true
         }
       ]
@@ -55,23 +55,23 @@
       "rubrik": "1 stjärna",
       "pokemon": [
         {
-          "namn": "Shadow Gastly",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm92.icon.png",
+          "namn": "Shadow Larvitar",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm246.icon.png",
           "shiny": true
         },
         {
-          "namn": "Shadow Totodile",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm158.icon.png",
+          "namn": "Shadow Mudkip",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm258.icon.png",
           "shiny": true
         },
         {
-          "namn": "Shadow Shieldon",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm410.icon.png",
+          "namn": "Shadow Makuhita",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm296.icon.png",
           "shiny": true
         },
         {
-          "namn": "Shadow Gible",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm443.icon.png",
+          "namn": "Shadow Cranidos",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm408.icon.png",
           "shiny": true
         }
       ]

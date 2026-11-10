@@ -1,98 +1,6 @@
 {
-  "hamtad": "2026-11-09T13:09:02.329Z",
+  "hamtad": "2026-11-10T12:50:09.595Z",
   "events": [
-    {
-      "eventID": "mega-sableye-in-mega-raids-october-2026",
-      "name": "Mega Sableye in Mega Raids",
-      "eventType": "raid-battles",
-      "heading": "Raid Battles",
-      "link": "https://leekduck.com/events/mega-sableye-in-mega-raids-october-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
-      "start": "2026-10-28T06:00:00.000",
-      "end": "2026-11-08T22:00:00.000",
-      "extraData": {
-        "raidbattles": {
-          "bosses": [
-            {
-              "name": "Mega Sableye",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_302_51.png",
-              "canBeShiny": true
-            }
-          ],
-          "shinies": [
-            {
-              "name": "Sableye",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_302_00_shiny.png"
-            },
-            {
-              "name": "Mega Sableye",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_302_51_shiny.png"
-            }
-          ]
-        },
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "giratina-altered-forme-in-5-star-raid-battles-november-2026",
-      "name": "Giratina (Altered Forme) in 5-star Raid Battles",
-      "eventType": "raid-battles",
-      "heading": "Raid Battles",
-      "link": "https://leekduck.com/events/giratina-altered-forme-in-5-star-raid-battles-november-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/giratinaaltered.jpg",
-      "start": "2026-11-04T06:00:00.000",
-      "end": "2026-11-08T22:00:00.000",
-      "extraData": {
-        "raidbattles": {
-          "bosses": [
-            {
-              "name": "Giratina (Altered)",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_487_11.png",
-              "canBeShiny": true
-            }
-          ],
-          "shinies": [
-            {
-              "name": "Giratina (Altered)",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_487_11_shiny.png"
-            }
-          ]
-        },
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "shadow-tornadus-incarnate-forme-in-shadow-raids-november-4-2026",
-      "name": "Shadow Tornadus (Incarnate Forme) in Shadow Raids",
-      "eventType": "raid-battles",
-      "heading": "Raid Battles",
-      "link": "https://leekduck.com/events/shadow-tornadus-incarnate-forme-in-shadow-raids-november-4-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/tornadus.jpg",
-      "start": "2026-11-04T06:00:00.000",
-      "end": "2026-11-08T22:00:00.000",
-      "extraData": {
-        "raidbattles": {
-          "bosses": [
-            {
-              "name": "Tornadus (Incarnate)",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_641_11.png",
-              "canBeShiny": false
-            }
-          ],
-          "shinies": []
-        },
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-3",
       "name": "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition | Twilight Trails",
@@ -138,6 +46,46 @@
         "generic": {
           "hasSpawns": true,
           "hasFieldResearchTasks": true
+        }
+      }
+    },
+    {
+      "eventID": "zacian-crowned-sword-zamazenta-crowned-shield-in-5-star-raid-battles-november-2026",
+      "name": "Zacian (Crowned Sword) and Zamazenta (Crowned Shield) in 5-star Raid Battles",
+      "eventType": "raid-battles",
+      "heading": "Raid Battles",
+      "link": "https://leekduck.com/events/zacian-crowned-sword-zamazenta-crowned-shield-in-5-star-raid-battles-november-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/zacian-and-zamazenta-2.jpg",
+      "start": "2026-11-09T10:00:00.000",
+      "end": "2026-11-13T20:00:00.000",
+      "extraData": {
+        "raidbattles": {
+          "bosses": [
+            {
+              "name": "Zacian (Crowned Sword)",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm888.fCROWNED_SWORD.icon.png",
+              "canBeShiny": true
+            },
+            {
+              "name": "Zamazenta (Crowned Shield)",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm889.fCROWNED_SHIELD.icon.png",
+              "canBeShiny": true
+            }
+          ],
+          "shinies": [
+            {
+              "name": "Zacian (Crowned Sword)",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm888.fCROWNED_SWORD.s.icon.png"
+            },
+            {
+              "name": "Zamazenta (Crowned Shield)",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm889.fCROWNED_SHIELD.s.icon.png"
+            }
+          ]
+        },
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
         }
       }
     },
@@ -941,6 +889,38 @@
       }
     },
     {
+      "eventID": "max-battle-day-december-2026",
+      "name": "Max Battle Day",
+      "eventType": "max-battles",
+      "heading": "Max Battles",
+      "link": "https://leekduck.com/events/max-battle-day-december-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-12-05T14:00:00.000",
+      "end": "2026-12-05T17:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "december-communityday2026",
+      "name": "December Community Day",
+      "eventType": "community-day",
+      "heading": "Community Day",
+      "link": "https://leekduck.com/events/december-communityday2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/cd-default.jpg",
+      "start": "2026-12-12T14:00:00.000",
+      "end": "2026-12-13T17:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
       "eventID": "minior-showers-geminids-2026",
       "name": "Minior Showers: Geminids 2026",
       "eventType": "event",
@@ -952,6 +932,70 @@
       "extraData": {
         "generic": {
           "hasSpawns": true,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "raid-day-december-2026",
+      "name": "Raid Day",
+      "eventType": "raid-day",
+      "heading": "Raid Day",
+      "link": "https://leekduck.com/events/raid-day-december-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-12-19T14:00:00.000",
+      "end": "2026-12-19T17:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "hatch-day-december-2026",
+      "name": "Hatch Day",
+      "eventType": "event",
+      "heading": "Event",
+      "link": "https://leekduck.com/events/hatch-day-december-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-12-26T11:00:00.000",
+      "end": "2026-12-26T17:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "january-communitydayclassic2027",
+      "name": "January Community Day Classic",
+      "eventType": "community-day",
+      "heading": "Community Day",
+      "link": "https://leekduck.com/events/january-communitydayclassic2027/",
+      "image": "https://cdn.leekduck.com/assets/img/events/cd-default.jpg",
+      "start": "2027-01-02T14:00:00.000",
+      "end": "2027-01-02T17:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "super-mega-raid-day-january-2027",
+      "name": "Super Mega Raid Day",
+      "eventType": "raid-day",
+      "heading": "Raid Day",
+      "link": "https://leekduck.com/events/super-mega-raid-day-january-2027/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2027-01-09T14:00:00.000",
+      "end": "2027-01-09T17:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
           "hasFieldResearchTasks": false
         }
       }
@@ -969,6 +1013,86 @@
         "promocodes": [
           "ADIDASxPOKEMON"
         ],
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "january-communityday2027",
+      "name": "January Community Day",
+      "eventType": "community-day",
+      "heading": "Community Day",
+      "link": "https://leekduck.com/events/january-communityday2027/",
+      "image": "https://cdn.leekduck.com/assets/img/events/cd-default.jpg",
+      "start": "2027-01-16T14:00:00.000",
+      "end": "2027-01-16T17:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "max-battle-day-january-2027",
+      "name": "Max Battle Day",
+      "eventType": "max-battles",
+      "heading": "Max Battles",
+      "link": "https://leekduck.com/events/max-battle-day-january-2027/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2027-01-23T14:00:00.000",
+      "end": "2027-01-23T17:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "super-mega-raid-day-january-30-2027",
+      "name": "Super Mega Raid Day",
+      "eventType": "raid-day",
+      "heading": "Raid Day",
+      "link": "https://leekduck.com/events/super-mega-raid-day-january-30-2027/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2027-01-30T14:00:00.000",
+      "end": "2027-01-30T17:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "february-communityday2027",
+      "name": "February Community Day",
+      "eventType": "community-day",
+      "heading": "Community Day",
+      "link": "https://leekduck.com/events/february-communityday2027/",
+      "image": "https://cdn.leekduck.com/assets/img/events/cd-default.jpg",
+      "start": "2027-02-06T14:00:00.000",
+      "end": "2027-02-06T17:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "raid-day-february-2027",
+      "name": "Raid Day",
+      "eventType": "raid-day",
+      "heading": "Raid Day",
+      "link": "https://leekduck.com/events/raid-day-february-2027/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2027-02-13T14:00:00.000",
+      "end": "2027-02-13T17:00:00.000",
+      "extraData": {
         "generic": {
           "hasSpawns": false,
           "hasFieldResearchTasks": false

@@ -1,69 +1,6 @@
 {
-  "uppdaterad": "2026-11-09T13:09:02.329Z",
+  "uppdaterad": "2026-11-10T12:50:09.595Z",
   "events": [
-    {
-      "id": "mega-sableye-in-mega-raids-october-2026",
-      "name": "Mega Sableye in Mega Raids",
-      "namn": "Mega Sableye i Mega-raider",
-      "typ": "raid-battles",
-      "typRubrik": "Raider",
-      "link": "https://leekduck.com/events/mega-sableye-in-mega-raids-october-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
-      "start": "2026-10-28T06:00:00.000",
-      "end": "2026-11-08T22:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Mega Sableye finns i raid. Kan vara shiny! ✨",
-      "pokemon": [
-        {
-          "namn": "Mega Sableye",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_302_51.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
-    {
-      "id": "giratina-altered-forme-in-5-star-raid-battles-november-2026",
-      "name": "Giratina (Altered Forme) in 5-star Raid Battles",
-      "namn": "Giratina i 5-stjärniga raider",
-      "typ": "raid-battles",
-      "typRubrik": "Raider",
-      "link": "https://leekduck.com/events/giratina-altered-forme-in-5-star-raid-battles-november-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/giratinaaltered.jpg",
-      "start": "2026-11-04T06:00:00.000",
-      "end": "2026-11-08T22:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Giratina (Altered) finns i raid. Kan vara shiny! ✨",
-      "pokemon": [
-        {
-          "namn": "Giratina (Altered)",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_487_11.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
-    {
-      "id": "shadow-tornadus-incarnate-forme-in-shadow-raids-november-4-2026",
-      "name": "Shadow Tornadus (Incarnate Forme) in Shadow Raids",
-      "namn": "Shadow Tornadus i Shadow-raider",
-      "typ": "raid-battles",
-      "typRubrik": "Raider",
-      "link": "https://leekduck.com/events/shadow-tornadus-incarnate-forme-in-shadow-raids-november-4-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/tornadus.jpg",
-      "start": "2026-11-04T06:00:00.000",
-      "end": "2026-11-08T22:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Tornadus (Incarnate) finns i raid.",
-      "pokemon": [
-        {
-          "namn": "Tornadus (Incarnate)",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_641_11.png",
-          "shiny": false
-        }
-      ],
-      "bonusar": []
-    },
     {
       "id": "gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-3",
       "name": "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition | Twilight Trails",
@@ -291,6 +228,32 @@
           "shiny": true
         }
       ]
+    },
+    {
+      "id": "zacian-crowned-sword-zamazenta-crowned-shield-in-5-star-raid-battles-november-2026",
+      "name": "Zacian (Crowned Sword) and Zamazenta (Crowned Shield) in 5-star Raid Battles",
+      "namn": "Zacian och Zamazenta i 5-stjärniga raider",
+      "typ": "raid-battles",
+      "typRubrik": "Raider",
+      "link": "https://leekduck.com/events/zacian-crowned-sword-zamazenta-crowned-shield-in-5-star-raid-battles-november-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/zacian-and-zamazenta-2.jpg",
+      "start": "2026-11-09T10:00:00.000",
+      "end": "2026-11-13T20:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Zacian (Crowned Sword), Zamazenta (Crowned Shield) finns i raid. Kan vara shiny! ✨",
+      "pokemon": [
+        {
+          "namn": "Zacian (Crowned Sword)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm888.fCROWNED_SWORD.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Zamazenta (Crowned Shield)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm889.fCROWNED_SHIELD.icon.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
     },
     {
       "id": "pokemon-go-wild-area-2026-global",
@@ -1195,6 +1158,36 @@
       "bonusar": []
     },
     {
+      "id": "max-battle-day-december-2026",
+      "name": "Max Battle Day",
+      "namn": "Max-stridsdag",
+      "typ": "max-battles",
+      "typRubrik": "Max-strider",
+      "link": "https://leekduck.com/events/max-battle-day-december-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-12-05T14:00:00.000",
+      "end": "2026-12-05T17:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Extra många Max-strider.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "december-communityday2026",
+      "name": "December Community Day",
+      "namn": "Community Day i december",
+      "typ": "community-day",
+      "typRubrik": "Community Day",
+      "link": "https://leekduck.com/events/december-communityday2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/cd-default.jpg",
+      "start": "2026-12-12T14:00:00.000",
+      "end": "2026-12-13T17:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Community Day! Extra många dyker upp och det finns bonusar hela tiden.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
       "id": "minior-showers-geminids-2026",
       "name": "Minior Showers: Geminids 2026",
       "namn": "Minior Showers: Geminids 2026",
@@ -1217,6 +1210,66 @@
       "pokemonRubrik": "Finns att fånga:"
     },
     {
+      "id": "raid-day-december-2026",
+      "name": "Raid Day",
+      "namn": "Raiddag",
+      "typ": "raid-day",
+      "typRubrik": "Raiddag",
+      "link": "https://leekduck.com/events/raid-day-december-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-12-19T14:00:00.000",
+      "end": "2026-12-19T17:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Raiddag! Extra många raider hela dagen.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "hatch-day-december-2026",
+      "name": "Hatch Day",
+      "namn": "Hatch Day",
+      "typ": "event",
+      "typRubrik": "Event",
+      "link": "https://leekduck.com/events/hatch-day-december-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-12-26T11:00:00.000",
+      "end": "2026-12-26T17:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Kläckdag! Kläck ägg och få en särskild Pokémon.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "january-communitydayclassic2027",
+      "name": "January Community Day Classic",
+      "namn": "January Community Day Classic",
+      "typ": "community-day",
+      "typRubrik": "Community Day",
+      "link": "https://leekduck.com/events/january-communitydayclassic2027/",
+      "image": "https://cdn.leekduck.com/assets/img/events/cd-default.jpg",
+      "start": "2027-01-02T14:00:00.000",
+      "end": "2027-01-02T17:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Community Day! Extra många dyker upp och det finns bonusar hela tiden.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "super-mega-raid-day-january-2027",
+      "name": "Super Mega Raid Day",
+      "namn": "Raiddag",
+      "typ": "raid-day",
+      "typRubrik": "Raiddag",
+      "link": "https://leekduck.com/events/super-mega-raid-day-january-2027/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2027-01-09T14:00:00.000",
+      "end": "2027-01-09T17:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Raiddag! Extra många raider hela dagen.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
       "id": "pokemon-x-adidas-2026",
       "name": "adidas × Pokémon Timed Research",
       "namn": "adidas × Pokémon Timed Research",
@@ -1228,6 +1281,81 @@
       "end": "2027-01-15T20:00:00.000",
       "region": "galler",
       "sammanfattning": null,
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "january-communityday2027",
+      "name": "January Community Day",
+      "namn": "Community Day i januari",
+      "typ": "community-day",
+      "typRubrik": "Community Day",
+      "link": "https://leekduck.com/events/january-communityday2027/",
+      "image": "https://cdn.leekduck.com/assets/img/events/cd-default.jpg",
+      "start": "2027-01-16T14:00:00.000",
+      "end": "2027-01-16T17:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Community Day! Extra många dyker upp och det finns bonusar hela tiden.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "max-battle-day-january-2027",
+      "name": "Max Battle Day",
+      "namn": "Max-stridsdag",
+      "typ": "max-battles",
+      "typRubrik": "Max-strider",
+      "link": "https://leekduck.com/events/max-battle-day-january-2027/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2027-01-23T14:00:00.000",
+      "end": "2027-01-23T17:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Extra många Max-strider.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "super-mega-raid-day-january-30-2027",
+      "name": "Super Mega Raid Day",
+      "namn": "Raiddag",
+      "typ": "raid-day",
+      "typRubrik": "Raiddag",
+      "link": "https://leekduck.com/events/super-mega-raid-day-january-30-2027/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2027-01-30T14:00:00.000",
+      "end": "2027-01-30T17:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Raiddag! Extra många raider hela dagen.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "february-communityday2027",
+      "name": "February Community Day",
+      "namn": "Community Day i februari",
+      "typ": "community-day",
+      "typRubrik": "Community Day",
+      "link": "https://leekduck.com/events/february-communityday2027/",
+      "image": "https://cdn.leekduck.com/assets/img/events/cd-default.jpg",
+      "start": "2027-02-06T14:00:00.000",
+      "end": "2027-02-06T17:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Community Day! Extra många dyker upp och det finns bonusar hela tiden.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "raid-day-february-2027",
+      "name": "Raid Day",
+      "namn": "Raiddag",
+      "typ": "raid-day",
+      "typRubrik": "Raiddag",
+      "link": "https://leekduck.com/events/raid-day-february-2027/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2027-02-13T14:00:00.000",
+      "end": "2027-02-13T17:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Raiddag! Extra många raider hela dagen.",
       "pokemon": [],
       "bonusar": []
     },
