@@ -1,38 +1,6 @@
 {
-  "hamtad": "2026-11-10T12:50:09.595Z",
+  "hamtad": "2026-11-11T11:59:17.352Z",
   "events": [
-    {
-      "eventID": "gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-3",
-      "name": "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition | Twilight Trails",
-      "eventType": "go-battle-league",
-      "heading": "GO Battle League",
-      "link": "https://leekduck.com/events/gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-3/",
-      "image": "https://cdn.leekduck.com/assets/img/events/go-battle-league-season-28-twilight-trails.png",
-      "start": "2026-11-03T21:00:00.000Z",
-      "end": "2026-11-10T21:00:00.000Z",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "pokemon-night-out-london-2026",
-      "name": "Pokémon Night Out 2026 - London",
-      "eventType": "event",
-      "heading": "Event",
-      "link": "https://leekduck.com/events/pokemon-night-out-london-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/pokemon-night-out-2026.jpg",
-      "start": "2026-11-10T18:00:00.000Z",
-      "end": "2026-11-10T22:30:00.000Z",
-      "extraData": {
-        "generic": {
-          "hasSpawns": true,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "into-the-wild-2026",
       "name": "Into the Wild 2026",
