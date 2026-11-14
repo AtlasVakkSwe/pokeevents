@@ -1,17 +1,27 @@
 {
-  "uppdaterad": "2026-11-13T12:26:14.982Z",
+  "uppdaterad": "2026-11-14T11:38:47.108Z",
   "grupper": [
     {
       "rubrik": "5 stjärnor",
       "pokemon": [
         {
-          "namn": "Zacian (Crowned Sword)",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm888.fCROWNED_SWORD.icon.png",
+          "namn": "Zekrom",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm644.icon.png",
           "shiny": true
         },
         {
-          "namn": "Zamazenta (Crowned Shield)",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm889.fCROWNED_SHIELD.icon.png",
+          "namn": "Kyurem (White)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm646.fWHITE.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Reshiram",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm643.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Kyurem (Black)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm646.fBLACK.icon.png",
           "shiny": true
         },
         {
@@ -25,14 +35,9 @@
       "rubrik": "3 stjärnor",
       "pokemon": [
         {
-          "namn": "Druddigon",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm621.icon.png",
+          "namn": "Modern Jacket Machamp",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm68.fWILDAREA_2026_01.icon.png",
           "shiny": true
-        },
-        {
-          "namn": "Orthworm",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm968.icon.png",
-          "shiny": false
         },
         {
           "namn": "Shadow Poliwhirl",
