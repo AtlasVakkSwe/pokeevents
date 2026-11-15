@@ -1,131 +1,6 @@
 {
-  "uppdaterad": "2026-11-14T11:38:47.108Z",
+  "uppdaterad": "2026-11-15T12:05:42.811Z",
   "events": [
-    {
-      "id": "into-the-wild-2026",
-      "name": "Into the Wild 2026",
-      "namn": "Into the Wild 2026",
-      "typ": "event",
-      "typRubrik": "Event",
-      "link": "https://leekduck.com/events/into-the-wild-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-09-into-the-wild-2026/into-the-wild-2026.jpg",
-      "start": "2026-11-09T10:00:00.000",
-      "end": "2026-11-13T20:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Särskilda Pokémon dyker upp under eventet. Se listan.",
-      "pokemon": [
-        {
-          "namn": "Galarian Meowth",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_052_31.png",
-          "shiny": true
-        },
-        {
-          "namn": "Magnemite",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_081_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Horsea",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_116_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Scyther",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_123_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Dratini",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_147_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Mareep",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_179_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Mawile",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_303_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Aron",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_304_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Bagon",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_371_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Skrelp",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_690_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Noibat",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_714_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Togedemaru",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm777.icon.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": [],
-      "pokemonRubrik": "Finns att fånga:",
-      "raids": [
-        {
-          "namn": "Druddigon",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_621_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Orthworm",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm968.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Zacian (Crowned Sword)",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm888.fCROWNED_SWORD.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Zamazenta (Crowned Shield)",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm889.fCROWNED_SHIELD.icon.png",
-          "shiny": true
-        }
-      ]
-    },
-    {
-      "id": "zacian-crowned-sword-zamazenta-crowned-shield-in-5-star-raid-battles-november-2026",
-      "name": "Zacian (Crowned Sword) and Zamazenta (Crowned Shield) in 5-star Raid Battles",
-      "namn": "Zacian och Zamazenta i 5-stjärniga raider",
-      "typ": "raid-battles",
-      "typRubrik": "Raider",
-      "link": "https://leekduck.com/events/zacian-crowned-sword-zamazenta-crowned-shield-in-5-star-raid-battles-november-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/zacian-and-zamazenta-2.jpg",
-      "start": "2026-11-09T10:00:00.000",
-      "end": "2026-11-13T20:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Zacian (Crowned Sword), Zamazenta (Crowned Shield) finns i raid. Kan vara shiny! ✨",
-      "pokemon": [
-        {
-          "namn": "Zacian (Crowned Sword)",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm888.fCROWNED_SWORD.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Zamazenta (Crowned Shield)",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm889.fCROWNED_SHIELD.icon.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
     {
       "id": "pokemon-go-wild-area-2026-global",
       "name": "Pokémon GO Wild Area 2026: Global",
@@ -680,8 +555,300 @@
       "end": "2026-11-23T20:00:00.000",
       "region": "galler",
       "sammanfattning": "Särskilda Pokémon dyker upp under eventet. Se listan.",
-      "pokemon": [],
-      "bonusar": []
+      "pokemon": [
+        {
+          "namn": "Bulbasaur",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_001_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Charmander",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_004_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Squirtle",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_007_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Caterpie",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_010_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_025_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Growlithe",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_058_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Abra",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_063_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Machop",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_066_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Gastly",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_092_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Krabby",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_098_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Hitmonlee",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_106_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Hitmonchan",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_107_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Rhyhorn",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_111_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Chansey",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_113_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Electabuzz",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_125_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Magmar",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_126_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Magikarp",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_129_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Eevee",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_133_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Omanyte",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_138_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Kabuto",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_140_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Hoothoot",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_163_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Shuckle",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_213_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Sneasel",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_215_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Hitmontop",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_237_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Ralts",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_280_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Sableye",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_302_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Wailmer",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_320_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Trapinch",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_328_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Feebas",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_349_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Spheal",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_363_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Beldum",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_374_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Combee",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_415_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Pidove",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_519_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Roggenrola",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_524_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Woobat",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_527_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Drilbur",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_529_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Excadrill",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_530_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Cottonee",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_546_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Darumaka",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_554_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Trubbish",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_568_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Cryogonal",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_615_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Deino",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_633_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Inkay",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_686_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Bounsweet",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm761.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Passimian",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm766.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Drampa",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm780.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Grookey",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm810.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Scorbunny",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm813.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Sobble",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm816.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Skwovet",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm819.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Rookidee",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm821.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Wooloo",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm831.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Toxtricity (Amped Form)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm849.fAMPED.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Toxtricity (Low Key Form)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm849.fLOW_KEY.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Sizzlipede",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm850.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Hatenna",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm856.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Falinks",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm870.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Duraludon",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm884.icon.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": [],
+      "pokemonRubrik": "Finns att fånga:"
     },
     {
       "id": "max-mondays-2026-11-23",

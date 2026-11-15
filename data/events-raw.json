@@ -1,62 +1,6 @@
 {
-  "hamtad": "2026-11-14T11:38:47.108Z",
+  "hamtad": "2026-11-15T12:05:42.811Z",
   "events": [
-    {
-      "eventID": "into-the-wild-2026",
-      "name": "Into the Wild 2026",
-      "eventType": "event",
-      "heading": "Event",
-      "link": "https://leekduck.com/events/into-the-wild-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-09-into-the-wild-2026/into-the-wild-2026.jpg",
-      "start": "2026-11-09T10:00:00.000",
-      "end": "2026-11-13T20:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": true,
-          "hasFieldResearchTasks": true
-        }
-      }
-    },
-    {
-      "eventID": "zacian-crowned-sword-zamazenta-crowned-shield-in-5-star-raid-battles-november-2026",
-      "name": "Zacian (Crowned Sword) and Zamazenta (Crowned Shield) in 5-star Raid Battles",
-      "eventType": "raid-battles",
-      "heading": "Raid Battles",
-      "link": "https://leekduck.com/events/zacian-crowned-sword-zamazenta-crowned-shield-in-5-star-raid-battles-november-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/zacian-and-zamazenta-2.jpg",
-      "start": "2026-11-09T10:00:00.000",
-      "end": "2026-11-13T20:00:00.000",
-      "extraData": {
-        "raidbattles": {
-          "bosses": [
-            {
-              "name": "Zacian (Crowned Sword)",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm888.fCROWNED_SWORD.icon.png",
-              "canBeShiny": true
-            },
-            {
-              "name": "Zamazenta (Crowned Shield)",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm889.fCROWNED_SHIELD.icon.png",
-              "canBeShiny": true
-            }
-          ],
-          "shinies": [
-            {
-              "name": "Zacian (Crowned Sword)",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm888.fCROWNED_SWORD.s.icon.png"
-            },
-            {
-              "name": "Zamazenta (Crowned Shield)",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm889.fCROWNED_SHIELD.s.icon.png"
-            }
-          ]
-        },
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "pokemon-go-wild-area-2026-global",
       "name": "Pokémon GO Wild Area 2026: Global",
