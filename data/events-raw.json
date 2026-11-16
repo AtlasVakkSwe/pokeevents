@@ -1,22 +1,6 @@
 {
-  "hamtad": "2026-11-15T12:05:42.811Z",
+  "hamtad": "2026-11-16T12:59:27.106Z",
   "events": [
-    {
-      "eventID": "pokemon-go-wild-area-2026-global",
-      "name": "Pokémon GO Wild Area 2026: Global",
-      "eventType": "wild-area",
-      "heading": "Wild Area",
-      "link": "https://leekduck.com/events/pokemon-go-wild-area-2026-global/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-14-pokemon-go-wild-area-2026-global/key-art.jpg",
-      "start": "2026-11-14T10:00:00.000",
-      "end": "2026-11-15T18:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": true,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "go-wild-area-gigantamax-machamp-power-up-timed-research",
       "name": "GO Wild Area: Gigantamax Machamp Power Up! Timed Research",
@@ -35,7 +19,7 @@
     },
     {
       "eventID": "max-mondays-2026-11-16",
-      "name": "Max Monday: Pokémon to be announced",
+      "name": "[Canceled] Max Monday",
       "eventType": "max-mondays",
       "heading": "Max Mondays",
       "link": "https://leekduck.com/events/max-mondays-2026-11-16/",

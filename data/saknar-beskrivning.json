@@ -1,18 +1,6 @@
 {
-  "uppdaterad": "2026-11-15T12:05:42.811Z",
+  "uppdaterad": "2026-11-16T12:59:27.106Z",
   "events": [
-    {
-      "name": "Pokémon GO Wild Area 2026: Global",
-      "typ": "wild-area",
-      "start": "2026-11-14T10:00:00.000",
-      "link": "https://leekduck.com/events/pokemon-go-wild-area-2026-global/"
-    },
-    {
-      "name": "GO Wild Area: Gigantamax Machamp Power Up! Timed Research",
-      "typ": "timed-research",
-      "start": "2026-11-06T10:00:00.000",
-      "link": "https://leekduck.com/events/go-wild-area-gigantamax-machamp-power-up-timed-research/"
-    },
     {
       "name": "Minior Showers: Leonids 2026",
       "typ": "event",

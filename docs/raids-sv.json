@@ -1,27 +1,17 @@
 {
-  "uppdaterad": "2026-11-15T12:05:42.811Z",
+  "uppdaterad": "2026-11-16T12:59:27.106Z",
   "grupper": [
     {
       "rubrik": "5 stjärnor",
       "pokemon": [
         {
-          "namn": "Zekrom",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm644.icon.png",
+          "namn": "Cresselia",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm488.icon.png",
           "shiny": true
         },
         {
-          "namn": "Kyurem (White)",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm646.fWHITE.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Reshiram",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm643.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Kyurem (Black)",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm646.fBLACK.icon.png",
+          "namn": "Darkrai",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm491.icon.png",
           "shiny": true
         },
         {
@@ -32,11 +22,31 @@
       ]
     },
     {
+      "rubrik": "Mega",
+      "pokemon": [
+        {
+          "namn": "Mega Banette",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm354.fMEGA.icon.png",
+          "shiny": true
+        }
+      ]
+    },
+    {
       "rubrik": "3 stjärnor",
       "pokemon": [
         {
-          "namn": "Modern Jacket Machamp",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm68.fWILDAREA_2026_01.icon.png",
+          "namn": "Alolan Marowak",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm105.fALOLA.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Liepard",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm510.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Golurk",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm623.icon.png",
           "shiny": true
         },
         {
@@ -59,6 +69,26 @@
     {
       "rubrik": "1 stjärna",
       "pokemon": [
+        {
+          "namn": "Alolan Meowth",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm52.fALOLA.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Misdreavus",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm200.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Galarian Yamask",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm562.fGALARIAN.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Sandygast",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm769.icon.png",
+          "shiny": true
+        },
         {
           "namn": "Shadow Larvitar",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm246.icon.png",
