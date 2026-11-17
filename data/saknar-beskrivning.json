@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-11-16T12:59:27.106Z",
+  "uppdaterad": "2026-11-17T13:41:28.139Z",
   "events": [
     {
       "name": "Minior Showers: Leonids 2026",
@@ -54,6 +54,12 @@
       "typ": "event",
       "start": "2026-12-26T11:00:00.000",
       "link": "https://leekduck.com/events/hatch-day-december-2026/"
+    },
+    {
+      "name": "Pokémon GO and Duolingo Timed Research",
+      "typ": "timed-research",
+      "start": "2026-11-17T10:00:00.000",
+      "link": "https://leekduck.com/events/duolingo-timed-research-2026/"
     },
     {
       "name": "adidas × Pokémon Timed Research",

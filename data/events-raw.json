@@ -1,38 +1,6 @@
 {
-  "hamtad": "2026-11-16T12:59:27.106Z",
+  "hamtad": "2026-11-17T13:41:28.139Z",
   "events": [
-    {
-      "eventID": "go-wild-area-gigantamax-machamp-power-up-timed-research",
-      "name": "GO Wild Area: Gigantamax Machamp Power Up! Timed Research",
-      "eventType": "timed-research",
-      "heading": "Timed Research",
-      "link": "https://leekduck.com/events/go-wild-area-gigantamax-machamp-power-up-timed-research/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2025/2025-05-25-gigantamax-machamp-max-battle-day-may-2025/gigantamax-machamp-max-battles.jpg",
-      "start": "2026-11-06T10:00:00.000",
-      "end": "2026-11-15T23:59:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
-    {
-      "eventID": "max-mondays-2026-11-16",
-      "name": "[Canceled] Max Monday",
-      "eventType": "max-mondays",
-      "heading": "Max Mondays",
-      "link": "https://leekduck.com/events/max-mondays-2026-11-16/",
-      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-      "start": "2026-11-16T06:00:00.000",
-      "end": "2026-11-16T21:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "gbl-twilight-trails_great-league_ultra-league-mega-edition_2026-go-laic-cup",
       "name": "Great League, Ultra League: Mega Edition, and 2026 GO LAIC Cup | Twilight Trails",
@@ -444,18 +412,7 @@
       "end": "2026-11-24T22:00:00.000",
       "extraData": {
         "raidbattles": {
-          "bosses": [
-            {
-              "name": "Cresselia",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_488_00.png",
-              "canBeShiny": true
-            },
-            {
-              "name": "Darkrai",
-              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_491_00.png",
-              "canBeShiny": true
-            }
-          ],
+          "bosses": [],
           "shinies": [
             {
               "name": "Cresselia",
@@ -857,6 +814,22 @@
       "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
       "start": "2026-12-26T11:00:00.000",
       "end": "2026-12-26T17:00:00.000",
+      "extraData": {
+        "generic": {
+          "hasSpawns": false,
+          "hasFieldResearchTasks": false
+        }
+      }
+    },
+    {
+      "eventID": "duolingo-timed-research-2026",
+      "name": "Pokémon GO and Duolingo Timed Research",
+      "eventType": "timed-research",
+      "heading": "Timed Research",
+      "link": "https://leekduck.com/events/duolingo-timed-research-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-17-duolingo-timed-research-2026/duolingo-timed-research-2026.jpg",
+      "start": "2026-11-17T10:00:00.000",
+      "end": "2026-12-31T23:59:00.000",
       "extraData": {
         "generic": {
           "hasSpawns": false,
