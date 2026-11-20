@@ -1,36 +1,6 @@
 {
-  "uppdaterad": "2026-11-19T13:39:32.366Z",
+  "uppdaterad": "2026-11-20T13:20:34.827Z",
   "events": [
-    {
-      "id": "gbl-twilight-trails_great-league_ultra-league-mega-edition_2026-go-laic-cup",
-      "name": "Great League, Ultra League: Mega Edition, and 2026 GO LAIC Cup | Twilight Trails",
-      "namn": "Great League, Ultra League: Mega Edition, and 2026 GO LAIC Cup",
-      "typ": "go-battle-league",
-      "typRubrik": "GO Battle League",
-      "link": "https://leekduck.com/events/gbl-twilight-trails_great-league_ultra-league-mega-edition_2026-go-laic-cup/",
-      "image": "https://cdn.leekduck.com/assets/img/events/gobattle-greatleague-key.jpg",
-      "start": "2026-11-10T21:00:00.000Z",
-      "end": "2026-11-17T21:00:00.000Z",
-      "region": "galler",
-      "sammanfattning": "Nytt i GO Battle League (strider mot andra spelare).",
-      "pokemon": [],
-      "bonusar": []
-    },
-    {
-      "id": "raidhour20261118",
-      "name": "Cresselia and Darkrai Raid Hour",
-      "namn": "Raidtimme: Cresselia och Darkrai",
-      "typ": "raid-hour",
-      "typRubrik": "Raidtimme",
-      "link": "https://leekduck.com/events/raidhour20261118/",
-      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-      "start": "2026-11-18T18:00:00.000",
-      "end": "2026-11-18T19:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Raidtimme! Extra många raider i en timme.",
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "pokemonspotlighthour2026-11-19",
       "name": "Grookey, Scorbunny, and Sobble Spotlight Hour",
