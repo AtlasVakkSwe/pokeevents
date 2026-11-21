@@ -1,59 +1,6 @@
 {
-  "uppdaterad": "2026-11-20T13:20:34.827Z",
+  "uppdaterad": "2026-11-21T12:51:52.314Z",
   "events": [
-    {
-      "id": "pokemonspotlighthour2026-11-19",
-      "name": "Grookey, Scorbunny, and Sobble Spotlight Hour",
-      "namn": "Rampljustimme: Grookey, Scorbunny och Sobble",
-      "typ": "pokemon-spotlight-hour",
-      "typRubrik": "Rampljustimme",
-      "link": "https://leekduck.com/events/pokemonspotlighthour2026-11-19/",
-      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-      "start": "2026-11-19T18:00:00.000",
-      "end": "2026-11-19T19:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Grookey dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbelt godis när du fångar.",
-      "pokemon": [
-        {
-          "namn": "Grookey",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm810.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Scorbunny",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm813.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Sobble",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm816.icon.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
-    {
-      "id": "minior-showers-leonids-2026",
-      "name": "Minior Showers: Leonids 2026",
-      "namn": "Minior Showers: Leonids 2026",
-      "typ": "event",
-      "typRubrik": "Event",
-      "link": "https://leekduck.com/events/minior-showers-leonids-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/minior-showers-2026.jpg",
-      "start": "2026-11-14T17:00:00.000",
-      "end": "2026-11-19T23:59:00.000",
-      "region": "galler",
-      "sammanfattning": "Särskilda Pokémon dyker upp under eventet. Se listan.",
-      "pokemon": [
-        {
-          "namn": "Minior (Meteor Form)",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/poke_capture_0774_000_uk_n_00000000_f_n.png",
-          "shiny": false
-        }
-      ],
-      "bonusar": [],
-      "pokemonRubrik": "Finns att fånga:"
-    },
     {
       "id": "eternamax-eternatus-max-battles-2026",
       "name": "Eternamax Eternatus Returns",
@@ -98,6 +45,21 @@
         "Ett extra specialbyte den här dagen",
         "Byten kostar hälften så mycket stjärnstoft"
       ]
+    },
+    {
+      "id": "pokemon-latin-america-international-championships-2027-timed-research-twitch-drops",
+      "name": "Twitch Drops for 2027 Pokémon Latin America International Championships",
+      "namn": "Twitch Drops for 2027 Pokémon Latin America International Championships",
+      "typ": "twitch-drops",
+      "typRubrik": "Twitch-belöningar",
+      "link": "https://leekduck.com/events/pokemon-latin-america-international-championships-2027-timed-research-twitch-drops/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-20-pokemon-latin-america-international-championships-2027-timed-research-twitch-drops/2027-laic-go-drops.jpg",
+      "start": "2026-11-20T12:00:00.000Z",
+      "end": "2026-11-22T23:00:00.000Z",
+      "region": "galler-inte",
+      "sammanfattning": null,
+      "pokemon": [],
+      "bonusar": []
     },
     {
       "id": "dynamax-trails-2026",
@@ -752,18 +714,100 @@
     },
     {
       "id": "december-communityday2026",
-      "name": "December Community Day",
-      "namn": "Community Day i december",
+      "name": "December Community Day 2026",
+      "namn": "December Community Day 2026",
       "typ": "community-day",
       "typRubrik": "Community Day",
       "link": "https://leekduck.com/events/december-communityday2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/cd-default.jpg",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-12-12-december-communityday2026/december-2026-community-day.jpg",
       "start": "2026-12-12T14:00:00.000",
       "end": "2026-12-13T17:00:00.000",
       "region": "galler",
-      "sammanfattning": "Community Day! Extra många dyker upp och det finns bonusar hela tiden.",
-      "pokemon": [],
-      "bonusar": []
+      "sammanfattning": "Community Day med Vulpix, Alolan Vulpix, Grookey, Scorbunny, Lechonk, Tinkatink, Piplup, Zorua, Pawniard, Sobble, Nickit, Frigibax, Gible, Deino! Extra många dyker upp och det finns bonusar hela tiden.",
+      "pokemon": [
+        {
+          "namn": "Vulpix",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_037_00.png",
+          "shiny": false
+        },
+        {
+          "namn": "Alolan Vulpix",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_037_61.png",
+          "shiny": false
+        },
+        {
+          "namn": "Grookey",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm810.icon.png",
+          "shiny": false
+        },
+        {
+          "namn": "Scorbunny",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm813.icon.png",
+          "shiny": false
+        },
+        {
+          "namn": "Lechonk",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm915.icon.png",
+          "shiny": false
+        },
+        {
+          "namn": "Tinkatink",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm957.icon.png",
+          "shiny": false
+        },
+        {
+          "namn": "Piplup",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_393_00.png",
+          "shiny": false
+        },
+        {
+          "namn": "Zorua",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm570.icon.png",
+          "shiny": false
+        },
+        {
+          "namn": "Pawniard",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_624_00.png",
+          "shiny": false
+        },
+        {
+          "namn": "Sobble",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm816.icon.png",
+          "shiny": false
+        },
+        {
+          "namn": "Nickit",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm827.icon.png",
+          "shiny": false
+        },
+        {
+          "namn": "Frigibax",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm996.icon.png",
+          "shiny": false
+        },
+        {
+          "namn": "Gible",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_443_00.png",
+          "shiny": false
+        },
+        {
+          "namn": "Deino",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_633_00.png",
+          "shiny": false
+        }
+      ],
+      "bonusar": [
+        "Extra många Pokémon dyker upp",
+        "2x XP for catching Pokémon",
+        "2x Stardust for catching Pokémon",
+        "1/2 Hatch Distance when Eggs are placed into Incubators during the event period",
+        "Dubbelt godis när du fångar",
+        "2x Chance for Trainers level 31 and up to receive Candy XL from catching Pokémon",
+        "Rökelse räcker i 3 timmar",
+        "Lockmoduler räcker i 1 timme",
+        "Up to two Special Trades can be made per day",
+        "Byten kostar hälften så mycket stjärnstoft"
+      ]
     },
     {
       "id": "minior-showers-geminids-2026",

@@ -1,11 +1,17 @@
 {
-  "uppdaterad": "2026-11-20T13:20:34.827Z",
+  "uppdaterad": "2026-11-21T12:51:52.314Z",
   "events": [
     {
       "name": "Eternamax Eternatus Returns",
       "typ": "max-battles",
       "start": "2026-11-21T11:00:00.000",
       "link": "https://leekduck.com/events/eternamax-eternatus-max-battles-2026/"
+    },
+    {
+      "name": "Twitch Drops for 2027 Pokémon Latin America International Championships",
+      "typ": "twitch-drops",
+      "start": "2026-11-20T12:00:00.000Z",
+      "link": "https://leekduck.com/events/pokemon-latin-america-international-championships-2027-timed-research-twitch-drops/"
     },
     {
       "name": "Dynamax Trails",
