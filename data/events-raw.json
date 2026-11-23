@@ -1,22 +1,6 @@
 {
-  "hamtad": "2026-11-22T12:44:12.755Z",
+  "hamtad": "2026-11-23T15:05:07.123Z",
   "events": [
-    {
-      "eventID": "pokemon-latin-america-international-championships-2027-timed-research-twitch-drops",
-      "name": "Twitch Drops for 2027 Pokémon Latin America International Championships",
-      "eventType": "twitch-drops",
-      "heading": "Twitch Drops",
-      "link": "https://leekduck.com/events/pokemon-latin-america-international-championships-2027-timed-research-twitch-drops/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-20-pokemon-latin-america-international-championships-2027-timed-research-twitch-drops/2027-laic-go-drops.jpg",
-      "start": "2026-11-20T12:00:00.000Z",
-      "end": "2026-11-22T23:00:00.000Z",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "dynamax-trails-2026",
       "name": "Dynamax Trails",

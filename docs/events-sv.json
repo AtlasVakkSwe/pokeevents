@@ -1,21 +1,6 @@
 {
-  "uppdaterad": "2026-11-22T12:44:12.755Z",
+  "uppdaterad": "2026-11-23T15:05:07.123Z",
   "events": [
-    {
-      "id": "pokemon-latin-america-international-championships-2027-timed-research-twitch-drops",
-      "name": "Twitch Drops for 2027 Pokémon Latin America International Championships",
-      "namn": "Twitch Drops for 2027 Pokémon Latin America International Championships",
-      "typ": "twitch-drops",
-      "typRubrik": "Twitch-belöningar",
-      "link": "https://leekduck.com/events/pokemon-latin-america-international-championships-2027-timed-research-twitch-drops/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-20-pokemon-latin-america-international-championships-2027-timed-research-twitch-drops/2027-laic-go-drops.jpg",
-      "start": "2026-11-20T12:00:00.000Z",
-      "end": "2026-11-22T23:00:00.000Z",
-      "region": "galler-inte",
-      "sammanfattning": null,
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "dynamax-trails-2026",
       "name": "Dynamax Trails",
@@ -473,43 +458,73 @@
       "pokemonRubrik": "Finns att fånga:",
       "raids": [
         {
-          "namn": "Pikachu wearing a sun crown",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fGOFEST_2024_STIARA.icon.png",
+          "namn": "Sun Crown Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2024_STIARA.icon.png",
           "shiny": true
         },
         {
-          "namn": "Pikachu wearing a moon crown",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fGOFEST_2024_MTIARA.icon.png",
+          "namn": "Moon Crown Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2024_MTIARA.icon.png",
           "shiny": true
         },
         {
-          "namn": "Espeon wearing a sun scarf",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm196.fGOFEST_2024_SSCARF.icon.png",
+          "namn": "Day Scarf Espeon",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm196.fGOFEST_2024_SSCARF.icon.png",
           "shiny": true
         },
         {
-          "namn": "Umbreon wearing a moon scarf",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm197.fGOFEST_2024_MSCARF.icon.png",
+          "namn": "Night Scarf Umbreon",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm197.fGOFEST_2024_MSCARF.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Cresselia",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_488_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Darkrai",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_491_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Deoxys (Normal)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_386_11.png",
+          "shiny": true
+        },
+        {
+          "namn": "Deoxys (Defense)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_386_13.png",
+          "shiny": true
+        },
+        {
+          "namn": "Deoxys (Attack)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_386_12.png",
+          "shiny": true
+        },
+        {
+          "namn": "Deoxys (Speed)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_386_14.png",
           "shiny": true
         },
         {
           "namn": "Mega Beedrill",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_015_51.png",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_015_51.png",
           "shiny": true
         },
         {
           "namn": "Mega Houndoom",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_229_51.png",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_229_51.png",
           "shiny": true
         },
         {
           "namn": "Mega Sableye",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_302_51.png",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_302_51.png",
           "shiny": true
         },
         {
           "namn": "Mega Manectric",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_310_51.png",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_310_51.png",
           "shiny": true
         }
       ]
