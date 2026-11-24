@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-11-23T15:05:07.123Z",
+  "uppdaterad": "2026-11-24T15:03:08.508Z",
   "events": [
     {
       "id": "dynamax-trails-2026",
@@ -439,8 +439,23 @@
           "shiny": true
         },
         {
+          "namn": "Jigglypuff",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_039_00.png",
+          "shiny": true
+        },
+        {
           "namn": "Staryu",
           "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_120_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Chimecho",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_358_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Munna",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_517_00.png",
           "shiny": true
         },
         {
