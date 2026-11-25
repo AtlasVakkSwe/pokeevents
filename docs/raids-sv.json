@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-11-24T15:03:08.508Z",
+  "uppdaterad": "2026-11-25T14:43:40.744Z",
   "grupper": [
     {
       "rubrik": "5 stjärnor",
@@ -25,8 +25,23 @@
       "rubrik": "Mega",
       "pokemon": [
         {
-          "namn": "Mega Banette",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm354.fMEGA.icon.png",
+          "namn": "Mega Beedrill",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm15.fMEGA.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Mega Houndoom",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm229.fMEGA.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Mega Sableye",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm302.fMEGA.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Mega Manectric",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm310.fMEGA.icon.png",
           "shiny": true
         }
       ]
@@ -35,18 +50,13 @@
       "rubrik": "3 stjärnor",
       "pokemon": [
         {
-          "namn": "Alolan Marowak",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm105.fALOLA.icon.png",
+          "namn": "Espeon wearing a sun scarf",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm196.fGOFEST_2024_SSCARF.icon.png",
           "shiny": true
         },
         {
-          "namn": "Liepard",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm510.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Golurk",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm623.icon.png",
+          "namn": "Umbreon wearing a moon scarf",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm197.fGOFEST_2024_MSCARF.icon.png",
           "shiny": true
         },
         {
@@ -70,23 +80,13 @@
       "rubrik": "1 stjärna",
       "pokemon": [
         {
-          "namn": "Alolan Meowth",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm52.fALOLA.icon.png",
+          "namn": "Sun Crown Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2024_STIARA.icon.png",
           "shiny": true
         },
         {
-          "namn": "Misdreavus",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm200.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Galarian Yamask",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm562.fGALARIAN.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Sandygast",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm769.icon.png",
+          "namn": "Moon Crown Pikachu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2024_MTIARA.icon.png",
           "shiny": true
         },
         {

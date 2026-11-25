@@ -1,374 +1,6 @@
 {
-  "uppdaterad": "2026-11-24T15:03:08.508Z",
+  "uppdaterad": "2026-11-25T14:43:40.744Z",
   "events": [
-    {
-      "id": "dynamax-trails-2026",
-      "name": "Dynamax Trails",
-      "namn": "Dynamax Trails",
-      "typ": "event",
-      "typRubrik": "Event",
-      "link": "https://leekduck.com/events/dynamax-trails-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-16-dynamax-trails-2026/dynamax-trails-2026.jpg",
-      "start": "2026-11-16T10:00:00.000",
-      "end": "2026-11-23T20:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Särskilda Pokémon dyker upp under eventet. Se listan.",
-      "pokemon": [
-        {
-          "namn": "Bulbasaur",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_001_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Charmander",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_004_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Squirtle",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_007_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Caterpie",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_010_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Pikachu",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_025_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Growlithe",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_058_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Abra",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_063_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Machop",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_066_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Gastly",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_092_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Krabby",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_098_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Hitmonlee",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_106_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Hitmonchan",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_107_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Rhyhorn",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_111_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Chansey",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_113_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Electabuzz",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_125_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Magmar",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_126_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Magikarp",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_129_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Eevee",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_133_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Omanyte",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_138_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Kabuto",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_140_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Hoothoot",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_163_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Shuckle",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_213_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Sneasel",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_215_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Hitmontop",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_237_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Ralts",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_280_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Sableye",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_302_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Wailmer",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_320_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Trapinch",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_328_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Feebas",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_349_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Spheal",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_363_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Beldum",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_374_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Combee",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_415_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Pidove",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_519_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Roggenrola",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_524_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Woobat",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_527_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Drilbur",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_529_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Cottonee",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_546_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Darumaka",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_554_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Trubbish",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_568_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Cryogonal",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_615_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Deino",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_633_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Inkay",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_686_00.png",
-          "shiny": true
-        },
-        {
-          "namn": "Bounsweet",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm761.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Passimian",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm766.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Drampa",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm780.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Grookey",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm810.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Scorbunny",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm813.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Sobble",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm816.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Skwovet",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm819.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Rookidee",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm821.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Wooloo",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm831.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Toxtricity (Amped Form)",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm849.fAMPED.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Toxtricity (Low Key Form)",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm849.fLOW_KEY.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Sizzlipede",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm850.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Hatenna",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm856.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Falinks",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm870.icon.png",
-          "shiny": true
-        },
-        {
-          "namn": "Duraludon",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm884.icon.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": [],
-      "pokemonRubrik": "Finns att fånga:"
-    },
-    {
-      "id": "max-mondays-2026-11-23",
-      "name": "Dynamax Espurr during Max Monday",
-      "namn": "Max-måndag: Espurr",
-      "typ": "max-mondays",
-      "typRubrik": "Max-måndag",
-      "link": "https://leekduck.com/events/max-mondays-2026-11-23/",
-      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-      "start": "2026-11-23T06:00:00.000",
-      "end": "2026-11-23T21:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Espurr i Max-strider hela dagen.",
-      "pokemon": [],
-      "bonusar": []
-    },
-    {
-      "id": "cresselia-darkrai-in-5-star-raid-battles-november-2026",
-      "name": "Cresselia and Darkrai in 5-star Raid Battles",
-      "namn": "Cresselia och Darkrai i 5-stjärniga raider",
-      "typ": "raid-battles",
-      "typRubrik": "Raider",
-      "link": "https://leekduck.com/events/cresselia-darkrai-in-5-star-raid-battles-november-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/legendary-cresselia.jpg",
-      "start": "2026-11-16T06:00:00.000",
-      "end": "2026-11-24T22:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Nya Pokémon i raid.",
-      "pokemon": [],
-      "bonusar": []
-    },
-    {
-      "id": "mega-banette-in-mega-raids-november-2026",
-      "name": "Mega Banette in Mega Raids",
-      "namn": "Mega Banette i Mega-raider",
-      "typ": "raid-battles",
-      "typRubrik": "Raider",
-      "link": "https://leekduck.com/events/mega-banette-in-mega-raids-november-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
-      "start": "2026-11-16T06:00:00.000",
-      "end": "2026-11-24T22:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Mega Banette finns i raid. Kan vara shiny! ✨",
-      "pokemon": [
-        {
-          "namn": "Mega Banette",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm354.fMEGA.icon.png",
-          "shiny": true
-        }
-      ],
-      "bonusar": []
-    },
-    {
-      "id": "gbl-twilight-trails_ultra-league_master-league-mega-edition_2026-go-laic-cup",
-      "name": "Ultra League, Master League: Mega Edition, and 2026 GO LAIC Cup | Twilight Trails",
-      "namn": "Ultra League, Master League: Mega Edition, and 2026 GO LAIC Cup",
-      "typ": "go-battle-league",
-      "typRubrik": "GO Battle League",
-      "link": "https://leekduck.com/events/gbl-twilight-trails_ultra-league_master-league-mega-edition_2026-go-laic-cup/",
-      "image": "https://cdn.leekduck.com/assets/img/events/go-battle-league-ultra-league-machamp-swampert.jpg",
-      "start": "2026-11-18T21:00:00.000Z",
-      "end": "2026-11-25T21:00:00.000Z",
-      "region": "galler",
-      "sammanfattning": "Nytt i GO Battle League (strider mot andra spelare).",
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "raidhour20261125",
       "name": "Deoxys (Normal, Defense, Attack, and Speed Formes) Raid Hour",
@@ -590,21 +222,6 @@
       "bonusar": []
     },
     {
-      "id": "gbl-twilight-trails_master-league_mega-catch-cup-great-league-edition",
-      "name": "Master League and Mega Catch Cup: Great League Edition | Twilight Trails",
-      "namn": "Master League and Mega Catch Cup: Great League Edition",
-      "typ": "go-battle-league",
-      "typRubrik": "GO Battle League",
-      "link": "https://leekduck.com/events/gbl-twilight-trails_master-league_mega-catch-cup-great-league-edition/",
-      "image": "https://cdn.leekduck.com/assets/img/events/gobattleleague-master-key.jpg",
-      "start": "2026-11-24T21:00:00.000Z",
-      "end": "2026-12-01T21:00:00.000Z",
-      "region": "galler",
-      "sammanfattning": "Nytt i GO Battle League (strider mot andra spelare).",
-      "pokemon": [],
-      "bonusar": []
-    },
-    {
       "id": "shadow-tornadus-incarnate-forme-in-shadow-raids-november-16-2026",
       "name": "Shadow Tornadus (Incarnate Forme) in Shadow Raids",
       "namn": "Shadow Tornadus i Shadow-raider",
@@ -683,6 +300,42 @@
       "bonusar": []
     },
     {
+      "id": "raidhour20261202",
+      "name": "Regidrago Raid Hour",
+      "namn": "Raidtimme: Regidrago",
+      "typ": "raid-hour",
+      "typRubrik": "Raidtimme",
+      "link": "https://leekduck.com/events/raidhour20261202/",
+      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
+      "start": "2026-12-02T18:00:00.000",
+      "end": "2026-12-02T19:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Raidtimme! Extra många raider i en timme.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "pokemonspotlighthour2026-12-03",
+      "name": "Wimpod Spotlight Hour",
+      "namn": "Rampljustimme: Wimpod",
+      "typ": "pokemon-spotlight-hour",
+      "typRubrik": "Rampljustimme",
+      "link": "https://leekduck.com/events/pokemonspotlighthour2026-12-03/",
+      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
+      "start": "2026-12-03T18:00:00.000",
+      "end": "2026-12-03T19:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Wimpod dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbelt godis när du skickar iväg Pokémon.",
+      "pokemon": [
+        {
+          "namn": "Wimpod",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm767.icon.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
+    },
+    {
       "id": "max-battle-day-december-2026",
       "name": "Max Battle Day",
       "namn": "Max-stridsdag",
@@ -695,6 +348,129 @@
       "region": "galler",
       "sammanfattning": "Extra många Max-strider.",
       "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "tropical-paradise-2026",
+      "name": "Tropical Paradise",
+      "namn": "Tropical Paradise",
+      "typ": "event",
+      "typRubrik": "Event",
+      "link": "https://leekduck.com/events/tropical-paradise-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-12-01T10:00:00.000",
+      "end": "2026-12-07T20:00:00.000",
+      "region": "galler",
+      "sammanfattning": null,
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "max-mondays-2026-12-07",
+      "name": "Dynamax Deino during Max Monday",
+      "namn": "Max-måndag: Deino",
+      "typ": "max-mondays",
+      "typRubrik": "Max-måndag",
+      "link": "https://leekduck.com/events/max-mondays-2026-12-07/",
+      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
+      "start": "2026-12-07T06:00:00.000",
+      "end": "2026-12-07T21:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Deino i Max-strider hela dagen.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "gbl-daydream-destinations_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-1",
+      "name": "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition | Daydream Destinations",
+      "namn": "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition",
+      "typ": "go-battle-league",
+      "typRubrik": "GO Battle League",
+      "link": "https://leekduck.com/events/gbl-daydream-destinations_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-1/",
+      "image": "https://cdn.leekduck.com/assets/img/events/gobattle-greatleague-key.jpg",
+      "start": "2026-12-01T21:00:00.000Z",
+      "end": "2026-12-08T21:00:00.000Z",
+      "region": "galler",
+      "sammanfattning": "Nytt i GO Battle League (strider mot andra spelare).",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "mega-slowbro-in-mega-raids-december-2026",
+      "name": "Mega Slowbro in Mega Raids",
+      "namn": "Mega Slowbro i Mega-raider",
+      "typ": "raid-battles",
+      "typRubrik": "Raider",
+      "link": "https://leekduck.com/events/mega-slowbro-in-mega-raids-december-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
+      "start": "2026-12-02T06:00:00.000",
+      "end": "2026-12-08T22:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Mega Slowbro finns i raid. Kan vara shiny! ✨",
+      "pokemon": [
+        {
+          "namn": "Mega Slowbro",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_080_51.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
+    },
+    {
+      "id": "regidrago-in-5-star-raid-battles-december-2026",
+      "name": "Regidrago in 5-star Raid Battles",
+      "namn": "Regidrago i 5-stjärniga raider",
+      "typ": "raid-battles",
+      "typRubrik": "Raider",
+      "link": "https://leekduck.com/events/regidrago-in-5-star-raid-battles-december-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/regidrago.jpg",
+      "start": "2026-12-02T06:00:00.000",
+      "end": "2026-12-08T22:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Regidrago finns i raid. Kan vara shiny! ✨",
+      "pokemon": [
+        {
+          "namn": "Regidrago",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm895.icon.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
+    },
+    {
+      "id": "raidhour20261209",
+      "name": "Unannounced Raid Hour",
+      "namn": "Raidtimme: Unannounced",
+      "typ": "raid-hour",
+      "typRubrik": "Raidtimme",
+      "link": "https://leekduck.com/events/raidhour20261209/",
+      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
+      "start": "2026-12-09T18:00:00.000",
+      "end": "2026-12-09T19:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Raidtimme! Extra många raider i en timme.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "pokemonspotlighthour2026-12-10",
+      "name": "Starly Spotlight Hour",
+      "namn": "Rampljustimme: Starly",
+      "typ": "pokemon-spotlight-hour",
+      "typRubrik": "Rampljustimme",
+      "link": "https://leekduck.com/events/pokemonspotlighthour2026-12-10/",
+      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
+      "start": "2026-12-10T18:00:00.000",
+      "end": "2026-12-10T19:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Starly dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbelt stjärnstoft när du fångar.",
+      "pokemon": [
+        {
+          "namn": "Starly",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_396_00.png",
+          "shiny": true
+        }
+      ],
       "bonusar": []
     },
     {
@@ -795,6 +571,102 @@
       ]
     },
     {
+      "id": "unannounced-event-december-2026",
+      "name": "Unannounced Event",
+      "namn": "Unannounced Event",
+      "typ": "event",
+      "typRubrik": "Event",
+      "link": "https://leekduck.com/events/unannounced-event-december-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-12-08T10:00:00.000",
+      "end": "2026-12-14T20:00:00.000",
+      "region": "galler",
+      "sammanfattning": null,
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "max-mondays-2026-12-14",
+      "name": "Dynamax Eevee during Max Monday",
+      "namn": "Max-måndag: Eevee",
+      "typ": "max-mondays",
+      "typRubrik": "Max-måndag",
+      "link": "https://leekduck.com/events/max-mondays-2026-12-14/",
+      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
+      "start": "2026-12-14T06:00:00.000",
+      "end": "2026-12-14T21:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Eevee i Max-strider hela dagen.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "gbl-daydream-destinations_great-league-mega-edition_mountain-cup-great-league-edition",
+      "name": "Great League: Mega Edition and Mountain Cup: Great League Edition | Daydream Destinations",
+      "namn": "Great League: Mega Edition and Mountain Cup: Great League Edition",
+      "typ": "go-battle-league",
+      "typRubrik": "GO Battle League",
+      "link": "https://leekduck.com/events/gbl-daydream-destinations_great-league-mega-edition_mountain-cup-great-league-edition/",
+      "image": "https://cdn.leekduck.com/assets/img/events/gobattle-greatleague-key.jpg",
+      "start": "2026-12-08T21:00:00.000Z",
+      "end": "2026-12-15T21:00:00.000Z",
+      "region": "galler",
+      "sammanfattning": "Nytt i GO Battle League (strider mot andra spelare).",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "mega-gengar-in-mega-raids-december-2026",
+      "name": "Mega Gengar in Mega Raids",
+      "namn": "Mega Gengar i Mega-raider",
+      "typ": "raid-battles",
+      "typRubrik": "Raider",
+      "link": "https://leekduck.com/events/mega-gengar-in-mega-raids-december-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
+      "start": "2026-12-09T06:00:00.000",
+      "end": "2026-12-15T22:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Mega Gengar finns i raid. Kan vara shiny! ✨",
+      "pokemon": [
+        {
+          "namn": "Mega Gengar",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_094_51.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
+    },
+    {
+      "id": "unannounced-pokemon-in-5-star-raid-battles-december-2026",
+      "name": "Unannounced Pokémon in 5-star Raid Battles",
+      "namn": "Unannounced Pokémon i 5-stjärniga raider",
+      "typ": "raid-battles",
+      "typRubrik": "Raider",
+      "link": "https://leekduck.com/events/unannounced-pokemon-in-5-star-raid-battles-december-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-12-09T06:00:00.000",
+      "end": "2026-12-15T22:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Nya Pokémon i raid.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "raidhour20261216",
+      "name": "Ho-Oh Raid Hour",
+      "namn": "Raidtimme: Ho-Oh",
+      "typ": "raid-hour",
+      "typRubrik": "Raidtimme",
+      "link": "https://leekduck.com/events/raidhour20261216/",
+      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
+      "start": "2026-12-16T18:00:00.000",
+      "end": "2026-12-16T19:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Raidtimme! Extra många raider i en timme.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
       "id": "minior-showers-geminids-2026",
       "name": "Minior Showers: Geminids 2026",
       "namn": "Minior Showers: Geminids 2026",
@@ -817,6 +689,27 @@
       "pokemonRubrik": "Finns att fånga:"
     },
     {
+      "id": "pokemonspotlighthour2026-12-17",
+      "name": "Bergmite Spotlight Hour",
+      "namn": "Rampljustimme: Bergmite",
+      "typ": "pokemon-spotlight-hour",
+      "typRubrik": "Rampljustimme",
+      "link": "https://leekduck.com/events/pokemonspotlighthour2026-12-17/",
+      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
+      "start": "2026-12-17T18:00:00.000",
+      "end": "2026-12-17T19:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Bergmite dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbel XP när du utvecklar.",
+      "pokemon": [
+        {
+          "namn": "Bergmite",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm712.icon.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
+    },
+    {
       "id": "raid-day-december-2026",
       "name": "Raid Day",
       "namn": "Raiddag",
@@ -832,6 +725,129 @@
       "bonusar": []
     },
     {
+      "id": "choose-your-path-daydream-destinations-2026-12-15",
+      "name": "Choose Your Path: Daydream Destinations (December 15, 2026)",
+      "namn": "Choose Your Path: Daydream Destinations",
+      "typ": "choose-your-path",
+      "typRubrik": "Välj din väg",
+      "link": "https://leekduck.com/events/choose-your-path-daydream-destinations-2026-12-15/",
+      "image": "https://cdn.leekduck.com/assets/img/events/choose-your-path-daydream-destinations-2026.jpg",
+      "start": "2026-12-15T10:00:00.000",
+      "end": "2026-12-21T20:00:00.000",
+      "region": "galler",
+      "sammanfattning": null,
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "max-mondays-2026-12-21",
+      "name": "Dynamax Alolan Sandshrew during Max Monday",
+      "namn": "Max-måndag: Alolan Sandshrew",
+      "typ": "max-mondays",
+      "typRubrik": "Max-måndag",
+      "link": "https://leekduck.com/events/max-mondays-2026-12-21/",
+      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
+      "start": "2026-12-21T06:00:00.000",
+      "end": "2026-12-21T21:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Alolan Sandshrew i Max-strider hela dagen.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "gbl-daydream-destinations_ultra-league-mega-edition_holiday-cup-great-league-edition",
+      "name": "Ultra League: Mega Edition and Holiday Cup: Great League Edition | Daydream Destinations",
+      "namn": "Ultra League: Mega Edition and Holiday Cup: Great League Edition",
+      "typ": "go-battle-league",
+      "typRubrik": "GO Battle League",
+      "link": "https://leekduck.com/events/gbl-daydream-destinations_ultra-league-mega-edition_holiday-cup-great-league-edition/",
+      "image": "https://cdn.leekduck.com/assets/img/events/go-battle-league-ultra-league-machamp-swampert.jpg",
+      "start": "2026-12-15T21:00:00.000Z",
+      "end": "2026-12-22T21:00:00.000Z",
+      "region": "galler",
+      "sammanfattning": "Nytt i GO Battle League (strider mot andra spelare).",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "ho-oh-in-5-star-raid-battles-december-2026",
+      "name": "Ho-Oh in 5-star Raid Battles",
+      "namn": "Ho-Oh i 5-stjärniga raider",
+      "typ": "raid-battles",
+      "typRubrik": "Raider",
+      "link": "https://leekduck.com/events/ho-oh-in-5-star-raid-battles-december-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/hooh.jpg",
+      "start": "2026-12-16T06:00:00.000",
+      "end": "2026-12-22T22:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Ho-Oh finns i raid. Kan vara shiny! ✨",
+      "pokemon": [
+        {
+          "namn": "Ho-Oh",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_250_00.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
+    },
+    {
+      "id": "mega-skarmory-in-mega-raids-december-2026",
+      "name": "Mega Skarmory in Mega Raids",
+      "namn": "Mega Skarmory i Mega-raider",
+      "typ": "raid-battles",
+      "typRubrik": "Raider",
+      "link": "https://leekduck.com/events/mega-skarmory-in-mega-raids-december-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
+      "start": "2026-12-16T06:00:00.000",
+      "end": "2026-12-22T22:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Mega Skarmory finns i raid. Kan vara shiny! ✨",
+      "pokemon": [
+        {
+          "namn": "Mega Skarmory",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/Mega%20Skarmory.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
+    },
+    {
+      "id": "raidhour20261223",
+      "name": "Lugia Raid Hour",
+      "namn": "Raidtimme: Lugia",
+      "typ": "raid-hour",
+      "typRubrik": "Raidtimme",
+      "link": "https://leekduck.com/events/raidhour20261223/",
+      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
+      "start": "2026-12-23T18:00:00.000",
+      "end": "2026-12-23T19:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Raidtimme! Extra många raider i en timme.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "pokemonspotlighthour2026-12-24",
+      "name": "Delibird Spotlight Hour",
+      "namn": "Rampljustimme: Delibird",
+      "typ": "pokemon-spotlight-hour",
+      "typRubrik": "Rampljustimme",
+      "link": "https://leekduck.com/events/pokemonspotlighthour2026-12-24/",
+      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
+      "start": "2026-12-24T18:00:00.000",
+      "end": "2026-12-24T19:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Delibird dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbel XP när du fångar.",
+      "pokemon": [
+        {
+          "namn": "Delibird",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_225_00.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
+    },
+    {
       "id": "hatch-day-december-2026",
       "name": "Hatch Day",
       "namn": "Hatch Day",
@@ -844,6 +860,134 @@
       "region": "galler",
       "sammanfattning": "Kläckdag! Kläck ägg och få en särskild Pokémon.",
       "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "winter-holiday-2026",
+      "name": "Winter Holiday 2026",
+      "namn": "Winter Holiday 2026",
+      "typ": "event",
+      "typRubrik": "Event",
+      "link": "https://leekduck.com/events/winter-holiday-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-12-22T10:00:00.000",
+      "end": "2026-12-28T20:00:00.000",
+      "region": "galler",
+      "sammanfattning": null,
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "max-mondays-2026-12-28",
+      "name": "Dynamax Magikarp during Max Monday",
+      "namn": "Max-måndag: Magikarp",
+      "typ": "max-mondays",
+      "typRubrik": "Max-måndag",
+      "link": "https://leekduck.com/events/max-mondays-2026-12-28/",
+      "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
+      "start": "2026-12-28T06:00:00.000",
+      "end": "2026-12-28T21:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Magikarp i Max-strider hela dagen.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "gbl-daydream-destinations_master-league-mega-edition_holiday-cup-great-league-edition",
+      "name": "Master League: Mega Edition and Holiday Cup: Great League Edition | Daydream Destinations",
+      "namn": "Master League: Mega Edition and Holiday Cup: Great League Edition",
+      "typ": "go-battle-league",
+      "typRubrik": "GO Battle League",
+      "link": "https://leekduck.com/events/gbl-daydream-destinations_master-league-mega-edition_holiday-cup-great-league-edition/",
+      "image": "https://cdn.leekduck.com/assets/img/events/gobattleleague-master-key.jpg",
+      "start": "2026-12-22T21:00:00.000Z",
+      "end": "2026-12-29T21:00:00.000Z",
+      "region": "galler",
+      "sammanfattning": "Nytt i GO Battle League (strider mot andra spelare).",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "lugia-in-5-star-raid-battles-december-2026",
+      "name": "Lugia in 5-star Raid Battles",
+      "namn": "Lugia i 5-stjärniga raider",
+      "typ": "raid-battles",
+      "typRubrik": "Raider",
+      "link": "https://leekduck.com/events/lugia-in-5-star-raid-battles-december-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/lugia-raids.jpg",
+      "start": "2026-12-23T06:00:00.000",
+      "end": "2026-12-29T22:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Lugia finns i raid. Kan vara shiny! ✨",
+      "pokemon": [
+        {
+          "namn": "Lugia",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_249_00.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
+    },
+    {
+      "id": "mega-glalie-in-mega-raids-december-2026",
+      "name": "Mega Glalie in Mega Raids",
+      "namn": "Mega Glalie i Mega-raider",
+      "typ": "raid-battles",
+      "typRubrik": "Raider",
+      "link": "https://leekduck.com/events/mega-glalie-in-mega-raids-december-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
+      "start": "2026-12-23T06:00:00.000",
+      "end": "2026-12-29T22:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Mega Glalie finns i raid. Kan vara shiny! ✨",
+      "pokemon": [
+        {
+          "namn": "Mega Glalie",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm362.fMEGA.icon.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
+    },
+    {
+      "id": "raidhour20261230",
+      "name": "Tornadus (Therian Forme), Thundurus (Therian Forme), and Landorus (Therian Forme) Raid Hour",
+      "namn": "Raidtimme: Tornadus, Thundurus och Landorus",
+      "typ": "raid-hour",
+      "typRubrik": "Raidtimme",
+      "link": "https://leekduck.com/events/raidhour20261230/",
+      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
+      "start": "2026-12-30T18:00:00.000",
+      "end": "2026-12-30T19:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Raidtimme! Extra många raider i en timme.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "pokemonspotlighthour2026-12-31",
+      "name": "Plusle and Minun Spotlight Hour",
+      "namn": "Rampljustimme: Plusle och Minun",
+      "typ": "pokemon-spotlight-hour",
+      "typRubrik": "Rampljustimme",
+      "link": "https://leekduck.com/events/pokemonspotlighthour2026-12-31/",
+      "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
+      "start": "2026-12-31T18:00:00.000",
+      "end": "2026-12-31T19:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Plusle dyker upp extra ofta. Kan vara shiny! ✨ Bonus: Dubbelt godis när du fångar.",
+      "pokemon": [
+        {
+          "namn": "Plusle",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_311_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Minun",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_312_00.png",
+          "shiny": true
+        }
+      ],
       "bonusar": []
     },
     {
@@ -877,6 +1021,124 @@
       "bonusar": []
     },
     {
+      "id": "new-years-2027",
+      "name": "New Year's 2027",
+      "namn": "New Year's 2027",
+      "typ": "event",
+      "typRubrik": "Event",
+      "link": "https://leekduck.com/events/new-years-2027/",
+      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "start": "2026-12-29T10:00:00.000",
+      "end": "2027-01-04T20:00:00.000",
+      "region": "galler",
+      "sammanfattning": null,
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "go-pass-december-2026",
+      "name": "GO Pass: December",
+      "namn": "GO Pass: December",
+      "typ": "go-pass",
+      "typRubrik": "GO Pass",
+      "link": "https://leekduck.com/events/go-pass-december-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-12-01-go-pass-december-2026/go-pass-december-2026.jpg",
+      "start": "2026-12-01T10:00:00.000",
+      "end": "2027-01-05T10:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Samla poäng och få belöningar hela månaden.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "gbl-daydream-destinations_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-2",
+      "name": "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition | Daydream Destinations",
+      "namn": "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition",
+      "typ": "go-battle-league",
+      "typRubrik": "GO Battle League",
+      "link": "https://leekduck.com/events/gbl-daydream-destinations_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-2/",
+      "image": "https://cdn.leekduck.com/assets/img/events/gobattle-greatleague-key.jpg",
+      "start": "2026-12-29T21:00:00.000Z",
+      "end": "2027-01-05T21:00:00.000Z",
+      "region": "galler",
+      "sammanfattning": "Nytt i GO Battle League (strider mot andra spelare).",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "shadow-dialga-in-shadow-raids-december-2026",
+      "name": "Shadow Dialga in Shadow Raids",
+      "namn": "Shadow Dialga i Shadow-raider",
+      "typ": "raid-battles",
+      "typRubrik": "Raider",
+      "link": "https://leekduck.com/events/shadow-dialga-in-shadow-raids-december-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/dialgaraids.jpg",
+      "start": "2026-12-02T06:00:00.000",
+      "end": "2027-01-05T22:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Dialga finns i raid.",
+      "pokemon": [
+        {
+          "namn": "Dialga",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_483_00.png",
+          "shiny": false
+        }
+      ],
+      "bonusar": []
+    },
+    {
+      "id": "mega-falinks-in-mega-raids-december-2026",
+      "name": "Mega Falinks in Mega Raids",
+      "namn": "Mega Falinks i Mega-raider",
+      "typ": "raid-battles",
+      "typRubrik": "Raider",
+      "link": "https://leekduck.com/events/mega-falinks-in-mega-raids-december-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
+      "start": "2026-12-30T06:00:00.000",
+      "end": "2027-01-05T22:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Mega Falinks finns i raid. Kan vara shiny! ✨",
+      "pokemon": [
+        {
+          "namn": "Mega Falinks",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm870.fMEGA.icon.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
+    },
+    {
+      "id": "tornadus-thundurus-landorus-therian-formes-in-5-star-raid-battles-december-2026",
+      "name": "Tornadus, Thundurus, and Landorus (Therian Formes) in 5-star Raid Battles",
+      "namn": "Tornadus, Thundurus och Landorus i 5-stjärniga raider",
+      "typ": "raid-battles",
+      "typRubrik": "Raider",
+      "link": "https://leekduck.com/events/tornadus-thundurus-landorus-therian-formes-in-5-star-raid-battles-december-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/tornadus-thundurus-landorus-go-tour.jpg",
+      "start": "2026-12-30T06:00:00.000",
+      "end": "2027-01-05T22:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Tornadus (Therian), Thundurus (Therian), Landorus (Therian) finns i raid. Kan vara shiny! ✨",
+      "pokemon": [
+        {
+          "namn": "Tornadus (Therian)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_641_12.png",
+          "shiny": true
+        },
+        {
+          "namn": "Thundurus (Therian)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_642_12.png",
+          "shiny": true
+        },
+        {
+          "namn": "Landorus (Therian)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_645_12.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": []
+    },
+    {
       "id": "super-mega-raid-day-january-2027",
       "name": "Super Mega Raid Day",
       "namn": "Raiddag",
@@ -888,6 +1150,21 @@
       "end": "2027-01-09T17:00:00.000",
       "region": "galler",
       "sammanfattning": "Raiddag! Extra många raider hela dagen.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "gbl-daydream-destinations_great-league-mega-edition_fighting-cup-great-league-edition",
+      "name": "Great League: Mega Edition and Fighting Cup: Great League Edition | Daydream Destinations",
+      "namn": "Great League: Mega Edition and Fighting Cup: Great League Edition",
+      "typ": "go-battle-league",
+      "typRubrik": "GO Battle League",
+      "link": "https://leekduck.com/events/gbl-daydream-destinations_great-league-mega-edition_fighting-cup-great-league-edition/",
+      "image": "https://cdn.leekduck.com/assets/img/events/gobattle-greatleague-key.jpg",
+      "start": "2027-01-05T21:00:00.000Z",
+      "end": "2027-01-12T21:00:00.000Z",
+      "region": "galler",
+      "sammanfattning": "Nytt i GO Battle League (strider mot andra spelare).",
       "pokemon": [],
       "bonusar": []
     },
@@ -922,6 +1199,36 @@
       "bonusar": []
     },
     {
+      "id": "choose-your-path-daydream-destinations-2027-01-12",
+      "name": "Choose Your Path: Daydream Destinations (January 12, 2027)",
+      "namn": "Choose Your Path: Daydream Destinations",
+      "typ": "choose-your-path",
+      "typRubrik": "Välj din väg",
+      "link": "https://leekduck.com/events/choose-your-path-daydream-destinations-2027-01-12/",
+      "image": "https://cdn.leekduck.com/assets/img/events/choose-your-path-daydream-destinations-2026.jpg",
+      "start": "2027-01-12T10:00:00.000",
+      "end": "2027-01-18T20:00:00.000",
+      "region": "galler",
+      "sammanfattning": null,
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "gbl-daydream-destinations_ultra-league-mega-edition_jungle-cup-great-league-edition",
+      "name": "Ultra League: Mega Edition and Jungle Cup: Great League Edition | Daydream Destinations",
+      "namn": "Ultra League: Mega Edition and Jungle Cup: Great League Edition",
+      "typ": "go-battle-league",
+      "typRubrik": "GO Battle League",
+      "link": "https://leekduck.com/events/gbl-daydream-destinations_ultra-league-mega-edition_jungle-cup-great-league-edition/",
+      "image": "https://cdn.leekduck.com/assets/img/events/go-battle-league-ultra-league-machamp-swampert.jpg",
+      "start": "2027-01-12T21:00:00.000Z",
+      "end": "2027-01-19T21:00:00.000Z",
+      "region": "galler",
+      "sammanfattning": "Nytt i GO Battle League (strider mot andra spelare).",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
       "id": "max-battle-day-january-2027",
       "name": "Max Battle Day",
       "namn": "Max-stridsdag",
@@ -933,6 +1240,21 @@
       "end": "2027-01-23T17:00:00.000",
       "region": "galler",
       "sammanfattning": "Extra många Max-strider.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "gbl-daydream-destinations_master-league-mega-edition_master-league",
+      "name": "Master League: Mega Edition and Master League | Daydream Destinations",
+      "namn": "Master League: Mega Edition and Master League",
+      "typ": "go-battle-league",
+      "typRubrik": "GO Battle League",
+      "link": "https://leekduck.com/events/gbl-daydream-destinations_master-league-mega-edition_master-league/",
+      "image": "https://cdn.leekduck.com/assets/img/events/gobattleleague-master-key.jpg",
+      "start": "2027-01-19T21:00:00.000Z",
+      "end": "2027-01-26T21:00:00.000Z",
+      "region": "galler",
+      "sammanfattning": "Nytt i GO Battle League (strider mot andra spelare).",
       "pokemon": [],
       "bonusar": []
     },
@@ -952,6 +1274,36 @@
       "bonusar": []
     },
     {
+      "id": "choose-your-path-daydream-destinations-2027-01-26",
+      "name": "Choose Your Path: Daydream Destinations (January 26, 2027)",
+      "namn": "Choose Your Path: Daydream Destinations",
+      "typ": "choose-your-path",
+      "typRubrik": "Välj din väg",
+      "link": "https://leekduck.com/events/choose-your-path-daydream-destinations-2027-01-26/",
+      "image": "https://cdn.leekduck.com/assets/img/events/choose-your-path-daydream-destinations-2026.jpg",
+      "start": "2027-01-26T10:00:00.000",
+      "end": "2027-02-01T20:00:00.000",
+      "region": "galler",
+      "sammanfattning": null,
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "gbl-daydream-destinations_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-3",
+      "name": "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition | Daydream Destinations",
+      "namn": "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition",
+      "typ": "go-battle-league",
+      "typRubrik": "GO Battle League",
+      "link": "https://leekduck.com/events/gbl-daydream-destinations_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-3/",
+      "image": "https://cdn.leekduck.com/assets/img/events/gobattle-greatleague-key.jpg",
+      "start": "2027-01-26T21:00:00.000Z",
+      "end": "2027-02-02T21:00:00.000Z",
+      "region": "galler",
+      "sammanfattning": "Nytt i GO Battle League (strider mot andra spelare).",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
       "id": "february-communityday2027",
       "name": "February Community Day",
       "namn": "Community Day i februari",
@@ -963,6 +1315,21 @@
       "end": "2027-02-06T17:00:00.000",
       "region": "galler",
       "sammanfattning": "Community Day! Extra många dyker upp och det finns bonusar hela tiden.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "gbl-daydream-destinations_great-league-mega-edition_master-league",
+      "name": "Great League: Mega Edition and Master League | Daydream Destinations",
+      "namn": "Great League: Mega Edition and Master League",
+      "typ": "go-battle-league",
+      "typRubrik": "GO Battle League",
+      "link": "https://leekduck.com/events/gbl-daydream-destinations_great-league-mega-edition_master-league/",
+      "image": "https://cdn.leekduck.com/assets/img/events/gobattle-greatleague-key.jpg",
+      "start": "2027-02-02T21:00:00.000Z",
+      "end": "2027-02-09T21:00:00.000Z",
+      "region": "galler",
+      "sammanfattning": "Nytt i GO Battle League (strider mot andra spelare).",
       "pokemon": [],
       "bonusar": []
     },
@@ -982,6 +1349,21 @@
       "bonusar": []
     },
     {
+      "id": "gbl-daydream-destinations_ultra-league-mega-edition_love-cup-great-league-edition_2027-go-euic-cup",
+      "name": "Ultra League: Mega Edition, Love Cup: Great League Edition, and 2027 GO EUIC Cup | Daydream Destinations",
+      "namn": "Ultra League: Mega Edition, Love Cup: Great League Edition, and 2027 GO EUIC Cup",
+      "typ": "go-battle-league",
+      "typRubrik": "GO Battle League",
+      "link": "https://leekduck.com/events/gbl-daydream-destinations_ultra-league-mega-edition_love-cup-great-league-edition_2027-go-euic-cup/",
+      "image": "https://cdn.leekduck.com/assets/img/events/go-battle-league-ultra-league-machamp-swampert.jpg",
+      "start": "2027-02-09T21:00:00.000Z",
+      "end": "2027-02-16T21:00:00.000Z",
+      "region": "galler",
+      "sammanfattning": "Nytt i GO Battle League (strider mot andra spelare).",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
       "id": "pokemon-go-tour-alola-kaohsiung-2027",
       "name": "Pokémon GO Tour: Alola - Kaohsiung 2027",
       "namn": "Pokémon GO Tour: Alola - Kaohsiung 2027",
@@ -992,6 +1374,21 @@
       "start": "2027-02-18T16:00:00.000Z",
       "end": "2027-02-21T15:59:59.000Z",
       "region": "osakert",
+      "sammanfattning": null,
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "choose-your-path-daydream-destinations-2027-02-16",
+      "name": "Choose Your Path: Daydream Destinations (February 16, 2027)",
+      "namn": "Choose Your Path: Daydream Destinations",
+      "typ": "choose-your-path",
+      "typRubrik": "Välj din väg",
+      "link": "https://leekduck.com/events/choose-your-path-daydream-destinations-2027-02-16/",
+      "image": "https://cdn.leekduck.com/assets/img/events/choose-your-path-daydream-destinations-2026.jpg",
+      "start": "2027-02-16T10:00:00.000",
+      "end": "2027-02-21T20:00:00.000",
+      "region": "galler",
       "sammanfattning": null,
       "pokemon": [],
       "bonusar": []
@@ -1012,6 +1409,21 @@
       "bonusar": []
     },
     {
+      "id": "gbl-daydream-destinations_master-league-mega-edition_mega-catch-cup-great-league-edition_2027-go-euic-cup",
+      "name": "Master League: Mega Edition, Mega Catch Cup: Great League Edition, and 2027 GO EUIC Cup | Daydream Destinations",
+      "namn": "Master League: Mega Edition, Mega Catch Cup: Great League Edition, and 2027 GO EUIC Cup",
+      "typ": "go-battle-league",
+      "typRubrik": "GO Battle League",
+      "link": "https://leekduck.com/events/gbl-daydream-destinations_master-league-mega-edition_mega-catch-cup-great-league-edition_2027-go-euic-cup/",
+      "image": "https://cdn.leekduck.com/assets/img/events/gobattleleague-master-key.jpg",
+      "start": "2027-02-16T21:00:00.000Z",
+      "end": "2027-02-23T21:00:00.000Z",
+      "region": "galler",
+      "sammanfattning": "Nytt i GO Battle League (strider mot andra spelare).",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
       "id": "pokemon-go-tour-alola-global-2027",
       "name": "Pokémon GO Tour: Alola - Global 2027",
       "namn": "Pokémon GO Tour: Alola - Global 2027",
@@ -1023,6 +1435,36 @@
       "end": "2027-02-28T23:59:59.000",
       "region": "galler",
       "sammanfattning": null,
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "season-25-daydream-destinations",
+      "name": "Daydream Destinations",
+      "namn": "Daydream Destinations",
+      "typ": "season",
+      "typRubrik": "Säsong",
+      "link": "https://leekduck.com/events/season-25-daydream-destinations/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-12-01-season-25-daydream-destinations/season-25-daydream-destinations.jpg",
+      "start": "2026-12-01T10:00:00.000",
+      "end": "2027-03-01T10:00:00.000",
+      "region": "galler",
+      "sammanfattning": "Ny säsong med nya Pokémon och bonusar.",
+      "pokemon": [],
+      "bonusar": []
+    },
+    {
+      "id": "gbl-daydream-destinations_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition_mega-catch-cup-great-league-edition",
+      "name": "Great League: Mega Edition, Ultra League: Mega Edition, Master League: Mega Edition, and Mega Catch Cup: Great League Edition | Daydream Destinations",
+      "namn": "Great League: Mega Edition, Ultra League: Mega Edition, Master League: Mega Edition, and Mega Catch Cup: Great League Edition",
+      "typ": "go-battle-league",
+      "typRubrik": "GO Battle League",
+      "link": "https://leekduck.com/events/gbl-daydream-destinations_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition_mega-catch-cup-great-league-edition/",
+      "image": "https://cdn.leekduck.com/assets/img/events/gobattle-greatleague-key.jpg",
+      "start": "2027-02-23T21:00:00.000Z",
+      "end": "2027-03-02T21:00:00.000Z",
+      "region": "galler",
+      "sammanfattning": "Nytt i GO Battle League (strider mot andra spelare).",
       "pokemon": [],
       "bonusar": []
     },
