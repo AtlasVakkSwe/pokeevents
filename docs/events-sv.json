@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-11-25T14:43:40.744Z",
+  "uppdaterad": "2026-11-26T14:07:24.040Z",
   "events": [
     {
       "id": "raidhour20261125",
@@ -336,13 +336,13 @@
       "bonusar": []
     },
     {
-      "id": "max-battle-day-december-2026",
-      "name": "Max Battle Day",
-      "namn": "Max-stridsdag",
+      "id": "gigantamax-inteleon-max-battle-day-2026",
+      "name": "Gigantamax Inteleon Max Battle Day",
+      "namn": "Max-stridsdag: Gigantamax Inteleon",
       "typ": "max-battles",
       "typRubrik": "Max-strider",
-      "link": "https://leekduck.com/events/max-battle-day-december-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "link": "https://leekduck.com/events/gigantamax-inteleon-max-battle-day-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-12-05-gigantamax-inteleon-max-battle-day-2026/gigantamax-inteleon-max-battle-day.jpg",
       "start": "2026-12-05T14:00:00.000",
       "end": "2026-12-05T17:00:00.000",
       "region": "galler",
@@ -357,13 +357,92 @@
       "typ": "event",
       "typRubrik": "Event",
       "link": "https://leekduck.com/events/tropical-paradise-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "image": "https://cdn.leekduck.com/assets/img/events/tropical-paradise-2026.jpg",
       "start": "2026-12-01T10:00:00.000",
       "end": "2026-12-07T20:00:00.000",
       "region": "galler",
-      "sammanfattning": null,
-      "pokemon": [],
-      "bonusar": []
+      "sammanfattning": "Särskilda Pokémon dyker upp under eventet. Se listan.",
+      "pokemon": [
+        {
+          "namn": "Slowpoke",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_079_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Shellder",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_090_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Wingull",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_278_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Slakoth",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_287_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Snorlax",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_143_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Hoppip",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_187_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Lotad",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_270_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Shroomish",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_285_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Alolan Exeggutor",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_103_61.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": [],
+      "pokemonRubrik": "Finns att fånga:",
+      "raids": [
+        {
+          "namn": "Alolan Diglett",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_050_61.png",
+          "shiny": true
+        },
+        {
+          "namn": "Frillish (Female)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm592.fFEMALE.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Frillish (Male)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm592.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Sandygast",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm769.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Pyukumuku",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm771.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Mega Slowbro",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_080_51.png",
+          "shiny": true
+        }
+      ]
     },
     {
       "id": "max-mondays-2026-12-07",
@@ -571,19 +650,118 @@
       ]
     },
     {
-      "id": "unannounced-event-december-2026",
-      "name": "Unannounced Event",
-      "namn": "Unannounced Event",
+      "id": "pokemon-champions-celebration-event-2026",
+      "name": "Pokémon Champions Celebration Event 2026",
+      "namn": "Pokémon Champions Celebration Event 2026",
       "typ": "event",
       "typRubrik": "Event",
-      "link": "https://leekduck.com/events/unannounced-event-december-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "link": "https://leekduck.com/events/pokemon-champions-celebration-event-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-12-08-pokemon-champions-celebration-event-2026/pokemon-champions-celebration-event-2026.jpg",
       "start": "2026-12-08T10:00:00.000",
       "end": "2026-12-14T20:00:00.000",
       "region": "galler",
-      "sammanfattning": null,
-      "pokemon": [],
-      "bonusar": []
+      "sammanfattning": "Särskilda Pokémon dyker upp under eventet. Se listan.",
+      "pokemon": [
+        {
+          "namn": "Charmander",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_004_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Starly",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_396_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Grookey",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm810.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Absol",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_359_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Gible",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_443_00.png",
+          "shiny": true
+        }
+      ],
+      "bonusar": [],
+      "pokemonRubrik": "Finns att fånga:",
+      "raids": [
+        {
+          "namn": "Bagon",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_371_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Litten",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm725.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Frigibax",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm996.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Raichu",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_026_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Garchomp",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_445_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Rillaboom",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm812.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Latias",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_380_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Latios",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_381_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Heatran",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_485_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Cobalion",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_638_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Terrakion",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_639_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Virizion",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_640_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Regieleki",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm894.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Regidrago",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm895.icon.png",
+          "shiny": true
+        }
+      ]
     },
     {
       "id": "max-mondays-2026-12-14",
@@ -637,18 +815,59 @@
       "bonusar": []
     },
     {
-      "id": "unannounced-pokemon-in-5-star-raid-battles-december-2026",
-      "name": "Unannounced Pokémon in 5-star Raid Battles",
-      "namn": "Unannounced Pokémon i 5-stjärniga raider",
+      "id": "pokemon-champions-celebration-5-star-raid-battles-december-2026",
+      "name": "Pokémon Champions Celebration 5-star Raid Battles",
+      "namn": "Pokémon Champions Celebration 5-star Raid Battles",
       "typ": "raid-battles",
       "typRubrik": "Raider",
-      "link": "https://leekduck.com/events/unannounced-pokemon-in-5-star-raid-battles-december-2026/",
+      "link": "https://leekduck.com/events/pokemon-champions-celebration-5-star-raid-battles-december-2026/",
       "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
       "start": "2026-12-09T06:00:00.000",
       "end": "2026-12-15T22:00:00.000",
       "region": "galler",
-      "sammanfattning": "Nya Pokémon i raid.",
-      "pokemon": [],
+      "sammanfattning": "Latias, Latios, Heatran, Cobalion, Terrakion, Virizion, Regieleki, Regidrago finns i raid. Kan vara shiny! ✨",
+      "pokemon": [
+        {
+          "namn": "Latias",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_380_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Latios",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_381_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Heatran",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_485_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Cobalion",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_638_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Terrakion",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_639_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Virizion",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_640_00.png",
+          "shiny": true
+        },
+        {
+          "namn": "Regieleki",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm894.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Regidrago",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm895.icon.png",
+          "shiny": true
+        }
+      ],
       "bonusar": []
     },
     {

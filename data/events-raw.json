@@ -1,5 +1,5 @@
 {
-  "hamtad": "2026-11-25T14:43:40.744Z",
+  "hamtad": "2026-11-26T14:07:24.040Z",
   "events": [
     {
       "eventID": "raidhour20261125",
@@ -291,12 +291,12 @@
       }
     },
     {
-      "eventID": "max-battle-day-december-2026",
-      "name": "Max Battle Day",
+      "eventID": "gigantamax-inteleon-max-battle-day-2026",
+      "name": "Gigantamax Inteleon Max Battle Day",
       "eventType": "max-battles",
       "heading": "Max Battles",
-      "link": "https://leekduck.com/events/max-battle-day-december-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "link": "https://leekduck.com/events/gigantamax-inteleon-max-battle-day-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-12-05-gigantamax-inteleon-max-battle-day-2026/gigantamax-inteleon-max-battle-day.jpg",
       "start": "2026-12-05T14:00:00.000",
       "end": "2026-12-05T17:00:00.000",
       "extraData": {
@@ -312,12 +312,12 @@
       "eventType": "event",
       "heading": "Event",
       "link": "https://leekduck.com/events/tropical-paradise-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "image": "https://cdn.leekduck.com/assets/img/events/tropical-paradise-2026.jpg",
       "start": "2026-12-01T10:00:00.000",
       "end": "2026-12-07T20:00:00.000",
       "extraData": {
         "generic": {
-          "hasSpawns": false,
+          "hasSpawns": true,
           "hasFieldResearchTasks": false
         }
       }
@@ -743,17 +743,17 @@
       }
     },
     {
-      "eventID": "unannounced-event-december-2026",
-      "name": "Unannounced Event",
+      "eventID": "pokemon-champions-celebration-event-2026",
+      "name": "Pokémon Champions Celebration Event 2026",
       "eventType": "event",
       "heading": "Event",
-      "link": "https://leekduck.com/events/unannounced-event-december-2026/",
-      "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+      "link": "https://leekduck.com/events/pokemon-champions-celebration-event-2026/",
+      "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-12-08-pokemon-champions-celebration-event-2026/pokemon-champions-celebration-event-2026.jpg",
       "start": "2026-12-08T10:00:00.000",
       "end": "2026-12-14T20:00:00.000",
       "extraData": {
         "generic": {
-          "hasSpawns": false,
+          "hasSpawns": true,
           "hasFieldResearchTasks": false
         }
       }
@@ -826,18 +826,92 @@
       }
     },
     {
-      "eventID": "unannounced-pokemon-in-5-star-raid-battles-december-2026",
-      "name": "Unannounced Pokémon in 5-star Raid Battles",
+      "eventID": "pokemon-champions-celebration-5-star-raid-battles-december-2026",
+      "name": "Pokémon Champions Celebration 5-star Raid Battles",
       "eventType": "raid-battles",
       "heading": "Raid Battles",
-      "link": "https://leekduck.com/events/unannounced-pokemon-in-5-star-raid-battles-december-2026/",
+      "link": "https://leekduck.com/events/pokemon-champions-celebration-5-star-raid-battles-december-2026/",
       "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
       "start": "2026-12-09T06:00:00.000",
       "end": "2026-12-15T22:00:00.000",
       "extraData": {
         "raidbattles": {
-          "bosses": [],
-          "shinies": []
+          "bosses": [
+            {
+              "name": "Latias",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_380_00.png",
+              "canBeShiny": true
+            },
+            {
+              "name": "Latios",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_381_00.png",
+              "canBeShiny": true
+            },
+            {
+              "name": "Heatran",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_485_00.png",
+              "canBeShiny": true
+            },
+            {
+              "name": "Cobalion",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_638_00.png",
+              "canBeShiny": true
+            },
+            {
+              "name": "Terrakion",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_639_00.png",
+              "canBeShiny": true
+            },
+            {
+              "name": "Virizion",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_640_00.png",
+              "canBeShiny": true
+            },
+            {
+              "name": "Regieleki",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm894.icon.png",
+              "canBeShiny": true
+            },
+            {
+              "name": "Regidrago",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm895.icon.png",
+              "canBeShiny": true
+            }
+          ],
+          "shinies": [
+            {
+              "name": "Latias",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_380_00_shiny.png"
+            },
+            {
+              "name": "Latios",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_381_00_shiny.png"
+            },
+            {
+              "name": "Heatran",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_485_00_shiny.png"
+            },
+            {
+              "name": "Cobalion",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_638_00_shiny.png"
+            },
+            {
+              "name": "Terrakion",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_639_00_shiny.png"
+            },
+            {
+              "name": "Virizion",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_640_00_shiny.png"
+            },
+            {
+              "name": "Regieleki",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm894.s.icon.png"
+            },
+            {
+              "name": "Regidrago",
+              "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm895.s.icon.png"
+            }
+          ]
         },
         "generic": {
           "hasSpawns": false,

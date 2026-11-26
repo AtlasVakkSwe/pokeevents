@@ -1,5 +1,5 @@
 {
-  "uppdaterad": "2026-11-25T14:43:40.744Z",
+  "uppdaterad": "2026-11-26T14:07:24.040Z",
   "events": [
     {
       "name": "Twilight Wishes",
@@ -20,10 +20,10 @@
       "link": "https://leekduck.com/events/go-pass-november-2026/"
     },
     {
-      "name": "Max Battle Day",
+      "name": "Gigantamax Inteleon Max Battle Day",
       "typ": "max-battles",
       "start": "2026-12-05T14:00:00.000",
-      "link": "https://leekduck.com/events/max-battle-day-december-2026/"
+      "link": "https://leekduck.com/events/gigantamax-inteleon-max-battle-day-2026/"
     },
     {
       "name": "Tropical Paradise",
@@ -32,10 +32,10 @@
       "link": "https://leekduck.com/events/tropical-paradise-2026/"
     },
     {
-      "name": "Unannounced Event",
+      "name": "Pokémon Champions Celebration Event 2026",
       "typ": "event",
       "start": "2026-12-08T10:00:00.000",
-      "link": "https://leekduck.com/events/unannounced-event-december-2026/"
+      "link": "https://leekduck.com/events/pokemon-champions-celebration-event-2026/"
     },
     {
       "name": "Minior Showers: Geminids 2026",

@@ -1,17 +1,27 @@
 {
-  "uppdaterad": "2026-11-25T14:43:40.744Z",
+  "uppdaterad": "2026-11-26T14:07:24.040Z",
   "grupper": [
     {
       "rubrik": "5 stjärnor",
       "pokemon": [
         {
-          "namn": "Cresselia",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm488.icon.png",
+          "namn": "Deoxys (Normal)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm386.icon.png",
           "shiny": true
         },
         {
-          "namn": "Darkrai",
-          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm491.icon.png",
+          "namn": "Deoxys (Defense)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm386.fDEFENSE.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Deoxys (Attack)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm386.fATTACK.icon.png",
+          "shiny": true
+        },
+        {
+          "namn": "Deoxys (Speed)",
+          "bild": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm386.fSPEED.icon.png",
           "shiny": true
         },
         {
