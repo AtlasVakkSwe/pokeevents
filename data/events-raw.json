@@ -1,22 +1,6 @@
 {
-  "hamtad": "2026-11-26T14:07:24.040Z",
+  "hamtad": "2026-11-27T14:05:24.320Z",
   "events": [
-    {
-      "eventID": "raidhour20261125",
-      "name": "Deoxys (Normal, Defense, Attack, and Speed Formes) Raid Hour",
-      "eventType": "raid-hour",
-      "heading": "Raid Hour",
-      "link": "https://leekduck.com/events/raidhour20261125/",
-      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-      "start": "2026-11-25T18:00:00.000",
-      "end": "2026-11-25T19:00:00.000",
-      "extraData": {
-        "generic": {
-          "hasSpawns": false,
-          "hasFieldResearchTasks": false
-        }
-      }
-    },
     {
       "eventID": "pokemonspotlighthour2026-11-26",
       "name": "Noibat Spotlight Hour",

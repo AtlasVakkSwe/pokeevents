@@ -1,21 +1,6 @@
 {
-  "uppdaterad": "2026-11-26T14:07:24.040Z",
+  "uppdaterad": "2026-11-27T14:05:24.320Z",
   "events": [
-    {
-      "id": "raidhour20261125",
-      "name": "Deoxys (Normal, Defense, Attack, and Speed Formes) Raid Hour",
-      "namn": "Raidtimme: Deoxys",
-      "typ": "raid-hour",
-      "typRubrik": "Raidtimme",
-      "link": "https://leekduck.com/events/raidhour20261125/",
-      "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-      "start": "2026-11-25T18:00:00.000",
-      "end": "2026-11-25T19:00:00.000",
-      "region": "galler",
-      "sammanfattning": "Raidtimme! Extra många raider i en timme.",
-      "pokemon": [],
-      "bonusar": []
-    },
     {
       "id": "pokemonspotlighthour2026-11-26",
       "name": "Noibat Spotlight Hour",
